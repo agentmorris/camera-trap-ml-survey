@@ -1,6 +1,6 @@
 # Overview
 
-This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
+This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:agentmorris@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
 Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](http://lila.science).
 
