@@ -51,6 +51,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA](#lila)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA's list of other data sets](#lilas-list-of-other-data-sets)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
+[Further reading](#further-reading)  
 
 # Camera trap systems using ML, *maybe* using ML, or *thinking about* ML
 
@@ -520,3 +521,7 @@ This is a very abbreviated list of organizations that internally have very large
 
 > <http://www.teamnetwork.org/>  
 > Appears to be deprecated as of 3/2019 in preparation for migration to Wildlife Insights.
+
+# Further reading
+
+[Awesome Deep Ecology](https://github.com/patrickcgray/awesome-deep-ecology) (review of deep learning applications in ecology)
