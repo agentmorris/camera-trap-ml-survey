@@ -1,10 +1,10 @@
-## Overview
+# Overview
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!
 
 Maintained by [Dan Morris](http://dmorris.net).  I also work on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and on [open data for conservation](http://lila.science).
 
-## Table of Contents
+# Table of Contents
 
 [Camera trap systems using ML*, maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
@@ -52,13 +52,13 @@ Maintained by [Dan Morris](http://dmorris.net).  I also work on [ML for camera t
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA's list of other data sets](#lilas-list-of-other-data-sets)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
 
-## Camera trap systems using ML*, maybe* using ML, or *thinking about* ML
+# Camera trap systems using ML*, maybe* using ML, or *thinking about* ML
 
-### Wildlife Insights
+## Wildlife Insights
 
 [Wildlife Insights](https://wildlifeinsights.org/) is the evolution of the [TEAM network](http://www.teamnetwork.org/). TEAM was a network of camera traps and the researchers that use them; they provided some data management tools, but no AI. Wildlife Insights is a reboot of the platform, re-architected and intended to include both data management and ML. It's a collaboration among several NGOs, HQ'd at Conservation International and Google Earth Outreach. Among the other NGOs involved, Smithsonian is particularly relevant to this page; WI may or may not become the logical evolution of eMammal as well.
 
-### SnapCat
+## SnapCat
 
 > <https://www.snapcatconservation.org/our-product>
 
@@ -66,7 +66,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
 
-### Project Zamba
+## Project Zamba
 
 > <http://zamba.drivendata.org/>
 
@@ -78,7 +78,7 @@ Python tool to find species in camera trap videos, specifically tuned for 23 spe
 
 ...says it's a 5-model ensemble trained in Keras.
 
-### Where's the Bear?
+## Where's the Bear?
 
 IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
 
@@ -88,7 +88,7 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 > 
 > 
 
-### AnDeNet (Animal Detection Network)
+## AnDeNet (Animal Detection Network)
 
 Open-source project from the American Museum of Natural History, does semi-automated labeling. Thick-client Python tool, uses TensorFlow.
 
@@ -98,7 +98,7 @@ Open-source project from the American Museum of Natural History, does semi-autom
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
-### Trailcam Data
+## Trailcam Data
 
 > <https://www.trailcamdata.com/>
 
@@ -106,15 +106,15 @@ System for removing false positives from camera trap image collections. Unclear 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
 
-## Public case studies using ML for camera traps (other than those captured under "software")
+# Public case studies using ML for camera traps (other than those captured under "software")
 
-### Zooniverse
+## Zooniverse
 
 A 2018 paper (Willi et al, Methods in Ecology and Evolution) described a preliminary approach to combining human- and machine-generated labels. Not fully deployed for general use on Zooniverse yet, but definitely a direction they're going.
 
 See <a href="#willi2018">Willi et al.</a> below.
 
-### ZSL + AutoML
+## ZSL + AutoML
 
 > <https://www.zsl.org/conservation/conservation-initiatives/conservation-technology/machine-learning>
 
@@ -128,7 +128,7 @@ Datatonic was involved as a contractor:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image4.jpg" width="500">
 
-### Snow Leopard Trust + Microsoft
+## Snow Leopard Trust + Microsoft
 
 > <https://blogs.technet.microsoft.com/machinelearning/2017/06/27/saving-snow-leopards-with-deep-learning-and-computer-vision-on-spark/>
 
@@ -138,7 +138,7 @@ Used ResNet on CNTK on MMLSpark to find snow leopards, showed results in a Power
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image5.png" width="500">
 
-### Conservation Metrics + Microsoft
+## Conservation Metrics + Microsoft
 
 > <https://www.microsoft.com/developerblog/2018/11/06/active-learning-for-object-detection/>
 
@@ -146,7 +146,7 @@ This isn't specifically about camera traps, but it's about a general collaborati
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image6.png" width="500">
 
-## GitHub repos about ML for camera traps
+# GitHub repos about ML for camera traps
 
 > <https://github.com/Microsoft/CameraTraps>
 
@@ -162,9 +162,9 @@ This isn't specifically about camera traps, but it's about a general collaborati
 
 > <https://github.com/drivendataorg/zamba>
 
-## Smart camera traps
+# Smart camera traps
 
-### TrailGuard
+## TrailGuard
 
 > <http://www.resolv.org/site-BiodiversityWildlifeSolutions/trailguard/>
 
@@ -174,7 +174,7 @@ Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
-### WAMCam (Wildlife Advanced Monitoring Camera)
+## WAMCam (Wildlife Advanced Monitoring Camera)
 
 > <https://business.esa.int/projects/wamcam>
 
@@ -184,7 +184,7 @@ Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/
 
 Built as a contract project for the ESA by <https://www.archangel.im/>, who make unmanned cameras for other applications. Had "AI on board", details unknown. \[I contacted them 1/2019\]
 
-### InstantDetect (ZSL)
+## InstantDetect (ZSL)
 
 > <https://www.wildlabs.net/resources/case-studies/instant-detect-20-connected-future-conservation>
 
@@ -194,7 +194,7 @@ InstantDetect 2.0 will be connected but will not have on-board AI; will move ima
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image8.jpg" width="500">
 
-### Sensing Clues (Jan Kees)
+## Sensing Clues (Jan Kees)
 
 > <https://sensingclues.org/author/jankeesschakel/>
 
@@ -204,7 +204,7 @@ This appears to be a research lab with preliminary feelers in acoustic and image
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image9.png" width="500">
 
-### PoacherCam (Panthera)
+## PoacherCam (Panthera)
 
 > <https://www.panthera.org/conservation-technology/poachercam>
 
@@ -214,9 +214,9 @@ Web page says: "Adapted from Panthera’s previous camera traps, the PoacherCam 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image10.png" width="500">
 
-## Manual labeling tools people use for camera traps
+# Manual labeling tools people use for camera traps
 
-### Review articles
+## Review articles
 
 Wearn, O., & Glover-Kapfer, P. (2017). Camera-trapping for Conservation: a Guide to Best-practices. *WWF-UK: Woking, UK*.
 
@@ -230,13 +230,13 @@ Young, S., Rode-Margono, J., & Amin, R. (2018). Software to facilitate and strea
 
 > <https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464>
 
-### Atrium (San Diego Zoo)
+## Atrium (San Diego Zoo)
 
 > <http://www.atrium-biodiversity.org/tools/camerabase/>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image11.jpg" width="500">
 
-### Agouti (Wageningen University)
+## Agouti (Wageningen University)
 
 > <https://agouti.eu/>
 
@@ -244,7 +244,7 @@ Web-based (requires upload), hosting is free for small student projects and gets
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
-### eMammal (Smithsonian)
+## eMammal (Smithsonian)
 
 > <https://emammal.si.edu/>
 
@@ -254,7 +254,7 @@ I've worked with a lot of camera trap data, and I will say that because the tool
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
 
-### TimeLapse2 (U Calgary)
+## TimeLapse2 (U Calgary)
 
 > <http://saul.cpsc.ucalgary.ca/timelapse/>
 
@@ -264,7 +264,7 @@ Thick-client, .net-based tool. In active development as of April 2019.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
-### Carnassial (Cascades Carnivore Project)
+## Carnassial (Cascades Carnivore Project)
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
 
@@ -272,7 +272,7 @@ Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to "
 
 "Carnassial and Timelapse are broadly similar. As of March 2017 Carnassial offers faster analysis, more flexibility, and fewer defects than Timelapse."
 
-### CPW Photo Warehouse (Colorado Parks and Wildlife)
+## CPW Photo Warehouse (Colorado Parks and Wildlife)
 
 Thick-client windows tool, appears to be .net-based, in active development as of 1/2019.
 
@@ -282,7 +282,7 @@ Thick-client windows tool, appears to be .net-based, in active development as of
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
 
-### Aardwolf2
+## Aardwolf2
 
 > <https://github.com/yathin/aardwolf2>
 
@@ -292,7 +292,7 @@ As of version 2, this is browser-based (but runs locally) (v1 was a thick-client
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image16.jpeg" width="500">
 
-### Camera Trap Manager (maintained by [Benito Zaragozí](https://benito-zaragozi.com/))
+## Camera Trap Manager (maintained by [Benito Zaragozí](https://benito-zaragozi.com/))
 
 > <https://github.com/benizar/cameratrapmanager>
 
@@ -300,7 +300,7 @@ As of version 2, this is browser-based (but runs locally) (v1 was a thick-client
 
 Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn't start a project without providing a shapefile. UI is in a mix of English and Spanish.
 
-### Camelot 
+## Camelot 
 
 Maintained by Chris Mann from [BitPattern](http://bitpattern.com.au/)
 
@@ -312,7 +312,7 @@ Open-source, runs in Java in a browser
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
 
-### Vixen
+## Vixen
 
 > <https://github.com/vixen-project/vixen>
 
@@ -320,7 +320,7 @@ Open-source, multi-platform, thick-client (Python). As of my last check (4/2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image18.jpeg" width="500">
 
-### Trapper
+## Trapper
 
 > <https://bitbucket.org/trapper-project/trapper-project>
 
@@ -330,13 +330,13 @@ Open-source system, interaction is via a browser, data is stored in PostGres. Lo
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
-### Reconyx MapView
+## Reconyx MapView
 
 > <https://www.reconyx.com/software/mapview>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image20.jpeg" width="500">
 
-### Non-camera-trap-specific labeling tools at least one person has mentioned using
+## Non-camera-trap-specific labeling tools at least one person has mentioned using
 
 > Adobe Lightroom
 > [www.adobe.com/Lightroom](http://www.adobe.com/Lightroom)‎
@@ -348,23 +348,23 @@ Open-source system, interaction is via a browser, data is stored in PostGres. Lo
 > <https://www.digikam.org/>
 > <https://github.com/KDE/digikam>
 
-## Post-hoc analysis tools people use for labeled camera trap images
+# Post-hoc analysis tools people use for labeled camera trap images
 
-### CamTrapR
+## CamTrapR
 
 I think CamTrapR generally assumes species labels, locations, etc. are in EXIF; it's agnostic about how you get them there.
 
 > <https://cran.r-project.org/web/packages/camtrapR/index.html>
 
-### Presence
+## Presence
 
 Does species distribution modeling from observation data
 
 > <https://www.mbr-pwrc.usgs.gov/software/doc/presence/presence.html>
 
-## Camera trap ML papers
+# Camera trap ML papers
 
-### With summaries
+## With summaries
 
 **Yousif, H., Yuan, J., Kays, R., & He, Z. (2019). Animal Scanner: Software for classifying humans, animals, and empty frames in camera trap images. *Ecology and Evolution*.**
 
@@ -476,7 +476,7 @@ Excellent literature review (not a technical paper) on what species people have 
 
 Best results came from ResNet-50, but architecture wasn't the main variable here. They played with a bunch of different data set permutations, re: balancing and manual segmentation/cropping, which (not surprisingly) helped. Generally somewhere around 60% top-whatever in the base data set, up to around 90% top-whatever in a segmented subset.
 
-### Waiting for summaries
+## Waiting for summaries
 
 Glover-Kapfer, P., Soto-Navarro, C. A., & Wearn, O. R. (2019). Camera-trapping version 3.0: current constraints and future priorities for development. *Remote Sensing in Ecology and Conservation*.
 
@@ -486,7 +486,7 @@ Chen, G., Han, T. X., He, Z., Kays, R., & Forrester, T. (2014, October). Deep co
 
 Yu, X., Wang, J., Kays, R., Jansen, P. A., Wang, T., & Huang, T. (2013). Automated identification of animal species in camera trap images. *EURASIP Journal on Image and Video Processing*, *2013*(1), 52.
 
-## Internal "also see" links
+# Internal "also see" links
 
 > [CV for wildlife (papers)](onenote:#CV%20for%20wildlife%20\(papers\)&section-id={54A10813-790A-4292-A596-000151A7D0D2}&page-id={1856BE1D-14D3-487E-8AE2-8C7CB4325659}&end&base-path=https://microsoft-my.sharepoint.com/personal/dan_microsoft_com/Documents/CV%20for%20Wildlife/CV%20for%20Wildlife/Lit%20searches.one)
 
@@ -494,15 +494,15 @@ Yu, X., Wang, J., Kays, R., Jansen, P. A., Wang, T., & Huang, T. (2013). Automat
 
 > [Off the record notes](onenote:https://microsoft-my.sharepoint.com/personal/dan_microsoft_com/Documents/CV%20for%20Wildlife/CV%20for%20Wildlife/Lit%20searches.one#Off%20the%20record%20notes&section-id={54A10813-790A-4292-A596-000151A7D0D2}&page-id={9CA5DF59-E336-4839-B887-32B93A878A49}&end)
 
-## Data sources for camera trap ML
+# Data sources for camera trap ML
 
-### LILA
+## LILA
 
 > <http://lila.science>
 
 lila.science is the only substantial repository of openly available camera trap images that I'm aware of. It currently contains over 10M images spread over a few data sets, but we're just getting started\!
 
-### LILA's list of other data sets
+## LILA's list of other data sets
 
 We also include a list of other publicly-available data sets that we know about:
 
@@ -510,7 +510,7 @@ We also include a list of other publicly-available data sets that we know about:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image24.png" width="500">
 
-### Somewhat-less-public data sources
+## Somewhat-less-public data sources
 
 This is a very abbreviated list of organizations that internally have very large repositories of camera trap data, available at varying degrees of request complexity. If I were in the business of pestering people for camera trap data (and I am\!), these are the places I would invest most of my pestering time:
 
