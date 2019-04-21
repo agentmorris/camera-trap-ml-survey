@@ -1,6 +1,6 @@
 # Overview
 
-This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your sotware and your papers!
+This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
 Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](http://lila.science).
 
@@ -26,7 +26,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Sensing Clues (Jan Kees)](#sensing-clues-jan-kees)  
 &nbsp;&nbsp;&nbsp;&nbsp;[PoacherCam (Panthera)](#poachercam-panthera)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Review articles](#review-articles)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Review articles about manual labeling](#review-articles-about-manual-labeling)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Atrium (San Diego Zoo)](#atrium-san-diego-zoo)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
 &nbsp;&nbsp;&nbsp;&nbsp;[eMammal (Smithsonian)](#emammal-smithsonian)  
@@ -216,7 +216,7 @@ Web page says: "Adapted from Panthera’s previous camera traps, the PoacherCam 
 
 # Manual labeling tools people use for camera traps
 
-## Review articles
+## Review articles about manual labeling
 
 Wearn, O., & Glover-Kapfer, P. (2017). Camera-trapping for Conservation: a Guide to Best-practices. *WWF-UK: Woking, UK*.
 
@@ -488,11 +488,11 @@ Yu, X., Wang, J., Kays, R., Jansen, P. A., Wang, T., & Huang, T. (2013). Automat
 
 # Internal "also see" links
 
-> [CV for wildlife (papers)](onenote:#CV%20for%20wildlife%20\(papers\)&section-id={54A10813-790A-4292-A596-000151A7D0D2}&page-id={1856BE1D-14D3-487E-8AE2-8C7CB4325659}&end&base-path=https://microsoft-my.sharepoint.com/personal/dan_microsoft_com/Documents/CV%20for%20Wildlife/CV%20for%20Wildlife/Lit%20searches.one)
+> [CV for wildlife (papers)](onenote link)
 
-> [CV for wildlife (systems)](onenote:https://microsoft-my.sharepoint.com/personal/dan_microsoft_com/Documents/CV%20for%20Wildlife/CV%20for%20Wildlife/Lit%20searches.one#CV%20for%20wildlife%20\(systems\)&section-id={54A10813-790A-4292-A596-000151A7D0D2}&page-id={359A6501-D184-4CE8-BC41-B1A036C1A855}&end)
+> [CV for wildlife (systems)](onenote link)
 
-> [Off the record notes](onenote:https://microsoft-my.sharepoint.com/personal/dan_microsoft_com/Documents/CV%20for%20Wildlife/CV%20for%20Wildlife/Lit%20searches.one#Off%20the%20record%20notes&section-id={54A10813-790A-4292-A596-000151A7D0D2}&page-id={9CA5DF59-E336-4839-B887-32B93A878A49}&end)
+> [Off-the-record notes](onenote link)
 
 # Data sources for camera trap ML
 
