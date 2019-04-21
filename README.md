@@ -1,12 +1,12 @@
 # Overview
 
-This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!
+This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:dmorris@cs.stanford.edu">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your sotware and your papers!
 
-Maintained by [Dan Morris](http://dmorris.net).  I also work on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and on [open data for conservation](http://lila.science).
+Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](http://lila.science).
 
 # Table of Contents
 
-[Camera trap systems using ML*, maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
+[Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
@@ -34,7 +34,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I also work on [ML for camera t
 &nbsp;&nbsp;&nbsp;&nbsp;[Carnassial (Cascades Carnivore Project)](#carnassial-cascades-carnivore-project)  
 &nbsp;&nbsp;&nbsp;&nbsp;[CPW Photo Warehouse (Colorado Parks and Wildlife)](#cpw-photo-warehouse-colorado-parks-and-wildlife)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Aardwolf2](#aardwolf2)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Camera Trap Manager (maintained by [Benito Zaragozí](https://benito-zaragozi.com/))](#camera-trap-manager-maintained-by-benito-zaragozí)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Camera Trap Manager](#camera-trap-manager-maintained-by-benito-zaragozí)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camelot ](#camelot)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Vixen](#vixen)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
@@ -52,7 +52,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I also work on [ML for camera t
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA's list of other data sets](#lilas-list-of-other-data-sets)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
 
-# Camera trap systems using ML*, maybe* using ML, or *thinking about* ML
+# Camera trap systems using ML, *maybe* using ML, or *thinking about* ML
 
 ## Wildlife Insights
 
