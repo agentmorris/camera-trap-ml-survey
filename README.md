@@ -327,7 +327,7 @@ Open-source, multi-platform, thick-client (Python). As of my last check (4/2019)
 
 Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
 
-Open-source system, interaction is via a browser, data is stored in PostGres. Looks like it's meant to be hosted either locally or on a Linux VM.
+Open-source system, interaction is via a browser, data is stored in PostGres. Can be hosted either locally or on a Linux VM.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
