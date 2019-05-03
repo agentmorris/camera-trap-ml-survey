@@ -107,6 +107,12 @@ System for removing false positives from camera trap image collections. Unclear 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
 
+## BuckTracker
+
+[BuckTracker](http://www.bucktracker.com/) is an app associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
+
 # Public case studies using ML for camera traps (other than those captured under "software")
 
 ## Zooniverse
