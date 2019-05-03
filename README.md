@@ -13,6 +13,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Where's the Bear?](#wheres-the-bear)  
 &nbsp;&nbsp;&nbsp;&nbsp;[AnDeNet (Animal Detection Network)](#andenet-animal-detection-network)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailcam Data](#trailcam-data)  
+&nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 [Public case studies using ML for camera traps (other than those captured under "software")](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-software)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl-automl)  
