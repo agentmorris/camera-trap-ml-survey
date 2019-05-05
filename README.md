@@ -63,7 +63,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 ## Wildlife Protection Solutions
 
-Wildlife Protection Solutions deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/) ([pdf summary](https://silverpond.com.au/wp-content/uploads/2018/10/Silverpond_WPS_Casestudy-web.pdf).
+Wildlife Protection Solutions deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
 
