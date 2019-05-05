@@ -8,12 +8,13 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 [Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
-&nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where's the Bear?](#wheres-the-bear)  
 &nbsp;&nbsp;&nbsp;&nbsp;[AnDeNet (Animal Detection Network)](#andenet-animal-detection-network)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailcam Data](#trailcam-data)  
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
+&nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
 [Public case studies using ML for camera traps (other than those captured under "software")](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-software)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl-automl)  
@@ -60,13 +61,11 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 [Wildlife Insights](https://wildlifeinsights.org/) is the evolution of the [TEAM network](http://www.teamnetwork.org/). TEAM was a network of camera traps and the researchers that use them; they provided some data management tools, but no AI. Wildlife Insights is a reboot of the platform, re-architected and intended to include both data management and ML. It's a collaboration among several NGOs, HQ'd at Conservation International and Google Earth Outreach. Among the other NGOs involved, Smithsonian is particularly relevant to this page; WI may or may not become the logical evolution of eMammal as well.
 
-## SnapCat
+## Wildlife Protection Solutions
 
-> <https://www.snapcatconservation.org/our-product>
+Wildlife Protection Solutions deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/) ([pdf summary](https://silverpond.com.au/wp-content/uploads/2018/10/Silverpond_WPS_Casestudy-web.pdf).
 
-TF model and maybe front-end, with plans to build a smart camera trap. Not sure how far along they are, but their Web page is nice, and they definitely make stuff, since they made this neat [waterproof scale for penguins](https://blog.synapse.com/post/how-much-does-a-magellanic-penguin-weigh).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
 
 ## Project Zamba
 
@@ -87,8 +86,6 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 "...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images."
 
 > <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
-> 
-> 
 
 ## AnDeNet (Animal Detection Network)
 
@@ -114,7 +111,16 @@ System for removing false positives from camera trap image collections. Unclear 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
-# Public case studies using ML for camera traps (other than those captured under "software")
+## SnapCat
+
+> <https://www.snapcatconservation.org/our-product>
+
+TF model and maybe front-end, with plans to build a smart camera trap. Not sure how far along they are, but their Web page is nice, and they definitely make stuff, since they made this neat [waterproof scale for penguins](https://blog.synapse.com/post/how-much-does-a-magellanic-penguin-weigh).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
+
+
+# Public case studies using ML for camera traps (other than those captured under "system")
 
 ## Zooniverse
 
