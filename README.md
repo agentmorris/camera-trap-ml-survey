@@ -15,7 +15,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailcam Data](#trailcam-data)  
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
-[Public case studies using ML for camera traps (other than those captured under "software")](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-software)  
+[Public case studies using ML for camera traps (other than those captured under "systems")](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl-automl)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Snow Leopard Trust + Microsoft](#snow-leopard-trust-microsoft)  
@@ -121,7 +121,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
 
 
-# Public case studies using ML for camera traps (other than those captured under "system")
+# Public case studies using ML for camera traps (other than those captured under "systems")
 
 ## Zooniverse
 
