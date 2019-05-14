@@ -20,6 +20,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl-automl)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Snow Leopard Trust + Microsoft](#snow-leopard-trust-microsoft)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Conservation Metrics + Microsoft](#conservation-metrics-microsoft)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Peace Parks + Microsoft](#peace-parks-microsoft)  
 [GitHub repos about ML for camera traps](#github-repos-about-ml-for-camera-traps)  
 [Smart camera traps](#smart-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[TrailGuard](#trailguard)  
@@ -159,6 +160,14 @@ Used ResNet on CNTK on MMLSpark to find snow leopards, showed results in a Power
 This isn't specifically about camera traps, but it's about a general collaboration w/CM that applies to both aerial images and camera traps. The case study used in the blog post is about aerial images (for bird detection).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image6.png" width="500">
+
+## Peace Parks + Microsoft
+
+> <https://www.microsoft.com/developerblog/2019/05/07/preventing-rhino-poaching-though-microsoft-azure/>
+
+Focused primarily on scalable operationalization of machine learning services for real-time response to poaching threats.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ppf.png" width="500">
 
 # GitHub repos about ML for camera traps
 
