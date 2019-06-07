@@ -1,6 +1,6 @@
 # Overview
 
-This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what's out there... <a href="mailto:agentmorris@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
+This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what&rsquo;s out there... <a href="mailto:agentmorris@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
 Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](http://lila.science).
 
@@ -9,13 +9,15 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth Camera Trap API](#microsoft-ai-for-earth-camera-trap-api)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Where's the Bear?](#wheres-the-bear)  
+&nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
 &nbsp;&nbsp;&nbsp;&nbsp;[AnDeNet (Animal Detection Network)](#andenet-animal-detection-network)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailcam Data](#trailcam-data)  
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
-[Public case studies using ML for camera traps (other than those captured under "systems")](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
+[Public case studies using ML for camera traps (other than those captured under &ldquo;systems&rdquo;)](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl--automl)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Snow Leopard Trust + Microsoft](#snow-leopard-trust--microsoft)  
@@ -49,10 +51,10 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Camera trap ML papers](#camera-trap-ml-papers)  
 &nbsp;&nbsp;&nbsp;&nbsp;[With summaries](#with-summaries)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Waiting for summaries](#waiting-for-summaries)  
-[Internal "also see" links](#internal-also-see-links)  
+[Internal &ldquo;also see&rdquo; links](#internal-also-see-links)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA](#lila)  
-&nbsp;&nbsp;&nbsp;&nbsp;[LILA's list of other data sets](#lilas-list-of-other-data-sets)  
+&nbsp;&nbsp;&nbsp;&nbsp;[LILA&rsquo;s list of other data sets](#lilas-list-of-other-data-sets)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
 [Further reading](#further-reading)  
 
@@ -60,13 +62,19 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 ## Wildlife Insights
 
-[Wildlife Insights](https://wildlifeinsights.org/) is the evolution of the [TEAM network](http://www.teamnetwork.org/). TEAM was a network of camera traps and the researchers that use them; they provided some data management tools, but no AI. Wildlife Insights is a reboot of the platform, re-architected and intended to include both data management and ML. It's a collaboration among several NGOs, HQ'd at Conservation International and Google Earth Outreach. Among the other NGOs involved, Smithsonian is particularly relevant to this page; WI may or may not become the logical evolution of eMammal as well.
+[Wildlife Insights](https://wildlifeinsights.org/) is the evolution of the [TEAM network](http://www.teamnetwork.org/). TEAM was a network of camera traps and the researchers that use them; they provided some data management tools, but no AI. Wildlife Insights is a reboot of the platform, re-architected and intended to include both data management and ML. It&rsquo;s a collaboration among several NGOs, HQ&rsquo;d at Conservation International and Google Earth Outreach. Among the other NGOs involved, Smithsonian is particularly relevant to this page; WI may or may not become the logical evolution of eMammal as well.
 
 ## Wildlife Protection Solutions
 
 Wildlife Protection Solutions deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
+
+## Microsoft AI for Earth Camera Trap API
+
+> <https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing>
+
+AI for Earth (full disclosure: that includes me) runs an [API](https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing) that performs large-scale batch inference on camera trap images.  The output of this API can be consumed directly in callers&rsquo; workflows, or it can be used in [Timelapse2](http://saul.cpsc.ucalgary.ca/timelapse/).
 
 ## Project Zamba
 
@@ -78,13 +86,21 @@ Python tool to find species in camera trap videos, specifically tuned for 23 spe
 
 > <http://zamba.drivendata.org/docs/algorithms.html>
 
-...says it's a 5-model ensemble trained in Keras.
+...says it&rsquo;s a 5-model ensemble trained in Keras.
+
+## EventFinder
+
+> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
+
+Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
 ## Where's the Bear?
 
 IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
 
-"...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images."
+&ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
 
 > <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
 
@@ -125,7 +141,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 ## Zooniverse
 
-A 2018 paper (Willi et al, Methods in Ecology and Evolution) described a preliminary approach to combining human- and machine-generated labels. Not fully deployed for general use on Zooniverse yet, but definitely a direction they're going.
+A 2018 paper (Willi et al, Methods in Ecology and Evolution) described a preliminary approach to combining human- and machine-generated labels. Not fully deployed for general use on Zooniverse yet, but definitely a direction they&rsquo;re going.
 
 See <a href="#willi2018">Willi et al.</a> below.
 
@@ -157,7 +173,7 @@ Used ResNet on CNTK on MMLSpark to find snow leopards, showed results in a Power
 
 > <https://www.microsoft.com/developerblog/2018/11/06/active-learning-for-object-detection/>
 
-This isn't specifically about camera traps, but it's about a general collaboration w/CM that applies to both aerial images and camera traps. The case study used in the blog post is about aerial images (for bird detection).
+This isn&rsquo;t specifically about camera traps, but it&rsquo;s about a general collaboration w/CM that applies to both aerial images and camera traps. The case study used in the blog post is about aerial images (for bird detection).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image6.png" width="500">
 
@@ -193,7 +209,7 @@ Focused primarily on scalable operationalization of machine learning services fo
 
 > <https://venturebeat.com/2019/01/03/trailguard-ai-uses-intel-ai-tech-to-prevent-african-elephant-poaching/>
 
-Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/satellite. Running stock YOLO. Their V3 camera (now called "TrailGuard AI") runs Movidius hardware.
+Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/satellite. Running stock YOLO. Their V3 camera (now called &ldquo;TrailGuard AI&rdquo;) runs Movidius hardware.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
@@ -203,9 +219,9 @@ Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/
 
 > <https://www.archangel.im/wamcam>
 
-"WAMCam started as a kickstart feasibility study. The study successfully completed with an end-to-end system prototype, facilitating user engagement and feedback on the system requirements. The devices have been tested in jungle conditions and reliably send AI-generated Iridium SBD status messages from beneath the forest canopy to remote end users who have cellular coverage."
+&ldquo;WAMCam started as a kickstart feasibility study. The study successfully completed with an end-to-end system prototype, facilitating user engagement and feedback on the system requirements. The devices have been tested in jungle conditions and reliably send AI-generated Iridium SBD status messages from beneath the forest canopy to remote end users who have cellular coverage.&rdquo;
 
-Built as a contract project for the ESA by <https://www.archangel.im/>, who make unmanned cameras for other applications. Had "AI on board", details unknown. \[I contacted them 1/2019\]
+Built as a contract project for the ESA by <https://www.archangel.im/>, who make unmanned cameras for other applications. Had &ldquo;AI on board&rdquo;, details unknown.
 
 ## InstantDetect (ZSL)
 
@@ -221,7 +237,7 @@ InstantDetect 2.0 will be connected but will not have on-board AI; will move ima
 
 > <https://sensingclues.org/author/jankeesschakel/>
 
-This appears to be a research lab with preliminary feelers in acoustic and image recognition; it's mostly on this list because of this screenshot from a blog post from 2017:
+This appears to be a research lab with preliminary feelers in acoustic and image recognition; it&rsquo;s mostly on this list because of this screenshot from a blog post from 2017:
 
 > <https://sensingclues.org/2017/03/16/smart-vision-update/>
 
@@ -233,7 +249,7 @@ This appears to be a research lab with preliminary feelers in acoustic and image
 
 > <https://www.panthera.org/panthera-poachercam-closer-look>
 
-Web page says: "Adapted from Panthera’s previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world's first camera to do so." This was from a 2015 blog post, unclear what the status is. I've heard (anecdotally) that it wasn't exactly using machine learning, but was doing some amount of classical vision, i.e. change detection and moving-object geometry estimation.
+Web page says: &ldquo;Adapted from Panthera’s previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world&rsquo;s first camera to do so.&rdquo; This was from a 2015 blog post, unclear what the status is. I&rsquo;ve heard (anecdotally) that it wasn&rsquo;t exactly using machine learning, but was doing some amount of classical vision, i.e. change detection and moving-object geometry estimation.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image10.png" width="500">
 
@@ -273,7 +289,7 @@ Web-based (requires upload), hosting is free for small student projects and gets
 
 Software package and Smithsonian-hosted storage. All labeling happens through their tool prior to upload. Data stored by Smithsonian, owned by individual data set owners, and released to collaborators upon request.
 
-I've worked with a lot of camera trap data, and I will say that because the tool enforces consistent metadata at the time of labeling, in terms of organization and matching images to labels, data coming through eMammal is an order of magnitude cleaner than anything I've worked with from any other source. eMammal metadata is provided in the Camera Trap Metadata Standard (XML variant).
+I&rsquo;ve worked with a lot of camera trap data, and I will say that because the tool enforces consistent metadata at the time of labeling, in terms of organization and matching images to labels, data coming through eMammal is an order of magnitude cleaner than anything I&rsquo;ve worked with from any other source. eMammal metadata is provided in the Camera Trap Metadata Standard (XML variant).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
 
@@ -291,9 +307,9 @@ Thick-client, .net-based tool. In active development as of April 2019.
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
 
-Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to "differing project requirements". Both appear to be in active development as of late 2018. According to the Carnassial github page:
+Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to &ldquo;differing project requirements&rdquo;. Both appear to be in active development as of late 2018. According to the Carnassial github page:
 
-"Carnassial and Timelapse are broadly similar. As of March 2017 Carnassial offers faster analysis, more flexibility, and fewer defects than Timelapse."
+&ldquo;Carnassial and Timelapse are broadly similar. As of March 2017 Carnassial offers faster analysis, more flexibility, and fewer defects than Timelapse.&rdquo;
 
 ## CPW Photo Warehouse (Colorado Parks and Wildlife)
 
@@ -319,9 +335,9 @@ As of version 2, this is browser-based (but runs locally) (v1 was a thick-client
 
 > <https://github.com/benizar/cameratrapmanager>
 
-".NET desktop application for managing pictures taken by automatic camera traps"
+&ldquo;.NET desktop application for managing pictures taken by automatic camera traps&rdquo;
 
-Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn't start a project without providing a shapefile. UI is in a mix of English and Spanish.
+Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn&rsquo;t start a project without providing a shapefile. UI is in a mix of English and Spanish.
 
 ## Camelot 
 
@@ -375,7 +391,7 @@ Open-source system, interaction is via a browser, data is stored in PostGres. Ca
 
 ## CamTrapR
 
-I think CamTrapR generally assumes species labels, locations, etc. are in EXIF; it's agnostic about how you get them there.
+I think CamTrapR generally assumes species labels, locations, etc. are in EXIF; it&rsquo;s agnostic about how you get them there.
 
 > <https://cran.r-project.org/web/packages/camtrapR/index.html>
 
@@ -389,15 +405,27 @@ Does species distribution modeling from observation data
 
 ## With summaries
 
+**Janzen, M., Ritter, A., Walker, P. D., & Visscher, D. R. (2019). EventFinder: a program for screening remotely captured images. *Environmental Monitoring and Assessment*, 191(6), 406.**
+
+Describe a thick-client tool for eliminating empty images, using background subtraction and color histogram comparisons.
+
+&ldquo;The automated classification, on average, reduced the data requiring human input by 90.8% with an accuracy of 96.1%, and produced a false positive rate of only 3.4%.&rdquo;
+
+Software available at:
+
+> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
+
 **Yousif, H., Yuan, J., Kays, R., & He, Z. (2019). Animal Scanner: Software for classifying humans, animals, and empty frames in camera trap images. *Ecology and Evolution*.**
 
-"We developed computer vision algorithms to detect and classify moving objects to aid the first step of camera trap image filtering—separating the animal detections from the empty frames and pictures of humans."
+&ldquo;We developed computer vision algorithms to detect and classify moving objects to aid the first step of camera trap image filtering—separating the animal detections from the empty frames and pictures of humans.&rdquo;
 
-"For those cameras with excessive empty frames due to camera malfunction or blowing vegetation automatically removes 54% of the false-triggers sequences without influencing the human/animal sequences. We achieve 99.58% on image-level empty versus object classification of Serengeti dataset."
+&ldquo;For those cameras with excessive empty frames due to camera malfunction or blowing vegetation automatically removes 54% of the false-triggers sequences without influencing the human/animal sequences. We achieve 99.58% on image-level empty versus object classification of Serengeti dataset.&rdquo;
 
 Divide the image into 736 blocks compute HOG features, diff these features to find moving regions, connect adjacent moving regions to find candidate moving objects.
 
-Then use some color histogram features to separate clearly-bogus candidates (i.e., false positives on "is this moving at all?") from plausible moving-object candidates.
+Then use some color histogram features to separate clearly-bogus candidates (i.e., false positives on &ldquo;is this moving at all?&rdquo;) from plausible moving-object candidates.
 
 Then use AlexNet-96 to classify candidate regions into moving person, moving animal, or moving background. Training data is \~460k images.
 
@@ -421,7 +449,7 @@ Models were all Resnet 18 trained in TF.
 
 Whole-image classification for empty separation, species classification.
 
-"We did not directly (i.e., without transfer-learning) apply models trained on one dataset to another dataset even if the identification of empty images is the same task."
+&ldquo;We did not directly (i.e., without transfer-learning) apply models trained on one dataset to another dataset even if the identification of empty images is the same task.&rdquo;
 
 Incorporated into a live experiment on Zooniverse; if annotators agreed with model, image was retired early (i.e., with fewer annotators).
 
@@ -451,13 +479,13 @@ Pre-print of the above.
 
 **Tabak, M. A., Norouzzadeh, M. S., Wolfson, D. W., Sweeney, S. J., VerCauteren, K. C., Snow, N. P., ... & Teton, B. (2018). Machine learning to classify animal species in camera trap images: applications in ecology. *Methods in Ecology and Evolution*.**
 
-"We trained machine learning models using convolutional neural networks with the ResNet-18 architecture and 3,367,383 images to automatically classify wildlife species from camera trap images obtained from five states across the United States."
+&ldquo;We trained machine learning models using convolutional neural networks with the ResNet-18 architecture and 3,367,383 images to automatically classify wildlife species from camera trap images obtained from five states across the United States.&rdquo;
 
 They tested on smaller data sets from Canada (5900 images) and Tanzania (Snapshot Serengeti, just used for testing *detection* models).
 
 98% top-1 accuracy on US images, 82% top-1 accuracy on Canada images, 94% detection accuracy on Tanzania images.
 
-28 species, operated on images @ 256x256. 10% test set held out from the \~3M images. Trained in TF, based on ResNet-18. Collapsed species with \<2000 images into taxonomic groups, built a separate group-level model. For some reason they had lots of pigs, so they trained a separate pig/non-pig model. So that's three models total. I believe "empty" was a class in both the species- and group-level models, i.e. they did not train a separate detector.
+28 species, operated on images @ 256x256. 10% test set held out from the \~3M images. Trained in TF, based on ResNet-18. Collapsed species with \<2000 images into taxonomic groups, built a separate group-level model. For some reason they had lots of pigs, so they trained a separate pig/non-pig model. So that&rsquo;s three models total. I believe &ldquo;empty&rdquo; was a class in both the species- and group-level models, i.e. they did not train a separate detector.
 
 Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.
 
@@ -471,19 +499,19 @@ Pre-print of the above.
 
 Train on Snapshot Serengeti (1.9M sequences, 3.2M images, 48 species), compare YOLOv2 and SSD. Created a new detection project @ Zooniverse, sourced 33k boxes on 17k images, then did random splits (kept sequences within a split, but did not use location information in drawing their split). Created a set of 300 empty images.
 
-Evaluate with a normalized version of mAP they call nAP that normalizes to handle class imbalance (I didn't read into the details), results look like:
+Evaluate with a normalized version of mAP they call nAP that normalizes to handle class imbalance (I didn&rsquo;t read into the details), results look like:
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image21.png" width="250">
 
 **Schneider, S., Taylor, G. W., & Kremer, S. (2018, May). Deep learning object detection methods for ecological camera trap data. In *2018 15th Conference on Computer and Robot Vision (CRV)* (pp. 321-328). IEEE.**
 
-Compares Faster-RCNN and Yolo v2 on the gold-standard Snapshot Serengeti data (\~4.5k images with bound boxes, 11 species with enough for them to count) and another data set they call "Reconyx Camera Trap" (Panama, Netherlands) (7k images, but only 946 images w/bounding boxes).
+Compares Faster-RCNN and Yolo v2 on the gold-standard Snapshot Serengeti data (\~4.5k images with bound boxes, 11 species with enough for them to count) and another data set they call &ldquo;Reconyx Camera Trap&rdquo; (Panama, Netherlands) (7k images, but only 946 images w/bounding boxes).
 
 Both architectures used ResNet 101 backbones, pre-trained on COCO, fine-tuned only the last layer.
 
-They didn't specify their splitting procedure, ergo I assume sequences may have been split across train/val.
+They didn&rsquo;t specify their splitting procedure, ergo I assume sequences may have been split across train/val.
 
-Their evaluation metrics are "accuracy" (class accuracy only evaluated on true positives) and "IOU", which I believe is being defined as something like "average IOU for all super-threshold detections", where a total miss is given an IOU of 0.0.
+Their evaluation metrics are &ldquo;accuracy&rdquo; (class accuracy only evaluated on true positives) and &ldquo;IOU&rdquo;, which I believe is being defined as something like &ldquo;average IOU for all super-threshold detections&rdquo;, where a total miss is given an IOU of 0.0.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image22.png" width="250">
 
@@ -495,9 +523,9 @@ Excellent literature review (not a technical paper) on what species people have 
 
 **Gomez, A., Salazar, A., & Vargas, F. (2016). Towards automatic wild animal monitoring: identification of animal species in camera-trap images using very deep convolutional neural networks. *arXiv preprint arXiv:1603.06169*.**
 
-"Snapshot Serengeti ... 225 camera-traps ... more than one million sets of pictures ... 48 animal species ... highly unbalanced ..., e.g., zebra class has 179683 images and the striped polecat (zorilla) only 29. In this work only 26 classes were selected for classification."
+&ldquo;Snapshot Serengeti ... 225 camera-traps ... more than one million sets of pictures ... 48 animal species ... highly unbalanced ..., e.g., zebra class has 179683 images and the striped polecat (zorilla) only 29. In this work only 26 classes were selected for classification.&rdquo;
 
-Best results came from ResNet-50, but architecture wasn't the main variable here. They played with a bunch of different data set permutations, re: balancing and manual segmentation/cropping, which (not surprisingly) helped. Generally somewhere around 60% top-whatever in the base data set, up to around 90% top-whatever in a segmented subset.
+Best results came from ResNet-50, but architecture wasn&rsquo;t the main variable here. They played with a bunch of different data set permutations, re: balancing and manual segmentation/cropping, which (not surprisingly) helped. Generally somewhere around 60% top-whatever in the base data set, up to around 90% top-whatever in a segmented subset.
 
 ## Waiting for summaries
 
@@ -523,9 +551,9 @@ Yu, X., Wang, J., Kays, R., Jansen, P. A., Wang, T., & Huang, T. (2013). Automat
 
 > <http://lila.science>
 
-lila.science is the only substantial repository of openly available camera trap images that I'm aware of. It currently contains over 10M images spread over a few data sets, but we're just getting started\!
+lila.science is the only substantial repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 10M images spread over a few data sets, but we&rsquo;re just getting started!
 
-## LILA's list of other data sets
+## LILA&rsquo;s list of other data sets
 
 We also include a list of other publicly-available data sets that we know about:
 
