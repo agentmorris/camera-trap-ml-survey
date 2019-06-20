@@ -17,6 +17,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Trailcam Data](#trailcam-data)  
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
+&nbsp;&nbsp;&nbsp;&nbsp;[ClassifyMe](#classifyme)  
 [Public case studies using ML for camera traps (other than those captured under &ldquo;systems&rdquo;)](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl--automl)  
@@ -136,6 +137,13 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
 
+## ClassifyMe
+
+Thick-client tool that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).
+
+Downloadable by request at <https://classifymeapp.com/>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
 # Public case studies using ML for camera traps (other than those captured under "systems")
 
@@ -404,6 +412,14 @@ Does species distribution modeling from observation data
 # Camera trap ML papers
 
 ## With summaries
+
+**Falzon, G., Lawson, C., Cheung, K. W., Vernes, K., Ballard, G., Fleming, P. J., ... & Meek, P. D. (2019). ClassifyMe: a field-scouting software for the identification of wildlife in camera trap images. bioRxiv, 646737.**
+
+Present a thick-client tool (&ldquo;ClassifyMe&rdquo;) that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).
+
+Downloadable by request at <https://classifymeapp.com/>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
 **Janzen, M., Ritter, A., Walker, P. D., & Visscher, D. R. (2019). EventFinder: a program for screening remotely captured images. *Environmental Monitoring and Assessment*, 191(6), 406.**
 
