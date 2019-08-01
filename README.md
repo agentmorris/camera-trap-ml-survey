@@ -369,7 +369,7 @@ Open-source, multi-platform, thick-client (Python). As of my last check (4/2019)
 
 ## Trapper
 
-> <https://bitbucket.org/trapper-project/trapper-project>
+> <https://gitlab.com/oscf/trapper-project>
 
 Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
 
