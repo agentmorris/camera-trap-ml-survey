@@ -41,7 +41,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[CPW Photo Warehouse (Colorado Parks and Wildlife)](#cpw-photo-warehouse-colorado-parks-and-wildlife)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Aardwolf2](#aardwolf2)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camera Trap Manager](#camera-trap-manager-maintained-by-benito-zaragozí)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Camelot ](#camelot)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Vixen](#vixen)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Reconyx MapView](#reconyx-mapview)  
@@ -353,9 +353,7 @@ Maintained by Chris Mann from [BitPattern](http://bitpattern.com.au/)
 
 > <https://gitlab.com/camelot-project/camelot>
 
-Based on project descriptions, possibly affiliated with Flora and Fauna Intl (possibly they are just a user)
-
-Open-source, runs in Java in a browser
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
 
