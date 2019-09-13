@@ -8,9 +8,9 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 [Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)
+&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth Camera Trap API](#microsoft-ai-for-earth-camera-trap-api)  
-&nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)
+&nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
 &nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
