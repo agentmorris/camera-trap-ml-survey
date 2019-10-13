@@ -458,6 +458,8 @@ Code released as a GUI (Windows and Linux versions) and a command-line tool (not
 
 Data now available on LILA as [http://lila.science/datasets/missouri-camera-traps](Missouri Camera Traps).
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ece34747-fig-0004-m.jpg" width="500">
+
 **Beery, S., Van Horn, G., & Perona, P. (2018). Recognition in Terra Incognita. *arXiv preprint arXiv:1807.04975*, *2*.**
 
 Not primarily about building awesome models, rather about showing how catastrophically performance falls off at new locations.
@@ -486,6 +488,8 @@ Data available as thumbnails (330x330) at:
 
 > <https://conservancy.umn.edu/handle/11299/199819>
 
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mee313099-fig-0002-m.jpg" width="500">
+
 **Norouzzadeh, M. S., Nguyen, A., Kosmala, M., Swanson, A., Palmer, M. S., Packer, C., & Clune, J. (2018). Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning. *Proceedings of the National Academy of Sciences*, 201719367.**
 
 They use VGG for detection (97% on a 50/50 rebalanced data set), an ensemble for identification (95% top-1 and 99% top-5), and an ensemble for counting (where they are running the ensemble as a classifier where the outputs are bins).
@@ -495,6 +499,8 @@ Code and models available here:
 > <https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images>
 
 Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/pnas.1719367115fig01.jpg" width="500">
 
 **Norouzzadeh, M. S., Nguyen, A., Kosmala, M., Swanson, A., Palmer, M., Packer, C., & Clune, J. Automatically identifying, counting, and describing wild animals in camera-trap images with deep learning.**
 
@@ -551,6 +557,8 @@ Excellent literature review (not a technical paper) on what species people have 
 Best results came from ResNet-50, but architecture wasn&rsquo;t the main variable here. They played with a bunch of different data set permutations, re: balancing and manual segmentation/cropping, which (not surprisingly) helped. Generally somewhere around 60% top-whatever in the base data set, up to around 90% top-whatever in a segmented subset.
 
 ## Waiting for summaries
+
+Giraldo-Zuluaga, J. H., Salazar, A., Gomez, A., & Diaz-Pulido, A. (2019). Camera-trap images segmentation using multi-layer robust principal component analysis. The Visual Computer, 35(3), 335-347.
 
 Glover-Kapfer, P., Soto-Navarro, C. A., & Wearn, O. R. (2019). Camera-trapping version 3.0: current constraints and future priorities for development. *Remote Sensing in Ecology and Conservation*.
 
