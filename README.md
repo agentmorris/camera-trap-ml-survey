@@ -457,7 +457,7 @@ Code released as a GUI (Windows and Linux versions) and a command-line tool (not
 
 > <https://figshare.com/s/cfc1070ca5a9bdda4cd8>
 
-Data now available on LILA as [http://lila.science/datasets/missouri-camera-traps](Missouri Camera Traps).
+Data now available on LILA as [Missouri Camera Traps](http://lila.science/datasets/missouri-camera-traps).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ece34747-fig-0004-m.jpg" width="500">
 
