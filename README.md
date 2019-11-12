@@ -494,6 +494,8 @@ Whole-image classification for empty separation, species classification.
 
 Incorporated into a live experiment on Zooniverse; if annotators agreed with model, image was retired early (i.e., with fewer annotators).
 
+&ldquo;To process all experiment-eligible capture events, 49% fewer annotations by citizen scientists were required. Accounting for the non-eligible subjects for which the model supplied no opinion and thus were processed by the standard logic, 43% fewer annotations were needed to retire all images.&rdquo;
+
 Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.
 
 Code and models available at:
