@@ -34,7 +34,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[PoacherCam (Panthera)](#poachercam-panthera)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Review articles about manual labeling](#review-articles-about-manual-labeling)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Atrium (San Diego Zoo)](#atrium-san-diego-zoo)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Camera Base (San Diego Zoo)](#camera-base-san-diego-zoo)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
 &nbsp;&nbsp;&nbsp;&nbsp;[eMammal (Smithsonian)](#emammal-smithsonian)  
 &nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
@@ -286,9 +286,11 @@ Young, S., Rode-Margono, J., & Amin, R. (2018). Software to facilitate and strea
 
 > <https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464>
 
-## Atrium (San Diego Zoo)
+## Camera Base (San Diego Zoo)
 
 > <http://www.atrium-biodiversity.org/tools/camerabase/>
+
+Thick-client tool for Windows.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image11.jpg" width="500">
 
@@ -316,7 +318,7 @@ I&rsquo;ve worked with a lot of camera trap data, and I will say that because th
 
 > <https://github.com/saulgreenberg/Timelapse>
 
-Thick-client, .net-based tool. In active development as of April 2019.
+Thick-client, .net-based tool. In active development as of November 2019. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
@@ -324,7 +326,7 @@ Thick-client, .net-based tool. In active development as of April 2019.
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
 
-Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to &ldquo;differing project requirements&rdquo;. Both appear to be in active development as of late 2018. According to the Carnassial github page:
+Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to &ldquo;differing project requirements&rdquo;. As of 11/2019, it&rsquo;s been over a year since the last commit, so development status unknown. According to the Carnassial GitHub page:
 
 &ldquo;Carnassial and Timelapse are broadly similar. As of March 2017 Carnassial offers faster analysis, more flexibility, and fewer defects than Timelapse.&rdquo;
 
