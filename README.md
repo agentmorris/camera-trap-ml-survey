@@ -420,6 +420,12 @@ Does species distribution modeling from observation data
 
 ## With summaries
 
+**Wei, W., Luo, G., Ran, J., & Li, J. (2019). Zilong: A tool to identify empty images in camera-trap data. Ecological Informatics, 101021.**
+
+Present a non-ML technique that uses edge detection and frame-to-frame differencing to identify animals.  Test on 30k images from SS and 25k images from a private data set.  Compare results to MLWIC, report 87% (85%) accuracy on animal (no-animal) images.  Have slightly separate pipelines for foggy images, as reported by the user.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wei2019.jpg" width="500">
+
 **Falzon, G., Lawson, C., Cheung, K. W., Vernes, K., Ballard, G., Fleming, P. J., ... & Meek, P. D. (2019). ClassifyMe: a field-scouting software for the identification of wildlife in camera trap images. bioRxiv, 646737.**
 
 Present a thick-client tool (&ldquo;ClassifyMe&rdquo;) that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).
