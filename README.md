@@ -633,6 +633,10 @@ Yousif, H., Yuan, J., Kays, R., & He, Z. (2017, May). Fast human-animal detectio
 
 Beery, S., Liu, Y., Morris, D., Piavis, J., Kapoor, A., Meister, M., & Perona, P. (2019). Synthetic examples improve generalization for rare classes. arXiv preprint arXiv:1904.05916.
 
+Miguel, A., Beery, S., Flores, E., Klemesrud, L., & Bayrakcismith, R. (2016, September). Finding areas of motion in camera trap images. In 2016 IEEE international conference on image processing (ICIP) (pp. 1334-1338). IEEE.
+
+Miguel, A., Beard, J. S., Bales-Heisterkamp, C., & Bayrakcismith, R. (2017, November). Sorting camera trap images. In 2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP) (pp. 249-253). IEEE.
+
 
 # Data sources for camera trap ML
 
