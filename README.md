@@ -19,7 +19,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ClassifyMe](#classifyme)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Observer Network ImageID](#wildlife-observer-network-imageid)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Observer Network ImageID](#wildlife-observer-network-image-id)  
 [Public case studies using ML for camera traps (other than those captured under &ldquo;systems&rdquo;)](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl--automl)  
