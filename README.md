@@ -19,6 +19,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[BuckTracker](#bucktracker)  
 &nbsp;&nbsp;&nbsp;&nbsp;[SnapCat](#snapcat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ClassifyMe](#classifyme)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Observer Network ImageID](#wildlife-observer-network-imageid)
 [Public case studies using ML for camera traps (other than those captured under &ldquo;systems&rdquo;)](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
 &nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl--automl)  
@@ -153,6 +154,12 @@ Thick-client tool that allows a menu of Yolov2-based models.  Five models are pr
 Downloadable by request at <https://classifymeapp.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
+
+## Wildlife Observer Network Image ID
+
+> <https://wildlifeobserver.net/imageid/>
+
+Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
 
 # Public case studies using ML for camera traps (other than those captured under "systems")
 
