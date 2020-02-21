@@ -661,6 +661,8 @@ Miguel, A., Beery, S., Flores, E., Klemesrud, L., & Bayrakcismith, R. (2016, Sep
 
 Miguel, A., Beard, J. S., Bales-Heisterkamp, C., & Bayrakcismith, R. (2017, November). Sorting camera trap images. In 2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP) (pp. 249-253). IEEE.
 
+Zheng X, Owen MA, Nie Y, Hu Y, Swaisgood RR, Yan L, Wei F. Individual identification of wild giant pandas from camera trap photos–a systematic and hierarchical approach. Journal of Zoology. 2016 Dec;300(4):247-56.
+
 
 # Data sources for camera trap ML
 
