@@ -651,6 +651,8 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 Beery, S., Wu, G., Rathod, V., Votel, R., & Huang, J. (2019). Long Term Temporal Context for Per-Camera Object Detection. CVPR 2020.
 
+Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. (2019). Synthetic examples improve generalization for rare classes. WACV 2020.
+
 Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA, Newkirk ES, Conrey RY, Stenglein J, Iannarilli F. Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2. bioRxiv. 2020 Jan 1.
 
 Schneider S, Greenberg S, Taylor GW, Kremer SC. Three Critical Factors Affecting Automated Image Species Recognition Performance for Camera Traps. Ecology and Evolution, On line early access version:15 pages. Wiley, March 7, 2020.
@@ -660,8 +662,6 @@ Yousif H, Kays R, Zhihai H. Dynamic Programming Selection of Object Proposals fo
 Gomez A, Diez G, Salazar A, Diaz A. (2016, December). Animal identification in low quality camera-trap images using very deep convolutional neural networks and confidence thresholds. In International Symposium on Visual Computing (pp. 747-756). Springer, Cham.
 
 Yousif H, Yuan J, Kays R, He Z. (2017, May). Fast human-animal detection from highly cluttered camera-trap images using joint background modeling and deep learning classification. In 2017 IEEE international symposium on circuits and systems (ISCAS) (pp. 1-4). IEEE.
-
-Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. (2019). Synthetic examples improve generalization for rare classes. WACV 2020.
 
 Miguel A, Beery S, Flores E, Klemesrud L, Bayrakcismith R (2016, September). Finding areas of motion in camera trap images. In 2016 IEEE international conference on image processing (ICIP) (pp. 1334-1338). IEEE.
 
