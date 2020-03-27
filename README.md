@@ -649,21 +649,23 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
+Beery, S., Wu, G., Rathod, V., Votel, R., & Huang, J. (2019). Long Term Temporal Context for Per-Camera Object Detection. CVPR 2020.
+
 Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA, Newkirk ES, Conrey RY, Stenglein J, Iannarilli F. Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2. bioRxiv. 2020 Jan 1.
 
 Schneider S, Greenberg S, Taylor GW, Kremer SC. Three Critical Factors Affecting Automated Image Species Recognition Performance for Camera Traps. Ecology and Evolution, On line early access version:15 pages. Wiley, March 7, 2020.
 
 Yousif H, Kays R, Zhihai H. Dynamic Programming Selection of Object Proposals for Sequence-Level Animal Species Classification in the Wild. IEEE Transactions on Circuits and Systems for Video Technology, 2019.
 
-Gomez, A., Diez, G., Salazar, A., & Diaz, A. (2016, December). Animal identification in low quality camera-trap images using very deep convolutional neural networks and confidence thresholds. In International Symposium on Visual Computing (pp. 747-756). Springer, Cham.
+Gomez A, Diez G, Salazar A, Diaz A. (2016, December). Animal identification in low quality camera-trap images using very deep convolutional neural networks and confidence thresholds. In International Symposium on Visual Computing (pp. 747-756). Springer, Cham.
 
-Yousif, H., Yuan, J., Kays, R., & He, Z. (2017, May). Fast human-animal detection from highly cluttered camera-trap images using joint background modeling and deep learning classification. In 2017 IEEE international symposium on circuits and systems (ISCAS) (pp. 1-4). IEEE.
+Yousif H, Yuan J, Kays R, He Z. (2017, May). Fast human-animal detection from highly cluttered camera-trap images using joint background modeling and deep learning classification. In 2017 IEEE international symposium on circuits and systems (ISCAS) (pp. 1-4). IEEE.
 
-Beery, S., Liu, Y., Morris, D., Piavis, J., Kapoor, A., Meister, M., & Perona, P. (2019). Synthetic examples improve generalization for rare classes. arXiv preprint arXiv:1904.05916.
+Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. (2019). Synthetic examples improve generalization for rare classes. WACV 2020.
 
-Miguel, A., Beery, S., Flores, E., Klemesrud, L., & Bayrakcismith, R. (2016, September). Finding areas of motion in camera trap images. In 2016 IEEE international conference on image processing (ICIP) (pp. 1334-1338). IEEE.
+Miguel A, Beery S, Flores E, Klemesrud L, Bayrakcismith R (2016, September). Finding areas of motion in camera trap images. In 2016 IEEE international conference on image processing (ICIP) (pp. 1334-1338). IEEE.
 
-Miguel, A., Beard, J. S., Bales-Heisterkamp, C., & Bayrakcismith, R. (2017, November). Sorting camera trap images. In 2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP) (pp. 249-253). IEEE.
+Miguel A, Beard JS, Bales-Heisterkamp C, Bayrakcismith R. (2017, November). Sorting camera trap images. In 2017 IEEE Global Conference on Signal and Information Processing (GlobalSIP) (pp. 249-253). IEEE.
 
 Zheng X, Owen MA, Nie Y, Hu Y, Swaisgood RR, Yan L, Wei F. Individual identification of wild giant pandas from camera trap photos–a systematic and hierarchical approach. Journal of Zoology. 2016 Dec;300(4):247-56.
 
