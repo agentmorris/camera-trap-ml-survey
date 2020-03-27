@@ -56,7 +56,6 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Camera trap ML papers](#camera-trap-ml-papers)  
 &nbsp;&nbsp;&nbsp;&nbsp;[With summaries](#with-summaries)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Waiting for summaries](#waiting-for-summaries)  
-[Internal &ldquo;also see&rdquo; links](#internal-also-see-links)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA](#lila)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA&rsquo;s list of other data sets](#lilas-list-of-other-data-sets)  
