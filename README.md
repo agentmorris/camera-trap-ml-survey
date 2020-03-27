@@ -648,9 +648,9 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
-Beery, S., Wu, G., Rathod, V., Votel, R., & Huang, J. (2019). Long Term Temporal Context for Per-Camera Object Detection. CVPR 2020.
+Beery, S., Wu, G., Rathod, V., Votel, R., & Huang, J. Long Term Temporal Context for Per-Camera Object Detection. CVPR 2020.
 
-Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. (2019). Synthetic examples improve generalization for rare classes. WACV 2020.
+Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. Synthetic examples improve generalization for rare classes. WACV 2020.
 
 Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA, Newkirk ES, Conrey RY, Stenglein J, Iannarilli F. Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2. bioRxiv. 2020 Jan 1.
 
