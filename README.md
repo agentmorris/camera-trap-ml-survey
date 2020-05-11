@@ -654,6 +654,8 @@ Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. Synthetic exa
 
 Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA, Newkirk ES, Conrey RY, Stenglein J, Iannarilli F. Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2. bioRxiv. 2020 Jan 1.
 
+Shahinfar S, Meek P, Falzon G. “How many images do I need?” Understanding how sample size per class affects deep learning model performance metrics for balanced designs in autonomous wildlife monitoring. Ecological Informatics. 2020 Mar 19:101085.
+
 Schneider S, Greenberg S, Taylor GW, Kremer SC. Three Critical Factors Affecting Automated Image Species Recognition Performance for Camera Traps. Ecology and Evolution, On line early access version:15 pages. Wiley, March 7, 2020.
 
 Yousif H, Kays R, Zhihai H. Dynamic Programming Selection of Object Proposals for Sequence-Level Animal Species Classification in the Wild. IEEE Transactions on Circuits and Systems for Video Technology, 2019.
