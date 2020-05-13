@@ -648,6 +648,8 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
+Shashidhara BM, Mehta D, Kale Y, Morris D, Hazen M. Sequence Information Channel Concatenation for Improving Camera Trap Image Burst Classification. arXiv preprint arXiv:2005.00116. 2020 Apr 30.
+
 Beery, S., Wu, G., Rathod, V., Votel, R., & Huang, J. Long Term Temporal Context for Per-Camera Object Detection. CVPR 2020.
 
 Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. Synthetic examples improve generalization for rare classes. WACV 2020.
