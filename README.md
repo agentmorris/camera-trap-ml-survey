@@ -10,8 +10,12 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth Camera Trap API](#microsoft-ai-for-earth-camera-trap-api)  
-&nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
+&nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
+&nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
 &nbsp;&nbsp;&nbsp;&nbsp;[AnDeNet (Animal Detection Network)](#andenet-animal-detection-network)  
@@ -38,16 +42,12 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Review articles about manual labeling](#review-articles-about-manual-labeling)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camera Base (San Diego Zoo)](#camera-base-san-diego-zoo)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
 &nbsp;&nbsp;&nbsp;&nbsp;[eMammal (Smithsonian)](#emammal-smithsonian)  
-&nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Carnassial (Cascades Carnivore Project)](#carnassial-cascades-carnivore-project)  
 &nbsp;&nbsp;&nbsp;&nbsp;[CPW Photo Warehouse (Colorado Parks and Wildlife)](#cpw-photo-warehouse-colorado-parks-and-wildlife)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Aardwolf2](#aardwolf2)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camera Trap Manager](#camera-trap-manager-maintained-by-benito-zaragozí)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Vixen](#vixen)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Reconyx MapView](#reconyx-mapview)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Non-camera-trap-specific labeling tools at least one person has mentioned using](#non-camera-trap-specific-labeling-tools-at-least-one-person-has-mentioned-using)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
@@ -80,14 +80,6 @@ Wildlife Protection Solutions deploys connected cameras in protected areas to de
 
 AI for Earth (full disclosure: that includes me) runs an [API](https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing) that performs large-scale batch inference on camera trap images.  The output of this API can be consumed directly in callers&rsquo; workflows, or it can be used in [Timelapse2](http://saul.cpsc.ucalgary.ca/timelapse/).
 
-## WII CaTRAT
-
-> [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
-
-CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India and the National Tiger Conservation Authority to accelerate the processing of camera trap images, with a focus on detecting tigers.  Not a lot of information is publicly available, but the report linked above suggests that CNNs are involved and that the workflow integrates [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
-
 ## Project Zamba
 
 > <http://zamba.drivendata.org/>
@@ -99,6 +91,54 @@ Python tool to find species in camera trap videos, specifically tuned for 23 spe
 > <http://zamba.drivendata.org/docs/algorithms.html>
 
 ...says it&rsquo;s a 5-model ensemble trained in Keras.
+
+## TimeLapse2 (U Calgary)
+
+> <http://saul.cpsc.ucalgary.ca/timelapse/>
+
+> <https://github.com/saulgreenberg/Timelapse>
+
+Thick-client, .net-based tool. In active development as of November 2019. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
+
+## Camelot 
+
+Maintained by Chris Mann from [BitPattern](http://bitpattern.com.au/)
+
+> <https://gitlab.com/camelot-project/camelot>
+
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+
+## Trapper
+
+> <https://gitlab.com/oscf/trapper-project>
+
+Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
+
+Open-source system, interaction is via a browser, data is stored in PostGres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of the AI for Earth <a href="https://github.com/microsoft/CameraTraps/blob/master/megadetector.md">MegaDetector</a> model.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
+
+## Agouti (Wageningen University)
+
+> <https://agouti.eu/>
+
+Web-based (requires upload), hosting is free for small student projects and gets more expensive as the user gets closer to commercial.  Considering ML integration.
+
+Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
+
+## WII CaTRAT
+
+> [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
+
+CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India and the National Tiger Conservation Authority to accelerate the processing of camera trap images, with a focus on detecting tigers.  Not a lot of information is publicly available, but the report linked above suggests that CNNs are involved and that the workflow integrates [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
 
 ## EventFinder
 
@@ -315,16 +355,6 @@ Thick-client tool for Windows.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image11.jpg" width="500">
 
-## Agouti (Wageningen University)
-
-> <https://agouti.eu/>
-
-Web-based (requires upload), hosting is free for small student projects and gets more expensive as the user gets closer to commercial.
-
-Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
-
 ## eMammal (Smithsonian)
 
 > <https://emammal.si.edu/>
@@ -334,16 +364,6 @@ Software package and Smithsonian-hosted storage. All labeling happens through th
 I&rsquo;ve worked with a lot of camera trap data, and I will say that because the tool enforces consistent metadata at the time of labeling, in terms of organization and matching images to labels, data coming through eMammal is an order of magnitude cleaner than anything I&rsquo;ve worked with from any other source. eMammal metadata is provided in the Camera Trap Metadata Standard (XML variant).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
-
-## TimeLapse2 (U Calgary)
-
-> <http://saul.cpsc.ucalgary.ca/timelapse/>
-
-> <https://github.com/saulgreenberg/Timelapse>
-
-Thick-client, .net-based tool. In active development as of November 2019. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty images.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
 ## Carnassial (Cascades Carnivore Project)
 
@@ -381,16 +401,6 @@ As of version 2, this is browser-based (but runs locally) (v1 was a thick-client
 
 Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn&rsquo;t start a project without providing a shapefile. UI is in a mix of English and Spanish.
 
-## Camelot 
-
-Maintained by Chris Mann from [BitPattern](http://bitpattern.com.au/)
-
-> <https://gitlab.com/camelot-project/camelot>
-
-Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
-
 ## Vixen
 
 > <https://github.com/vixen-project/vixen>
@@ -398,16 +408,6 @@ Open-source, runs in Java in a browser.  Developed in consultation with Fauna & 
 Open-source, multi-platform, thick-client (Python). As of my last check (4/2019), this was last updated early 2018.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image18.jpeg" width="500">
-
-## Trapper
-
-> <https://gitlab.com/oscf/trapper-project>
-
-Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
-
-Open-source system, interaction is via a browser, data is stored in PostGres. Can be hosted either locally or on a Linux VM.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
 ## Reconyx MapView
 
