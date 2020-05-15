@@ -321,6 +321,8 @@ Thick-client tool for Windows.
 
 Web-based (requires upload), hosting is free for small student projects and gets more expensive as the user gets closer to commercial.
 
+Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
 ## eMammal (Smithsonian)
