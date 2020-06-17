@@ -13,6 +13,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
 &nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Conservation AI](#conservation-ai)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
 &nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)  
@@ -111,6 +112,14 @@ Maintained by Chris Mann from [BitPattern](http://bitpattern.com.au/)
 Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+
+## Conservation AI
+
+> <https://conservationai.co.uk/>
+
+Family of region-specific object detection models for camera traps and drones, backed by real-time and batch processing services, with a browser-based <a href="https://conservationai.co.uk/trymodel">demo</a>.  Also supports acoustic classification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
 
 ## Trapper
 
