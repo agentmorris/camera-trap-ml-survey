@@ -50,6 +50,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Camera Trap Manager](#camera-trap-manager-maintained-by-benito-zaragozí)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Vixen](#vixen)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Reconyx MapView](#reconyx-mapview)  
+&nbsp;&nbsp;&nbsp;&nbsp;[CameraSweet](#camerasweet)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Non-camera-trap-specific labeling tools at least one person has mentioned using](#non-camera-trap-specific-labeling-tools-at-least-one-person-has-mentioned-using)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
 &nbsp;&nbsp;&nbsp;&nbsp;[CamTrapR](#camtrapr)  
