@@ -85,13 +85,17 @@ AI for Earth (full disclosure: that includes me) runs an [API](https://github.co
 
 > <http://zamba.drivendata.org/>
 
+> <https://www.zambacloud.com/>
+
 > <https://github.com/drivendataorg/zamba>
 
-Python tool to find species in camera trap videos, specifically tuned for 23 species often seen in central Africa. Algorithms were trained on data from the [Chimp & See](https://www.chimpandsee.org/#/) Zooniverse project. The description at:
+Python toolkit (Project Zamba) to find species in camera trap videos, specifically tuned for 23 species often seen in central Africa. Algorithms were trained on data from the [Chimp & See](https://www.chimpandsee.org/#/) Zooniverse project. The description at:
 
 > <http://zamba.drivendata.org/docs/algorithms.html>
 
 ...says it&rsquo;s a 5-model ensemble trained in Keras.
+
+Evolved into the application available at <https://www.zambacloud.com/>.
 
 ## TimeLapse2 (U Calgary)
 
