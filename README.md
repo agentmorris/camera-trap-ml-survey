@@ -424,6 +424,12 @@ Open-source, multi-platform, thick-client (Python). As of my last check (4/2019)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image20.jpeg" width="500">
 
+## CameraSweet
+
+> <https://smallcats.org/resources/#camerasweet>
+
+Series of command-line tools for image organization and annotation used by the Small Wild Cat Conservation Foundation.
+
 ## Non-camera-trap-specific labeling tools at least one person has mentioned using
 
 > Adobe Lightroom
