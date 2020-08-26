@@ -465,6 +465,12 @@ Does species distribution modeling from observation data
 
 ## With summaries
 
+**Greenberg S. Automated Image Recognition for Wildlife Camera Traps: Making it Work for You. Research report, University of Calgary: Prism Digital Repository; 2020.**
+
+Ecologist-facing overview of terminology, opportunities, challenges, tools, and hype in the space of AI for camera traps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/greenberg_recognition_2020.png" width="500">
+
 **Wei, W., Luo, G., Ran, J., & Li, J. (2019). Zilong: A tool to identify empty images in camera-trap data. Ecological Informatics, 101021.**
 
 Present a non-ML technique that uses edge detection and frame-to-frame differencing to identify animals.  Test on 30k images from SS and 25k images from a private data set.  Compare results to MLWIC, report 87% (85%) accuracy on animal (no-animal) images.  Have slightly separate pipelines for foggy images, as reported by the user.
