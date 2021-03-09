@@ -542,7 +542,7 @@ Not specifically focused on machine learning, but an excellent global survey (25
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/glover-kapfer.jpg" width="500">
 
 
-**Beery, S., Van Horn, G., & Perona, P. (2018). Recognition in Terra Incognita. *arXiv preprint arXiv:1807.04975*, *2*.**
+**Beery S, Van Horn G, Perona P. Recognition in terra incognita. InProceedings of the European Conference on Computer Vision (ECCV) 2018 (pp. 456-473).**
 
 Not primarily about building awesome models, rather about showing how catastrophically performance falls off at new locations.
 
