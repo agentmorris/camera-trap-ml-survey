@@ -498,7 +498,7 @@ Software available at:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
 
-**Norouzzadeh, M. S., Morris, D., Beery, S., Joshi, N., Jojic, N., & Clune, J. (2019). A deep active learning system for species identification and counting in camera trap images. Methods in Ecology and Evolution, 2020.**
+**Norouzzadeh, M. S., Morris, D., Beery, S., Joshi, N., Jojic, N., & Clune, J. (2021). A deep active learning system for species identification and counting in camera trap images. *Methods in Ecology and Evolution*, 12(1), 150-161.**
 
 Take an active learning approach to adapting species classification models to new species distributions; describe an architecture that uses a large embedding model (trained infrequently) and a small classification model (trained frequently), along with active learning selection strategies. Though only in a simulated active learning environment, they show the same results on Snapshot Serengeti with 14.1k labels as was previously achieved with 3.2M labels.
 
@@ -676,7 +676,7 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
-Whytock RC, Świeżewski J, Zwerts JA, Bara-Słupski T, Koumba Pambo AF, Rogala M, Bahaa‐el‐din L, Boekee K, Brittain S, Cardoso AW, Henschel P. Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution.
+Whytock, R. C., Świeżewski, J., Zwerts, J. A., Bara‐Słupski, T., Koumba Pambo, A. F., Rogala, M., ... & Abernethy, K. A. (2021). Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution.
 
 Shepley A, Falzon G, Meek PD, Kwan P. Automated Location Invariant Animal Detection In Camera Trap Images Using Publicly Available Data Sources. Authorea Preprints. 2020 Oct 21.
 
@@ -692,7 +692,7 @@ Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA,
 
 Carl C, Schönfeld F, Profft I, Klamm A, Landgraf D. Automated detection of European wild mammal species in camera trap images with an existing and pre-trained computer vision model. European Journal of Wildlife Research. 2020 Aug;66(4):1-7.
 
-Egna N, O'Connor D, Stacy‐Dawes J, Tobler MW, Pilfold N, Neilson K, Simmons B, Davis EO, Bowler M, Fennessy J, Glikman JA. Camera settings and biome influence the accuracy of citizen science approaches to camera trap image classification. Ecology and evolution. 2020 Nov;10(21):11954-65.
+Egna N, O'Connor D, Stacy-Dawes J, Tobler MW, Pilfold N, Neilson K, Simmons B, Davis EO, Bowler M, Fennessy J, Glikman JA. Camera settings and biome influence the accuracy of citizen science approaches to camera trap image classification. Ecology and evolution. 2020 Nov;10(21):11954-65.
 
 [Winners of the DrivenData / AI for Earth competition](https://www.drivendata.co/blog/wildlife-serengeti-winners/)
 
@@ -700,13 +700,11 @@ Shashidhara BM, Mehta D, Kale Y, Morris D, Hazen M. Sequence Information Channel
 
 Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Joshi N, Meister M, Perona P. Synthetic examples improve generalization for rare classes. InThe IEEE Winter Conference on Applications of Computer Vision 2020 (pp. 863-873).
 
-Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Meister M, Perona P. Synthetic examples improve generalization for rare classes. WACV 2020.
-
 Tabak MA, Norouzzadeh MS, Wolfson DW, Newton EJ, Boughton RK, Ivan JS, Odell EA, Newkirk ES, Conrey RY, Stenglein J, Iannarilli F. Improving the accessibility and transferability of machine learning algorithms for identification of animals in camera trap images: MLWIC2. bioRxiv. 2020 Jan 1.
 
 Shahinfar S, Meek P, Falzon G. “How many images do I need?” Understanding how sample size per class affects deep learning model performance metrics for balanced designs in autonomous wildlife monitoring. Ecological Informatics. 2020 Mar 19:101085.
 
-Schneider S, Greenberg S, Taylor GW, Kremer SC. Three Critical Factors Affecting Automated Image Species Recognition Performance for Camera Traps. Ecology and Evolution, On line early access version:15 pages. Wiley, March 7, 2020.
+Schneider, S., Greenberg, S., Taylor, G. W., & Kremer, S. C. (2020). Three critical factors affecting automated image species recognition performance for camera traps. Ecology and evolution, 10(7), 3503-3517.
 
 Yousif H, Kays R, Zhihai H. Dynamic Programming Selection of Object Proposals for Sequence-Level Animal Species Classification in the Wild. IEEE Transactions on Circuits and Systems for Video Technology, 2019.
 
