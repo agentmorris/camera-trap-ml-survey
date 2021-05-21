@@ -678,13 +678,13 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 Whytock, R. C., Świeżewski, J., Zwerts, J. A., Bara‐Słupski, T., Koumba Pambo, A. F., Rogala, M., ... & Abernethy, K. A. (2021). Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution.
 
-Shepley A, Falzon G, Meek PD, Kwan P. Automated Location Invariant Animal Detection In Camera Trap Images Using Publicly Available Data Sources. Authorea Preprints. 2020 Oct 21.
+Shepley A, Falzon G, Meek PD, Kwan P. Automated Location Invariant Animal Detection In Camera Trap Images Using Publicly Available Data Sources. Ecology and Evolution, March 2021.
 
 Shepley A, Falzon G, Lawson C, Meek P, Kwan P. U-Infuse: Democratization of Customizable AI for Object Detection. bioRxiv. 2020 Jan 1.
 
 Ahumada JA, Fegraus E, Birch T, Flores N, Kays R, O’Brien TG, Palmer J, Schuttler S, Zhao JY, Jetz W, Kinnaird M. Wildlife insights: A platform to maximize the potential of camera trap and other passive sensor wildlife data for the planet. Environmental Conservation. 2020 Mar;47(1):1-6.
 
-Islam SB, Valles D. Identification of Wild Species in Texas from Camera-trap Images using Deep Neural Network for Conservation Monitoring. In2020 10th Annual Computing and Communication Workshop and Conference (CCWC) 2020 Jan 6 (pp. 0537-0542). IEEE.
+Islam SB, Valles D. Identification of Wild Species in Texas from Camera-trap Images using Deep Neural Network for Conservation Monitoring. 10th Annual Computing and Communication Workshop and Conference (CCWC) 2020 Jan 6 (pp. 0537-0542). IEEE.
 
 Greenberg S. Automated Image Recognition for Wildlife Camera Traps: Making it Work for You. Science; 2020 Jan 12.
 
