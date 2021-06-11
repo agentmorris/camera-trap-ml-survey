@@ -676,7 +676,17 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
-Whytock, R. C., Świeżewski, J., Zwerts, J. A., Bara‐Słupski, T., Koumba Pambo, A. F., Rogala, M., ... & Abernethy, K. A. (2021). Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution.
+Yang DQ, Li T, Liu M, Chen B.  A systematic study of the class imbalance problem: Automatically identifying empty camera trap images using convolutional neural networks.  Ecological Informatics. 2021 June 10.
+
+Yang DQ, Tan K, Huang ZP, Li XW, Chen BH, Ren GP, Xiao W. An automatic method for removing empty camera trap images using ensemble learning. Ecology and Evolution. 2021 May 2.
+
+Moreni M, Theau J, Foucher S. Train Fast While Reducing False Positives: Improving Animal Classification Performance Using Convolutional Neural Networks. Geomatics. 2021 Mar;1(1):34-49.
+
+Vargas-Felipe M, Pellegrin L, Guevara-Carrizales AA, López-Monroy AP, Escalante HJ, Gonzalez-Fraga JA. Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features. Ecological Informatics. 2021 May 29:101328.
+
+Miao Z, Liu Z, Gaynor KM, Palmer MS, Yu SX, Getz WM. Iterative Human and Automated Identification of Wildlife Images. arXiv preprint arXiv:2105.02320. 2021 May 5.
+
+Whytock RC, Świeżewski J, Zwerts JA, Bara‐Słupski T, Koumba Pambo AF, Rogala M, Bahaa‐el‐din L, Boekee K, Brittain S, Cardoso AW, Henschel P. Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution. 2021 Mar 10.
 
 Shepley A, Falzon G, Meek PD, Kwan P. Automated Location Invariant Animal Detection In Camera Trap Images Using Publicly Available Data Sources. Ecology and Evolution, March 2021.
 
