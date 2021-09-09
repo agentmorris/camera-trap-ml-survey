@@ -471,13 +471,13 @@ Ecologist-facing overview of terminology, opportunities, challenges, tools, and 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/greenberg_recognition_2020.png" width="500">
 
-**Wei, W., Luo, G., Ran, J., & Li, J. (2019). Zilong: A tool to identify empty images in camera-trap data. Ecological Informatics, 101021.**
+**Wei W, Luo G, Ran J, Li J. Zilong: A tool to identify empty images in camera-trap data. Ecological Informatics. 2020 Jan 1;55:101021.**
 
 Present a non-ML technique that uses edge detection and frame-to-frame differencing to identify animals.  Test on 30k images from SS and 25k images from a private data set.  Compare results to MLWIC, report 87% (85%) accuracy on animal (no-animal) images.  Have slightly separate pipelines for foggy images, as reported by the user.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wei2019.jpg" width="500">
 
-**Falzon, G., Lawson, C., Cheung, K. W., Vernes, K., Ballard, G., Fleming, P. J., ... & Meek, P. D. (2019). ClassifyMe: a field-scouting software for the identification of wildlife in camera trap images. bioRxiv, 646737.**
+**Falzon G, Lawson C, Cheung KW, Vernes K, Ballard GA, Fleming PJ, Glen AS, Milne H, Mather-Zardain A, Meek PD. ClassifyMe: a field-scouting software for the identification of wildlife in camera trap images. Animals. 2020 Jan;10(1):58.**
 
 Present a thick-client tool (&ldquo;ClassifyMe&rdquo;) that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).
 
@@ -485,7 +485,7 @@ Downloadable by request at <https://classifymeapp.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
-**Janzen, M., Ritter, A., Walker, P. D., & Visscher, D. R. (2019). EventFinder: a program for screening remotely captured images. *Environmental Monitoring and Assessment*, 191(6), 406.**
+**Janzen M, Ritter A, Walker PD, Visscher DR. EventFinder: a program for screening remotely captured images. Environmental monitoring and assessment. 2019 Jun;191(6):1-0.**
 
 Describe a thick-client tool for eliminating empty images, using background subtraction and color histogram comparisons.
 
@@ -675,6 +675,10 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 ## Waiting for summaries
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
+
+Kutugata M, Baumgardt J, Goolsby JA, Racelis AE, Kutugata M, Racelis AE, Baumgardt J, Goolsby A. Automatic Camera Trap Classification Using Wildlife-Specific Deep Learning in Nilgai Management. Journal of Fish and Wildlife Management, 2021.
+
+Cunha F, dos Santos EM, Barreto R, Colonna JG. Filtering Empty Camera Trap Images in Embedded Systems. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2021 (pp. 2438-2446).
 
 Yang DQ, Li T, Liu M, Chen B.  A systematic study of the class imbalance problem: Automatically identifying empty camera trap images using convolutional neural networks.  Ecological Informatics. 2021 June 10.
 
