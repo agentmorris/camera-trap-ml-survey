@@ -731,7 +731,7 @@ Gomez A, Diez G, Salazar A, Diaz A. (2016, December). Animal identification in l
 
 ## LILA
 
-> <http://lila.science>
+> <http://lila.science/datasets>
 
 lila.science is the only substantial repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 10M images spread over a few data sets, but we&rsquo;re just getting started!
 
@@ -753,6 +753,11 @@ This is a very abbreviated list of organizations that internally have very large
 
 > <http://www.teamnetwork.org/>  
 > Appears to be deprecated as of 3/2019 in preparation for migration to Wildlife Insights.
+
+# Machine learning competitions
+
+> [iWildcam](https://www.kaggle.com/c/iwildcam2021-fgvc8)
+> The above link is to the 2021 competition, but they've used the same GitHub repo [link](https://github.com/visipedia/iwildcam_comp) every year of the competition.
 
 # Further reading
 
