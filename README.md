@@ -102,7 +102,7 @@ Python toolkit (Project Zamba) to find species in camera trap videos, specifical
 
 Evolved into the application available at <https://www.zambacloud.com/>.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
 ## TimeLapse2 (U Calgary)
 
