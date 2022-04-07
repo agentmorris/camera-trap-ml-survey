@@ -16,6 +16,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Conservation AI](#conservation-ai)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Agouti](#agouti)  
+&nbsp;&nbsp;&nbsp;&nbsp;[TrapTagger](#traptagger)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Institute of India CaTRAT](#wildlife-institute-of-india-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
@@ -151,6 +152,12 @@ Web-based (requires upload), hosting is free for small student projects and gets
 Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
+
+## TrapTagger
+
+<a href="https://wildeyeconservation.org/traptagger/">TrapTagger</a> is an online platform for camera trap data management that includes automated species classification, and a detector component.  Currently recognized South African species (based on the Web page as of April 2022).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
 ## Wildlife Institute of India CaTRAT
 
