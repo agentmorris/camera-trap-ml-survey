@@ -11,11 +11,11 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[wpsWatch](#wpswatch)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth MegaDetector](#microsoft-ai-for-earth-megadetector)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
-&nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
+&nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2](#timelapse2)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Conservation AI](#conservation-ai)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Agouti](#agouti)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Institute of India CaTRAT](#wildlife-institute-of-india-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
@@ -104,7 +104,7 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
-## TimeLapse2 (U Calgary)
+## TimeLapse2
 
 > <http://saul.cpsc.ucalgary.ca/timelapse/>
 
@@ -142,7 +142,7 @@ Open-source system, interaction is via a browser, data is stored in PostGres. Ca
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
-## Agouti (Wageningen University)
+## Agouti
 
 > <https://agouti.eu/>
 
