@@ -2,21 +2,21 @@
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a strict subset of what&rsquo;s out there... <a href="mailto:agentmorris@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
-Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](http://lila.science).
+Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](https://lila.science).
 
 # Table of Contents
 
 [Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Insights](#wildlife-insights)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Protection Solutions](#wildlife-protection-solutions)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth Camera Trap API](#microsoft-ai-for-earth-camera-trap-api)  
+&nbsp;&nbsp;&nbsp;&nbsp;[wpsWatch](#wpswatch)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Microsoft AI for Earth MegaDetector](#microsoft-ai-for-earth-megadetector)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Project Zamba](#project-zamba)  
 &nbsp;&nbsp;&nbsp;&nbsp;[TimeLapse2 (U Calgary)](#timelapse2-u-calgary)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Camelot](#camelot)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Conservation AI](#conservation-ai)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Trapper](#trapper)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Agouti (Wageningen University)](#agouti-wageningen-university)  
-&nbsp;&nbsp;&nbsp;&nbsp;[WII CaTRAT](#wii-catrat)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Institute of India CaTRAT](#wildlife-institute-of-india-catrat)  
 &nbsp;&nbsp;&nbsp;&nbsp;[EventFinder](#eventfinder)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Where&rsquo;s the Bear?](#wheres-the-bear)  
 &nbsp;&nbsp;&nbsp;&nbsp;[AnDeNet (Animal Detection Network)](#andenet-animal-detection-network)  
@@ -64,23 +64,27 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
 [Further reading](#further-reading)  
 
-# Camera trap systems using ML, *maybe* using ML, or *thinking about* ML
+# Camera trap tools/platforms using ML, *maybe* using ML, or *thinking about* ML
 
 ## Wildlife Insights
 
-[Wildlife Insights](https://wildlifeinsights.org/) is the evolution of the [TEAM network](http://www.teamnetwork.org/). TEAM was a network of camera traps and the researchers that use them; they provided some data management tools, but no AI. Wildlife Insights is a reboot of the platform, re-architected and intended to include both data management and ML. It&rsquo;s a collaboration among several NGOs, HQ&rsquo;d at Conservation International and Google Earth Outreach. Among the other NGOs involved, Smithsonian is particularly relevant to this page; WI may or may not become the logical evolution of eMammal as well.
+[Wildlife Insights](https://wildlifeinsights.org/) (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ&rsquo;d at Conservation International, with AI work HQ'd at Google.
 
-## Wildlife Protection Solutions
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wi_screen_shot_2020-12-15_at_3.46.14_pm.png" width="500">
 
-Wildlife Protection Solutions deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/).
+## Microsoft AI for Earth MegaDetector
+
+This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
+
+<a href="https://github.com/microsoft/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector-example.png" width="500">
+
+## wpsWatch
+
+<a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a. deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/), and later <a href="https://customers.microsoft.com/en-us/story/1384184517929343083-wildlife-protection-solutions-nonprofit-ai-for-earth">integrated the Microsoft MegaDetector</a> into their workflow.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
-
-## Microsoft AI for Earth Camera Trap API
-
-> <https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing>
-
-AI for Earth (full disclosure: that includes me) runs an [API](https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing) that performs large-scale batch inference on camera trap images.  The output of this API can be consumed directly in callers&rsquo; workflows, or it can be used in [Timelapse2](http://saul.cpsc.ucalgary.ca/timelapse/).
 
 ## Project Zamba
 
@@ -104,7 +108,7 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 > <https://github.com/saulgreenberg/Timelapse>
 
-Thick-client, .net-based tool. In active development as of November 2019. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps/tree/master/api/batch_processing/">camera trap API</a> to allow selective review of human/animal/empty/vehicle images.
+Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
@@ -146,7 +150,7 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
-## WII CaTRAT
+## Wildlife Institute of India CaTRAT
 
 > [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
 
