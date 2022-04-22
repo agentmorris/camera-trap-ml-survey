@@ -28,12 +28,6 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Wildlife Observer Network ImageID](#wildlife-observer-network-image-id)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Panthera IDS (Integrated Data System)](#panthera-ids-integrated-data-system)  
 &nbsp;&nbsp;&nbsp;&nbsp;[MooseDar](#moosedar)  
-[Public case studies using ML for camera traps (other than those captured under &ldquo;systems&rdquo;)](#public-case-studies-using-ml-for-camera-traps-other-than-those-captured-under-systems)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Zooniverse](#zooniverse)  
-&nbsp;&nbsp;&nbsp;&nbsp;[ZSL + AutoML](#zsl--automl)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Snow Leopard Trust + Microsoft](#snow-leopard-trust--microsoft)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Conservation Metrics + Microsoft](#conservation-metrics--microsoft)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Peace Parks + Microsoft](#peace-parks--microsoft)  
 [GitHub repos about ML for camera traps](#github-repos-about-ml-for-camera-traps)  
 [Smart camera traps](#smart-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[TrailGuard](#trailguard)  
@@ -240,54 +234,6 @@ Image management and analysis software used internally at Panthera; includes mac
 > <https://www.moosedar.com/>
 
 Thermal-camera-based system that uses CNNs to detect moose, for accident prevention.
-
-# Public case studies using ML for camera traps (other than those captured under "systems")
-
-## Zooniverse
-
-A 2018 paper (Willi et al, Methods in Ecology and Evolution) described a preliminary approach to combining human- and machine-generated labels. Not fully deployed for general use on Zooniverse yet, but definitely a direction they&rsquo;re going.
-
-See <a href="#willi2018">Willi et al.</a> below.
-
-## ZSL + AutoML
-
-> <https://www.zsl.org/conservation/conservation-initiatives/conservation-technology/machine-learning>
-
-> <https://ai.google/stories/cloud-automl/>
-
-ZSL has crowdsources some camera trap labeling via their [InstantWild](https://instantwild.zsl.org/) app, now exploring the use of ML. ZSL is working with the [AutoML](https://cloud.google.com/automl/) team at Google to build both models and model-training tools.  
-  
-Datatonic was involved as a contractor:
-
-> <https://datatonic.com/insights/zsl-identifying-species-in-camera-trap-images-with-cloud-automl-vision/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image4.jpg" width="500">
-
-## Snow Leopard Trust + Microsoft
-
-> <https://blogs.technet.microsoft.com/machinelearning/2017/06/27/saving-snow-leopards-with-deep-learning-and-computer-vision-on-spark/>
-
-> <https://news.microsoft.com/transform/snow-leopard-selfies-ai-save-species/>
-
-Used ResNet on CNTK on MMLSpark to find snow leopards, showed results in a PowerBI dashboard.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image5.png" width="500">
-
-## Conservation Metrics + Microsoft
-
-> <https://www.microsoft.com/developerblog/2018/11/06/active-learning-for-object-detection/>
-
-This isn&rsquo;t specifically about camera traps, but it&rsquo;s about a general collaboration w/CM that applies to both aerial images and camera traps. The case study used in the blog post is about aerial images (for bird detection).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image6.png" width="500">
-
-## Peace Parks + Microsoft
-
-> <https://www.microsoft.com/developerblog/2019/05/07/preventing-rhino-poaching-though-microsoft-azure/>
-
-Focused primarily on scalable operationalization of machine learning services for real-time response to poaching threats.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ppf.png" width="500">
 
 # GitHub repos about ML for camera traps
 
@@ -678,7 +624,7 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
 
-Curry R, Trotter C, McGough AS. Application of deep learning to camera trap data for ecologists in planning/engineering--Can captivity imagery train a model which generalises to the wild?. arXiv preprint arXiv:2111.12805. 2021 Nov 24.
+Curry R, Trotter C, McGough AS. Application of deep learning to camera trap data for ecologists in planning/engineering–Can captivity imagery train a model which generalises to the wild?. In2021 IEEE International Conference on Big Data (Big Data) 2021 Dec 15 (pp. 4011-4020). IEEE.
 
 Auer D, Bodesheim P, Fiderer C, Heurich M, Denzler J. Minimizing the Annotation Effort for Detecting Wildlife in Camera Trap Images with Active Learning.
 
