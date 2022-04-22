@@ -62,7 +62,6 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA](#lila)  
 &nbsp;&nbsp;&nbsp;&nbsp;[LILA&rsquo;s list of other data sets](#lilas-list-of-other-data-sets)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Somewhat-less-public data sources](#somewhat-less-public-data-sources)  
 [Further reading](#further-reading)  
 
 # Camera trap tools/platforms using ML, *maybe* using ML, or *thinking about* ML
@@ -746,7 +745,7 @@ Gomez A, Diez G, Salazar A, Diaz A. (2016, December). Animal identification in l
 
 > <http://lila.science>
 
-lila.science is the only substantial repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 10M images spread over a few data sets, but we&rsquo;re just getting started!
+lila.science is the only large repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 20M images spread over ~30 data sets, a bit more than half of which are camera trap data.  (Full disclosure: I maintain LILA, so my claim that it's the only repository of its kind of plausibly quite biased.)
 
 ## LILA&rsquo;s list of other data sets
 
@@ -755,17 +754,6 @@ We also include a list of other publicly-available data sets that we know about:
 > <http://lila.science/otherdatasets>
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image24.png" width="500">
-
-## Somewhat-less-public data sources
-
-This is a very abbreviated list of organizations that internally have very large repositories of camera trap data, available at varying degrees of request complexity. If I were in the business of pestering people for camera trap data (and I am\!), these are the places I would invest most of my pestering time:
-
-> <https://emammal.si.edu/>
-
-> <https://zooniverse.org>
-
-> <http://www.teamnetwork.org/>  
-> Appears to be deprecated as of 3/2019 in preparation for migration to Wildlife Insights.
 
 # Further reading
 
