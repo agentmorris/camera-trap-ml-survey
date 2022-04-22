@@ -155,7 +155,7 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 ## TrapTagger
 
-<a href="https://wildeyeconservation.org/traptagger/">TrapTagger</a> is an online platform for camera trap data management that includes automated species classification, and a detector component.  Currently recognized South African species (based on the Web page as of April 2022).
+<a href="https://wildeyeconservation.org/traptagger/">TrapTagger</a> is an online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific), species classification (for South African species), and an integration with HotSpotter for individual identification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
