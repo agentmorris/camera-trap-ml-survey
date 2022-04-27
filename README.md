@@ -12,8 +12,6 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
 [Camera trap ML papers](#camera-trap-ml-papers)  
-&nbsp;&nbsp;&nbsp;&nbsp;[With summaries](#with-summaries)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Waiting for summaries](#waiting-for-summaries)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 [Further reading](#further-reading)  
 
@@ -351,11 +349,20 @@ Series of command-line tools for image organization and annotation used by the S
 
 # Camera trap ML papers
 
-## With summaries
-
 **Zualkernan I, Dhou S, Judas J, Sajun AR, Gomez BR, Hussain LA. An IoT System Using Deep Learning to Classify Camera Trap Images on the Edge. Computers. 2022 Jan;11(1):13.**
 
 Assessed the feasibility of model optimization of image classifiers (on 66k images from UAE) for edge deployment; found that the best-performing architecture (Xception) achieved an F1 of .87 prior to optimization for edge deployment, but optimization reduced the average F1 to 0.7, and had an even more extreme effect on rare classes (F1 0.18).  80/20 train/test split appears to have been based on images, not sequences or locations.
+
+
+<br/>**Pantazis O, Brostow GJ, Jones KE, Mac Aodha O. Focus on the positives: Self-supervised learning for biodiversity monitoring. InProceedings of the IEEE/CVF International Conference on Computer Vision 2021 (pp. 10583-10592).**
+
+Explore self-supervised representation learning for camera trap data when labels aren't available, but time and location are (which describes basically every unlabeled camera trap dataset).
+
+For unsupervised learning, they compare sequence-based selection (learning representations that make images from the same sequence map to similar features), context-based selection (learning representations that capture similarity based on arbitrary metadata, in practice time and location), a baseline method that assumes no metadata, and an oracle that assumes labels.
+
+Evaluate on Caltech Camera Traps, Island Conservation Camera Traps, Snapshot Serengeti, and Masai Mara Camera Traps (classifiers are trained and tested within each dataset).  For all datasets other than Snapshot Serengeti, locations are shared across train and test.  Use a ResNet-18 backbone for all experiments, which they train via self-supervised training, then they train a linear classifier with class labels (so class labels are never used for deep training).  Find substantial benefit to self-supervised pre-training (compared to ImageNet-initialized weights), generally finding that the context-based selection works best among the self-supervised methods, with a boost of around 5% top-1 accuracy relative to no pretraining.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/pantazis-2021.jpg" width="500">
 
 
 <br/>**Norouzzadeh MS, Morris D, Beery S, Joshi N, Jojic N, Clune J. A deep active learning system for species identification and counting in camera trap images. Methods in Ecology and Evolution. 2021 Jan;12(1):150-61.**
@@ -435,6 +442,15 @@ Used MegaDetector for cropping, then compared a variety of architectures and ens
 Conclude that this approach (using captive wildcat images to train a model that will be deployed on wild images) is promising, but not yet ready for prime time.
 
 
+<br/>**Vargas-Felipe M, Pellegrin L, Guevara-Carrizales AA, López-Monroy AP, Escalante HJ, Gonzalez-Fraga JA. Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features. Ecological Informatics. 2021 May 29:101328.**
+
+Specifically interested in finding desert bighorn sheep (DBS), so they compare classifiers trained as (a) DBS vs. no animal (binary), (b) DBS vs. other animal (binary), and (c) DBS vs. everything else (binary), as well as a multiclass classifier (six animal classes + empty).
+
+Compare several CNN architectures for feature generation (chose ResNet50), then compared several classical ML approaches (via Weka) for classification (i.e., they aren't using a typical fully-connected last layer with softmax for classification).  Train on ~18k images from 5 cameras in Mexico, plus supplementary data from public sources (LILA+iNat).  Splitting appears to be by image, not by location or sequence. 
+
+Find the best results from the SVM, with around 99% accuracy for the binary problems (with or without public data, though results were improved with public data), and  around 90% for the multiclass problem.
+
+ 
 <br/>**Ahumada JA, Fegraus E, Birch T, Flores N, Kays R, O’Brien TG, Palmer J, Schuttler S, Zhao JY, Jetz W, Kinnaird M. Wildlife insights: A platform to maximize the potential of camera trap and other passive sensor wildlife data for the planet. Environmental Conservation. 2020 Mar;47(1):1-6.**
 
 Not a methods paper, rather a high-level description of the WI platform, so a bit of an outlier on this list.
@@ -591,7 +607,7 @@ They tested on smaller data sets from Canada (5900 images) and Tanzania (Snapsho
 
 28 species, operated on images @ 256x256. 10% test set held out from the \~3M images. Trained in TF, based on ResNet-18. Collapsed species with \<2000 images into taxonomic groups, built a separate group-level model. They had lots of pigs, so they trained a separate pig/non-pig model. So that&rsquo;s three models total. I believe &ldquo;empty&rdquo; was a class in both the species- and group-level models, i.e. they did not train a separate detector.
 
-Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.
+Cross-validation was by sequence, not by location.
 
 Data available on LILA as [North American Camera Trap Images](http://lila.science/datasets/nacti).
 
@@ -637,7 +653,7 @@ Incorporated into a live experiment on Zooniverse; if annotators agreed with mod
 
 &ldquo;To process all experiment-eligible capture events, 49% fewer annotations by citizen scientists were required. Accounting for the non-eligible subjects for which the model supplied no opinion and thus were processed by the standard logic, 43% fewer annotations were needed to retire all images.&rdquo;
 
-Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.
+Cross-validation was by sequence, not by location.
 
 Code and models available [here](https://conservancy.umn.edu/handle/11299/199818).
 
@@ -652,7 +668,7 @@ They use VGG for detection (97% on a 50/50 rebalanced data set), an ensemble for
 
 Code and models available [here](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images).
 
-Cross-validation was by sequence, not by location. I.e., the same locations appeared in training and test.  Results should be interpreted in the context of a network of stationary cameras (like Snapshot Serengeti).
+Cross-validation was by sequence, not by location.  Results should be interpreted in the context of a network of stationary cameras (like Snapshot Serengeti).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/pnas.1719367115fig01.jpg" width="500">
 
@@ -709,15 +725,7 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/yu.jpg" width="500">
 
 
-## Waiting for summaries
-
 <!-- None right now, you should <a href="mailto:dmorris@cs.stanford.edu">email me</a> to tell me what I&rsquo;m missing! -->
-
-
-**Vargas-Felipe M, Pellegrin L, Guevara-Carrizales AA, López-Monroy AP, Escalante HJ, Gonzalez-Fraga JA. Desert bighorn sheep (Ovis canadensis) recognition from camera traps based on learned features. Ecological Informatics. 2021 May 29:101328.**
-
-[No access to this one, and I don't think I can capture the gist based on the abstract.]
-
 
 <!-- These are papers I made an intentional decision to exclude, typically because they are basically pre-publication versions of another paper that is included. -->
 
