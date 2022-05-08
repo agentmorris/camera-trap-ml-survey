@@ -264,7 +264,6 @@ Not repeating items that were already included in the "AI-enabled" list above.  
 
 * Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: A review. Ecology and Evolution*, 8(19), 9947-9957.
 
-
 ## Camera Base (San Diego Zoo)
 
 > <http://www.atrium-biodiversity.org/tools/camerabase/>
@@ -316,6 +315,14 @@ As of version 2, this is browser-based (but runs locally) (v1 was a thick-client
 &ldquo;.NET desktop application for managing pictures taken by automatic camera traps&rdquo;
 
 Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn&rsquo;t start a project without providing a shapefile. UI is in a mix of English and Spanish.
+
+## SPARC'd
+
+> <https://github.com/CulverLab/sparcd>
+
+Thick-client Java-based tool.  Open-source.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sparcd.png" width="500">
 
 ## Vixen
 
