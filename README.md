@@ -95,6 +95,14 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
+## FASTCAT-Cloud
+
+> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
+
+Not quite available yet as of June 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.  Details TBD, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> if you know more!
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
+
 ## Wildlife Observer Network Image ID
 
 > <https://wildlifeobserver.net/imageid/>
@@ -456,11 +464,11 @@ Conclude that this approach (using captive wildcat images to train a model that 
 
 Specifically interested in finding desert bighorn sheep (DBS), so they compare classifiers trained as (a) DBS vs. no animal (binary), (b) DBS vs. other animal (binary), and (c) DBS vs. everything else (binary), as well as a multiclass classifier (six animal classes + empty).
 
-Compare several CNN architectures for feature generation (chose ResNet50), then compared several classical ML approaches (via Weka) for classification (i.e., they aren't using a typical fully-connected last layer with softmax for classification).  Train on ~18k images from 5 cameras in Mexico, plus supplementary data from public sources (LILA+iNat).  Splitting appears to be by image, not by location or sequence. 
+Compare several CNN architectures for feature generation (chose ResNet50), then compared several classical ML approaches (via Weka) for classification (i.e., they aren't using a typical fully-connected last layer with softmax for classification).  Train on ~18k images from 5 cameras in Mexico, plus supplementary data from public sources (LILA+iNat).  Splitting appears to be by image, not by location or sequence.
 
 Find the best results from the SVM, with around 99% accuracy for the binary problems (with or without public data, though results were improved with public data), and  around 90% for the multiclass problem.
 
- 
+
 <br/>**Ahumada JA, Fegraus E, Birch T, Flores N, Kays R, O’Brien TG, Palmer J, Schuttler S, Zhao JY, Jetz W, Kinnaird M. Wildlife insights: A platform to maximize the potential of camera trap and other passive sensor wildlife data for the planet. Environmental Conservation. 2020 Mar;47(1):1-6.**
 
 Not a methods paper, rather a high-level description of the WI platform, so a bit of an outlier on this list.
