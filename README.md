@@ -103,6 +103,13 @@ Not quite available yet as of June 2022, but described as an online platform tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
 
+## CAIMAN
+
+> <https://sensingclues.org/caiman>
+
+Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 6/22.
+
+
 ## Wildlife Observer Network Image ID
 
 > <https://wildlifeobserver.net/imageid/>
