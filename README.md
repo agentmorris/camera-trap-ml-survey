@@ -839,13 +839,21 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 > <http://lila.science>
 
-LILA BC (Labeled Information Library of Alexandria: Biology and Conservation) is the only large repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 20M images spread over ~30 data sets, a bit more than half of which are camera trap data.  (Full disclosure: I maintain LILA, so my claim that it's the only repository of its kind of plausibly quite biased.) 
+LILA BC (Labeled Information Library of Alexandria: Biology and Conservation) is the only large repository of openly available camera trap images that I&rsquo;m aware of. It currently contains over 20M images spread over ~30 data sets, a bit more than half of which are <a href="https://lila.science/category/camera-traps/">camera trap data</a>.  (Full disclosure: I maintain LILA, so my claim that it's the only repository of its kind of plausibly quite biased.) 
 
 ## Wildlife Insights
 
 > <https://wildlifeinsights.org>
 
 Noting Wildlife Insights here too in anticipation of future data release; as embargo periods expire, Wildlife Insights will easily eclipse LILA wrt total number of public available labeled images.
+
+## Camera-trap-related competitions (with trainining data)
+
+* [Conser-vision Practice Area](https://www.drivendata.org/competitions/87/competition-image-classification-wildlife-conservation/) (camera trap image classification)
+* [Deep Chimpact](https://www.drivendata.org/competitions/82/competition-wildlife-video-depth-estimation/) (depth estimation for wildlife conservation)
+* [Hakuna Ma-data](https://www.drivendata.org/competitions/59/camera-trap-serengeti/) (camera trap image classification)
+* [Pri-matrix Factorization](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/) (individual chimp recognition)
+* [iWildCam](https://github.com/visipedia/iwildcam_comp) (camera trap image classification)
 
 
 # Further reading
