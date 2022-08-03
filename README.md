@@ -14,6 +14,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Camera trap ML papers](#camera-trap-ml-papers)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 [Further reading](#further-reading)  
+[Places to chat about this stuff](#places-to-chat-about-this-stuff)  
 
 # Camera trap tools/platforms using ML, *maybe* using ML, or *thinking about* ML
 
@@ -984,3 +985,9 @@ Noting Wildlife Insights here too in anticipation of future data release; as emb
 
 * [Awesome Deep Ecology](https://github.com/patrickcgray/awesome-deep-ecology) (review of deep learning applications in ecology)
 * [Computer Vision and Aerial Imagery for Wildlife Conservation](https://bkellenb.github.io/cv-for-wildlife-aerial-imagery/) (page similar to this one, focused on aerial imagery)
+
+
+# Places to chat about this stuff
+
+* ["Camera Traps" group at WILDLABS](https://wildlabs.net/groups/camera-traps)
+* ["Camera Traps" channel in the "AI for Conservation" Slack workspace](https://aiforconservation.slack.com/archives/CM7GR4DB6)
