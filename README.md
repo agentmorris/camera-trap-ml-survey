@@ -32,6 +32,15 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
+## WildTrax
+
+> <https://www.wildtrax.ca/>
+
+An online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (specifically for cattle as of the time I'm writing this).  Also manages acoustic data, with some AI functionality for acoustic data as well.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png">
+
+
 ## WildID
 
 > <https://www.wildid.app/>
