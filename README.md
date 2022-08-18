@@ -7,11 +7,11 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 # Table of Contents
 
 [Camera trap systems using ML (or at least thinking about ML)](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
-&nbsp;&nbsp;[In active development](#tools-that-appear-to-be-in-active-development)  
-&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-less-active)  
+&nbsp;&nbsp;&nbsp;&nbsp;[In active development](#tools-that-appear-to-be-in-active-development)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-less-active)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
-&nbsp;&nbsp;[Active repos](#last-updated--2021)  
-&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Active repos](#last-updated--2021)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
 [Smart camera traps](#smart-camera-traps)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
@@ -244,31 +244,32 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 ## Last updated >= 2021
 
-* Microsoft AI for Earth MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
-* CamTrapML (Python library for camera trap ML) ([github.com/bencevans/camtrapml](https://github.com/bencevans/camtrapml))
-* CameraTrapDetectoR ([github.com/TabakM/CameraTrapDetectoR](https://github.com/TabakM/CameraTrapDetectoR))
 * Bounding Box Editor and Exporter (BBoxEE) for the Animal Detection Network ([github.com/persts/BBoxEE](https://github.com/persts/BBoxEE))
-* TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
-* TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
-* Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * Camelot ([gitlab.com/camelot-project/camelot](https://gitlab.com/camelot-project/camelot))
-* Species Classification in Trapper ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
-* Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
-* Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
-* Gimenez et al 2021 (integrating DL results into ecological statistics ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
+* CameraTrapDetectoR ([github.com/TabakM/CameraTrapDetectoR](https://github.com/TabakM/CameraTrapDetectoR))
+* CamTrapML (Python library for camera trap ML) ([github.com/bencevans/camtrapml](https://github.com/bencevans/camtrapml))
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
+* Microsoft AI for Earth MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
+* TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
+* Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
+* TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
+* Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
+
+* Gimenez et al 2021 (integrating DL results into ecological statistics ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
+* Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
+* Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
 
 ## Last updated < 2021
 
+* Autofocus species classifier ([github.com/uptake/autofocus](https://github.com/uptake/autofocus))
+* Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
+* Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
 * DrivenData classification competition winners ([github.com/drivendataorg/hakuna-madata/](https://github.com/drivendataorg/hakuna-madata/))
 * WildAnimalDetection (Jasper Ridge Biological Preserve) ([github.com/qiantianpei/WildAnimalDetection](https://github.com/qiantianpei/WildAnimalDetection))
 * Willi et al species classification ([github.com/marco-willi/camera-trap-classifier](https://github.com/marco-willi/camera-trap-classifier))
 * MLWIC: Machine Learning for Wildlife Image Classification in R ([github.com/mikeyEcology/MLWIC](https://github.com/mikeyEcology/MLWIC))
 * MLWIC2: Machine Learning for Wildlife Image Classification ([github.com/mikeyEcology/MLWIC2](https://github.com/mikeyEcology/MLWIC2))
-* Autofocus species classifier ([github.com/uptake/autofocus](https://github.com/uptake/autofocus))
 * Wildlife detection and classification with MD and RetinaNet ([github.com/oliviergimenez/DLcamtrap](https://github.com/oliviergimenez/DLcamtrap))
-* Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
-* Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
 
 # Smart camera traps
 
