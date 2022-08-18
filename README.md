@@ -254,7 +254,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
-* Gimenez et al 2021 (integrating DL results into ecological statistics ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
+* Gimenez et al 2021 (integrating DL results into ecological statistics) ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
 * Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
 * Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
 
@@ -306,7 +306,7 @@ InstantDetect 2.0 will be connected but will not have on-board AI; will move ima
 
 > <https://www.panthera.org/panthera-poachercam-closer-look>
 
-Web page says: &ldquo;Adapted from Panthera’s previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world&rsquo;s first camera to do so.&rdquo; This was from a 2015 blog post, unclear what the status is. I&rsquo;ve heard (anecdotally) that it wasn&rsquo;t exactly using machine learning, but was doing some amount of classical vision, i.e. change detection and moving-object geometry estimation.
+Web page says: &ldquo;Adapted from Panthera’s previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world&rsquo;s first camera to do so.&rdquo; This was from a 2015 blog post, unclear what the status is.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image10.png" width="500">
 
@@ -315,6 +315,8 @@ Web page says: &ldquo;Adapted from Panthera’s previous camera traps, the Poach
 Not repeating items that were already included in the "AI-enabled" list above.  E.g., lots of people use Timelapse without AI, but I'm not including it in both lists.
 
 ## Review articles about manual labeling
+
+Sneaking these in before I get to the list of actual labeling tools...
 
 * Wearn, O., & Glover-Kapfer, P. (2017). <a href="https://www.wwf.org.uk/conservationtechnology/camera-trap.html">Camera-trapping for Conservation: a Guide to Best-practices</a>. WWF-UK: Woking, UK. ([pdf](https://www.wwf.org.uk/conservationtechnology/documents/CameraTraps-WWF-guidelines.pdf))<br/><br/>Not just about labeling tools, but contains a fantastic list of labeling tools, so including it here.
 
