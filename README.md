@@ -6,25 +6,29 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 # Table of Contents
 
-[Camera trap systems using ML (or at least thinking about ML)](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
-&nbsp;&nbsp;&nbsp;&nbsp;[In active development](#tools-that-appear-to-be-in-active-development)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-less-active)  
+[Camera trap systems using ML (or at least thinking about ML)](#camera-trap-platforms-using-ml-or-at-least-thinking-about-ml)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Platforms in active development](#platforms-that-appear-to-be-in-active-development)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Platforms that appear to be less active](#platforms-that-appear-to-be-less-active)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Active repos](#last-updated--2021)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
 [Smart camera traps](#smart-camera-traps)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Review papers about labeling tools](#review-papers-about-labeling-tools)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Tools in active development](#tools-in-active-development)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Tools that appear to be less active](#tools-that-appear-to-be-less-active)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Non-camera-trap-specific labeling tools that people use for camera trap data](#non-camera-trap-specific-labeling-tools-that-people-use-for-camera-trap-data)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
 [Camera trap ML papers](#camera-trap-ml-papers)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 [Further reading](#further-reading)  
 [Places to chat about this stuff](#places-to-chat-about-this-stuff)  
 
-# Camera trap tools/platforms using ML (or at least thinking about ML)
+# Camera trap platforms using ML (or at least thinking about ML)
 
-I've broken this category out into "tools that look active" and "tools that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+I've broken this category out into "platforms that look like they're being actively developed" and "platforms that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
 
-## Tools that appear to be in active development
+## Platforms that appear to be in active development
 
 ### Wildlife Insights
 
@@ -192,7 +196,7 @@ App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
-## Tools that appear to be less active
+## Platforms that appear to be less active
 
 ### Where's the Bear?
 
@@ -222,7 +226,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 > <https://classifymeapp.com>
 
-Thick-client tool that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).  Downloadable by request.
+Thick-client tool that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Serengeti, Caltech Camera Traps, Snapshot Wisconsin).  Downloadable by request.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
@@ -307,15 +311,17 @@ InstantDetect 2.0 will be connected but will not have on-board AI; will move ima
 
 > <https://www.panthera.org/panthera-poachercam-closer-look>
 
-Web page says: &ldquo;Adapted from Panthera’s previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world&rsquo;s first camera to do so.&rdquo; This was from a 2015 blog post, unclear what the status is.
+Web page says: &ldquo;Adapted from Panthera's previous camera traps, the PoacherCam has a groundbreaking new feature: its motion-triggered detection system can now instantly distinguish between people and animals—the world&rsquo;s first camera to do so.&rdquo; This was from a 2015 blog post, unclear what the status is.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image10.png" width="500">
 
 # Manual labeling tools people use for camera traps
 
+I've broken this category out into "tools that look like they're being actively developed" and "tools that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+
 Not repeating items that were already included in the "AI-enabled" list above.  E.g., lots of people use Timelapse without AI, but I'm not including it in both lists.
 
-## Review articles about manual labeling
+## Review papers about labeling tools
 
 Sneaking these in before I get to the list of actual labeling tools.  These aren't necessarily <i>just</i> about labeling tools, but if they're in this section, they at least contain a good review of labeling tools.
 
@@ -323,15 +329,9 @@ Sneaking these in before I get to the list of actual labeling tools.  These aren
 
 * Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: A review. Ecology and Evolution*, 8(19), 9947-9957.
 
-## Camera Base (San Diego Zoo)
+## Tools in active development
 
-> <http://www.atrium-biodiversity.org/tools/camerabase/>
-
-Thick-client tool for Windows.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image11.jpg" width="500">
-
-## eMammal (Smithsonian)
+### eMammal (Smithsonian)
 
 > <https://emammal.si.edu/>
 
@@ -341,23 +341,43 @@ I&rsquo;ve worked with a lot of camera trap data, and I will say that because th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
 
-## Carnassial (Cascades Carnivore Project)
+### Carnassial (Cascades Carnivore Project)
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
 
-Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to &ldquo;differing project requirements&rdquo;. As of 11/2019, it&rsquo;s been over a year since the last commit, so development status unknown.
+Offshoot of TimeLapse2; both git pages acknowledge the divergence and refer to differing project requirements.
 
-## CPW Photo Warehouse (Colorado Parks and Wildlife)
+### SPARC'd
 
-Thick-client windows tool, appears to be .net-based, in active development as of 1/2019.
+> <https://github.com/CulverLab/sparcd>
 
-> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
+Thick-client Java-based tool. Open-source.
 
-> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sparcd.png" width="500">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
+### Reconyx MapView
 
-## Aardwolf2
+> <https://www.reconyx.com/software/mapview>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image20.jpeg" width="500">
+
+### CameraSweet
+
+> <https://smallcats.org/resources/#camerasweet>
+
+Series of command-line tools for image organization and annotation used by the Small Wild Cat Conservation Foundation.
+
+## Tools that appear to be less active
+
+### Vixen
+
+> <https://github.com/vixen-project/vixen>
+
+Open-source, multi-platform, thick-client (Python). As of 8/22, this appears to have been last updated in ~2019.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image18.jpeg" width="500">
+
+### Aardwolf2
 
 > <https://github.com/yathin/aardwolf2>
 
@@ -365,45 +385,37 @@ Thick-client windows tool, appears to be .net-based, in active development as of
 
 As of version 2, this is browser-based (but runs locally) (v1 was a thick-client app). Linux only.
 
+As of 8/22, last update appears to be ~2017.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image16.jpeg" width="500">
 
-## Camera Trap Manager
+### CPW Photo Warehouse (Colorado Parks and Wildlife)
+
+Thick-client windows tool, appears to be .net-based; as of 8/22, the last release was 1/19.
+
+> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
+
+> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
+
+### Camera Base (San Diego Zoo)
+
+> <http://www.atrium-biodiversity.org/tools/camerabase/>
+
+Thick-client tool for Windows.  As of 8/22, it looks like the last update (at least to the user guide) was in 2015.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image11.jpg" width="500">
+
+### Camera Trap Manager
 
 > <https://github.com/benizar/cameratrapmanager>
 
 &ldquo;.NET desktop application for managing pictures taken by automatic camera traps&rdquo;
 
-Looks slick and built easily, but appears to be linked deeply to GIS, which is good, except that I couldn&rsquo;t start a project without providing a shapefile. UI is in a mix of English and Spanish.
+As of 8/22, the last update appears to have been ~2016.
 
-## SPARC'd
-
-> <https://github.com/CulverLab/sparcd>
-
-Thick-client Java-based tool.  Open-source.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sparcd.png" width="500">
-
-## Vixen
-
-> <https://github.com/vixen-project/vixen>
-
-Open-source, multi-platform, thick-client (Python). As of my last check (4/2019), this was last updated early 2018.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image18.jpeg" width="500">
-
-## Reconyx MapView
-
-> <https://www.reconyx.com/software/mapview>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image20.jpeg" width="500">
-
-## CameraSweet
-
-> <https://smallcats.org/resources/#camerasweet>
-
-Series of command-line tools for image organization and annotation used by the Small Wild Cat Conservation Foundation.
-
-## Non-camera-trap-specific labeling tools at least one person has mentioned using
+## Non-camera-trap-specific labeling tools that people use for camera trap data
 
 * [Adobe Lightroom](www.adobe.com/Lightroom](http://www.adobe.com/Lightroom))
 * [Exif Pro](http://www.exifpro.com)
@@ -429,7 +441,7 @@ Explore self-supervised representation learning for camera trap data when labels
 
 For unsupervised learning, they compare sequence-based selection (learning representations that make images from the same sequence map to similar features), context-based selection (learning representations that capture similarity based on arbitrary metadata, in practice time and location), a baseline method that assumes no metadata, and an oracle that assumes labels.
 
-Evaluate on Caltech Camera Traps, Island Conservation Camera Traps, Snapshot Serengeti, and Masai Mara Camera Traps (classifiers are trained and tested within each dataset).  For all datasets other than Snapshot Serengeti, locations are shared across train and test.  Use a ResNet-18 backbone for all experiments, which they train via self-supervised training, then they train a linear classifier with class labels (so class labels are never used for deep training).  Find substantial benefit to self-supervised pre-training (compared to ImageNet-initialized weights), generally finding that the context-based selection works best among the self-supervised methods, with a boost of around 5% top-1 accuracy relative to no pretraining.
+Evaluate on Caltech Camera Traps, Island Conservation Camera Traps, Snapshot Serengeti, and Masai Mara Camera Traps (classifiers are trained and tested within each dataset).  For all datasets other than Snapshot Serengeti, locations are shared across train and test.  Use a ResNet-18 backbone for all experiments, which they train via self-supervised training, then they train a linear classifier with class labels (so class labels are never used for deep training).  Find substantial benefit to self-supervised pre-training (compared to ImageNet-initialized weights), generally finding that the context-based selection works best among the self-supervised methods, with a boost of around 5% top-1 accuracy relative to no pre-training.
 
 Code is available on [GitHub](https://github.com/omipan/camera_traps_self_supervised/).
 
@@ -479,7 +491,7 @@ Compare methods for blank elimination using a data set of 270k images (90k seque
 
 <br/>**Miao Z, Liu Z, Gaynor KM, Palmer MS, Yu SX, Getz WM. Iterative human and automated identification of wildlife images. Nature Machine Intelligence. 2021 Oct;3(10):885-95.**
 
-Propose an active learning approach for species classification, evaluated on a dataset of 630k images from Mozambique.  Train/val split is by sequence, not by location.  Most of the paper is about active learning sampling strategies and confidence thresholding approaches.   Report 88% "automatic" accuracy, which they roughly define as automating high-confidence predictions (78% of their test data); they suggest this is "already sufficient to help alleviate the data bottleneck encountered in typical camera trap monitoring projects".  I'm not sure I agree with that claim, but the concept and methodology are clear, and the paper lays out a good variety of methods one might use for sampling and threhsolding.
+Propose an active learning approach for species classification, evaluated on a dataset of 630k images from Mozambique.  Train/val split is by sequence, not by location.  Most of the paper is about active learning sampling strategies and confidence thresholding approaches.   Report 88% "automatic" accuracy, which they roughly define as automating high-confidence predictions (78% of their test data); they suggest this is "already sufficient to help alleviate the data bottleneck encountered in typical camera trap monitoring projects".  I'm not sure I agree with that claim, but the concept and methodology are clear, and the paper lays out a good variety of methods one might use for sampling and thresholding.
 
 
 <br/>**Whytock RC, Świeżewski J, Zwerts JA, Bara‐Słupski T, Koumba Pambo AF, Rogala M, Bahaa‐el‐din L, Boekee K, Brittain S, Cardoso AW, Henschel P. Robust ecological analysis of camera trap data labelled by a machine learning model. Methods in Ecology and Evolution. 2021 Jun;12(6):1080-92.**
@@ -596,7 +608,7 @@ Find that their method (Context R-CNN) significantly outperforms the single-fram
 
 <br/>**Beery S, Liu Y, Morris D, Piavis J, Kapoor A, Joshi N, Meister M, Perona P. Synthetic examples improve generalization for rare classes. IEEE Winter Conference on Applications of Computer Vision 2020 (pp. 863-873).**
 
-Propose the use of synthetic data (rendered from 3D animal models) to bolster training data for rare classes.  Evaluate on Caltech Camera Traps (splitting by location), and use Unity and AirSim as synthetic environments.  Also compare to generating synthetic images by putting synthetic (rendered) animals on real (empty) camera trap backgrounds.  See a significant increase in accuracy on the rare classes with even 120 simulated images, with a minimal decrease in accuracy on other classes.  Do not see the same benefit (in fact see a negative impact) from just oversampling the rare classes in training.  See substantial benefit to signifiacnt variation in pose/lighting/model when generating the simulated images.
+Propose the use of synthetic data (rendered from 3D animal models) to bolster training data for rare classes.  Evaluate on Caltech Camera Traps (splitting by location), and use Unity and AirSim as synthetic environments.  Also compare to generating synthetic images by putting synthetic (rendered) animals on real (empty) camera trap backgrounds.  See a significant increase in accuracy on the rare classes with even 120 simulated images, with a minimal decrease in accuracy on other classes.  Do not see the same benefit (in fact see a negative impact) from just oversampling the rare classes in training.  See substantial benefit to significant variation in pose/lighting/model when generating the simulated images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/beery-simulation-2020.png" width="500">
 
@@ -631,7 +643,7 @@ Present a non-ML technique that uses edge detection and frame-to-frame differenc
 
 <br/>**Falzon G, Lawson C, Cheung KW, Vernes K, Ballard GA, Fleming PJ, Glen AS, Milne H, Mather-Zardain A, Meek PD. ClassifyMe: a field-scouting software for the identification of wildlife in camera trap images. Animals. 2020 Jan;10(1):58.**
 
-Present a thick-client tool (&ldquo;ClassifyMe&rdquo;) that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Sergenti, Caltech Camera Traps, Snapshot Wisconsin).
+Present a thick-client tool (&ldquo;ClassifyMe&rdquo;) that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Serengeti, Caltech Camera Traps, Snapshot Wisconsin).
 
 Downloadable by request [here](https://classifymeapp.com).
 
@@ -714,7 +726,7 @@ Data a subset of [Caltech Camera Traps](http://lila.science/datasets/caltech-cam
 
 Datasets: Snapshot Serengeti (7M), Camera CATalogue (0.5M), Elephant Expedition (0.5M), Snapshot Wisconsin (0.5M)
 
-Models were all Resnet 18 trained in TF.
+Models were all ResNet-18 trained in TF.
 
 Whole-image classification for empty separation, species classification.
 
@@ -980,9 +992,6 @@ But the paper isn't about species classification; that was all just to get netwo
 * Gomez A, Diez G, Salazar A, Diaz A. (2016, December). Animal identification in low quality camera-trap images using very deep convolutional neural networks and confidence thresholds. In International Symposium on Visual Computing (pp. 747-756). Springer, Cham.
 
 
-
-
-
 # Data sources for camera trap ML
 
 ## LILA
@@ -995,7 +1004,7 @@ LILA BC (Labeled Information Library of Alexandria: Biology and Conservation) is
 
 > <https://wildlifeinsights.org>
 
-Noting Wildlife Insights here too in anticipation of future data release; as embargo periods expire, Wildlife Insights will easily eclipse LILA wrt total number of public available labeled images.
+Noting Wildlife Insights here too in anticipation of future data release; as embargo periods expire, Wildlife Insights will easily eclipse LILA wrt total number of publicly available labeled images.
 
 ## Camera-trap-related competitions (with trainining data)
 
