@@ -419,7 +419,7 @@ As of 8/22, the last update appears to have been ~2016.
 
 * [Adobe Lightroom](www.adobe.com/Lightroom](http://www.adobe.com/Lightroom))
 * [Exif Pro](http://www.exifpro.com)
-* [Digikam](https://www.digikam.org) ([code](https://github.com/KDE/digikam))
+* [digikam](https://www.digikam.org) ([code](https://github.com/KDE/digikam))
 
 # Post-hoc analysis tools people use for labeled camera trap images
 
