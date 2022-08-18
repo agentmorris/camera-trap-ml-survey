@@ -18,7 +18,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 &nbsp;&nbsp;&nbsp;&nbsp;[Tools in active development](#tools-in-active-development)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Tools that appear to be less active](#tools-that-appear-to-be-less-active)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Non-camera-trap-specific labeling tools that people use for camera trap data](#non-camera-trap-specific-labeling-tools-that-people-use-for-camera-trap-data)  
-[Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
+[Post-hoc analysis tools people use for camera trap data](#post-hoc-analysis-tools-people-use-for-camera-trap-data)  
 [Camera trap ML papers](#camera-trap-ml-papers)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 [Further reading](#further-reading)  
@@ -421,7 +421,7 @@ As of 8/22, the last update appears to have been ~2016.
 * [Exif Pro](http://www.exifpro.com)
 * [digikam](https://www.digikam.org) ([code](https://github.com/KDE/digikam))
 
-# Post-hoc analysis tools people use for labeled camera trap images
+# Post-hoc analysis tools people use for camera trap data
 
 * [camtrapR](https://cran.r-project.org/web/packages/camtrapR/index.html)
 * [Presence](https://www.mbr-pwrc.usgs.gov/software/doc/presence/presence.html)
