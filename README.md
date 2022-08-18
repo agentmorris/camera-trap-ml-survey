@@ -126,14 +126,6 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
-### FASTCAT-Cloud
-
-> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
-
-Not quite available yet as of June 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.  Details TBD, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> if you know more!
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
-
 ### Conservation AI
 
 > <https://conservationai.co.uk/>
@@ -141,12 +133,6 @@ Not quite available yet as of June 2022, but described as an online platform tha
 Family of region-specific object detection models for camera traps and drones, backed by real-time and batch processing services, with a browser-based <a href="https://conservationai.co.uk/trymodel">demo</a>.  Also supports acoustic classification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
-
-### CAIMAN
-
-> <https://sensingclues.org/caiman>
-
-Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 8/22.
 
 ### Wildlife Observer Network Image ID
 
@@ -156,21 +142,15 @@ Web-based system that takes a zipfile of camera trap images and produces an esti
 
 ### Agouti
 
-> <https://agouti.eu/>
+> <https://agouti.eu/> 
 
-Web-based (requires upload), hosting is free for small student projects and gets more expensive as the user gets closer to commercial.  Considering ML integration.
+Web-based tool for camera trap data management, annotation, and spatial analysis.
 
 Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
 
+A 2022 platform/roadmap update is available ([here](https://www.efsa.europa.eu/en/supporting/pub/en-7327)).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
-
-### Wildlife Institute of India CaTRAT
-
-> [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
-
-CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India and the National Tiger Conservation Authority to accelerate the processing of camera trap images, with a focus on detecting tigers.  Not a lot of information is publicly available, but the report linked above suggests that CNNs are involved and that the workflow integrates [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
 
 ### EventFinder
 
@@ -180,11 +160,13 @@ Java-based tool to separate empty from non-empty images using background subtrac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
-### AnDeNet (Animal Detection Network)
+### Bounding Box Editor and Exporter (BBoxEE) (formerly "Animal Detection Network")
+
+> <https://github.com/persts/BBoxEE>
 
 > <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network>
 
-Open-source project ([code](https://github.com/persts/andenet-desktop)) from the American Museum of Natural History, does semi-automated labeling. Thick-client Python tool, uses TensorFlow.
+Open-source project ([code](https://github.com/persts/andenet-desktop)), does semi-automated labeling. Thick-client Python tool, uses TensorFlow.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
@@ -196,6 +178,20 @@ App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
+### CAIMAN
+
+> <https://sensingclues.org/caiman>
+
+Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 8/22.
+
+### FASTCAT-Cloud
+
+> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
+
+Not quite available yet as of August 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
+
 ## Platforms that appear to be less active
 
 ### Where's the Bear?
@@ -205,6 +201,16 @@ App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing
 IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
 
 &ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
+
+### Wildlife Institute of India CaTRAT
+
+> <https://wii.gov.in/tiger_monitoring_software>
+
+> [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
+
+CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India and the National Tiger Conservation Authority to accelerate the processing of camera trap images, with a focus on detecting tigers.  Not a lot of information is publicly available, but the report linked above suggests that CNNs are involved and that the workflow integrates [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
 
 ### Trailcam Data
 
