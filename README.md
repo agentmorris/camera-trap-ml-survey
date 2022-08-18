@@ -8,7 +8,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 [Camera trap systems using ML (or at least thinking about ML)](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
 &nbsp;&nbsp;[In active development](#tools-that-appear-to-be-in-active-development)  
-&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-discontinued)  
+&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-less-active)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
 &nbsp;&nbsp;[Active repos](#last-updated--2021)  
 &nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
@@ -22,7 +22,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 # Camera trap tools/platforms using ML (or at least thinking about ML)
 
-I've broken this category out into "tools that look active" and "tools that have maybe been discontinued".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+I've broken this category out into "tools that look active" and "tools that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
 
 ## Tools that appear to be in active development
 
@@ -192,7 +192,7 @@ App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
-## Tools that appear to be discontinued
+## Tools that appear to be less active
 
 ### Where's the Bear?
 
