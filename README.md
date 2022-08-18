@@ -1,12 +1,13 @@
 # Overview
 
-This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what&rsquo;s out there... <a href="mailto:agentmorris@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
+This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what&rsquo;s out there... <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
 Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](https://lila.science).
 
 # Table of Contents
 
-[Camera trap systems using ML, *maybe* using ML, or *thinking about* ML](#camera-trap-systems-using-ml-maybe-using-ml-or-thinking-about-ml)  
+[Camera trap systems using ML (or at least thinking about ML](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
+[AI-accelerated camera trap tools that appear to be discontinued](#ai-accelerated-camera-trap-tools-that-appear-to-be-discontinued)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
 [Smart camera traps](#smart-camera-traps)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
@@ -16,7 +17,7 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 [Further reading](#further-reading)  
 [Places to chat about this stuff](#places-to-chat-about-this-stuff)  
 
-# Camera trap tools/platforms using ML, *maybe* using ML, or *thinking about* ML
+# Camera trap tools/platforms using ML (or at least thinking about ML)
 
 ## Wildlife Insights
 
@@ -40,6 +41,31 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
 
+## Camelot
+
+> <https://gitlab.com/camelot-project/camelot>
+
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with the Microsoft AI for Earth MegaDetector to allow selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+
+## Trapper
+
+> <https://gitlab.com/oscf/trapper-project>
+
+Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
+
+Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of the AI for Earth <a href="https://github.com/microsoft/CameraTraps/blob/master/megadetector.md">MegaDetector</a>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
+
+## Animl
+
+> <https://github.com/tnc-ca-geo/animl-frontend>
+
+OSS platform developed by TNC for managing data from biosecurity cameras, with real-time detection and classifications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
 
 ## WildID
 
@@ -50,14 +76,6 @@ Web-based platform for processing camera trap images, targeted for Southern Afri
 Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
-
-## Microsoft AI for Earth MegaDetector
-
-This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
-
-<a href="https://github.com/microsoft/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
 
 ## wpsWatch
 
@@ -79,6 +97,14 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
+## Microsoft AI for Earth MegaDetector
+
+This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
+
+<a href="https://github.com/microsoft/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
+
 ## Timelapse2
 
 > <http://saul.cpsc.ucalgary.ca/timelapse/>
@@ -89,13 +115,13 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
-## Camelot
+## FASTCAT-Cloud
 
-> <https://gitlab.com/camelot-project/camelot>
+> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
 
-Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with the Microsoft AI for Earth MegaDetector to allow selective review of human/animal/empty/vehicle images.
+Not quite available yet as of June 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.  Details TBD, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> if you know more!
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
 
 ## Conservation AI
 
@@ -105,30 +131,11 @@ Family of region-specific object detection models for camera traps and drones, b
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
 
-## Trapper
-
-> <https://gitlab.com/oscf/trapper-project>
-
-Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
-
-Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of the AI for Earth <a href="https://github.com/microsoft/CameraTraps/blob/master/megadetector.md">MegaDetector</a>.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
-
-## FASTCAT-Cloud
-
-> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
-
-Not quite available yet as of June 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.  Details TBD, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> if you know more!
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
-
 ## CAIMAN
 
 > <https://sensingclues.org/caiman>
 
-Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 6/22.
-
+Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 8/22.
 
 ## Wildlife Observer Network Image ID
 
@@ -162,14 +169,6 @@ Java-based tool to separate empty from non-empty images using background subtrac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
-## Where's the Bear?
-
-> <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
-
-IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
-
-&ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
-
 ## AnDeNet (Animal Detection Network)
 
 > <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network>
@@ -178,14 +177,6 @@ Open-source project ([code](https://github.com/persts/andenet-desktop)) from the
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
-## Trailcam Data
-
-> <https://www.trailcamdata.com>
-
-System for removing false positives from camera trap image collections. Unclear if this is automated or manual; I think manual.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
-
 ## BuckTracker
 
 > <http://www.bucktracker.com>
@@ -193,6 +184,26 @@ System for removing false positives from camera trap image collections. Unclear 
 App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
+
+# AI-accelerated camera trap tools that appear to be discontinued
+
+This assessment is based on visiting links and searching the Web; if I have a false positive here, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+
+## Where's the Bear?
+
+> <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
+
+IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
+
+&ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
+
+## Trailcam Data
+
+> <https://www.trailcamdata.com>
+
+System for removing false positives from camera trap image collections. Unclear if this is automated or manual; I think manual.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
 
 ## SnapCat
 
@@ -233,6 +244,7 @@ Thermal-camera-based system that uses CNNs to detect moose, for accident prevent
 * Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
 * WildAnimalDetection (Jasper Ridge Biological Preserve) ([github.com/qiantianpei/WildAnimalDetection](https://github.com/qiantianpei/WildAnimalDetection))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
+* TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * Camelot ([gitlab.com/camelot-project/camelo>](https://gitlab.com/camelot-project/camelot>))
 * Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
@@ -241,7 +253,6 @@ Thermal-camera-based system that uses CNNs to detect moose, for accident prevent
 * Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
 * Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
-
 
 # Smart camera traps
 
