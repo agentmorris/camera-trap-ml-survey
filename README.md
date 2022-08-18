@@ -6,9 +6,12 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 # Table of Contents
 
-[Camera trap systems using ML (or at least thinking about ML](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
-[AI-accelerated camera trap tools that appear to be discontinued](#ai-accelerated-camera-trap-tools-that-appear-to-be-discontinued)  
+[Camera trap systems using ML (or at least thinking about ML)](#camera-trap-systems-using-ml-or-at-least-thinking-about-ml)  
+&nbsp;&nbsp;[In active development](#tools-that-appear-to-be-in-active-development)  
+&nbsp;&nbsp;[Appear to be less active](#tools-that-appear-to-be-discontinued)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
+&nbsp;&nbsp;[Active repos](#last-updated--2021)  
+&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
 [Smart camera traps](#smart-camera-traps)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 [Post-hoc analysis tools people use for labeled camera trap images](#post-hoc-analysis-tools-people-use-for-labeled-camera-trap-images)  
@@ -19,13 +22,17 @@ Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [M
 
 # Camera trap tools/platforms using ML (or at least thinking about ML)
 
-## Wildlife Insights
+I've broken this category out into "tools that look active" and "tools that have maybe been discontinued".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+
+## Tools that appear to be in active development
+
+### Wildlife Insights
 
 [Wildlife Insights](https://wildlifeinsights.org/) (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ&rsquo;d at Conservation International, with AI work HQ'd at Google.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wi_screen_shot_2020-12-15_at_3.46.14_pm.png" width="500">
 
-## TrapTagger
+### TrapTagger
 
 > <https://wildeyeconservation.org/traptagger/>
 
@@ -33,7 +40,7 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
-## WildTrax
+### WildTrax
 
 > <https://www.wildtrax.ca/>
 
@@ -41,7 +48,7 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
 
-## Camelot
+### Camelot
 
 > <https://gitlab.com/camelot-project/camelot>
 
@@ -49,7 +56,7 @@ Open-source, runs in Java in a browser.  Developed in consultation with Fauna & 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
 
-## Trapper
+### Trapper
 
 > <https://gitlab.com/oscf/trapper-project>
 
@@ -59,7 +66,7 @@ Open-source system, interaction is via a browser, data is stored in Postgres. Ca
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
-## Animl
+### Animl
 
 > <https://github.com/tnc-ca-geo/animl-frontend>
 
@@ -67,7 +74,7 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
 
-## WildID
+### WildID
 
 > <https://www.wildid.app/>
 
@@ -77,13 +84,13 @@ Not to be confused with [Wild.ID](https://github.com/ConservationInternational/W
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
 
-## wpsWatch
+### wpsWatch
 
 <a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a> deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/), and later <a href="https://customers.microsoft.com/en-us/story/1384184517929343083-wildlife-protection-solutions-nonprofit-ai-for-earth">integrated the Microsoft AI for Earth MegaDetector</a> into their workflow.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
 
-## Project Zamba
+### Project Zamba
 
 > <http://zamba.drivendata.org/>
 
@@ -97,7 +104,7 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
-## Microsoft AI for Earth MegaDetector
+### Microsoft AI for Earth MegaDetector
 
 This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
 
@@ -105,7 +112,7 @@ This is not a "platform" or "system" in the same sense as other items on this li
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
 
-## Timelapse2
+### Timelapse2
 
 > <http://saul.cpsc.ucalgary.ca/timelapse/>
 
@@ -115,7 +122,7 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
-## FASTCAT-Cloud
+### FASTCAT-Cloud
 
 > <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
 
@@ -123,7 +130,7 @@ Not quite available yet as of June 2022, but described as an online platform tha
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
 
-## Conservation AI
+### Conservation AI
 
 > <https://conservationai.co.uk/>
 
@@ -131,19 +138,19 @@ Family of region-specific object detection models for camera traps and drones, b
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
 
-## CAIMAN
+### CAIMAN
 
 > <https://sensingclues.org/caiman>
 
 Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 8/22.
 
-## Wildlife Observer Network Image ID
+### Wildlife Observer Network Image ID
 
 > <https://wildlifeobserver.net/imageid/>
 
 Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
 
-## Agouti
+### Agouti
 
 > <https://agouti.eu/>
 
@@ -153,7 +160,7 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
-## Wildlife Institute of India CaTRAT
+### Wildlife Institute of India CaTRAT
 
 > [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
 
@@ -161,7 +168,7 @@ CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
 
-## EventFinder
+### EventFinder
 
 > <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
 
@@ -169,7 +176,7 @@ Java-based tool to separate empty from non-empty images using background subtrac
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
-## AnDeNet (Animal Detection Network)
+### AnDeNet (Animal Detection Network)
 
 > <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network>
 
@@ -177,7 +184,7 @@ Open-source project ([code](https://github.com/persts/andenet-desktop)) from the
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
-## BuckTracker
+### BuckTracker
 
 > <http://www.bucktracker.com>
 
@@ -185,11 +192,9 @@ App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
-# AI-accelerated camera trap tools that appear to be discontinued
+## Tools that appear to be discontinued
 
-This assessment is based on visiting links and searching the Web; if I have a false positive here, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
-
-## Where's the Bear?
+### Where's the Bear?
 
 > <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
 
@@ -197,7 +202,7 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 
 &ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
 
-## Trailcam Data
+### Trailcam Data
 
 > <https://www.trailcamdata.com>
 
@@ -205,7 +210,7 @@ System for removing false positives from camera trap image collections. Unclear 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
 
-## SnapCat
+### SnapCat
 
 > <https://www.snapcatconservation.org/our-product>
 
@@ -213,7 +218,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
 
-## ClassifyMe
+### ClassifyMe
 
 > <https://classifymeapp.com>
 
@@ -221,13 +226,13 @@ Thick-client tool that allows a menu of Yolov2-based models.  Five models are pr
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
-## Panthera IDS (Integrated Data System)
+### Panthera IDS (Integrated Data System)
 
 > <https://www.pantheraids.org/>
 
 Image management and analysis software used internally at Panthera; includes machine learning functionality for blank removal and species classification.  ([More information](https://wildlifeact.com/blog/new-pantheraids-software-leopard-survey))
 
-## MooseDar
+### MooseDar
 
 > <https://www.moosedar.com>
 
@@ -235,64 +240,65 @@ Thermal-camera-based system that uses CNNs to detect moose, for accident prevent
 
 # OSS repos about ML for camera traps
 
-* Microsoft AI for EArth MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
-* Willi et al species classification ([github.com/marco-willi/camera-trap-classifier](https://github.com/marco-willi/camera-trap-classifier))
-* MLWIC: Machine Learning for Wildlife Image Classification in R ([github.com/mikeyEcology/MLWIC](https://github.com/mikeyEcology/MLWIC))
-* MLWIC2: Machine Learning for Wildlife Image Classification ([github.com/mikeyEcology/MLWIC2](https://github.com/mikeyEcology/MLWIC2))
+Stratifying these based on whether they appear to be active, but this isn't updated automatically, so if I've incorrectly filed a project into the "last updated a long time ago" category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+
+## Last updated >= 2021
+
+* Microsoft AI for Earth MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
+* CamTrapML (Python library for camera trap ML) ([github.com/bencevans/camtrapml](https://github.com/bencevans/camtrapml))
 * CameraTrapDetectoR ([github.com/TabakM/CameraTrapDetectoR](https://github.com/TabakM/CameraTrapDetectoR))
 * Bounding Box Editor and Exporter (BBoxEE) for the Animal Detection Network ([github.com/persts/BBoxEE](https://github.com/persts/BBoxEE))
-* Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
-* WildAnimalDetection (Jasper Ridge Biological Preserve) ([github.com/qiantianpei/WildAnimalDetection](https://github.com/qiantianpei/WildAnimalDetection))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
-* Camelot ([gitlab.com/camelot-project/camelo>](https://gitlab.com/camelot-project/camelot>))
-* Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
+* Camelot ([gitlab.com/camelot-project/camelot](https://gitlab.com/camelot-project/camelot))
 * Species Classification in Trapper ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
-* DrivenData classification competition winners ([github.com/drivendataorg/hakuna-madata/](https://github.com/drivendataorg/hakuna-madata/))
 * Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
 * Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
+* Gimenez et al 2021 (integrating DL results into ecological statistics ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
+
+## Last updated < 2021
+
+* DrivenData classification competition winners ([github.com/drivendataorg/hakuna-madata/](https://github.com/drivendataorg/hakuna-madata/))
+* WildAnimalDetection (Jasper Ridge Biological Preserve) ([github.com/qiantianpei/WildAnimalDetection](https://github.com/qiantianpei/WildAnimalDetection))
+* Willi et al species classification ([github.com/marco-willi/camera-trap-classifier](https://github.com/marco-willi/camera-trap-classifier))
+* MLWIC: Machine Learning for Wildlife Image Classification in R ([github.com/mikeyEcology/MLWIC](https://github.com/mikeyEcology/MLWIC))
+* MLWIC2: Machine Learning for Wildlife Image Classification ([github.com/mikeyEcology/MLWIC2](https://github.com/mikeyEcology/MLWIC2))
+* Autofocus species classifier ([github.com/uptake/autofocus](https://github.com/uptake/autofocus))
+* Wildlife detection and classification with MD and RetinaNet ([github.com/oliviergimenez/DLcamtrap](https://github.com/oliviergimenez/DLcamtrap))
+* Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
+* Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
 
 # Smart camera traps
 
-## TrailGuard
+## The Sentinel (Conservation X Labs)
 
-> <http://www.resolv.org/site-BiodiversityWildlifeSolutions/trailguard/>
+> <https://sentinel.conservationxlabs.com/>
 
-> <https://venturebeat.com/2019/01/03/trailguard-ai-uses-intel-ai-tech-to-prevent-african-elephant-poaching/>
+> <https://conservationxlabs.com/sentinel>
 
-Their V2 camera does online human-vs-animal detection, and sends alerts via GSM/satellite. Running stock YOLO. Their V3 camera (now called &ldquo;TrailGuard AI&rdquo;) runs Movidius hardware.
+Module that attaches to existing camera traps to provide connectivity and AI.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel.png" width="500">
+
+## TrailGuard AI (RESOLVE)
+
+> <https://www.resolve.ngo/trailguard.htm>
+
+AI-enabled camera directed primarily at anti-poaching applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
-## WAMCam (Wildlife Advanced Monitoring Camera)
-
-> <https://business.esa.int/projects/wamcam>
-
-> <https://www.archangel.im/wamcam>
-
-&ldquo;WAMCam started as a kickstart feasibility study. The study successfully completed with an end-to-end system prototype, facilitating user engagement and feedback on the system requirements. The devices have been tested in jungle conditions and reliably send AI-generated Iridium SBD status messages from beneath the forest canopy to remote end users who have cellular coverage.&rdquo;
-
-Built as a contract project for the ESA by <https://www.archangel.im/>, who make unmanned cameras for other applications. Had &ldquo;AI on board&rdquo;, details unknown.
-
 ## InstantDetect (ZSL)
 
-> <https://www.wildlabs.net/resources/case-studies/instant-detect-20-connected-future-conservation>
+> <https://www.zsl.org/conservation/how-we-work/monitoring-and-technology/instant-detect-20>
 
 > <https://www.zsl.org/conservation/conservation-initiatives/conservation-technology/instant-detect>
 
 InstantDetect 2.0 will be connected but will not have on-board AI; will move images to a base station. Iridium connection.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image8.jpg" width="500">
-
-## Sensing Clues
-
-> <https://sensingclues.org/author/jankeesschakel/>
-
-This appears to be a research lab with preliminary feelers in acoustic and image recognition; it&rsquo;s mostly on this list because of this screenshot from a [blog post](https://sensingclues.org/2017/03/16/smart-vision-update) from 2017:
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image9.png" width="500">
 
 ## PoacherCam (Panthera)
 
@@ -786,15 +792,6 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/yu.jpg" width="500">
 
-## Papers that I know exist, and I have access to, but that I just haven't read yet
-
-<!--
-<br/>**Citation**
-
-Summary.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/imageNN.png" width="250">
--->
 
 <br/>**Tabak MA, Falbel D, Hamzeh T, Brook RK, Goolsby JA, Zoromski LD, Boughton RK, Snow NP, VerCauteren KC, Miller RS. CameraTrapDetectoR: Automatically detect, classify, and count animals in camera trap images using artificial intelligence. bioRxiv. 2022 Jan 1.**
 
@@ -937,6 +934,11 @@ Data is 47 cameras from Borneo ("publicly available at a later date").  Use MD (
 But the paper isn't about species classification; that was all just to get network activations they can feed into a graphical, time-series model they use for longer-term prediction of presence and multi-species interactions.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evans2020.jpg" width="250">
+
+
+## Papers that I know exist, and I have access to, but that I just haven't read yet
+
+* Gimenez, O., Kervellec, M., Fanjul, J.B., Chaine, A., Marescot, L., Bollet, Y. and Duchamp, C., 2021. Trade-off between deep learning for species identification and inference about predator-prey co-occurrence: Reproducible R workflow integrating models in computer vision and ecological statistics. arXiv preprint arXiv:2108.11509.
 
 
 ## Papers I don't have access to but would read if I did
