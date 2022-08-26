@@ -347,6 +347,16 @@ I&rsquo;ve worked with a lot of camera trap data, and I will say that because th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
 
+### CPW Photo Warehouse
+
+Thick-client (Windows) tool for image management, annotation, and spatial analysis.
+
+> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
+
+> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
+
 ### Carnassial (Cascades Carnivore Project)
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
@@ -395,17 +405,7 @@ As of 8/22, last update appears to be ~2017.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image16.jpeg" width="500">
 
-### CPW Photo Warehouse (Colorado Parks and Wildlife)
-
-Thick-client windows tool, appears to be .net-based; as of 8/22, the last release was 1/19.
-
-> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
-
-> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
-
-### Camera Base (San Diego Zoo)
+### Camera Base
 
 > <http://www.atrium-biodiversity.org/tools/camerabase/>
 
