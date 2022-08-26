@@ -2,7 +2,7 @@
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what&rsquo;s out there... <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
-Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](https://lila.science).
+Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I contribute to two projects on ML for camera traps – [MegaDetector](https://github.com/Microsoft/CameraTraps) and [Wildlife Insights](https://wildlifeinsights.org) – and an open repository for conservation data ([lila.science](https://lila.science)).
 
 # Table of Contents
 
