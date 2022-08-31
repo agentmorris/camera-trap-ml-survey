@@ -2,7 +2,7 @@
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what&rsquo;s out there... <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
-Maintained by [Dan Morris](http://dmorris.net).  I contribute to a project on [ML for camera traps](https://github.com/Microsoft/CameraTraps) and an [open repository for conservation data](https://lila.science).
+Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I contribute to two projects on ML for camera traps ([MegaDetector](https://github.com/Microsoft/CameraTraps) and [Wildlife Insights](https://wildlifeinsights.org)) and an open repository for conservation data ([lila.science](https://lila.science)).
 
 # Table of Contents
 
@@ -56,7 +56,7 @@ An online platform for camera trap data management that includes automated blank
 
 > <https://gitlab.com/camelot-project/camelot>
 
-Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with the Microsoft AI for Earth MegaDetector to allow selective review of human/animal/empty/vehicle images.
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with MegaDetector allows selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
 
@@ -66,7 +66,7 @@ Open-source, runs in Java in a browser.  Developed in consultation with Fauna & 
 
 Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
 
-Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of the AI for Earth <a href="https://github.com/microsoft/CameraTraps/blob/master/megadetector.md">MegaDetector</a>.
+Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of MegaDetector.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
@@ -108,7 +108,7 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
-### Microsoft AI for Earth MegaDetector
+### MegaDetector
 
 This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
 
@@ -122,7 +122,7 @@ This is not a "platform" or "system" in the same sense as other items on this li
 
 > <https://github.com/saulgreenberg/Timelapse>
 
-Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from the AI for Earth <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
+Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
@@ -260,7 +260,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * CamTrapML (Python library for camera trap ML) ([github.com/bencevans/camtrapml](https://github.com/bencevans/camtrapml))
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
 * Image Level Label to Bounding Box Pipeline ([github.com/persts/IL2BB](https://github.com/persts/IL2BB))
-* Microsoft AI for Earth MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
+* MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
 * Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
 * FastAPI/Streamlit package for serving MD and visualizing results ([github.com/abhayolo/megadetector-fastapi](https://github.com/abhayolo/megadetector-fastapi))
@@ -348,6 +348,16 @@ I&rsquo;ve worked with a lot of camera trap data, and I will say that because th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
 
+### CPW Photo Warehouse
+
+Thick-client (Windows) tool for image management, annotation, and spatial analysis.
+
+> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
+
+> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
+
 ### Carnassial (Cascades Carnivore Project)
 
 > <https://github.com/CascadesCarnivoreProject/Carnassial>
@@ -396,17 +406,7 @@ As of 8/22, last update appears to be ~2017.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image16.jpeg" width="500">
 
-### CPW Photo Warehouse (Colorado Parks and Wildlife)
-
-Thick-client windows tool, appears to be .net-based; as of 8/22, the last release was 1/19.
-
-> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
-
-> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
-
-### Camera Base (San Diego Zoo)
+### Camera Base
 
 > <http://www.atrium-biodiversity.org/tools/camerabase/>
 
