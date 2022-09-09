@@ -206,7 +206,7 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 
 > <https://wii.gov.in/tiger_monitoring_software>
 
-> [Wildlife Institute of India 2018 Tiger Status Report](https://projecttiger.nic.in/WriteReadData/PublicationFile/Tiger%20Status%20Report_XPS220719032%20%20new%20layout(1).pdf)
+> [Wildlife Institute of India 2018 Tiger Status Report](https://ntca.gov.in/assets/uploads/Reports/AITM/Status_Tigers_India_summary_2018.pdf)
 
 CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India and the National Tiger Conservation Authority to accelerate the processing of camera trap images, with a focus on detecting tigers.  Not a lot of information is publicly available, but the report linked above suggests that CNNs are involved and that the workflow integrates [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification.
 
