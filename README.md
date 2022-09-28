@@ -132,7 +132,7 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaka1.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbakz1.png" width="500">
 
 ### Conservation AI
 
@@ -277,7 +277,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Gimenez et al 2021 (integrating DL results into ecological statistics) ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
 * Johanns et al 2022 (distance estimation and tracking) ([github.com/PJ-cs/DistanceEstimationTracking](https://github.com/PJ-cs/DistanceEstimationTracking))
 * Pantazis et al 2021 (self-supervised learning) ([github.com/omipan/camera_traps_self_supervised/](https://github.com/omipan/camera_traps_self_supervised/))
-* Mbaka (species classification and Shiny app) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
+* Mbaza (species classification and Shiny app) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
 
 ## Last updated < 2021
 
