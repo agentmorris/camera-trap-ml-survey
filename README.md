@@ -960,10 +960,18 @@ But the paper isn't about species classification; that was all just to get netwo
 
 ## Papers that I know exist, and I have access to, but that I just haven't read yet
 
+* Cabon V, Bùi M, Kühne H, Seitz B, Kowarik I, von Der Lippe M, Buchholz S. Endangered animals and plants are positively or neutrally related to wild boar (Sus scrofa) soil disturbance in urban grasslands. Scientific reports. 2022 Oct 5;12(1):1-0.
+
+* Leorna S, Brinkman T. Human vs. machine: Detecting wildlife in camera trap images. Ecological Informatics. 2022 Oct 27:101876.
+
+* Hilton ML, Goessling JM, Knezevich LM, Downer JM. Utility of machine learning for segmenting camera trap time‐lapse recordings. Wildlife Society Bulletin. 2022 Sep;46(4):e1342.
+
 * Gimenez, O., Kervellec, M., Fanjul, J.B., Chaine, A., Marescot, L., Bollet, Y. and Duchamp, C., 2021. Trade-off between deep learning for species identification and inference about predator-prey co-occurrence: Reproducible R workflow integrating models in computer vision and ecological statistics. arXiv preprint arXiv:2108.11509.
 
 
 ## Papers I don't have access to but would read if I did
+
+* Maile R, Duggan M, Mousseau T. The successes and pitfalls: Deep learning effectiveness in a Chernobyl field camera trap application.
 
 * Radig B, Bodesheim P, Korsch D, Denzler J, Haucke T, Klasen M, Steinhage V. Automated Visual Large Scale Monitoring of Faunal Biodiversity. Pattern Recognition and Image Analysis. 2021 Jul;31(3):477-88.
 
