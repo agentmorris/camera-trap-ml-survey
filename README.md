@@ -108,24 +108,6 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
-### MegaDetector
-
-This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
-
-<a href="https://github.com/microsoft/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
-
-### Timelapse2
-
-> <http://saul.cpsc.ucalgary.ca/timelapse/>
-
-> <https://github.com/saulgreenberg/Timelapse>
-
-Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
-
 ### Mbaza
 
 > <https://appsilon.com/data-for-good/mbaza-ai/>
@@ -141,6 +123,15 @@ Open-source, client-side Shiny app that includes image review and client-side cl
 Family of region-specific object detection models for camera traps and drones, backed by real-time and batch processing services, with a browser-based <a href="https://conservationai.co.uk/trymodel">demo</a>.  Also supports acoustic classification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
+
+### Mala ML
+
+> <https://www.envir.ai/>
+
+AI-accelerated review tool that advertises both browser-based and desktop experiences.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mala.jpg" width="500">
+
 
 ### Wildlife Observer Network Image ID
 
@@ -160,6 +151,24 @@ A 2022 platform/roadmap update is available ([here](https://www.efsa.europa.eu/e
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
+### MegaDetector
+
+This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
+
+<a href="https://github.com/microsoft/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
+
+### Timelapse2
+
+> <http://saul.cpsc.ucalgary.ca/timelapse/>
+
+> <https://github.com/saulgreenberg/Timelapse>
+
+Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
+
 ### EventFinder
 
 > <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
@@ -177,14 +186,6 @@ Java-based tool to separate empty from non-empty images using background subtrac
 Open-source project ([code](https://github.com/persts/andenet-desktop)), does semi-automated labeling. Thick-client Python tool, uses TensorFlow.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
-
-### BuckTracker
-
-> <http://www.bucktracker.com>
-
-App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
 ### CAIMAN
 
@@ -255,6 +256,14 @@ Image management and analysis software used internally at Panthera; includes mac
 > <https://www.moosedar.com>
 
 Thermal-camera-based system that uses CNNs to detect moose, for accident prevention.
+
+### BuckTracker
+
+> <http://www.bucktracker.com>
+
+App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
 # OSS repos about ML for camera traps
 
