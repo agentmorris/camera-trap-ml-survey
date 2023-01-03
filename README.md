@@ -974,10 +974,12 @@ Data is 47 cameras from Borneo ("publicly available at a later date").  Use MD (
 
 But the paper isn't about species classification; that was all just to get network activations they can feed into a graphical, time-series model they use for longer-term prediction of presence and multi-species interactions.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evans2020.jpg" width="250">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evans2020.JPG" width="250">
 
 
 ## Papers that I know exist, and I have access to, but that I just haven't read yet
+
+* Vélez J, McShea W, Shamon H, Castiblanco‐Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera‐trap data using artificial intelligence. Methods in Ecology and Evolution. 2022.
 
 * Cabon V, Bùi M, Kühne H, Seitz B, Kowarik I, von Der Lippe M, Buchholz S. Endangered animals and plants are positively or neutrally related to wild boar (Sus scrofa) soil disturbance in urban grasslands. Scientific reports. 2022 Oct 5;12(1):1-0.
 
