@@ -979,6 +979,8 @@ But the paper isn't about species classification; that was all just to get netwo
 
 ## Papers that I know exist, and I have access to, but that I just haven't read yet
 
+* Whytock RC, Suijten T, van Deursen T, Świeżewski J, Mermiaghe H, Madamba N, Moukoumou N, Zwerts JA, Pambo AF, Brittain S, Cardoso AW. Real-time alerts from AI-enabled camera traps using the Iridium satellite network: a case-study in Gabon, Central Africa. bioRxiv. 2021 Jan 1.
+
 * Vélez J, McShea W, Shamon H, Castiblanco‐Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera‐trap data using artificial intelligence. Methods in Ecology and Evolution. 2022.
 
 * Cabon V, Bùi M, Kühne H, Seitz B, Kowarik I, von Der Lippe M, Buchholz S. Endangered animals and plants are positively or neutrally related to wild boar (Sus scrofa) soil disturbance in urban grasslands. Scientific reports. 2022 Oct 5;12(1):1-0.
