@@ -195,11 +195,11 @@ Cloud-based, AI-enabled system for camera trap image processing.  Integrated wit
 
 ### FASTCAT-Cloud
 
-> <https://cos4cloud-eosc.eu/services/fastcat-cloud-camera-trap/>
+> <https://service.fastcat-cloud.org/>
 
-Not quite available yet as of August 2022, but described as an online platform that uses a fixed AI model to eliminate blanks, and a "bespoke" AI model for species classification.
+Online platform with several ecosystem-specific detectors, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud.jpg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
 ## Platforms that appear to be less active
 
