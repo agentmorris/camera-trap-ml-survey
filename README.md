@@ -979,6 +979,8 @@ But the paper isn't about species classification; that was all just to get netwo
 
 ## Papers that I know exist, and I have access to, but that I just haven't read yet
 
+* Brookes O, Mirmehdi M, Kuehl H, Burghardt T. Triple-stream Deep Metric Learning of Great Ape Behavioural Actions. In press. International Conference on Computer Vision Theory and Applications (VISAPP), 2023.
+
 * Whytock RC, Suijten T, van Deursen T, Świeżewski J, Mermiaghe H, Madamba N, Moukoumou N, Zwerts JA, Pambo AF, Brittain S, Cardoso AW. Real-time alerts from AI-enabled camera traps using the Iridium satellite network: a case-study in Gabon, Central Africa. bioRxiv. 2021 Jan 1.
 
 * Vélez J, McShea W, Shamon H, Castiblanco‐Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera‐trap data using artificial intelligence. Methods in Ecology and Evolution. 2022.
