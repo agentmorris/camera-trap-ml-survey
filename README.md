@@ -1056,7 +1056,9 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 ## Papers I know exist, and I have access to, but I haven't read yet
 
-* Banerjee A, Dinesh DA, Bhavsar A. Perusal of Camera Trap Sequences Across Locations. InPattern Recognition Applications and Methods: 10th International Conference, ICPRAM 2021, and 11th International Conference, ICPRAM 2022, Virtual Event, February 4–6, 2021 and February 3–5, 2022, Revised Selected Papers 2023 Jan 27 (pp. 152-174). Cham: Springer International Publishing.
+* Clapham M, Miller E, Nguyen M, Darimont CT. Automated facial recognition for wildlife that lack unique markings: A deep learning approach for brown bears. Ecology and evolution. 2020 Dec;10(23):12883-92.
+
+* Karczmarski L, Chan SC, Chui S, Cameron EZ. Individual identification and photographic techniques in mammalian ecological and behavioural research—Part 2: Field studies and applications. Mammalian Biology. 2023 Mar 9:1-8.
 
 * Battu T, Lakshmi DS. Animal image identification and classification using deep neural networks techniques. Measurement: Sensors. 2023 Feb 1;25:100611.
 
@@ -1072,10 +1074,17 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 * Anderson AK, Waller JS, Thornton DH. Partial COVID-19 closure of a national park reveals negative influence of low-impact recreation on wildlife spatiotemporal ecology. Scientific Reports. 2023 Jan 13;13(1):687.
 
-* Simões F, Bouveyron C, Precioso F. DeepWILD: Wildlife Identification, Localisation and estimation on camera trap videos using Deep learning.
+* Banerjee A, Dinesh DA, Bhavsar A. Perusal of Camera Trap Sequences Across Locations. InPattern Recognition Applications and Methods: 10th International Conference, ICPRAM 2021, and 11th International Conference, ICPRAM 2022, Virtual Event, February 4–6, 2021 and February 3–5, 2022, Revised Selected Papers 2023 Jan 27 (pp. 152-174). Cham: Springer International Publishing.
+
+* Simões F, Bouveyron C, Precioso F. DeepWILD: Wildlife Identification, Localisation and estimation on camera trap videos using Deep learning. 2022.
+
+* Park B, Kim J, Cho S, Kim H. Balancing Domain Experts for Long-Tailed Camera-Trap Recognition. arXiv preprint arXiv:2202.07215. 2022 Feb 15.
 
 * Chiang VS, Park JH. Using DeepLabCut to study sexual behaviour in the lab and the wild. ScienceOpen Posters. 2022 Dec 13.
 
+* Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Yu SX, Getz WM. Insights and approaches using deep learning to classify wildlife. Scientific reports. 2019 May 31;9(1):8137.
+
+* Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Yu SX, Getz WM. A comparison of visual features used by humans and machines to classify wildlife. BioRxiv. 2018 Oct 22:450189.
 
 ## Papers I don't have access to but would read if I did
 
