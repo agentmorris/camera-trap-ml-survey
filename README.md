@@ -136,10 +136,9 @@ AI-accelerated review tool that advertises both browser-based and desktop experi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mala.jpg" width="500">
 
+### Wildlife Observer Network Image ID+
 
-### Wildlife Observer Network Image ID
-
-> <https://wildlifeobserver.net/imageid/>
+> <https://wildlifeobserver.net/imageidplus/>
 
 Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
 
@@ -172,6 +171,16 @@ This is not a "platform" or "system" in the same sense as other items on this li
 Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/microsoft/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
+
+### DeCaTron
+
+> <https://www.thinkevolveconsulting.com/green-ai-products/>
+
+> <https://www.youtube.com/watch?v=QvNMJo3momQ>
+
+AI-driven, looks-to-be-cloud-based tool for camera trap image review, with some spatial analytics.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/decatron.png" width="500">
 
 ### EventFinder
 
