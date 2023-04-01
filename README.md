@@ -178,7 +178,7 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 > <https://www.youtube.com/watch?v=QvNMJo3momQ>
 
-AI-driven, looks-to-be-cloud-based tool for camera trap image review, with some spatial analytics.
+AI-driven tool for camera trap image review, with spatial analytics.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/decatron.png" width="500">
 
