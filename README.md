@@ -294,6 +294,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Image Level Label to Bounding Box Pipeline ([github.com/persts/IL2BB](https://github.com/persts/IL2BB))
 * MegaDetector ([github.com/Microsoft/CameraTraps](https://github.com/Microsoft/CameraTraps))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
+* SDZG Animl package for running MD and other models via R ([github.com/conservationtechlab/animl](https://github.com/conservationtechlab/animl))
 * Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
 * SpSeg (WII Species Segregator) ([github.com/bhlab/SpSeg](https://github.com/bhlab/SpSeg))
 * FastAPI/Streamlit package for serving MD and visualizing results ([github.com/abhayolo/megadetector-fastapi](https://github.com/abhayolo/megadetector-fastapi))
