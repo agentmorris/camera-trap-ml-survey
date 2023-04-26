@@ -903,6 +903,7 @@ Downloadable by request [here](https://classifymeapp.com).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
+
 ### Papers from 2019 and earlier
 
 <br/>**Janzen M, Ritter A, Walker PD, Visscher DR. EventFinder: a program for screening remotely captured images. Environmental monitoring and assessment. 2019 Jun;191(6):1-0.**
@@ -1066,6 +1067,10 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 ## Papers I know exist, and I have access to, but I haven't read yet
 
+* Staab J, Udas E, Mayer M, Taubenböck H, Job H. Comparing established visitor monitoring approaches with triggered trail camera images and machine learning based computer vision. Journal of Outdoor Recreation and Tourism. 2021 Sep 1;35:100387.
+
+* Fergus P, Chalmers C, Longmore S, Wich S, Warmenhove C, Swart J, Ngongwane T, Burger A, Ledgard J, Meijaard E. Empowering Wildlife Guardians: An Equitable Digital Stewardship and Reward System for Biodiversity Conservation using Deep Learning and 3/4G Camera Traps. arXiv preprint arXiv:2304.12703.  2023 Apr 25.
+
 * Clapham M, Miller E, Nguyen M, Darimont CT. Automated facial recognition for wildlife that lack unique markings: A deep learning approach for brown bears. Ecology and evolution. 2020 Dec;10(23):12883-92.
 
 * Karczmarski L, Chan SC, Chui S, Cameron EZ. Individual identification and photographic techniques in mammalian ecological and behavioural research—Part 2: Field studies and applications. Mammalian Biology. 2023 Mar 9:1-8.
@@ -1095,6 +1100,7 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 * Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Yu SX, Getz WM. Insights and approaches using deep learning to classify wildlife. Scientific reports. 2019 May 31;9(1):8137.
 
 * Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Yu SX, Getz WM. A comparison of visual features used by humans and machines to classify wildlife. BioRxiv. 2018 Oct 22:450189.
+
 
 ## Papers I don't have access to but would read if I did
 
