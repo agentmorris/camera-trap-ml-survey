@@ -136,23 +136,21 @@ AI-accelerated review tool that advertises both browser-based and desktop experi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mala.jpg" width="500">
 
+### Agouti
+
+> <https://agouti.eu/> 
+
+Web-based tool for camera trap data management, annotation, and spatial analysis. [2022 roadmap update](https://www.efsa.europa.eu/en/supporting/pub/en-7327).
+
+Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
+
 ### Wildlife Observer Network Image ID+
 
 > <https://wildlifeobserver.net/imageidplus/>
 
 Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
-
-### Agouti
-
-> <https://agouti.eu/> 
-
-Web-based tool for camera trap data management, annotation, and spatial analysis.
-
-Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
-
-A 2022 platform/roadmap update is available ([here](https://www.efsa.europa.eu/en/supporting/pub/en-7327)).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
 ### MegaDetector
 
@@ -172,6 +170,16 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
+### eVorta
+
+* [News story](https://www.abc.net.au/news/2021-07-31/evorta-smart-camera-system-feral-cats-kangaroo-island/100337978)
+* [Demo video](http://51.161.196.64/)
+* [App](https://play.google.com/store/apps/details?id=com.evorta.android&pli=1)
+
+Connected camera network with cloud-based AI capabilities, and a mobile app.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.jpg" width="500">
+
 ### DeCaTron
 
 > <https://www.thinkevolveconsulting.com/green-ai-products/>
@@ -181,14 +189,6 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 AI-driven tool for camera trap image review, with spatial analytics.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/decatron.png" width="500">
-
-### EventFinder
-
-> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
-
-Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
 ### Bounding Box Editor and Exporter (BBoxEE) (formerly "Animal Detection Network")
 
@@ -223,6 +223,14 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 IoT system with computer vision pieces for managing camera traps, currently in Southern California. They refer to having processed 1.2M images, and have used Inception with some clever synthetic data generation to get pretty good results.
 
 &ldquo;...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images.&rdquo;
+
+### EventFinder
+
+> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
+
+Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
 
 ### Wildlife Institute of India CaTRAT
 
