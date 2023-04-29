@@ -175,6 +175,7 @@ Thick-client, .net-based tool. In active development as of 2022. Incorporates ML
 * [News story](https://www.abc.net.au/news/2021-07-31/evorta-smart-camera-system-feral-cats-kangaroo-island/100337978)
 * [Demo video](http://51.161.196.64/)
 * [App](https://play.google.com/store/apps/details?id=com.evorta.android&pli=1)
+* [Kangaroo Island case study](https://www.naturefoundation.org.au/how-to-help/donate/feral-cat-eradication-program/sponsor-a-4g-camera)
 
 Connected camera network with cloud-based AI capabilities, and a mobile app.
 
