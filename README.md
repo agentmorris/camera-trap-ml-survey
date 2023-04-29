@@ -348,6 +348,14 @@ AI-enabled camera directed primarily at anti-poaching applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
+## Thylation Felixer
+
+> <https://thylation.com/>
+
+AI-enabled camera trap for automated invasive predator control in Australia.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
+
 ## InstantDetect (ZSL)
 
 > <https://www.zsl.org/conservation/how-we-work/monitoring-and-technology/instant-detect-20>
@@ -1074,6 +1082,8 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 
 ## Papers I know exist, and I have access to, but I haven't read yet
+
+* Corva DM, Semianiw NI, Eichholtzer AC, Adams SD, Mahmud MP, Gaur K, Pestell AJ, Driscoll DA, Kouzani AZ. A Smart Camera Trap for Detection of Endotherms and Ectotherms. Sensors. 2022 May 28;22(11):4094.
 
 * Staab J, Udas E, Mayer M, Taubenböck H, Job H. Comparing established visitor monitoring approaches with triggered trail camera images and machine learning based computer vision. Journal of Outdoor Recreation and Tourism. 2021 Sep 1;35:100387.
 
