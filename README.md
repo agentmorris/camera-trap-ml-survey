@@ -191,6 +191,14 @@ AI-driven tool for camera trap image review, with spatial analytics.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/decatron.png" width="500">
 
+### Dudek AI Image Toolkit
+
+> <https://dudek.com/services/wildlife-camera-trap-ai-image-processing-and-management/>
+
+Cloud-based platform that leverages MDv5; the image indicates that a species classifier is involved as well, but I don't have more information.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dudek.png" width="500">
+
 ### Bounding Box Editor and Exporter (BBoxEE) (formerly "Animal Detection Network")
 
 > <https://github.com/persts/BBoxEE>
@@ -216,6 +224,20 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
 ## Platforms that appear to be less active
+
+### CAMinos
+
+<https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation>
+
+This looks to have been a student project, so normally I would say it's unfair to call it "inactive", but the page and video are so slick by the standards of student projects that my intention is to give it props by including it here.
+
+Online annotation tool that combines MDv5 with a species classifier.
+
+* [Home](https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation)
+* [Video](https://www.youtube.com/watch?v=LUnNxLg2qTo&ab_channel=StevenLeung)
+* [Writeup](https://www.ischool.berkeley.edu/sites/default/files/sproject_attachments/copy_of_caminos_final_presentation.pdf)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caminos.png" width="500">
 
 ### Where's the Bear?
 
