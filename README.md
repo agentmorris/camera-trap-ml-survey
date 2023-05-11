@@ -146,6 +146,14 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
+### PantheraIDS (Integrated Data System)
+
+> <https://www.pantheraids.org/features.html>
+
+Image management and analysis software used at Panthera; includes machine learning functionality for blank removal, species classification, and individual ID.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panthera-ids.png" width="500">
+
 ### Wildlife Observer Network Image ID+
 
 > <https://wildlifeobserver.net/imageidplus/>
@@ -288,12 +296,6 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 Thick-client tool that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Serengeti, Caltech Camera Traps, Snapshot Wisconsin).  Downloadable by request.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
-
-### Panthera IDS (Integrated Data System)
-
-> <https://www.pantheraids.org/>
-
-Image management and analysis software used internally at Panthera; includes machine learning functionality for blank removal and species classification.  ([More information](https://wildlifeact.com/blog/new-pantheraids-software-leopard-survey))
 
 ### MooseDar
 
