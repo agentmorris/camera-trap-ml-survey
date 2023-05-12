@@ -146,6 +146,14 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
+### RECONN.AI
+
+> <https://www.reconn.ai/>
+
+Cloud-based tool that includes a detector and species classifier.  Documentation suggests the classifier is tailored for the American Midwest.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconn-ai.jpg" width="500">
+
 ### PantheraIDS (Integrated Data System)
 
 > <https://www.pantheraids.org/features.html>
