@@ -225,11 +225,15 @@ Open-source project ([code](https://github.com/persts/andenet-desktop)), does se
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
-### CAIMAN
+### Cacophony Project (2040) Thermal Predator Camera
 
-> <https://sensingclues.org/caiman>
+> <https://www.2040.co.nz/collections/frontpage/products/thermal-predator-camera>
 
-Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 8/22.
+> <https://www.youtube.com/watch?v=eiopklk5iic>
+
+Thermal camera with a cloud-based AI service.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/2040-thermal.png" width="500">
 
 ### FASTCAT-Cloud
 
@@ -240,6 +244,12 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
 ## Platforms that appear to be less active
+
+### CAIMAN
+
+> <https://sensingclues.org/caiman>
+
+Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 5/23.
 
 ### CAMinos
 
@@ -347,6 +357,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Mbaza (species classification and Shiny app) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
 * Hilton et al 2022 (analyzing tortoise video) ([github.com/hiltonml/camera_trap_tools](https://github.com/hiltonml/camera_trap_tools))
 * Haucke et al 2022 (depth from stereo) ([github.com/timmh/socrates](https://github.com/timmh/socrates))
+* Cacophony Project: species classification in thermal images ([github.com/TheCacophonyProject/classifier-pipeline](https://github.com/TheCacophonyProject/classifier-pipeline))
 
 
 ## Last updated < 2021
