@@ -2,7 +2,7 @@
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what&rsquo;s out there... <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
-Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I contribute to two projects on ML for camera traps ([MegaDetector](https://github.com/ecologize/CameraTraps) and [Wildlife Insights](https://wildlifeinsights.org)) and an open repository for conservation data ([lila.science](https://lila.science)).
+Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I contribute to two projects on ML for camera traps ([MegaDetector](https://github.com/agentmorris/MegaDetector) and [Wildlife Insights](https://wildlifeinsights.org)) and an open repository for conservation data ([lila.science](https://lila.science)).
 
 # Table of Contents
 
@@ -172,7 +172,7 @@ Web-based system that takes a zipfile of camera trap images and produces an esti
 
 This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
 
-<a href="https://github.com/ecologize/CameraTraps/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
+<a href="https://github.com/agentmorris/MegaDetector/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the model (or its output) has also been integrated into some of the other items on this list.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
 
@@ -182,7 +182,7 @@ This is not a "platform" or "system" in the same sense as other items on this li
 
 > <https://github.com/saulgreenberg/Timelapse>
 
-Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/ecologize/CameraTraps">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
+Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
@@ -343,7 +343,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
 * EcoAssist (MDv5 GUI) ([github.com/PetervanLunteren/EcoAssist](https://github.com/PetervanLunteren/EcoAssist))
 * Image Level Label to Bounding Box Pipeline ([github.com/persts/IL2BB](https://github.com/persts/IL2BB))
-* MegaDetector ([github.com/ecologize/CameraTraps](https://github.com/ecologize/CameraTraps))
+* MegaDetector ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
 * SDZG Animl package for running MD and other models via R ([github.com/conservationtechlab/animl](https://github.com/conservationtechlab/animl))
 * Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
@@ -548,16 +548,19 @@ Combine three data streams - body part segmentation / pose analysis, RGB video, 
 
 <br/>**Cabon V, Bùi M, Kühne H, Seitz B, Kowarik I, von Der Lippe M, Buchholz S. Endangered animals and plants are positively or neutrally related to wild boar (Sus scrofa) soil disturbance in urban grasslands. Scientific reports. 2022 Oct 5;12(1):1-0.**
 
-The point of this paper is not camera trap ML, but this page is about methodology, so, one-liner on what the paper is actually about: soil disturbance by wild boars is not necessarily a threat to biodiversity; "grasshopper diversity, total richness, and richness of endangered and specialist species were positively related to [boar activity], as was sand lizard abundance."
+My favorite kind of paper on this list: an ecology paper that just happens to use ML (as opposed to a paper *about* camera trap ML).  
 
-Placed cameras at sites where they were also doing soil sampling.  Used MegaDetector to eliminate empty images, then calculated mean relative abundance index of boars from cameras at each site.
+Placed cameras at sites where they were also doing soil sampling.  Used MegaDetector to eliminate empty images, then calculated mean relative abundance index of boars from cameras at each site.  Concluded that soil disturbance by wild boars is not necessarily a threat to biodiversity; "grasshopper diversity, total richness, and richness of endangered and specialist species were positively related to [boar activity], as was sand lizard abundance."
 
 
 <br/>**Hewitt MO, Karelus DL, Harveson LA, Martin RL, Harveson PM. Modeling habitat use and potential distribution of kit fox in the Trans-Pecos, Texas. The Journal of Wildlife Management. 2022 Nov;86(8):e22303.**
 
-Not exactly a "camera trap ML" paper; instead, my favorite kind, an ecology paper that just happens to use ML for camera traps.  Used what I believe was MDv3 with a 70% confidence threshold to process images.
+My favorite kind of paper on this list: an ecology paper that just happens to use ML (as opposed to a paper *about* camera trap ML).
+
+Used what I believe was MDv3 with a 70% confidence threshold to process images.
 
 Developed baseline occupancy maps for kit foxes in Texas, with covariate analysis (found that gentler slopes, lower elevations, shorter shrubs, and bare ground were positively correlated with use by kit fox).
+
 
 <br/>**Leorna S, Brinkman T. Human vs. machine: Detecting wildlife in camera trap images. Ecological Informatics. 2022 Oct 27:101876.**
 
@@ -571,7 +574,7 @@ Breaking the fourth wall with some thoughts that are outside the scope of the pa
 
 * It's likely that these tiny caribou-dots are easily detectable in a simple multi-frame ML, but will never be detectable by a traditional object detector, even with infinite resolution
 * MDv5 can probably detect objects that are ~4x smaller in area than MDv4, but that minimum size is still far larger than humans can detect in multi-frame sequences.  So if the analysis from this paper were run again now, the size limit would have changed, but the qualitative conclusions would have been the same.
-* When users are looking for small things near the lower size limit (not caribou-on-the-horizon small, but small), and you have more than ~2000 pixels on the long side of your images, it's often helpful to tile images (otherwise you're just throwing away pixels).  We have preliminary code for that [here](https://github.com/ecologize/CameraTraps/blob/main/sandbox/tile_images.py).  This paper didn't explore that; the size limit would have changed had they tiled images, though the qualitative conclusions would have been the same.
+* When users are looking for small things near the lower size limit (not caribou-on-the-horizon small, but small), and you have more than ~2000 pixels on the long side of your images, it's often helpful to tile images (otherwise you're just throwing away pixels).  We have preliminary code for that [here](https://github.com/agentmorris/MegaDetector/blob/main/sandbox/tile_images.py).  This paper didn't explore that; the size limit would have changed had they tiled images, though the qualitative conclusions would have been the same.
 
 <br/>**Hilton ML, Goessling JM, Knezevich LM, Downer JM. Utility of machine learning for segmenting camera trap timelapse recordings. Wildlife Society Bulletin. 2022 Sep;46(4):e1342.**
 
@@ -1133,11 +1136,40 @@ Maybe the dawn of the field? I can&rsquo;t find much before 2013. Use SIFT and c
 
 ## Papers I know exist, and I have access to, but I haven't read yet
 
-* Goward S. I Spy Through a Camera’s Eye: Divii in the Gwich’in Settlement Area. ARCTIC. 2022 Dec 15;75(4):510-5.
+<br/>**Goward S. I Spy Through a Camera’s Eye: Divii in the Gwich’in Settlement Area. ARCTIC. 2022 Dec 15;75(4):510-5.**
 
-* Stennett M, Rubenstein DI, Burghardt T. Towards Individual Grevy's Zebra Identification via Deep 3D Fitting and Metric Learning. arXiv preprint arXiv:2206.02261. 2022 Jun 5.
+My favorite kind of paper on this list: an ecology paper that just happens to use ML (as opposed to a paper *about* camera trap ML).
 
-* Wang Y, Zhang Y, Feng Y, Shang Y. Deep Learning Methods for Animal Counting in Camera Trap Images. In2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI) 2022 Oct 31 (pp. 939-943). IEEE.
+This paper provides an overview of Dall sheep population monitoring using camera traps and aerial surveys in Canada.  Processed ~500k images through MD + Timelapse.
+
+<br/>**Stennett M, Rubenstein DI, Burghardt T. Towards Individual Grevy's Zebra Identification via Deep 3D Fitting and Metric Learning. arXiv preprint arXiv:2206.02261. 2022 Jun 5.**
+
+Presents a pipeline for individual zebra ID that combines detection (with MDv4), cropping, species classification (specifically zebra-or-not-zebra, from the AI for Earth species classification model), projection onto a 3D template, and embedding into a feature space for individual matching.  Used 148 images from a zebra-specific repository, plus 687 images from WCS camera traps.
+
+Not directly related to camera traps, but so close that it seemed relevant to include here (uses LILA camera trap data and MDv4).  Code is [here](https://github.com/Lm0079/grevys-zebra-individual-identification).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/stennett-2022.png" width="500">
+
+
+<br/>**Wang Y, Zhang Y, Feng Y, Shang Y. Deep Learning Methods for Animal Counting in Camera Trap Images. In 2022 IEEE 34th International Conference on Tools with Artificial Intelligence (ICTAI) 2022 Oct 31 (pp. 939-943). IEEE.**
+
+They propose two counting methods based on MDv4, and evaluate on iWildCam data.
+
+The first method is basically some clever tricks they do with MDv4 results:
+
+* For images with >8 boxes ("high-density images"), they observe that MD is less reliable, so they use a lower confidence threshold.
+* For images with few boxes, they observe that prior to NMS, true positives tend to have more redundant boxes, so they use pre-NMS boxes to tune confidence thresholds.
+
+Neat ideas!
+
+The second method is an ensemble with a few different tricks:
+
+* They use high-confidence MDv4 boxes to tune a bespoke Mask R-CNN model that they ensemble with MDv4
+* They train a bespoke, dataset-specific binary classifier to eliminate additional false positives
+* They're actually trying to acount animals in *sequences*, so they use some time heuristics to determine whether unique groups of animals have moved through the frame, in which case they add those numbers
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wang-2022.png" width="500">
+
 
 * Anantha Babu S, Manikandan V, Jaiganesh M, John Basha M, Divya P. Detecting Wildlife Trapped Images Using Automatically Shared Nearest Neighbouring Pixels (ASNNP). InInventive Computation and Information Technologies: Proceedings of ICICIT 2022 2023 Mar 2 (pp. 1-14). Singapore: Springer Nature Singapore.
 
