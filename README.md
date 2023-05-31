@@ -414,6 +414,14 @@ InstantDetect 2.0 will be connected but will not have on-board AI; will move ima
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image8.jpg" width="500">
 
+## Insect Detect
+
+> <https://github.com/maxsitt/insect-detect>
+
+AI-enabled, RPi-based camera trap for insect monitoring.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/insect-detect.png" width="500">
+
 ## PoacherCam (Panthera)
 
 > <https://www.panthera.org/conservation-technology/poachercam>
