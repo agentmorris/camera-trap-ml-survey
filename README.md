@@ -244,6 +244,18 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
+### Caption Pro
+
+> [Home](https://captionpro.com.au:444/AlekaConsulting/index.php/caption-photos/)
+
+> [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/CaptionProFiles/Processing%20Camera%20Trap%20Data%20with%20Caption%20Pro.pdf)
+
+> [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
+
+Tool for captioning images and videos that includes a workflow for camera trap data, including running MegaDetector via a Web service.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caption-pro.png" width="500">
+
 ## Platforms that appear to be less active
 
 ### CAIMAN
