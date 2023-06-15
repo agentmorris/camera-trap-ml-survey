@@ -1,4 +1,6 @@
-## Everything I know about ML and camera traps
+# Everything I know about ML and camera traps
+
+## Overview
 
 This is a list of everything I know about machine learning and camera traps, which is presumably a subset of what's out there... <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a> with updates, or submit pull requests.  Help me keep this page up to date!  And tell me what I got wrong about your software and your papers!
 
