@@ -39,13 +39,15 @@ I've broken this category out into "platforms that look like they're being activ
 
 #### Wildlife Insights
 
-[Wildlife Insights](https://wildlifeinsights.org/) (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ'd at Conservation International, with AI work HQ'd at Google.
+> <https://wildlifeinsights.org>
+
+Wildlife Insights (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ'd at Conservation International, with AI work HQ'd at Google.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wi_screen_shot_2020-12-15_at_3.46.14_pm.png" width="500">
 
 #### TrapTagger
 
-> <https://wildeyeconservation.org/traptagger/>
+> <https://wildeyeconservation.org/traptagger>
 
 An online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (for South African species), and an integration with HotSpotter for individual identification.
 
@@ -53,7 +55,7 @@ An online platform for camera trap data management that includes automated blank
 
 #### WildTrax
 
-> <https://www.wildtrax.ca/>
+> <https://www.wildtrax.ca>
 
 An online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (specifically for cattle as of the time I'm writing this).  Also manages acoustic data, with some AI functionality for acoustic data as well.
 
@@ -87,7 +89,7 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 #### WildID
 
-> <https://www.wildid.app/>
+> <https://www.wildid.app>
 
 Web-based platform for processing camera trap images, targeted for Southern Africa, that uses a custom multiclass detector.  Free trial available; paid version allows larger bulk uploads.
 
@@ -97,15 +99,17 @@ Not to be confused with [Wild.ID](https://github.com/ConservationInternational/W
 
 #### wpsWatch
 
-<a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a> deploys connected cameras in protected areas to detect and combat poaching.  They partnered with [Silverpond](https://silverpond.com.au) to build an [automated people-detection workflow](https://silverpond.com.au/case-studies/wildlife-protection-solutions/), and later <a href="https://customers.microsoft.com/en-us/story/1384184517929343083-wildlife-protection-solutions-nonprofit-ai-for-earth">integrated MegaDetector</a> into their workflow.
+> <https://wildlifeprotectionsolutions.org/wpswatch>
+
+<a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a> deploys connected cameras in protected areas to detect and combat poaching; wpsWatch is their monitoring platform, which leverages AI for both human/animal/vehicle detection (using MegaDetector) and species classification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
 
 #### Project Zamba
 
-> <http://zamba.drivendata.org/>
+> <http://zamba.drivendata.org>
 
-> <https://www.zambacloud.com/>
+> <https://www.zambacloud.com>
 
 > <https://github.com/drivendataorg/zamba>
 
@@ -117,7 +121,7 @@ Evolved into the application available at <https://www.zambacloud.com/>.
 
 #### Mbaza
 
-> <https://appsilon.com/data-for-good/mbaza-ai/>
+> <https://appsilon.com/data-for-good/mbaza-ai>
 
 Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
 
@@ -125,7 +129,7 @@ Open-source, client-side Shiny app that includes image review and client-side cl
 
 #### Conservation AI
 
-> <https://conservationai.co.uk/>
+> <https://conservationai.co.uk>
 
 Family of region-specific object detection models for camera traps and drones, backed by real-time and batch processing services, with a browser-based <a href="https://conservationai.co.uk/trymodel">demo</a>.  Also supports acoustic classification.
 
@@ -133,7 +137,7 @@ Family of region-specific object detection models for camera traps and drones, b
 
 #### Mala ML
 
-> <https://www.envir.ai/>
+> <https://www.envir.ai>
 
 AI-accelerated review tool that advertises both browser-based and desktop experiences.
 
@@ -141,7 +145,7 @@ AI-accelerated review tool that advertises both browser-based and desktop experi
 
 #### Agouti
 
-> <https://agouti.eu/> 
+> <https://agouti.eu> 
 
 Web-based tool for camera trap data management, annotation, and spatial analysis. [2022 roadmap update](https://www.efsa.europa.eu/en/supporting/pub/en-7327).
 
@@ -151,7 +155,7 @@ Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https
 
 #### RECONN.AI
 
-> <https://www.reconn.ai/>
+> <https://www.reconn.ai>
 
 Cloud-based tool that includes a detector and species classifier.  Documentation suggests the classifier is tailored for the American Midwest.
 
@@ -167,11 +171,13 @@ Image management and analysis software used at Panthera; includes machine learni
 
 #### Wildlife Observer Network Image ID+
 
-> <https://wildlifeobserver.net/imageidplus/>
+> <https://wildlifeobserver.net/imageidplus>
 
 Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
 
 #### MegaDetector
+
+> <https://github.com/agentmorris/MegaDetector>
 
 This is not a "platform" or "system" in the same sense as other items on this list, but there aren't enough open models for me to make a separate "models" section, and the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
 
@@ -181,11 +187,11 @@ This is not a "platform" or "system" in the same sense as other items on this li
 
 #### Timelapse2
 
-> <http://saul.cpsc.ucalgary.ca/timelapse/>
+> <http://saul.cpsc.ucalgary.ca/timelapse>
 
 > <https://github.com/saulgreenberg/Timelapse>
 
-Thick-client, .net-based tool. In active development as of 2022. Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> to allow selective review of human/animal/empty/vehicle images.
+Thick-client, .net-based tool for reviewing camera trap images.  Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> and associated species classifiers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
 
@@ -202,9 +208,8 @@ Connected camera network with cloud-based AI capabilities, and a mobile app.
 
 #### DeCaTron
 
-> <https://www.thinkevolveconsulting.com/green-ai-products/>
-
-> <https://www.youtube.com/watch?v=QvNMJo3momQ>
+* [Home](https://www.thinkevolveconsulting.com/green-ai-products)
+* [Demo video](https://www.youtube.com/watch?v=QvNMJo3momQ)
 
 AI-driven tool for camera trap image review, with spatial analytics.
 
@@ -212,7 +217,7 @@ AI-driven tool for camera trap image review, with spatial analytics.
 
 #### Dudek AI Image Toolkit
 
-> <https://dudek.com/services/wildlife-camera-trap-ai-image-processing-and-management/>
+> <https://dudek.com/services/wildlife-camera-trap-ai-image-processing-and-management>
 
 Cloud-based platform that leverages MDv5; the image indicates that a species classifier is involved as well, but I don't have more information.
 
@@ -224,15 +229,14 @@ Cloud-based platform that leverages MDv5; the image indicates that a species cla
 
 > <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network>
 
-Open-source project ([code](https://github.com/persts/andenet-desktop)), does semi-automated labeling. Thick-client Python tool, uses TensorFlow.
+Client-side tool for semi-automated labeling of camera trap images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
 
 #### Cacophony Project (2040) Thermal Predator Camera
 
-> <https://www.2040.co.nz/collections/frontpage/products/thermal-predator-camera>
-
-> <https://www.youtube.com/watch?v=eiopklk5iic>
+* [Home](https://www.2040.co.nz/collections/frontpage/products/thermal-predator-camera)
+* [Demo video](https://www.youtube.com/watch?v=eiopklk5iic)
 
 Thermal camera with a cloud-based AI service.
 
@@ -240,7 +244,7 @@ Thermal camera with a cloud-based AI service.
 
 #### FASTCAT-Cloud
 
-> <https://service.fastcat-cloud.org/>
+> <https://service.fastcat-cloud.org>
 
 Online platform with several ecosystem-specific detectors, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).
 
@@ -248,15 +252,31 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 
 #### Caption Pro
 
-> [Home](https://captionpro.com.au:444/AlekaConsulting/index.php/caption-photos/)
-
-> [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/CaptionProFiles/Processing%20Camera%20Trap%20Data%20with%20Caption%20Pro.pdf)
-
-> [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
+* [Home](https://captionpro.com.au:444/AlekaConsulting/index.php/caption-photos/)
+* [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/CaptionProFiles/Processing%20Camera%20Trap%20Data%20with%20Caption%20Pro.pdf)
+* [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
 
 Tool for captioning images and videos that includes a workflow for camera trap data, including running MegaDetector via a Web service.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caption-pro.png" width="500">
+
+#### EcoAssist
+
+> https://github.com/PetervanLunteren/EcoAssist
+
+Client-side tool for running and fine-tuning MegaDetector, including various postprocessing steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
+
+#### CamTrap Detector
+
+* [Home](https://camtrap.net/detector)
+* [Source](https://github.com/bencevans/camtrap-detector)
+
+Client-side tool for running MegaDetector, including various postprocessing steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
+
 
 ### Platforms that appear to be less active
 
@@ -268,7 +288,7 @@ Cloud-based, AI-enabled system for camera trap image processing.  Integrated wit
 
 #### CAMinos
 
-<https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation>
+> <https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation>
 
 This looks to have been a student project, so normally I would say it's unfair to call it "inactive", but the page and video are so slick by the standards of student projects that my intention is to give it props by including it here.
 
