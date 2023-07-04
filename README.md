@@ -604,6 +604,24 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 Look at impacts of human disturbance on wildlife nocturnality.  Black bears more nocturnal in response to human detections, coyotes + hares less nocturnal in areas of higher trail density.  Coyotes + deer + hares more nocturnal near urban-wildland boundaries. Use MD for animal/human/vechicle/blank categorization.
 
 
+<br/>**Ausband DE, Thompson SJ, Oates BA, Roberts SB, Hurley MA, Mumma MA. Examining dynamic occupancy of gray wolves in Idaho after a decade of managed harvest. The Journal of Wildlife Management. 2023:e22453.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate wolf occupancy across Idaho from 2016-2021; found relatively constant occupancy throughout the study, suggesting that wolves remain well-distributed throughout Idaho despite ESA delisting in 2011 and subsequent managed harvest.  Used MDv4 with a confidence threshold of 0.8 to eliminate blanks.
+
+
+<br>**McGee M. Mesopredator Occupancy and Passerine Richness Along an Urbanization Gradient in Central Coastal California.  Cal State Monterey Bay Master's Thesis.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate interactions among apex predators (coyotes, mountain lions), mesopredators (bobcats, gray foxes, domestic cats), and passerine richness in the Salinas Valley (CA).  Predator occupancy is evaluated with camera traps; passerine richness is evaluated with manual counts.  "Gray foxes displayed a strong negative relationship with coyote activity and a strong positive relationship with mountain lion presence, while coyotes were negatively associated with mountain lions. Distance to wildland patches was the top predictor for both felid species, neither of which were notably impacted by coyotes. While natural landscape and topography predictors had the greatest explanatory power for passerine richness, domestic cat activity also had a notable adverse effect on passerines, with more explanatory power than all other carnivore and human-related metrics."
+
+Used MD to eliminate blanks/people, did species classification in Timelapse.
+
+
 <br/>**Anderson AK, Waller JS, Thornton DH. Canada lynx occupancy and density in Glacier National Park. The Journal of Wildlife Management. 2023 May;87(4):e22383.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -682,7 +700,9 @@ Use background subtraction, based on a rolling window of N images.  A background
 Test on videos from 35 camera traps in France, containing 31 species, from which they extract ~88k frames.  Used MDv4 with a 90% confidence threshold to generate boxes and assign labels for all the single-species images; for the 4% that were multi-species, they handled those manually.  Used those species-labeled boxes to fine-tune MDv4 (!!!).  This is the only time I've ever hear of <i>anyone</i> fine-tuning MDv4!  Props to them.  Used box counts for counting.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/simoes-2022.png" width="500">
-<br>**de Lorm T, Horswill C, Rabaiotti D, Ewers R, Groom R, Watermeyer J, Woodroffe R, Fund AW. Optimising the automated recognition of individual animals to support population monitoring. Authorea prepint, March 2023.**
+
+
+<br>**De Lorm T, Horswill C, Rabaiotti D, Ewers R, Groom R, Watermeyer J, Woodroffe R, Fund AW. Optimising the automated recognition of individual animals to support population monitoring. Ecology and Evolution. 2023 Jun 28.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
@@ -840,7 +860,7 @@ Results show "...precipitation driving mainly early-season and in some cases mid
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/muthoka-2022.jpg" width="500">
 
 
-<br/>**Böhner H, Kleiven EF, Ims RA, Soininen EM. A semi-automatic workflow to process camera trap images in R. bioRxiv. 2022:2022-10.**
+<br/>**Böhner H, Kleiven EF, Ims RA, Soininen EM. A semi-automatic workflow to process images from small mammal camera traps. Ecological Informatics. 2023 Jun 5:102150.**
 
 Propose a workflow for camera trap image processing in R, somewhere between "best practices" and "a piece of code you can run":
 
@@ -856,6 +876,8 @@ They present a case study on camera trap data from Norway, from 92 camera traps,
 They found 99.3% accuracy on the 97.3% of images that were classified above a confidence threshold.  On data from a subsequent season, accuracy fell to 95.3% on existing cameras, and 90.7% on new cameras.
 
 Code is [here](https://github.com/hannaboe/camera_trap_workflow).  Training images and trained model are [here](https://zenodo.org/record/7142734).
+
+(Technically I summarized a biorxiv pre-print of this paper.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/bohner-2022.png" width="500">
 
@@ -996,7 +1018,7 @@ Used an LSTM to perform neural architecture search over candidate classification
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animals-12-00437-g001.png" width="250">
 
 
-<br/>**Cunha F, Santos EM, Colonna JG. Bag of Tricks for Long-Tail Visual Recognition of Animal Species in Camera Trap Images. arXiv preprint arXiv:2206.12458. 2022 Jun 24.**
+<br/>**Cunha F, dos Santos EM, Colonna JG. Bag of tricks for long-tail visual recognition of animal species in camera-trap images. Ecological Informatics. 2023 Sep 1;76:102060.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
@@ -1011,6 +1033,8 @@ For evaluation, they bin classes into rareness categories so that the evaluation
 Compare resampling, re-weighting, two-stage training (training the full network on the imbalanced dataset, and rebalancing just for classifier training), and multi-branch networks (training different branches/sub-networks with different class balancing schemes).  Found that basically none of these things helped rare classes without hurting common classes.
 
 Also experimented with using MegaDetector v4 to crop prior to classification.  Found that this helped for CCT and WCT, but for SS and WCSCT, they had to resize images to get MD run in a reasonable amount of time, so they didn't end up with a ton of boxes, so the results were worse overall with MD cropping for SS and WCSCT.
+
+(Technically I summarized an arxiv pre-print of this paper.)
 
 
 <br/>**Fennell M, Beirne C, Burton AC. Use of object detection in camera trap image identification: Assessing a method to rapidly and accurately classify human and animal detections for research and application in recreation ecology. Global Ecology and Conservation. 2022 Jun 1;35:e02104.**
@@ -1730,8 +1754,18 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Bohnett E, Faryabi SP, Lewison R, An L, Bian X, Rajabi AM, Jahed N, Rooyesh H, Mills E, Ramos S, Mesnildrey N. Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies. Global Ecology and Conservation. 2023 Jan 1;41:e02350.
+
+* Bjerge K, Alison J, Dyrmann M, Frigaard CE, Mann HM, Høye TT. Accurate detection and identification of insects from camera trap images with deep learning. PLOS Sustainability and Transformation. 2023 Mar 15;2(3):e0000051.
+
+* Krivek G, Gillert A, Harder M, Fritze M, Frankowski K, Timm L, Meyer‐Olbersleben L, von Lukas UF, Kerth G, van Schaik J. BatNet: a deep learning‐based tool for automated bat species identification from camera trap images. Remote Sensing in Ecology and Conservation. 2023 May 9.
+
+* Zhao X, Xie P, Gao R, Lu W, He J, Shen L. Weakly Supervised Bounding-Box Generation for Camera-Trap Image Based Animal Detection. Available at SSRN 4370104.
+
+* Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
 
 <!--
+
 ### Papers I don't have access to but would read if I did
 
 * Maile R, Duggan M, Mousseau T. The successes and pitfalls: Deep learning effectiveness in a Chernobyl field camera trap application.
@@ -1754,13 +1788,13 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
 
+* Thangaraj, R., Rajendar, S., Sanjith, M., Sasikumar, S. and Chandhru, L., 2023, January. Automated Recognition of Wild Animal Species in Camera Trap Images Using Deep Learning Models. In 2023 Third International Conference on Advances in Electrical, Computing, Communication and Sustainable Technologies (ICAECT) (pp. 1-5). IEEE.
+
 * Miao Z, Gaynor KM, Wang J, Liu Z, Muellerklein O, Norouzzadeh MS, McInturff A, Bowie RC, Nathan R, Yu SX, Getz WM. A comparison of visual features used by humans and machines to classify wildlife. BioRxiv. 2018 Oct 22:450189.
 
 * Chiang VS, Park JH. Using DeepLabCut to study sexual behaviour in the lab and the wild. Science Open Posters. 2022 Dec 13.
 
 * Battu T, Lakshmi DS. Animal image identification and classification using deep neural networks techniques. Measurement: Sensors. 2023 Feb 1;25:100611.
-
-* Bohnett E, Faryabi SP, Lewison R, An L, Bian X, Rajabi AM, Jahed N, Rooyesh H, Mills E, Ramos S, Mesnildrey N. Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies. Global Ecology and Conservation. 2023 Jan 1;41:e02350.
 
 * Neupane SB, Sato K, Gautam BP. A literature review of computer vision techniques in wildlife monitoring.
 
@@ -1769,6 +1803,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 * Shepley A, Falzon G, Lawson C, Meek P, Kwan P. U-Infuse: Democratization of Customizable AI for Object Detection. bioRxiv. 2020 Jan 1.
 
 * Islam SB, Valles D. Identification of Wild Species in Texas from Camera-trap Images using Deep Neural Network for Conservation Monitoring. 10th Annual Computing and Communication Workshop and Conference (CCWC) 2020 Jan 6 (pp. 0537-0542). IEEE.
+
+* Binta Islam S, Valles D, Hibbitts TJ, Ryberg WA, Walkup DK, Forstner MR. Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images. Animals. 2023 Jan;13(9):1526.
 
 *  Zualkernan IA, Dhou S, Judas J, Sajun AR, Gomez BR, Hussain LA, Sakhnini D. Towards an iot-based deep learning architecture for camera trap image classification. In 2020 IEEE Global Conference on Artificial Intelligence and Internet of Things (GCAIoT) 2020 Dec 12 (pp. 1-6). IEEE.
 
