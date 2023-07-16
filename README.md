@@ -1760,6 +1760,10 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy‐based monitoring. Remote Sensing in Ecology and Conservation. 2023.
+
+* Halina E, Joseph R, Rebstock N, Wyrod P, Nath S. Using Object Detection Models to Identify and Count Arctic Wildlife.
+
 * Bohnett E, Faryabi SP, Lewison R, An L, Bian X, Rajabi AM, Jahed N, Rooyesh H, Mills E, Ramos S, Mesnildrey N. Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies. Global Ecology and Conservation. 2023 Jan 1;41:e02350.
 
 * Bjerge K, Alison J, Dyrmann M, Frigaard CE, Mann HM, Høye TT. Accurate detection and identification of insects from camera trap images with deep learning. PLOS Sustainability and Transformation. 2023 Mar 15;2(3):e0000051.
