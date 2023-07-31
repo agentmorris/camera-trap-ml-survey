@@ -428,6 +428,14 @@ Module that attaches to existing camera traps to provide connectivity and AI.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel.png" width="500">
 
+### University of Idaho RCDS camera (no fancy name that I'm aware of)
+
+> <https://www.iids.uidaho.edu/news.php?newsid=126>
+
+AI-enabled camera with detection and classification capabilities.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/uidaho-ai-camera.jpg" width="400">
+
 ### TrailGuard AI (RESOLVE)
 
 > <https://www.resolve.ngo/trailguard.htm>
