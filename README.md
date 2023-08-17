@@ -751,7 +751,7 @@ Tested on 210 videos from the PanAf leopard dataset, finding 116 matches (I thin
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Present an active learning pipeline for detection and classification for camera traps, including a pretrained model for six European deer species.  Code is available [here](https://github.com/slds-lmu).
+Present an active learning pipeline for detection and classification for camera traps, including a pretrained model for six European deer species.  Code is available [here](https://github.com/slds-lmu/wildlife-ml).
 
 Experiment on a dataset of ~50k images from 37 camera traps in Europe.  Use MD (version not specified) for cropping and blank elimination; optimize the threshold during the training process, rather than using a fixed threshold.  Crop boxes and resize to 224x224, assigning the image-level label to each box (their data doesn't have multi-species images).
 
