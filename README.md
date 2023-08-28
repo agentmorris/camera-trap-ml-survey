@@ -151,6 +151,10 @@ Web-based tool for camera trap data management, annotation, and spatial analysis
 
 Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
 
+Also see ENETWILD-consortium, Casaer J, Jansen P, Roy D, Stephens PA, Blanco-Aguiar JA, Liefting Y, Vicente J, Smith GC. <a href="https://efsa.onlinelibrary.wiley.com/doi/epdf/10.2903/sp.efsa.2023.EN-8217">Improvement of information technology tools to collect, process and analyse data on wildlife population</a>. EFSA Supporting Publications. 2023 Aug;20(8):8217E.
+
+The latter indicates that Agouti includes some bespoke AI tools, as well as DeepFaune and MegaDetector.
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
 #### RECONN.AI
@@ -610,7 +614,15 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 #### Papers from 2023
 
-**Procko M, Naidoo R, LeMay V, Burton AC. Human presence and infrastructure impact wildlife nocturnality differently across an assemblage of mammalian species. PLoS ONE 18(5): e0286131. 2023.**
+**Ayars J, Emmet RL, Bassing SB, Sanderfoot OV, Raby S, Karambelas A, James EP, Ahmadov R, Gardner B. Camera traps link population-level activity patterns with wildfire smoke events for mammals in Eastern Washington State. Fire Ecology. 2023 Dec;19(1):1-5.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Look at the effects of wildfire smoke (via PM2.5 measurement) on mammals in Washington; find a decrease in activity for obcat, moose, and mule deer.  Used MD + Timelapse for image review.
+
+
+<br/>**Procko M, Naidoo R, LeMay V, Burton AC. Human presence and infrastructure impact wildlife nocturnality differently across an assemblage of mammalian species. PLoS ONE 18(5): e0286131. 2023.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -626,7 +638,7 @@ Look at impacts of human disturbance on wildlife nocturnality.  Black bears more
 Evaluate wolf occupancy across Idaho from 2016-2021; found relatively constant occupancy throughout the study, suggesting that wolves remain well-distributed throughout Idaho despite ESA delisting in 2011 and subsequent managed harvest.  Used MDv4 with a confidence threshold of 0.8 to eliminate blanks.
 
 
-<br>**McGee M. Mesopredator Occupancy and Passerine Richness Along an Urbanization Gradient in Central Coastal California.  Cal State Monterey Bay Master's Thesis.**
+<br/>**McGee M. Mesopredator Occupancy and Passerine Richness Along an Urbanization Gradient in Central Coastal California.  Cal State Monterey Bay Master's Thesis.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -648,6 +660,30 @@ Conclusions:
 * "...our results suggest that GNP may be more suitable for lynx than previously projected"
 * "Although average park-wide lynx density was low (1.28/100km2) compared to populations in the core of the range, park-wide abundance was substantial ... . Based on our results, we propose that GNP should be considered as a potentially important area for lynx habitat refugia in a warming climate."
 * "...the ability to estimate lynx density from coat markings during summer may be an important advancement for lynx conservation efforts in landscapes where winter monitoring techniques ... are difficult or impossible to apply."
+
+
+<br/>**Stewart LN. Integrating camera traps and autonomous recording units for wildlife monitoring in the Northwest Territories (Doctoral dissertation, University of British Columbia).**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Methodology work on combining camera traps and ARUs in the NWT, specifically to create habitat models for sandhill crane, found that "ARUs made the best inferences at the landscape scale, while cameras made the best inferences at the home range scale".  Used MDv4 (confidence threshold 0.2) to remove blanks, then processed images in WildTrax.
+
+
+<br/>**Justus W.  Activity Overlap and Risk of Mycobacterium bovis Transmission Between Wild European Mammals. Bangor University MSc thesis, 2023.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Looks at interspecies overlap of species that may carry and transmit bovine tuberculosis in Wales (badgers, deer, boxes).  Found that there is badgers and foxes have a high degree of temporal overlap.  Used MegaDetector to filter out blanks, then processed in digiKam.
+
+
+<br/>**Check C. A Mechanistic Examination of Interspecific Competition Between Wild and Domestic Herbivores.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Analyzes forage competition between mule deer and cattle in Utah, found evidence that "cattle abundance reduces deer abundance in forage-rich areas".  Used MD to filter blanks, then processed images in Camelot.
 
 
 <br/>**Barash, A., Preiss-Bloom, S., Machluf, Y., Fabbri, E., Malkinson, D., Velli, E., Mucci, N., Barash, A., Caniglia, R., Dayan, T. and Dekel, Y., 2023. Possible origins and implications of atypical morphologies and domestication-like traits in wild golden jackals (Canis aureus). Scientific Reports, 13(1), p.7388.**
@@ -698,7 +734,7 @@ Assess the difference between domestic and wild animals in Mexican temperate and
 
 They had a wild number of blanks; only 7604 positives in 370,800 total images.  Used MegaDetector (version unspecified, confidence threshold 0.3, so probably MDv5) to eliminate blanks.
 
-<br/>**Penn M, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock-A flexible, low-resource tool for processing camera-trapping images. bioRxiv. 2023:2023-03.**
+<br/>**Penn M, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock: a flexible, low-resource tool for processing camera-trapping images. bioRxiv. 2023:2023-03.**
 
 Present a new tool (Sherlock) for camera trap image processing; test it on ~241k images from 46 cameras in the UK to identify badgers.  Correctly classified 91.9% of badgers and removed 49.3% of blanks.
 
@@ -1262,7 +1298,7 @@ Trained a bespoke model for human/animal detection, and ran it on the Conservati
 Found that increasing distance (over 10m) and occlusion showed adverse effects on detection probability.  Distance wasn't an issue below 10m.  Also found significant influences from species size and time of day (darkness).  Darker clothing colors negatively impacted the probability of human detection.
 
 
-<br/>**Vélez J, McShea W, Shamon H, Castiblanco-Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera-trap data using artificial intelligence. Methods in Ecology and Evolution. 2022.**
+<br/>**Vélez J, McShea W, Shamon H, Castiblanco‐Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera‐trap data using artificial intelligence. Methods in Ecology and Evolution. 2023 Feb;14(2):459-77.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1767,6 +1803,12 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 
 ### Papers I know exist, and I have access to, but I haven't read yet
+
+* Leorna SS. Using Camera Traps to Advance Wildlife Monitoring in the Arctic (Doctoral dissertation, University of Alaska Fairbanks).
+
+* Clarfeld LA, Sirén AP, Mulhall BM, Wilson TL, Bernier E, Farrell J, Lunde G, Hardy N, Gieder KD, Abrams R, Staats S. Evaluating a tandem human-machine approach to labelling of wildlife in remote camera monitoring. Ecological Informatics. 2023 Aug 10:102257.
+
+* van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.
 
 * Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy‐based monitoring. Remote Sensing in Ecology and Conservation. 2023.
 
