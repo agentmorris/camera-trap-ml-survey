@@ -678,6 +678,21 @@ Methodology work on combining camera traps and ARUs in the NWT, specifically to 
 Looks at interspecies overlap of species that may carry and transmit bovine tuberculosis in Wales (badgers, deer, boxes).  Found that there is badgers and foxes have a high degree of temporal overlap.  Used MegaDetector to filter out blanks, then processed in digiKam.
 
 
+<br/>**Clarfeld LA, Sirén AP, Mulhall BM, Wilson TL, Bernier E, Farrell J, Lunde G, Hardy N, Gieder KD, Abrams R, Staats S. Evaluating a tandem human-machine approach to labelling of wildlife in remote camera monitoring. Ecological Informatics. 2023 Aug 10:102257.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the benefits of showing bounding boxes on human annotator performance (but not on the task you might expect, more on this below).  Used data from 12 cameras, selected 100 consecutively-captured images from each camera (1200 total images) and chose the capture ranges to get to roughly a 50% blank rate.  Did their tagging in [AMMonitor](https://code.usgs.gov/vtcfwru/ammonitor), which allows both class and box annotations.  The six authors (all experts) were the annotators, and each image was subjected to three treatments: (1) bounding boxes added by MDv5 (threshold 0.1), annotators were expected to add/correct boxes, (2) no ML assistance, annotators were expected to add/correct boxes, (3) no boxes provided or expected.
+
+At ct=0.1, they found a MD recall of 91.5% and a precision of 92.6% (3.6% FN rate).
+
+Summary of findings: "Overall, we found that tagging images with ML bounding boxes is nearly twice as fast as tagging with bounding boxes, unassisted. Tagging images with only the species label (without bounding boxes) was the fastest tagging method, although not significantly different relative to tagging with ML bounding boxes."  
+
+<i>Breaking the fourth wall and leaving "objective summary mode"...</i>
+
+The condition I really want to know about was not tested: using ML bounding boxes but with no expectation that images end up with boxes.  This is 99.999% of MD use, and while it's always been a hypothesis that boxes make users faster at the thing they spend most of their time on (species classification, after blanke elimination with MD), we've never evaluated it.  This paper answers some interesting questions, but *just* misses the one I would most like to see answered.  This paper is really asking about the value of bounding boxes for <i>preparing detector (or cropped classifier) training sets</i>, which is an important question, just not the one that's top of mind for me and most MD-based workflows.
+
+
 <br/>**Check C. A Mechanistic Examination of Interspecific Competition Between Wild and Domestic Herbivores.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -1805,8 +1820,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 * Leorna SS. Using Camera Traps to Advance Wildlife Monitoring in the Arctic (Doctoral dissertation, University of Alaska Fairbanks).
-
-* Clarfeld LA, Sirén AP, Mulhall BM, Wilson TL, Bernier E, Farrell J, Lunde G, Hardy N, Gieder KD, Abrams R, Staats S. Evaluating a tandem human-machine approach to labelling of wildlife in remote camera monitoring. Ecological Informatics. 2023 Aug 10:102257.
 
 * van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.
 
