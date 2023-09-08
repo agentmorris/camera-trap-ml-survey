@@ -1819,9 +1819,11 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Örn F. Computer Vision for Camera Trap Footage: Comparing classification with object detection.  Uppsala University, independent thesis.
+
 * Mitterwallner V, Peters A, Edelhoff H, Mathes G, Nguyen H, Peters W, Heurich M, Steinbauer MJ. Automated visitor and wildlife monitoring with camera traps and machine learning. Remote Sensing in Ecology and Conservation. 2023.
 
-* Henrich M, Burgueño M, Hoyer J, Haucke T, Steinhage V, Kühl HS, Heurich M. A semi‐automated camera trap distance sampling approach for population density estimation. Remote Sensing in Ecology and Conservation. 2023.
+* Henrich M, Burgueño M, Hoyer J, Haucke T, Steinhage V, Kühl HS, Heurich M. A semi-automated camera trap distance sampling approach for population density estimation. Remote Sensing in Ecology and Conservation. 2023.
 
 * Meng DY, Li T, Li HX, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH, Ren GP, Xiao W. A method for automatic identification and separation of wildlife images using ensemble learning. Ecological Informatics. 2023 Aug 12:102262.
 
@@ -1829,7 +1831,7 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 * van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.
 
-* Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy‐based monitoring. Remote Sensing in Ecology and Conservation. 2023.
+* Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy-based monitoring. Remote Sensing in Ecology and Conservation. 2023.
 
 * Halina E, Joseph R, Rebstock N, Wyrod P, Nath S. Using Object Detection Models to Identify and Count Arctic Wildlife.
 
