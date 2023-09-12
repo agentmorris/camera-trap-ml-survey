@@ -147,7 +147,7 @@ AI-accelerated review tool that advertises both browser-based and desktop experi
 
 > <https://agouti.eu> 
 
-Web-based tool for camera trap data management, annotation, and spatial analysis. [2022 roadmap update](https://www.efsa.europa.eu/en/supporting/pub/en-7327).
+Web-based tool for camera trap data management, annotation, and spatial analysis.
 
 Described in Casaer J, Milotic T, Liefting Y, Desmet P, Jansen P. <a href="https://search.proquest.com/openview/409a3fc07525678bbaf3f4d87c076d58/1?pq-origsite=gscholar&cbl=2049297">Agouti: A platform for processing and archiving of camera trap images</a>. Biodiversity Information Science and Standards. 2019 Sep 24.
 
