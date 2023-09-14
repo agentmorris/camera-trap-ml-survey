@@ -440,11 +440,11 @@ AI-enabled camera with detection and classification capabilities.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/uidaho-ai-camera.jpg" width="400">
 
-### TrailGuard AI (RESOLVE)
+### TrailGuard AI
 
-> <https://www.resolve.ngo/trailguard.htm>
+> <https://www.nightjar.tech/general-9>
 
-AI-enabled camera directed primarily at anti-poaching applications.
+AI-enabled camera developed for anti-poaching and HWC applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
@@ -1818,6 +1818,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 
 ### Papers I know exist, and I have access to, but I haven't read yet
+
+* Dertien JS, Negi H, Dinerstein E, Krishnamurthy R, Negi HS, Gopal R, Gulick S, Pathak SK, Kapoor M, Yadav P, Benitez M, Ferreira M, Wijnveen AJ, Lee ATL, Wright B, Baldwin RF. [Mitigating human–wildlife conflict and monitoring endangered tigers using a real-time camera-based alert system](https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biad076/7261057?searchresult=1), BioScience, 2023.
 
 * Örn F. Computer Vision for Camera Trap Footage: Comparing classification with object detection.  Uppsala University, independent thesis.
 
