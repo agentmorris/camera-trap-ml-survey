@@ -1313,7 +1313,7 @@ Trained a bespoke model for human/animal detection, and ran it on the Conservati
 Found that increasing distance (over 10m) and occlusion showed adverse effects on detection probability.  Distance wasn't an issue below 10m.  Also found significant influences from species size and time of day (darkness).  Darker clothing colors negatively impacted the probability of human detection.
 
 
-<br/>**Vélez J, McShea W, Shamon H, Castiblanco‐Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera‐trap data using artificial intelligence. Methods in Ecology and Evolution. 2023 Feb;14(2):459-77.**
+<br/>**Vélez J, McShea W, Shamon H, Castiblanco-Camacho PJ, Tabak MA, Chalmers C, Fergus P, Fieberg J. An evaluation of platforms for processing camera-trap data using artificial intelligence. Methods in Ecology and Evolution. 2023 Feb;14(2):459-77.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1704,7 +1704,7 @@ Excellent literature review (not a technical paper) on what species people have 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image23.png" width="500">
 
 
-<br/>**Glover-Kapfer P, Soto‐Navarro CA, Wearn OR. Camera‐trapping version 3.0: current constraints and future priorities for development. Remote Sensing in Ecology and Conservation. 2019 Sep;5(3):209-23.**
+<br/>**Glover-Kapfer P, Soto-Navarro CA, Wearn OR. Camera-trapping version 3.0: current constraints and future priorities for development. Remote Sensing in Ecology and Conservation. 2019 Sep;5(3):209-23.**
 
 Not specifically focused on machine learning, but an excellent global survey (258 researchers) on the use of camera traps, with a nod toward a "camera trap 3.0" vision that includes some degree of automation.  If you're wondering after reading the title what "camera trap 2.0" was, they use that to refer to the curret, digital generation of camera traps.  In many ways this paper is a great reminder to computer vision folks that as important as machine learning is, there are 1000 other things that ecologists think about when they think about advances in camera trap technology, including durability, theft prevention, and connectivity.
 
@@ -1839,7 +1839,7 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 * Bjerge K, Alison J, Dyrmann M, Frigaard CE, Mann HM, Høye TT. Accurate detection and identification of insects from camera trap images with deep learning. PLOS Sustainability and Transformation. 2023 Mar 15;2(3):e0000051.
 
-* Krivek G, Gillert A, Harder M, Fritze M, Frankowski K, Timm L, Meyer‐Olbersleben L, von Lukas UF, Kerth G, van Schaik J. BatNet: a deep learning‐based tool for automated bat species identification from camera trap images. Remote Sensing in Ecology and Conservation. 2023 May 9.
+* Krivek G, Gillert A, Harder M, Fritze M, Frankowski K, Timm L, Meyer-Olbersleben L, von Lukas UF, Kerth G, van Schaik J. BatNet: a deep learning-based tool for automated bat species identification from camera trap images. Remote Sensing in Ecology and Conservation. 2023 May 9.
 
 * Zhao X, Xie P, Gao R, Lu W, He J, Shen L. Weakly Supervised Bounding-Box Generation for Camera-Trap Image Based Animal Detection. Available at SSRN 4370104.
 
