@@ -456,6 +456,14 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
 
+### RobotEye Kapan
+
+> <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
+
+AI-enabled camera trap designed for anti-poaching applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
+
 ### InstantDetect (ZSL)
 
 > <https://www.zsl.org/conservation/how-we-work/monitoring-and-technology/instant-detect-20>
@@ -1819,6 +1827,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Maile R, Duggan M, Mousseau T. The successes and pitfalls: Deep learning effectiveness in a Chernobyl field camera trap application.
+
 * Dertien JS, Negi H, Dinerstein E, Krishnamurthy R, Negi HS, Gopal R, Gulick S, Pathak SK, Kapoor M, Yadav P, Benitez M, Ferreira M, Wijnveen AJ, Lee ATL, Wright B, Baldwin RF. [Mitigating human–wildlife conflict and monitoring endangered tigers using a real-time camera-based alert system](https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biad076/7261057?searchresult=1), BioScience, 2023.
 
 * Örn F. Computer Vision for Camera Trap Footage: Comparing classification with object detection.  Uppsala University, independent thesis.
@@ -1850,8 +1860,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 <!--
 
 ### Papers I don't have access to but would read if I did
-
-* Maile R, Duggan M, Mousseau T. The successes and pitfalls: Deep learning effectiveness in a Chernobyl field camera trap application.
 
 * Radig B, Bodesheim P, Korsch D, Denzler J, Haucke T, Klasen M, Steinhage V. Automated Visual Large Scale Monitoring of Faunal Biodiversity. Pattern Recognition and Image Analysis. 2021 Jul;31(3):477-88.
 
