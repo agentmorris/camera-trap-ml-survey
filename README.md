@@ -901,6 +901,100 @@ Explore the use of an automated, connected camera trap system to pay guardians/s
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fergus-2023.png" width="500">
 
 
+<br/>**Maile RE, Duggan MT, Mousseau TA. The successes and pitfalls: Deep-learning effectiveness in a Chernobyl field camera trap application. Ecology and Evolution. 2023 Sep;13(9):e10454.**
+
+Train a custom detector for 16 species, try to assess environmental factors that impact classification accuracy with GLMMs.  Didn't find much in terms of unexpected variables, but maaaaaybe some positive impact of higher temperature, and clear but unsurprising impact of day vs. night and precipitation.  Trained Faster-RCNN in TensorFlow.
+
+
+<br/>**Dertien JS, Negi H, Dinerstein E, Krishnamurthy R, Negi HS, Gopal R, Gulick S, Pathak SK, Kapoor M, Yadav P, Benitez M, Ferreira M, Wijnveen AJ, Lee ATL, Wright B, Baldwin RF. [Mitigating human–wildlife conflict and monitoring endangered tigers using a real-time camera-based alert system](https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biad076/7261057), BioScience, 2023.**
+
+Case study on a deployment of [TrailGuard AI](https://www.nightjar.tech/) in India.  Supplementary material has some description of the AI components, but not a lot; they mention that [CVEDIA](https://www.cvedia.com/) did the training, and that synthetic 3D models are used for training.  They also indicate that after the edge model detects and transmits an event of interest, a trained YOLOv5 is used in the cloud.  Edge inference runs on a [Myriad X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x/products.html).  Primary transmission is cellular, though the device suppots a long-range radio.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/trailguard.jpg" width="500">
+
+
+<br/>**Mitterwallner V, Peters A, Edelhoff H, Mathes G, Nguyen H, Peters W, Heurich M, Steinbauer MJ. Automated visitor and wildlife monitoring with camera traps and machine learning. Remote Sensing in Ecology and Conservation. 2023.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate MDv4.1 in a mostly-automated context for counting humans, vehicles, and animals in park trails in Germany.  Evaluated on 352,426 images (229k humans/vehicles, 114k animals).  Tagged with xnviewmp and Trapper.  Generally report results at a 95% confidence threshold, which is really high for most applications, but they are optimizing for counting accuracy, not for recall, so, it's reasonable.  On a relatively balanced dataset, found 96% accuracy for animals, 94% accuracy for people, and 99% accuracy for vehicles.  Found accuracy ~3% lower at night for animals @ the 95% confidence threshold.  Find that daily counts from MDv4.1 correlate well with manual counts (see below).  Really nice figure highlighting what a multi-stage workflow might look like (also see below).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rse2367-fig-0005-m.jpg" width="500">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rse2367-fig-0007-m.jpg" width="500">
+
+
+<br/>**Henrich M, Burgueño M, Hoyer J, Haucke T, Steinhage V, Kühl HS, Heurich M. A semi-automated camera trap distance sampling approach for population density estimation. Remote Sensing in Ecology and Conservation. 2023.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Highlight the importance of distance estimation in population estimation, and propose a semi-automated workflow for population estimation for 10 European species.  For each camera, they collected calibration images with a ranging pole (or human serving as a ranging pole) at distances 1-15m @ 1m intervals.  Used the [distance-estimation toolkit](https://github.com/timmh/distance-estimation) to estimate distances within MDv4 boxes (threshold 0.75), and used the 20th percentile of estimated distance within a box as the distance to the animal.
+
+Re: MDv4 accuracy: "The percentage of animals not detected by MegaDetector varied widely between species, ranging from 4% for water rail to 39% for wild boar". ... In general, recall across species was not related to the distance from the CT ... . However, distance had a negative effect on the proportion of automatically detected roe deer (P=0.03), beaver (P=0.006) and wild boar (P=0.0001) relative to the overall trend ... . In this study area, 3.8% of the automated detections were false positives and their distribution closely followed that of true positives, with a peak at the 4- to 5-m interval ... ."  I'm not sure what's up with poor performance on wild boar.
+
+Generally pretty bullish on automating depth measurement: "Our study demonstrates that distance estimates obtained with a deep-learning approach based on standard monocular photos can provide reliable population density estimates, assuming both a small number of missed animals not accounted for by the detection probability and unbiased reference depth images. Potential errors can be minimized by compliance with CT placement guidelines as well as analytical approaches. The method is an important step in the establishment of a largely automated pipeline for the analysis of CT data aimed at the estimation of population densities, which includes the detection of animals in the images, species classification and distance estimation."  Estimate a ~13x reduction in data processing time for workflows where distance sampling is necessary.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rse2362-fig-0002-m.jpg" width="500">
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rse2362-fig-0005-m.jpg" width="500">
+
+
+<br/>**van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describes the main components of [EcoAssist](https://github.com/PetervanLunteren/EcoAssist/blob/main/README.md).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
+
+
+<br/>**Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy-based monitoring. Remote Sensing in Ecology and Conservation. 2023.**
+
+Evaluate various semi-automated workflows to assess potential time-savings for annotating ~400k images of rabbits, foxes, and pronghorns (from Utah).
+
+We classified images using two manual (single and double review), one semi-automated (combined automated-manual), and four fully automated (machine learning) approaches.  Used MLWIC2 for classification.  Assessed accuracy, but also the impact of an automated approach on occupancy estimation.  Really thorough evaluation of the impact of all types of ML errors in semi- and fully-automated approaches on species-specific occupancy models, though somewht specific to MLWIC2. Generally pessimistic on full automation any time soon, but somewhat optimistic on semi-automated approaches that save time: "Our study demonstrates that error rates of fully automated image classification approaches may lead to unreliable occupancy-based estimates and erroneous conclusions, but that a semi-automated approach with automated removal of empty images can reduce labor without significantly altering estimates or inferences".
+
+
+<br/>**Bohnett E, Faryabi SP, Lewison R, An L, Bian X, Rajabi AM, Jahed N, Rooyesh H, Mills E, Ramos S, Mesnildrey N. Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies. Global Ecology and Conservation. 2023 Jan 1;41:e02350.**
+
+Evaluate the use of Whiskerbook to accelerate individual ID for snow leopards with both novices and experts.  Founds that Whiskerbook helped everyone, but even with Whiskerbook, novices make more mistakes than is probably tolerable for abundance estimates. 
+
+Images are from zoos, but still, progress toward individual ID using camera traps.  Camera traps and individual ID is still a rare combination; i.e., there's not a lot of individual ID on this page!
+
+
+<br/>**Bjerge K, Alison J, Dyrmann M, Frigaard CE, Mann HM, Høye TT. Accurate detection and identification of insects from camera trap images with deep learning. PLOS Sustainability and Transformation. 2023 Mar 15;2(3):e0000051.**
+
+Trained YOLOv5 to recognize insects in a dataset of ~30k images, with ~93% precision and ~93% recall.  Found that YOLOv5 was lots better than YOLOv3, but within YOLOv5, found that "the increased image and model size from 640 (640v5m) to 1280 (1280v5s6) pixels provides only a slight improvement with an increased F1-score of 0.01 with nine classes. The difference between the 1280v5s6 and 1280v5m6 models was also minimal...".
+
+Camera trap setup looks like this:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/journal.pstr.0000051.g001.PNG" width="500">
+
+...such that objects of interest look like this:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/journal.pstr.0000051.g002.PNG" width="500">
+
+Annotations were collected on Zooniverse ([PollinatorWatch](https://www.zooniverse.org/projects/tokehoye/pollinatorwatch)).  Data is available [here](https://doi.org/10.5281/zenodo.7395751).
+
+
+<br/>**Krivek G, Gillert A, Harder M, Fritze M, Frankowski K, Timm L, Meyer-Olbersleben L, von Lukas UF, Kerth G, van Schaik J. BatNet: a deep learning-based tool for automated bat species identification from camera trap images. Remote Sensing in Ecology and Conservation. 2023 May 9.**
+
+Trained a multi-stage pipeline for detecting and classifying nine species of bats in a custom camera trap: (1) a species-agnostic Faster-RCNN on ResNet-50, (2) a U-Net run on the crops to remove background, and a 3 x MobileNetv3 ensemble for species classification.  Achieved a test accuracy on untrained sites ranging from 0.95 to 1.0 at most sites, but only 0.38 at one site (a bit of site-specific training fixed that issue).  Classification accuracy at untrained sites ranged from 18% to 90%, but in all cases, a bit of site-specific training improved performance to >95%.
+
+Code is [here](https://github.com/GabiK-bat/BatNet).
+
+Gestalt of the images:
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/4Myotis_daubentonii.JPG" width="500">
+
+
+<br/>**Zhao X, Xie P, Gao R, Lu W, He J, Shen L. Weakly Supervised Bounding-Box Generation for Camera-Trap Image Based Animal Detection. Available at SSRN 4370104.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Explore a bootstrapping approach where they train a small, single-class detector (SSD) on a small subset of Snapshot Serengeti, run that on lots of Snapshot Serengeti images, filter detections with a low confidence threshold but only keep images where the number of boxes is reasonable, and use the boxes from that inference pass - and the very large number of species labels - to train a larger, multi-class detector.
+
+
 #### Papers from 2022
 
 **Goward S. I Spy Through a Camera’s Eye: Divii in the Gwich’in Settlement Area. ARCTIC. 2022 Dec 15;75(4):510-5.**
@@ -1387,6 +1481,13 @@ Highlight some of the challenges of using cameras that aren't related to AI: eth
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/staab-2021.jpg" width="500">
 
 
+<br/>**Örn F. Computer Vision for Camera Trap Footage: Comparing classification with object detection.  Uppsala University, independent thesis.  June 2021.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare DesneNet201, YOLOv3, and MegaDetector v4 for empty/animal/human classification.  Work with ~15k images from the [INTERACT](https://eu-interact.org/) network of Arctic-ish cameras.  Used MDv4 with a threshold of 0.8.  MDv4 achieved the highest performance overall, although the report includes a good summary of cases where MDv4 struggled.
+
+
 <br/>**Auer D, Bodesheim P, Fiderer C, Heurich M, Denzler J. Minimizing the Annotation Effort for Detecting Wildlife in Camera Trap Images with Active Learning. INFORMATIK 2021. 2021.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1827,39 +1928,12 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
-* Maile R, Duggan M, Mousseau T. The successes and pitfalls: Deep learning effectiveness in a Chernobyl field camera trap application.
-
-* Dertien JS, Negi H, Dinerstein E, Krishnamurthy R, Negi HS, Gopal R, Gulick S, Pathak SK, Kapoor M, Yadav P, Benitez M, Ferreira M, Wijnveen AJ, Lee ATL, Wright B, Baldwin RF. [Mitigating human–wildlife conflict and monitoring endangered tigers using a real-time camera-based alert system](https://academic.oup.com/bioscience/advance-article/doi/10.1093/biosci/biad076/7261057?searchresult=1), BioScience, 2023.
-
-* Örn F. Computer Vision for Camera Trap Footage: Comparing classification with object detection.  Uppsala University, independent thesis.
-
-* Mitterwallner V, Peters A, Edelhoff H, Mathes G, Nguyen H, Peters W, Heurich M, Steinbauer MJ. Automated visitor and wildlife monitoring with camera traps and machine learning. Remote Sensing in Ecology and Conservation. 2023.
-
-* Henrich M, Burgueño M, Hoyer J, Haucke T, Steinhage V, Kühl HS, Heurich M. A semi-automated camera trap distance sampling approach for population density estimation. Remote Sensing in Ecology and Conservation. 2023.
-
-* Meng DY, Li T, Li HX, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH, Ren GP, Xiao W. A method for automatic identification and separation of wildlife images using ensemble learning. Ecological Informatics. 2023 Aug 12:102262.
-
-* Leorna SS. Using Camera Traps to Advance Wildlife Monitoring in the Arctic (Doctoral dissertation, University of Alaska Fairbanks).
-
-* van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.
-
-* Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy-based monitoring. Remote Sensing in Ecology and Conservation. 2023.
-
-* Halina E, Joseph R, Rebstock N, Wyrod P, Nath S. Using Object Detection Models to Identify and Count Arctic Wildlife.
-
-* Bohnett E, Faryabi SP, Lewison R, An L, Bian X, Rajabi AM, Jahed N, Rooyesh H, Mills E, Ramos S, Mesnildrey N. Human expertise combined with artificial intelligence improves performance of snow leopard camera trap studies. Global Ecology and Conservation. 2023 Jan 1;41:e02350.
-
-* Bjerge K, Alison J, Dyrmann M, Frigaard CE, Mann HM, Høye TT. Accurate detection and identification of insects from camera trap images with deep learning. PLOS Sustainability and Transformation. 2023 Mar 15;2(3):e0000051.
-
-* Krivek G, Gillert A, Harder M, Fritze M, Frankowski K, Timm L, Meyer-Olbersleben L, von Lukas UF, Kerth G, van Schaik J. BatNet: a deep learning-based tool for automated bat species identification from camera trap images. Remote Sensing in Ecology and Conservation. 2023 May 9.
-
-* Zhao X, Xie P, Gao R, Lu W, He J, Shen L. Weakly Supervised Bounding-Box Generation for Camera-Trap Image Based Animal Detection. Available at SSRN 4370104.
-
 * Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
 
-<!--
 
 ### Papers I don't have access to but would read if I did
+
+* Meng DY, Li T, Li HX, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH, Ren GP, Xiao W. A method for automatic identification and separation of wildlife images using ensemble learning. Ecological Informatics. 2023 Aug 12:102262.
 
 * Radig B, Bodesheim P, Korsch D, Denzler J, Haucke T, Klasen M, Steinhage V. Automated Visual Large Scale Monitoring of Faunal Biodiversity. Pattern Recognition and Image Analysis. 2021 Jul;31(3):477-88.
 
@@ -1870,7 +1944,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 * Kays R, Lasky M, Allen ML, Dowler RC, Hawkins MT, Hope AG, Kohli BA, Mathis VL, McLean B, Olson LE, Thompson CW. Which mammals can be identified from camera traps and crowdsourced photographs?. Journal of Mammalogy. 2022 Apr 7.
 
 * Barr B, Underwood H, Mountrakis G, Quackenbush L. Automated Mammal Localization and Identification in Camera Trap Images for the Northeastern United States.  Authorea preprints, 04 Jul 2022.
--->
 
 
 <!--
