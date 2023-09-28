@@ -1928,6 +1928,10 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Breen C, Vuyovich C, Odden J, Hall D, Prugh L. Evaluating MODIS snow products using an extensive wildlife camera network. Remote Sensing of Environment. 2023 Sep 1;295:113648.
+
+* Jamie Alison, Stephanie Payne, Jake M Alexander, Anne D Bjorkman, Vincent Ralph Clarke, Onalenna Gwate, Maria Huntsaar, Evelin Iseli, Jonathan Lenoir, Hjalte Mads Rosenstand Mann, Sandy-Lynn Steenhuisen, Toke Thomas Høye.  Deep learning to extract the meteorological by-catch of wildlife cameras.  bioRxiv 2023.09.25.558780.
+
 * Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
 
 
