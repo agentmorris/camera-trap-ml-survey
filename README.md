@@ -57,7 +57,7 @@ An online platform for camera trap data management that includes automated blank
 
 > <https://www.wildtrax.ca>
 
-An online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (specifically for cattle as of the time I'm writing this).  Also manages acoustic data, with some AI functionality for acoustic data as well.
+An online platform for camera trap data management that includes automated blank/non-blank elimination (using MegaDetector), species classification (as of the time I'm writing this, two models are available: (a) MegaClassifier, and (b) a platform-specific cattle/non-cattle model).  Also manages acoustic data, with some AI functionality for acoustic data as well.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
 
