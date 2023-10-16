@@ -25,6 +25,7 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers with summaries](#papers-with-summaries)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers I haven't read yet](#papers-i-know-exist-and-i-have-access-to-but-i-havent-read-yet)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
+[Camera trap data standard](#camera-trap-data-standard)  
 [Further reading](#further-reading)  
 [Places to chat about this stuff](#places-to-chat-about-this-stuff)  
 
