@@ -25,6 +25,7 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers with summaries](#papers-with-summaries)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers I haven't read yet](#papers-i-know-exist-and-i-have-access-to-but-i-havent-read-yet)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
+[Metadata standards for camera trap data](#metadata-standards-for-camera-trap-data)  
 [Further reading](#further-reading)  
 [Places to chat about this stuff](#places-to-chat-about-this-stuff)  
 
@@ -2014,6 +2015,29 @@ Noting Wildlife Insights here too in anticipation of future data release; as emb
 * [Hakuna Ma-data](https://www.drivendata.org/competitions/59/camera-trap-serengeti/) (camera trap image classification)
 * [Pri-matrix Factorization](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/) (individual chimp recognition)
 * [iWildCam](https://github.com/visipedia/iwildcam_comp) (camera trap image classification)
+
+
+## Metadata standards for camera trap data
+
+### Camtrap DP
+
+> https://camtrap-dp.tdwg.org
+
+> https://github.com/tdwg/camtrap-dp
+
+Bubnicki JW, Norton B, Baskauf SJ, Bruce T, Cagnacci F, Casaer J, Churski M, Cromsigt JP, Dal Farra S, Fiderer C, Forrester TD. Camtrap DP: An open standard for the FAIR exchange and archiving of camera trap data.  EcoEvoRxiv, 2023.
+
+As of 10/2023, export to Camtrap DP is supported by Agouti and Trapper; import from Camtrap DP is supported by GBIF.  If you are looking for a standard to consume or publish in 2023, my relatively unbiased opinion is that Camtrap DP is the one to which you want to hitch your wagon.
+
+### Camera Trap Metadata Standard (CTMS)
+
+Forrester T, O'Brien T, Fegraus E, Jansen PA, Palmer J, Kays R, Ahumada J, Stern B, McShea W. An open standard for camera trap data. Biodiversity Data Journal. 2016(4).
+
+Mentioning this here mostly to highlight that it's superseded by Camtrap DP.
+
+### COCO Camera Traps
+
+[COCO Camera Traps](https://github.com/agentmorris/MegaDetector/blob/main/data_management/README.md#coco-camera-traps-format) is a minor extension to the [COCO format](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/md-coco-overview.html), relevant only because it's used for all the camera trap data on [LILA](https://lila.science).  Suitable for representing ML training data, but incomplete for ecology applications.
 
 
 ## Further reading
