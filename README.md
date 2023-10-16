@@ -2015,6 +2015,21 @@ Noting Wildlife Insights here too in anticipation of future data release; as emb
 * [Pri-matrix Factorization](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/) (individual chimp recognition)
 * [iWildCam](https://github.com/visipedia/iwildcam_comp) (camera trap image classification)
 
+## Camera trap data standard
+
+### Camera Trap Metadata Standard (CTMS)
+
+Described in Forrester T, O’Brien T, Fegraus E, Jansen PA, Palmer J, Kays R, et al. [An Open Standard for Camera Trap Data](https://bdj.pensoft.net/articles.php?id=10197). Biodivers Data J. 2016 Dec 6;(4):e10197
+
+### Camtrap DP
+> https://camtrap-dp.tdwg.org
+
+> https://github.com/tdwg/camtrap-dp
+
+It is built upon CTMS, aimed for easy and interoperable data exchange, openly developed (still under development)
+
+Preprint as Bubnicki J, Norton B, Baskauf S, Bruce T, Cagnacci F, Casaer J, et al. [Camtrap DP: An open standard for the FAIR exchange and archiving of camera trap data](https://ecoevorxiv.org/repository/view/5593/). 2023. 
+
 
 ## Further reading
 
