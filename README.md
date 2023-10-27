@@ -8,16 +8,16 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 
 ## Table of Contents
 
-[Camera trap systems using ML (or at least thinking about ML)](#camera-trap-platforms-using-ml-or-at-least-thinking-about-ml)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Platforms in active development](#platforms-that-appear-to-be-in-active-development)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Platforms that appear to be less active](#platforms-that-appear-to-be-less-active)  
+[Camera trap systems using ML](#camera-trap-systems-using-ml)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Systems in active development](#systems-that-appear-to-be-in-active-development)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Systems that appear to be less active](#systems-that-appear-to-be-less-active)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Active repos](#last-updated--2021)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
 [Smart camera traps](#smart-camera-traps)  
 [Manual labeling tools people use for camera traps](#manual-labeling-tools-people-use-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Review papers about labeling tools](#review-papers-about-labeling-tools)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Tools in active development](#tools-in-active-development)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Tools in active development](#tools-that-appear-to-be-online-or-were-last-updated--2021)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Tools that appear to be less active](#tools-that-appear-to-be-less-active)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Non-camera-trap-specific labeling tools that people use for camera trap data](#non-camera-trap-specific-labeling-tools-that-people-use-for-camera-trap-data)  
 [Post-hoc analysis tools people use for camera trap data](#post-hoc-analysis-tools-people-use-for-camera-trap-data)  
@@ -32,11 +32,11 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 <!--&nbsp;&nbsp;&nbsp;&nbsp;[Papers I don't have access to](#papers-i-dont-have-access-to-but-would-read-if-i-did)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers that are redundant citations](#papers-that-are-more-or-less-pre-publication-versions-of-another-paper-that-is-already-included)  -->
 
-## Camera trap platforms using ML (or at least thinking about ML)
+## Camera trap systems using ML
 
-I've broken this category out into "platforms that look like they're being actively developed" and "platforms that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
+I've broken this category out into "systems that look like they're being actively developed" and "systems that are less active".  This assessment is based on visiting links and searching the Web; if I've incorrectly put something in the latter category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
 
-### Platforms that appear to be in active development
+### Systems that appear to be in active development
 
 #### Wildlife Insights
 
@@ -283,7 +283,7 @@ Client-side tool for running MegaDetector, including various postprocessing step
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
 
 
-### Platforms that appear to be less active
+### Systems that appear to be less active
 
 #### CAIMAN
 
@@ -505,7 +505,7 @@ Sneaking these in before I get to the list of actual labeling tools.  These aren
 
 * Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: A review. Ecology and Evolution*, 8(19), 9947-9957.
 
-### Tools in active development
+### Tools that appear to be online or were last updated >= 2021
 
 #### eMammal (Smithsonian)
 
@@ -516,16 +516,6 @@ Software package and Smithsonian-hosted storage. All labeling happens through th
 I've worked with a lot of camera trap data, and I will say that because the tool enforces consistent metadata at the time of labeling, in terms of organization and matching images to labels, data coming through eMammal is an order of magnitude cleaner than anything I've worked with from any other source. eMammal metadata is provided in the Camera Trap Metadata Standard (XML variant).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image13.png" width="500">
-
-#### CPW Photo Warehouse
-
-Thick-client (Windows) tool for image management, annotation, and spatial analysis.
-
-> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
-
-> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
 
 #### Carnassial (Cascades Carnivore Project)
 
@@ -549,11 +539,21 @@ Thick-client Java-based tool. Open-source.
 
 #### CameraSweet
 
-> <https://smallcats.org/resources/#camerasweet>
+> <https://smallcats.org/camerasweet>
 
 Series of command-line tools for image organization and annotation used by the Small Wild Cat Conservation Foundation.
 
 ### Tools that appear to be less active
+
+#### CPW Photo Warehouse
+
+Thick-client (Windows) tool for image management, annotation, and spatial analysis.
+
+> <https://cpw.state.co.us/learn/Pages/ResearchMammalsSoftware.aspx>
+
+> <http://biodiversityinformatics.amnh.org/ml4conservation/animal-detection-network/species-identification-localization/>
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image15.png" width="500">
 
 #### Vixen
 
