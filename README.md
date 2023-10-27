@@ -465,15 +465,13 @@ AI-enabled camera trap designed for anti-poaching applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
 
-### InstantDetect (ZSL)
+### Instant Detect (ZSL)
 
-> <https://www.zsl.org/conservation/how-we-work/monitoring-and-technology/instant-detect-20>
+> <https://instantdetect.co.uk>
 
-> <https://www.zsl.org/conservation/conservation-initiatives/conservation-technology/instant-detect>
+Connected camera that transmits images via LoRa to a base station, which transmits images via Iridium.
 
-InstantDetect 2.0 will be connected but will not have on-board AI; will move images to a base station. Iridium connection.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image8.jpg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-2.0.jpg" width="500">
 
 ### Insect Detect
 
