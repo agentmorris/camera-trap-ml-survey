@@ -465,7 +465,7 @@ AI-enabled camera trap designed for anti-poaching applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
 
-### Instant Detect (ZSL)
+### Instant Detect
 
 > <https://instantdetect.co.uk>
 
@@ -481,7 +481,7 @@ AI-enabled, RPi-based camera trap for insect monitoring.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/insect-detect.png" width="500">
 
-### PoacherCam (Panthera)
+### PoacherCam
 
 > <https://www.panthera.org/conservation-technology/poachercam>
 
