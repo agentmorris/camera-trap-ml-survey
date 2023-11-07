@@ -412,6 +412,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 ### Last updated < 2021
 
 * Autofocus species classifier ([github.com/uptake/autofocus](https://github.com/uptake/autofocus))
+* Torch Traps (student project on training/running classifiers on LILA data) ([github.com/winzurk/torchtraps/](https://github.com/winzurk/torchtraps))
 * Deep Learning for Nilgai Management (Kutugata et al, 2021) ([github.com/mkutu/Nilgai](https://github.com/mkutu/Nilgai))
 * Deep Learning for Camera Trap Images (Norouzzadeh 2018) ([github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images))
 * DrivenData classification competition winners ([github.com/drivendataorg/hakuna-madata/](https://github.com/drivendataorg/hakuna-madata/))
