@@ -1930,6 +1930,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. InInternational Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
+* Fabian Z, Miao Z, Li C, Zhang Y, Liu Z, Hernández A, Montes-Rojas A, Escucha R, Siabatto L, Link A, Arbeláez P. Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images. arXiv preprint arXiv:2311.01064. 2023 Nov 2.
+
 * Breen C, Vuyovich C, Odden J, Hall D, Prugh L. Evaluating MODIS snow products using an extensive wildlife camera network. Remote Sensing of Environment. 2023 Sep 1;295:113648.
 
 * Jamie Alison, Stephanie Payne, Jake M Alexander, Anne D Bjorkman, Vincent Ralph Clarke, Onalenna Gwate, Maria Huntsaar, Evelin Iseli, Jonathan Lenoir, Hjalte Mads Rosenstand Mann, Sandy-Lynn Steenhuisen, Toke Thomas Høye.  Deep learning to extract the meteorological by-catch of wildlife cameras.  bioRxiv 2023.09.25.558780.
