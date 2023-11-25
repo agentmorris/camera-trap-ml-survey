@@ -1929,6 +1929,12 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
+
+* Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
+
+* Gurule M. The Impacts of Transfer Learning for Ungulate Recognition at Sevilleta National Wildlife Refuge.
+
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. InInternational Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
 * Fabian Z, Miao Z, Li C, Zhang Y, Liu Z, Hernández A, Montes-Rojas A, Escucha R, Siabatto L, Link A, Arbeláez P. Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images. arXiv preprint arXiv:2311.01064. 2023 Nov 2.
