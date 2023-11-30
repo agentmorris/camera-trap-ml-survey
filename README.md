@@ -1929,6 +1929,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Charlton G, Falzon G, Shepley A, Fleming PJ, Ballard G, Meek PD. The Sentinel Bait Station: an automated, intelligent design pest animal baiting system. Wildlife Research. 2023 Apr 17.
+
 * Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
 
 * Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
