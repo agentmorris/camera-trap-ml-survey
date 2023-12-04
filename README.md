@@ -433,6 +433,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 Module that attaches to existing camera traps to provide connectivity and AI.
 
+Not related to this [other smart camera trap also called "Sentinel"](https://www.publish.csiro.au/wr/WR22183).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel.png" width="500">
 
 ### University of Idaho RCDS camera (no fancy name that I'm aware of)
@@ -623,12 +625,52 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 #### Papers from 2023
 
+** Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Use 45 camera traps to assess the relationship between recreation activity and wildlife activity in Cathedral Provincial Park, BC.  Found "spatial co-occurrence between ungulates and recreation, consistent with the human shield hypothesis, but did not see the predicted negative relationship between larger carnivores and humans, except for coyotes".
+
+Used MD (I'm mostly sure this was MDv4) to find human images with a confidence threshold of 0.9, then manually assigned recreation types (hiking, biking, etc.) to those images.
+
+
 **Ayars J, Emmet RL, Bassing SB, Sanderfoot OV, Raby S, Karambelas A, James EP, Ahmadov R, Gardner B. Camera traps link population-level activity patterns with wildfire smoke events for mammals in Eastern Washington State. Fire Ecology. 2023 Dec;19(1):1-5.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Look at the effects of wildfire smoke (via PM2.5 measurement) on mammals in Washington; find a decrease in activity for obcat, moose, and mule deer.  Used MD + Timelapse for image review.
+Look at the effects of wildfire smoke (via PM2.5 measurement) on mammals in Washington; find a decrease in activity for bobcat, moose, and mule deer.  Used MD + Timelapse for image review.
+
+
+<br/>**Charlton G, Falzon G, Shepley A, Fleming PJ, Ballard G, Meek PD. The Sentinel Bait Station: an automated, intelligent design pest animal baiting system. Wildlife Research. 2023 Apr 17.**
+
+Describe a prototype camera trap with on-board AI, along with a nearby bait dispenser connected via a local wireless link.  On-board AI is MobileNet v1 on a Raspberry Pi, trained on FlickR and iNat data, plus some (non-public) camera trap data.  Bait station is designed to deploy "standard-sized manufactured dog baits"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel-bait-station.png" width="500">
+
+
+<br/>**Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.**
+
+Assess accuracy and calibration for several architectures at both the image and sequence level, and propose the use of [temperature scaling](https://docs.aws.amazon.com/prescriptive-guidance/latest/ml-quantifying-uncertainty/temp-scaling.html) to improve calibration.  Work with the DeepFaune dataset (European camera trap images), use MDv5 to remove blanks and humans and to crop animals, ended up with 429k crops.  Split train/val across backgrounds (aka cameras).  Also evaluated on three out-of-sample test sets ("Pyrenees", "Alps", and "[Portugal](https://www.gbif.org/dataset/88228250-e465-494e-858e-3bc327de01d7)").  When looking at sequence-level confidence values, they compared max vs. average, and pre-softmax vs. post-softmax.  Compared EfficientNetv2, ConvNext, ViT Swin v2, and MobileNet v3, all in TIMM.
+
+Findings:
+
+* Calibration is negatively correlated with accuracy
+* ConvNext gave the highest accuracy by a little, and the best calibration by a lot
+* Temperature scaling helped calibration
+* Sequence-level classification was higher (of course) than image-level classification; average post-softmax score performed the best among the four ways of generating sequence-level scores, but pre-softmax average (aka average logit) was only slightly worse, and much better calibrated, so they deemed that the best overall.
+
+Code and cropped images are available [here](https://zenodo.org/records/10014376), full images for one dataset (Portugal) are available [here](https://www.gbif.org/dataset/88228250-e465-494e-858e-3bc327de01d7) (the image links are actually public links into Agouti).
+
+
+<br/>**Breen C, Vuyovich C, Odden J, Hall D, Prugh L. Evaluating MODIS snow products using an extensive wildlife camera network. Remote Sensing of Environment. 2023 Sep 1;295:113648.**
+
+This is not exactly a machine learning paper, but it gets as close as you can get without actually doing the ML part, and I know the authors <i>are</i> doing the ML part (just not in this paper), and it tees up an interesting ML problem, so, I'm including it.
+
+Classify snow into five cover levels from 1181 camera traps in Norway and Sweden and compare to MODIS Snow Cover.  Manually labeled images in Timelapse with a snow score from zero to four, show good correlation with MODIS Snow Cover, nicely teeing up the problem of doing this automatically.  It's like the cliffhanger at the end of season 1.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/breen-snow.png" width="500">
 
 
 <br/>**Procko M, Naidoo R, LeMay V, Burton AC. Human presence and infrastructure impact wildlife nocturnality differently across an assemblage of mammalian species. PLoS ONE 18(5): e0286131. 2023.**
@@ -636,7 +678,7 @@ Look at the effects of wildfire smoke (via PM2.5 measurement) on mammals in Wash
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Look at impacts of human disturbance on wildlife nocturnality.  Black bears more nocturnal in response to human detections, coyotes + hares less nocturnal in areas of higher trail density.  Coyotes + deer + hares more nocturnal near urban-wildland boundaries. Use MD for animal/human/vechicle/blank categorization.
+Look at impacts of human disturbance on wildlife nocturnality.  Black bears more nocturnal in response to human detections, coyotes + hares less nocturnal in areas of higher trail density.  Coyotes + deer + hares more nocturnal near urban-wildland boundaries. Use MD for animal/human/vehicle/blank categorization.
 
 
 <br/>**Ausband DE, Thompson SJ, Oates BA, Roberts SB, Hurley MA, Mumma MA. Examining dynamic occupancy of gray wolves in Idaho after a decade of managed harvest. The Journal of Wildlife Management. 2023:e22453.**
@@ -1929,19 +1971,13 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
-* Charlton G, Falzon G, Shepley A, Fleming PJ, Ballard G, Meek PD. The Sentinel Bait Station: an automated, intelligent design pest animal baiting system. Wildlife Research. 2023 Apr 17.
-
 * Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
-
-* Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
 
 * Gurule M. The Impacts of Transfer Learning for Ungulate Recognition at Sevilleta National Wildlife Refuge.
 
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. InInternational Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
 * Fabian Z, Miao Z, Li C, Zhang Y, Liu Z, Hernández A, Montes-Rojas A, Escucha R, Siabatto L, Link A, Arbeláez P. Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images. arXiv preprint arXiv:2311.01064. 2023 Nov 2.
-
-* Breen C, Vuyovich C, Odden J, Hall D, Prugh L. Evaluating MODIS snow products using an extensive wildlife camera network. Remote Sensing of Environment. 2023 Sep 1;295:113648.
 
 * Jamie Alison, Stephanie Payne, Jake M Alexander, Anne D Bjorkman, Vincent Ralph Clarke, Onalenna Gwate, Maria Huntsaar, Evelin Iseli, Jonathan Lenoir, Hjalte Mads Rosenstand Mann, Sandy-Lynn Steenhuisen, Toke Thomas Høye.  Deep learning to extract the meteorological by-catch of wildlife cameras.  bioRxiv 2023.09.25.558780.
 
