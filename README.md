@@ -74,9 +74,9 @@ Open-source, runs in Java in a browser.  Developed in consultation with Fauna & 
 
 > <https://gitlab.com/oscf/trapper-project>
 
-Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
-
 Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Experimenting with ML, including preliminary use of MegaDetector.
+
+Demo [here](https://demo.trapper-project.org/); you have to register and ask for a login, but they are responsive.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
 
@@ -97,6 +97,14 @@ Web-based platform for processing camera trap images, targeted for Southern Afri
 Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
+
+#### DeepFaune
+
+> <https://www.deepfaune.cnrs.fr/en/>
+
+Thick-client tool with a custom detector (based on YOLOv8 as of 2023.12.05) and a custom 28-class species classifier focused on European animals.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
 
 #### wpsWatch
 
@@ -546,6 +554,14 @@ Thick-client Java-based tool. Open-source.
 > <https://smallcats.org/camerasweet>
 
 Series of command-line tools for image organization and annotation used by the Small Wild Cat Conservation Foundation.
+
+#### Zip Classifier
+
+> <https://zip.org.nz/products-list/2022/5/zip-classifier>
+
+Thick-client Windows tool for tagging camera trap images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zip-classifier.png" width="500">
 
 ### Tools that appear to be less active
 
@@ -1442,7 +1458,7 @@ For individual images, they found the MD FN rate to be <10% for big things, 25% 
 
 Found 95% classification accuracy on their validation set.
 
-Project home page is [here](https://deepfaune.cnrs.fr/), though as of 2022.07.27, it 403's.
+Project home page is [here](https://www.deepfaune.cnrs.fr/en/).
 
 Code is [here](https://plmlab.math.cnrs.fr/deepfaune/software).
 
