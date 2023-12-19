@@ -404,6 +404,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
 <!-- Sync'd with the list of repos on the MD README -->
+* Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
 * MegaDetector-FastAPI (MD serving via FastAPI/Streamlit) ([github.com/abhayolo/megadetector-fastapi](https://github.com/abhayolo/megadetector-fastapi))
 * MegaDetector UI (tools for server-side invocation of MegaDetector) ([github.com/NINAnor/megadetector_ui](https://github.com/NINAnor/megadetector_ui))
@@ -1987,6 +1988,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 
 ### Papers I know exist, and I have access to, but I haven't read yet
+
+* Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification.
 
 * Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
 
