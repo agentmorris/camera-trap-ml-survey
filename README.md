@@ -444,7 +444,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 When possible, the first link for each line item should get you pretty close to the model weights.
 
 * [DeepFaune](https://pbil.univ-lyon1.fr/software/download/deepfaune/v1.0/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
-* [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible)
+* [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
 * [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
 * MegaClassifier's close cousin, the "[IDFG classifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions)" (EfficientNet, PyTorch, runs on crops, ~10 categories relevant to Idaho) (2023)
 * [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://github.com/microsoft/CameraTraps/blob/e9edc7c05525a7cc5ab39ed62bf9c0770813fc9b/PytorchWildlife/models/classification/resnet/amazon.py)) + human + unknown) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
