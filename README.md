@@ -419,6 +419,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * BayDetect (GUI and automation pipeline for running MD) ([github.com/enguy-hub/BayDetect](https://github.com/enguy-hub/BayDetect))
 * Automated Camera Trapping Identification and Organization Network (ACTION) ([github.com/humphrem/action](https://github.com/humphrem/action))
 * TigerVid (animal frame/clip extraction from videos) ([github.com/sheneman/tigervid](https://github.com/sheneman/tigervid))
+* Goanna detector (detector for several Australian species, esp goannas) ([github.com/agentmorris/unsw-goannas](https://github.com/agentmorris/unsw-goannas))
+* Tegu detector (detector for several species in Florida, esp tegus) ([github.com/agentmorris/usgs-tegus](https://github.com/agentmorris/usgs-tegus))
 
 ### Last updated < 2021
 
@@ -450,7 +452,8 @@ When possible, the first link for each line item should get you pretty close to 
 * [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://github.com/microsoft/CameraTraps/blob/e9edc7c05525a7cc5ab39ed62bf9c0770813fc9b/PytorchWildlife/models/classification/resnet/amazon.py)) + human + unknown) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
 * [AI4GOpossum](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, binary opossum classifier) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
 * [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
-* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases/tag/v1.0) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
+* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
+* [Tegu detector](https://github.com/agentmorris/usgs-tegus/releases) (YOLOv5x6 detector for tegus and a few other species in Florida, trained from MDv5a) (2023)
 * The SDZG [Animl](https://github.com/conservationtechlab/animl) package includes four [models](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/161119248144), all trained in TF, all run on MD crops:
   * [Southwest US v2](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/169794550910) (26 classes, including human and empty) (2022)
   * [Southwest US v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/188389181940) (33 classes, including human and empty) (2023)
