@@ -2026,6 +2026,12 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification.
+
+* Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. InProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
+
+* Zeuss D, Bald L, Gottwald J, Becker M, Bellafkir H, Bendix J, Bengel P, Beumer LT, Brandl R, Brändle M, Dahlke S. Nature 4.0: A networked sensor system for integrated biodiversity monitoring. Global Change Biology. 2024 Jan;30(1):e17056.
+
 * Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
 
 * Gurule M. The Impacts of Transfer Learning for Ungulate Recognition at Sevilleta National Wildlife Refuge.
