@@ -420,6 +420,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * BayDetect (GUI and automation pipeline for running MD) ([github.com/enguy-hub/BayDetect](https://github.com/enguy-hub/BayDetect))
 * Automated Camera Trapping Identification and Organization Network (ACTION) ([github.com/humphrem/action](https://github.com/humphrem/action))
 * TigerVid (animal frame/clip extraction from videos) ([github.com/sheneman/tigervid](https://github.com/sheneman/tigervid))
+* Goanna detector (detector for several Australian species, esp goannas) ([github.com/agentmorris/unsw-goannas](https://github.com/agentmorris/unsw-goannas))
+* Tegu detector (detector for several species in Florida, esp tegus) ([github.com/agentmorris/usgs-tegus](https://github.com/agentmorris/usgs-tegus))
 
 ### Last updated < 2021
 
@@ -444,6 +446,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
+* [Marbug Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps/tree/main)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
 * [DeepFaune](https://pbil.univ-lyon1.fr/software/download/deepfaune/v1.0/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
 * [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
 * [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
@@ -451,7 +454,8 @@ When possible, the first link for each line item should get you pretty close to 
 * [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://github.com/microsoft/CameraTraps/blob/e9edc7c05525a7cc5ab39ed62bf9c0770813fc9b/PytorchWildlife/models/classification/resnet/amazon.py)) + human + unknown) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
 * [AI4GOpossum](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, binary opossum classifier) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
 * [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
-* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases/tag/v1.0) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
+* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
+* [Tegu detector](https://github.com/agentmorris/usgs-tegus/releases) (YOLOv5x6 detector for tegus and a few other species in Florida, trained from MDv5a) (2023)
 * The SDZG [Animl](https://github.com/conservationtechlab/animl) package includes four [models](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/161119248144), all trained in TF, all run on MD crops:
   * [Southwest US v2](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/169794550910) (26 classes, including human and empty) (2022)
   * [Southwest US v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/188389181940) (33 classes, including human and empty) (2023)
@@ -463,7 +467,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
 * [MLWIC](https://drive.google.com/file/d/1dY-49drRrSotFMHOOPZXrTgl5gqozGVL/view) (TF, whole-image classifier for North American species) ([code](https://github.com/mikeyEcology/MLWIC)) (2019)
 * [MLWIC2](https://drive.google.com/file/d/1VkIBdA-oIsQ_Y83y0OWL6Afw6S9AQAbh/view) (TF, whole-image classifiers for (a) blank/non-blank, (b) 58 North American species) ([code](https://github.com/mikeyEcology/MLWIC2)) (2020)
-* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2023)
+* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 
@@ -2024,7 +2028,15 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Mühling M, Farwig N, Freisleben B. Recognizing European mammals and birds in camera trap images using convolutional neural networks. In3rd International Workshop on Camera Traps, AI, and Ecology 2023.
+
+* Nazir S, Kaleem M. Object classification and visualization with edge artificial intelligence for a customized camera trap platform. Ecological Informatics. 2024 Jan 2:102453.
+
 * Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification.
+
+* Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. InProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
+
+* Zeuss D, Bald L, Gottwald J, Becker M, Bellafkir H, Bendix J, Bengel P, Beumer LT, Brandl R, Brändle M, Dahlke S. Nature 4.0: A networked sensor system for integrated biodiversity monitoring. Global Change Biology. 2024 Jan;30(1):e17056.
 
 * Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
 
