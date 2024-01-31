@@ -2032,6 +2032,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+* Brookes O, Mirmehdi M, Stephens C, Angedakin S, Corogenes K, Dowd D, Dieguez P, Hicks TC, Jones S, Lee K, Leinert V. PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition. arXiv preprint arXiv:2401.13554. 2024 Jan 24.
+
 * Straka J, Hruz M, Picek L. The Hitchhiker's Guide to Endangered Species Pose Estimation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 50-59).
 
 * Schindler F, Steinhage V, van Beeck Calkoen ST, Heurich M. Action Detection for Wildlife Monitoring with Camera Traps Based on Segmentation with Filtering of Tracklets (SWIFT) and Mask-Guided Action Recognition (MAROON). Applied Sciences. 2024 Jan 6;14(2):514.
