@@ -707,6 +707,8 @@ Describe a prototype camera trap with on-board AI, along with a nearby bait disp
 
 <br/>**Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.**
 
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
 Assess accuracy and calibration for several architectures at both the image and sequence level, and propose the use of [temperature scaling](https://docs.aws.amazon.com/prescriptive-guidance/latest/ml-quantifying-uncertainty/temp-scaling.html) to improve calibration.  Work with the DeepFaune dataset (European camera trap images), use MDv5 to remove blanks and humans and to crop animals, ended up with 429k crops.  Split train/val across backgrounds (aka cameras).  Also evaluated on three out-of-sample test sets ("Pyrenees", "Alps", and "[Portugal](https://www.gbif.org/dataset/88228250-e465-494e-858e-3bc327de01d7)").  When looking at sequence-level confidence values, they compared max vs. average, and pre-softmax vs. post-softmax.  Compared EfficientNetv2, ConvNext, ViT Swin v2, and MobileNet v3, all in TIMM.
 
 Findings:
@@ -2025,6 +2027,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 
 ### Papers I know exist, and I have access to, but I haven't read yet
+
+* Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
 
 * Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification.
 
