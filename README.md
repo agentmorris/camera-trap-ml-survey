@@ -211,14 +211,18 @@ Thick-client, .net-based tool for reviewing camera trap images.  Incorporates ML
 
 #### eVorta
 
+<!--
 * [News story](https://www.abc.net.au/news/2021-07-31/evorta-smart-camera-system-feral-cats-kangaroo-island/100337978)
 * [Demo video](http://51.161.196.64/)
 * [App](https://play.google.com/store/apps/details?id=com.evorta.android&pli=1)
 * [Kangaroo Island case study](https://www.naturefoundation.org.au/how-to-help/donate/feral-cat-eradication-program/sponsor-a-4g-camera)
+-->
 
-Connected camera network with cloud-based AI capabilities, and a mobile app.
+> <https://web.evorta.com/>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.jpg" width="500">
+Connected camera network with cloud-based AI capabilities (for detecting and classifying Australian wildlife).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.webp" width="500">
 
 #### DeCaTron
 
@@ -405,6 +409,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
 <!-- Sync'd with the list of repos on the MD README -->
+* Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
 * MegaDetector-FastAPI (MD serving via FastAPI/Streamlit) ([github.com/abhayolo/megadetector-fastapi](https://github.com/abhayolo/megadetector-fastapi))
 * MegaDetector UI (tools for server-side invocation of MegaDetector) ([github.com/NINAnor/megadetector_ui](https://github.com/NINAnor/megadetector_ui))
@@ -445,6 +450,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
+* [Marbug Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps/tree/main)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
 * [DeepFaune](https://pbil.univ-lyon1.fr/software/download/deepfaune/v1.0/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
 * [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
 * [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
@@ -465,7 +471,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
 * [MLWIC](https://drive.google.com/file/d/1dY-49drRrSotFMHOOPZXrTgl5gqozGVL/view) (TF, whole-image classifier for North American species) ([code](https://github.com/mikeyEcology/MLWIC)) (2019)
 * [MLWIC2](https://drive.google.com/file/d/1VkIBdA-oIsQ_Y83y0OWL6Afw6S9AQAbh/view) (TF, whole-image classifiers for (a) blank/non-blank, (b) 58 North American species) ([code](https://github.com/mikeyEcology/MLWIC2)) (2020)
-* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2023)
+* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 
@@ -2029,6 +2035,22 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 * Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
+
+* Brookes O, Mirmehdi M, Stephens C, Angedakin S, Corogenes K, Dowd D, Dieguez P, Hicks TC, Jones S, Lee K, Leinert V. PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition. arXiv preprint arXiv:2401.13554. 2024 Jan 24.
+
+* Straka J, Hruz M, Picek L. The Hitchhiker's Guide to Endangered Species Pose Estimation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 50-59).
+
+* Schindler F, Steinhage V, van Beeck Calkoen ST, Heurich M. Action Detection for Wildlife Monitoring with Camera Traps Based on Segmentation with Filtering of Tracklets (SWIFT) and Mask-Guided Action Recognition (MAROON). Applied Sciences. 2024 Jan 6;14(2):514.
+
+* Smith J, Wycherley A, Mulvaney J, Lennane N, Reynolds E, Monks CA, Evans T, Mooney T, Fancourt B. Man versus machine: cost and carbon emission savings of 4G-connected Artificial Intelligence technology for classifying species in camera trap images.
+
+* Barta Z. Deep learning in terrestrial conservation biology. Biologia Futura. 2024 Jan 16:1-9.
+
+* Gabeff V, Russwurm M, Tuia D, Mathis A. WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models. bioRxiv. 2023:2023-12.
+
+* Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Mühling M, Farwig N, Freisleben B. Recognizing European mammals and birds in camera trap images using convolutional neural networks. In3rd International Workshop on Camera Traps, AI, and Ecology 2023.
+
+* Nazir S, Kaleem M. Object classification and visualization with edge artificial intelligence for a customized camera trap platform. Ecological Informatics. 2024 Jan 2:102453.
 
 * Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification.
 
