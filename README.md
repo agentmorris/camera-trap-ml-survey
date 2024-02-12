@@ -686,7 +686,7 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 #### Papers from 2023
 
-**Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.
+**Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -696,7 +696,7 @@ Use 45 camera traps to assess the relationship between recreation activity and w
 Used MD (I'm mostly sure this was MDv4) to find human images with a confidence threshold of 0.9, then manually assigned recreation types (hiking, biking, etc.) to those images.
 
 
-**Ayars J, Emmet RL, Bassing SB, Sanderfoot OV, Raby S, Karambelas A, James EP, Ahmadov R, Gardner B. Camera traps link population-level activity patterns with wildfire smoke events for mammals in Eastern Washington State. Fire Ecology. 2023 Dec;19(1):1-5.**
+<br/>**Ayars J, Emmet RL, Bassing SB, Sanderfoot OV, Raby S, Karambelas A, James EP, Ahmadov R, Gardner B. Camera traps link population-level activity patterns with wildfire smoke events for mammals in Eastern Washington State. Fire Ecology. 2023 Dec;19(1):1-5.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
