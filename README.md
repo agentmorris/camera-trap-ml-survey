@@ -1382,7 +1382,7 @@ Examine mammal recovery after the [Woolsey Fire](https://en.wikipedia.org/wiki/W
 Used MegaDetector to isolate animal photos, which were uploaded to Zooniverse.
 
 
-<br/>**Procko M. Right place, right time: large mammal spatiotemporal trends in and around a heavily recreated protected area (Doctoral dissertation, University of British Columbia). 2022. **
+<br/>**Procko M. Right place, right time: large mammal spatiotemporal trends in and around a heavily recreated protected area (Doctoral dissertation, University of British Columbia). 2022.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
