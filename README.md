@@ -839,7 +839,7 @@ Publish additional bounding boxes for both datasets [here](https://github.com/wi
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Compared camera trap and collar data for spatial distribution analysis.  Looked at two areas in Eastern Washington, totaling 240 unique sites, each monitored for one year.  Procesed images with MegaDetector and Timelapse; two technicians reviewed each non-empty image.
+Compared camera trap and collar data for spatial distribution analysis.  Looked at two areas in Eastern Washington, totaling 240 unique sites, each monitored for one year.  Processed images with MegaDetector and Timelapse; two technicians reviewed each non-empty image.
 
 Found overall agreement in occupancy analysis and in the directionality of predictors, but also found substantial discrepancies in effect sizes of predictors and the ranked importance of predictors.  "Our findings demonstrate that data from camera traps and GPS-collars yield inconsistent inferences about covariate-specific estimates of wildlife-habitat associations, but inferences are more consistent at broad-scales and from a more qualitative perspective."
 
