@@ -1277,7 +1277,7 @@ Code is available [here](https://github.com/hiltonml/camera_trap_tools).
 
 Describes the release of a family of PyTorch Faster R-CNN models - each categorizing images to a different level: species, families, classes - and an accompanying R package.  Code is available on [GitHub](https://github.com/TabakM/CameraTrapDetectoR).  A major motivating factor is improving support for the R community, so the R wrapper code is as important to the contribution as the model weights.
 
-Used primarily NACTI data, with MegaDetector (probably v4) as an oracle, then augmented the dataset with manual annotations on some species from other datasets.  Total is 168 North American species.  Train/val split is ambiguous (re: whether splitting is random or by location).  Trained at Faster R-CNN with a ResNet-50 backbone @ 408 x 307.
+Used primarily NACTI data, with MegaDetector (probably v4) as an oracle, then augmented the dataset with manual annotations on some species from other datasets.  Total is 168 North American species.  Train/val split is ambiguous (re: whether splitting is random or by location).  Trained Faster R-CNN with a ResNet-50 backbone @ 408 x 307.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/cameratrapdetector.jpg" width="250">
 
