@@ -560,7 +560,7 @@ Sneaking these in before I get to the list of actual labeling tools.  These aren
 
 * Wearn, O., & Glover-Kapfer, P. (2017). <a href="https://www.wwf.org.uk/conservationtechnology/camera-trap.html">Camera-trapping for Conservation: a Guide to Best-practices</a>. WWF-UK: Woking, UK. ([pdf](https://www.wwf.org.uk/conservationtechnology/documents/CameraTraps-WWF-guidelines.pdf))
 
-* Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: A review. Ecology and Evolution*, 8(19), 9947-9957.
+* Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: a review. Ecology and Evolution, 8(19), 9947-9957.
 
 ### Tools that appear to be online or were last updated >= 2021
 
@@ -686,7 +686,7 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 #### Papers from 2023
 
-** Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.
+**Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
