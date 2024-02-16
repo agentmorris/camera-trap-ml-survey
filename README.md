@@ -295,6 +295,13 @@ Client-side tool for running MegaDetector, including various postprocessing step
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
 
+#### OCAPI
+
+> <https://www.terroiko.fr/ocapi/>
+
+Web-based platform for camera trap data management, uses MegaDetector and a custom species classifier (class list [here](https://ocapi-doc.terroiko.fr/#categories)).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ocapi-screenshot.png" width="500">
 
 ### Systems that appear to be less active
 
