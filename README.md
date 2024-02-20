@@ -457,7 +457,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
-* [Addax Data Science Namib Desert classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1/tree/main) (30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
+* [Addax Data Science Namib Desert Classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1/tree/main) (30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
 * [Marburg Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps/tree/main)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
 * [DeepFaune](https://pbil.univ-lyon1.fr/software/download/deepfaune/v1.0/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
 * [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
