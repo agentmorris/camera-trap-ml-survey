@@ -2087,8 +2087,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 * Pahuja V, Luo W, Gu Y, Tu CH, Chen HY, Berger-Wolf T, Stewart C, Gao S, Chao WL, Su Y. Bringing Back the Context: Camera Trap Species Identification as Link Prediction on Multimodal Knowledge Graphs. arXiv preprint arXiv:2401.00608. 2023 Dec 31.
 
-* Dussert G, Chamaille-Jammes S, Dray S, Miele V. Beyond accuracy: score calibration in deep learning models for camera trap image sequences. bioRxiv. 2023:2023-11.
-
 * Gabeff V, Russwurm M, Tuia D, Mathis A. WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models. bioRxiv. 2023:2023-12.
 
 * Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Mühling M, Farwig N, Freisleben B. Recognizing European mammals and birds in camera trap images using convolutional neural networks. In 3rd International Workshop on Camera Traps, AI, and Ecology 2023.
