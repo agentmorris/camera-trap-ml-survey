@@ -2057,6 +2057,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
+* Liu L, Mou C, Xu F. Improved Wildlife Recognition through Fusing Camera Trap Images and Temporal Metadata. Diversity. 2024 Feb 23;16(3):139.
+
 * Nepovinnykh E, Eerola T, Kälviäinen H, Chelak I. NORPPA: novel ringed seal re-identification by pelage pattern aggregation. InProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 1-10).
 
 * Brookes O, Mirmehdi M, Stephens C, Angedakin S, Corogenes K, Dowd D, Dieguez P, Hicks TC, Jones S, Lee K, Leinert V. PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition. arXiv preprint arXiv:2401.13554. 2024 Jan 24.
