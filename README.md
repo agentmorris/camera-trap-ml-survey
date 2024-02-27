@@ -2114,6 +2114,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 * Meng DY, Li T, Li HX, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH, Ren GP, Xiao W. A method for automatic identification and separation of wildlife images using ensemble learning. Ecological Informatics. 2023 Aug 12:102262.
 
+* Binta Islam S, Valles D, Hibbitts TJ, Ryberg WA, Walkup DK, Forstner MR. Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images. Animals. 2023 Jan;13(9):1526.
+
 * Schneider S, Taylor GW, Kremer SC. Similarity learning networks for animal individual re-identification: an ecological perspective. Mammalian Biology. 2022 Apr 27:1-6.
 
 * Curran B, Nekooei SM, Chen G. Accurate New Zealand Wildlife Image Classification-Deep Learning Approach. In Australasian Joint Conference on Artificial Intelligence 2022 Feb 2 (pp. 632-644). Springer, Cham.
@@ -2145,8 +2147,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 * Shepley A, Falzon G, Lawson C, Meek P, Kwan P. U-Infuse: Democratization of Customizable AI for Object Detection. bioRxiv. 2020 Jan 1.
 
 * Islam SB, Valles D. Identification of Wild Species in Texas from Camera-trap Images using Deep Neural Network for Conservation Monitoring. 10th Annual Computing and Communication Workshop and Conference (CCWC) 2020 Jan 6 (pp. 0537-0542). IEEE.
-
-* Binta Islam S, Valles D, Hibbitts TJ, Ryberg WA, Walkup DK, Forstner MR. Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images. Animals. 2023 Jan;13(9):1526.
 
 *  Zualkernan IA, Dhou S, Judas J, Sajun AR, Gomez BR, Hussain LA, Sakhnini D. Towards an iot-based deep learning architecture for camera trap image classification. In 2020 IEEE Global Conference on Artificial Intelligence and Internet of Things (GCAIoT) 2020 Dec 12 (pp. 1-6). IEEE.
 
