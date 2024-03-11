@@ -2196,9 +2196,9 @@ Noting Wildlife Insights here too in anticipation of future data release; as emb
 
 ### Camtrap DP
 
-> https://camtrap-dp.tdwg.org
+> <https://camtrap-dp.tdwg.org>
 
-> https://github.com/tdwg/camtrap-dp
+> <https://github.com/tdwg/camtrap-dp>
 
 Bubnicki JW, Norton B, Baskauf SJ, Bruce T, Cagnacci F, Casaer J, Churski M, Cromsigt JP, Dal Farra S, Fiderer C, Forrester TD. Camtrap DP: An open standard for the FAIR exchange and archiving of camera trap data.  EcoEvoRxiv, 2023.
 
