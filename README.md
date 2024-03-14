@@ -280,7 +280,7 @@ Tool for captioning images and videos that includes a workflow for camera trap d
 
 #### EcoAssist
 
-> https://github.com/PetervanLunteren/EcoAssist
+> <https://github.com/PetervanLunteren/EcoAssist>
 
 Client-side tool for running and fine-tuning MegaDetector, including various postprocessing steps.
 
