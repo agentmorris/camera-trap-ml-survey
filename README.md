@@ -797,6 +797,8 @@ Evaluate MobileNetV2 running on a Pi for species classification.  Evaluate on a 
 
 Train models to classifier weather conditions from camera trap images in South Africa and Switzerland (overcast, sunshine, hail, snow), find ~92% accuracy on cameras not seen in training, and 94% accuracy for a two-class problem (overcast vs. sunshine) on a novel location (Norway).  Total dataset is ~9k images.  Train MobileNet and ensemble over five seeds.
 
+Data is [here](https://zenodo.org/records/10137731).
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/alison-2024.jpg" width="500">
 
 
