@@ -697,12 +697,107 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 **Aguirre I, Hood GA, Westbrook CJ. Short-term dynamics of beaver dam flow states. Science of The Total Environment. 2024 Feb 9:170825.**
 
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
 Assess the impact of short-term events (particularly rainfall and wildlife activity) on flow states at beaver dams.  Find significant short-term effects of weather, but no short-term effect of wildlife activity.  Placed five camera traps at beaver dams in Alberta.
 
 Used MDv5a, MDv5b, and CameraTrapDetectoR, reviewed images in Timelapse where any two of the three indicated that an image contained an animal.  Evaluated AI models on a random sample of 3206 images.  "In terms of accuracy, the best model was MDv5b with 0.96, and in terms of precision, the best model was MDv5a with 0.47."
 
-![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+
+<br/>**Brookes O, Mirmehdi M, Stephens C, Angedakin S, Corogenes K, Dowd D, Dieguez P, Hicks TC, Jones S, Lee K, Leinert V. PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition.  International Journal of Computer Vision, 2024.**
+
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the [PanAf20K dataset](https://obrookes.github.io/panaf.github.io/), with 7M frames from 20k camera trap videos of chimps and gorillas at 14 sites, with boxes, tracking IDs, and behavior labels.
+
+Report benchmark results for ape detection and behavior recognition.  For detection, compare MegaDetector to several COCO-pretrained, fine-tuned detectors.  Fine that MD performs best in terms of overall mAP, but custom models trained for this task perform better for small objects and at very high recalls.  Compare a variety of architectures for behavior recognition, but results are complex and there's not a single winner.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panaf20k.jpg" width="500">
+
+
+<br/>**Smith J, Wycherley A, Mulvaney J, Lennane N, Reynolds E, Monks CA, Evans T, Mooney T, Fancourt B. Man versus machine: cost and carbon emission savings of 4G-connected Artificial Intelligence technology for classifying species in camera trap images. Preprint. 2024.**
+
+The first paper I've seen to look at the cost savings associated with deploying AI for a camera trap project, and <i>also</i> the first paper I've seen to look at the carbon benefits of connected cameras.  Two totally new things in one paper!
+
+They deployed 200 cameras on Kangaroo Island to monitor feral cats; they highlight that servicing all 200 cameras requires four staff-person-days (every time).  Compare a traditional (all-manual approach), traditional cameras with eVorta AI, and connected cameras with eVorta AI via modeling.  Their models suggest that after a three-year deployment, AI alone provides a 10% cost reduction; AI + connectivity provides an 80% cost reduction.  Also find that eVorta AI is around human partity for the focal species (cats).
+
+
+<br/>**Zeuss D, Bald L, Gottwald J, Becker M, Bellafkir H, Bendix J, Bengel P, Beumer LT, Brandl R, Brändle M, Dahlke S. Nature 4.0: A networked sensor system for integrated biodiversity monitoring. Global Change Biology. 2024 Jan;30(1):e17056.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe a multimodal system for ecosystem monitoring that includes:
+
+* A novel radio tracking system for bats
+* Off-the-shelf collars for birds and small mammals
+* A novel [bioacoustics system](https://github.com/umr-ds/BirdEdge) for birds that uses Jetson HW for edge inference
+* A novel bioacoustics system for bats
+* Camera traps, with a custom EfficientNetV2 that runs on MD crops
+* Novel light traps for insects
+* A novel radar system for insect monitoring
+* A novel tree monitoring IoT device (monitoring, e.g., humidity and growth)
+* Some remote sensing data
+* Some citizen science data
+
+...all flowing into a common DB.
+
+That's a lot of modalities!
+
+Code is [here](https://github.com/Nature40).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zeuss-nature40-camera-traps.jpg" width="500">
+
+
+<br/>**Liu L, Mou C, Xu F. Improved Wildlife Recognition through Fusing Camera Trap Images and Temporal Metadata. Diversity. 2024 Feb 23;16(3):139.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Integrate time metadata (as a cyclical encoding from midnight to midnight) directly into a modified ResNet-50 ("Temporal-SE-ResNet50").  Evaluate on Snapshot Cambdeboo, Snapshot Serengeti, and Snapshot Mountain Zebra.  Looks like their splitting was random (i.e., not by location).  Operated at 224x224.  Achieved a bump of a couple percent using timestamps, though it's hard to say whether that would hold when validating across locations.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/liu-diversity-16-00139-g002.png" width="500">
+
+
+<br/>**Bakana SR, Zhang Y, Twala B. WildARe-YOLO: A lightweight and efficient wild animal recognition model. Ecological Informatics. 2024 Feb 23:102541.**
+
+This is not camera-trap-related, but it's close, and it includes a dataset that <i>could</i> be useful for camera trap applications, so I'm including it.
+
+Introduce modifications to YOLOv5s (as in, literally modifying the backbone, this is a way-in-the-weeds object detection paper), to improve its suitability for wildlife monitoring applications.  Their changes are reasonable (swapping a few layers and a few convolutions out for different layers/convolutions), but I'm not clear on why they're particularly tailored for wildlife applications.  Evaluate on COCO, [Fishmarket](https://universe.roboflow.com/roboflow-100/fish-market-ggjso), and a novel [Wild Animal Facing Extinction](https://data.mendeley.com/datasets/vhmvfbgvxj/2) dataset (7634 mammals in daytime, Web-sourced, non-camera-trap images, with boxes).
+
+
+<br/>**Nepovinnykh E, Eerola T, Kälviäinen H, Chelak I. NORPPA: novel ringed seal re-identification by pelage pattern aggregation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 1-10).**
+
+Propose methods for individual ID of ringed seals in camera trap images.  First segment with a Mask R-CNN that was fine-tuned on a very similar species, then use a custom U-Net to segment edges in the masked seal, then use both [HardNet](https://arxiv.org/abs/1705.10872) (trained on matching image pairs) and [AffNet](https://github.com/ducha-aiki/affnet) to extract features that are used for querying the database of individuals.  Evaluate on a dataset of 2080 images of 57 individuals.  Find that their method outperforms HotSpotter on top-1, top-3, and top-5 accuracy metrics.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/nepovinnykh-seals.png" width="500">
+
+
+<br/>**Straka J, Hruz M, Picek L. The Hitchhiker's Guide to Endangered Species Pose Estimation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 50-59).**
+
+Compare methods for pose estimation on species for which we don't have lots of labeled examples, including generating synthetic data with Unity.  Find that "the best approach is to pre-train on domain-related data enriched with synthetic data and fine-tune it with any available real data".
+
+Code for image generation is [here](https://github.com/strakaj/Synthetic-animal-pose-generation).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/straka-synthetic-lynx.png" width="500">
+
+
+<br/>**Schindler F, Steinhage V, van Beeck Calkoen ST, Heurich M. Action Detection for Wildlife Monitoring with Camera Traps Based on Segmentation with Filtering of Tracklets (SWIFT) and Mask-Guided Action Recognition (MAROON). Applied Sciences. 2024 Jan 6;14(2):514.**
+
+Build on their previous segmentation/tracking work ([SWIFT](https://www.sciencedirect.com/science/article/pii/S1574954122002448?casa_token=OK6Bv6MWsAEAAAAA:kF3urNCgz4leTq54RDoDLsVIkG8TMglyOaB5VdjozR1leXMuKkUmh3jHjxrQccgKmW0lxsWuPQ)) and add a novel architecture (MAROON) for action detection on top of the SWIFT masks.  Evaluate on three datasets of O(50) videos each, with O(10) behavior classes.  "The data presented in this study are available on request from the corresponding author".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/swift-maroon-behavior.png" width="500">
+
+
+<br/>**Nazir S, Kaleem M. Object classification and visualization with edge artificial intelligence for a customized camera trap platform. Ecological Informatics. 2024 Jan 2:102453.**
+
+Evaluate MobileNetV2 running on a Pi for species classification.  Evaluate on a Web-sourced (non-camera-trap) dataset, as well as a two-location camera trap dataset from Florida ("[Florida Wildlife Camera Trap Dataset](https://www.crcv.ucf.edu/research/projects/florida-wildlife-camera-trap-dataset/)") (~100k images).  Classification accuracies were high even with MobileNetV2, but splitting was random (i.e., not by location), so a little hard to evaluate.
+
+
+<br/>**Alison J, Payne S, Alexander JM, Bjorkman AD, Clark VR, Gwate O, Huntsaar M, Iseli E, Lenoir J, Mann HM, Steenhuisen SL. Deep learning to extract the meteorological by‐catch of wildlife cameras. Global Change Biology. 2024 Jan;30(1):e17078.**
+
+Train models to classifier weather conditions from camera trap images in South Africa and Switzerland (overcast, sunshine, hail, snow), find ~92% accuracy on cameras not seen in training, and 94% accuracy for a two-class problem (overcast vs. sunshine) on a novel location (Norway).  Total dataset is ~9k images.  Train MobileNet and ensemble over five seeds.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/alison-2024.jpg" width="500">
 
 
 #### Papers from 2023
@@ -1120,6 +1215,78 @@ Gestalt of the images:
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
 Explore a bootstrapping approach where they train a small, single-class detector (SSD) on a small subset of Snapshot Serengeti, run that on lots of Snapshot Serengeti images, filter detections with a low confidence threshold but only keep images where the number of boxes is reasonable, and use the boxes from that inference pass - and the very large number of species labels - to train a larger, multi-class detector.
+
+
+<br/>**Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife image classification. Preprint. 2023.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and running classifiers on MegaDetector crops.  Available classifiers include EfficientNet B0, V2S, V2M, and V2L.  Everything is packaged and run via Docker.  MEWC plays nicely with Camelot, by writing predictions to EXIF data, specifically by co-opting some metadata fields that are searchable in Camelot, but that no one really uses (photo-iso-setting, photo-exposure-value, and photo-fnumber-setting).  Clever!  Present a case study on ~5000 images from Tasmania.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brook-mewc.png" width="500">
+
+
+<br/>**Pahuja V, Luo W, Gu Y, Tu CH, Chen HY, Berger-Wolf T, Stewart C, Gao S, Chao WL, Su Y. Bringing Back the Context: Camera Trap Species Identification as Link Prediction on Multimodal Knowledge Graphs. arXiv preprint arXiv:2401.00608. 2023 Dec 31.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Formulate species classification as a multimodal graph prediction problem, where each training image is represented as the image, location (if available), time, and taxonomic information.  Images are encoded using a pre-trained ResNet-50; the learning in this paper isn't the image processing, it's the embedding of all the inputs (including the image embedding) into a space that allows prediction of a knowledge graph edge (e.g., is this image likely a member of this category?) (or, in theory, is this image likely taken from this lat/lon?).  Evaluate on iWildCam-WILDS and Snapshot Mounta Zebra.  Split based on location.  Find a performance benefit from using their system (COSMO) with taxonomic information.
+
+Code is [here](https://github.com/OSU-NLP-Group/COSMO).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/cosmo.png" width="500">
+
+
+<br/>**Gabeff V, Russwurm M, Tuia D, Mathis A. WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models. bioRxiv. 2023:2023-12.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Fine-tune [CLIP](https://openai.com/research/clip) on camera trap images.  The text encoder is frozen; they fine-tune the visual backbone, by generating text descriptions based on metadata.  They use Snapshot Serengeti S1-S6, so they have metadata about time and age, and can generate training examples like "a moving leopard in the morning".  Train and evaluate on the public MD crops (single-species images only).  The task they want to evaluate is a retrieval task, which <i>can</i> just be used for species classification (e.g. "show me all the lions", "show me all the wildebeest"), but can also be used for more complex queries ("show me all the topi calves at location x").  Find that domain-specific fine-tuning significantly improves performance compare to off-the-shelf CLIP.
+
+Code is [here](https://github.com/amathislab/wildclip).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildclip.png" width="500">
+
+
+<br/>**de la Rosa D, Rivera AJ, del Jesus MJ, Charte F. PARDINUS: Weakly supervised discarding of photo-trapping empty images based on autoencoders. arXiv preprint arXiv:2312.14812. 2023 Dec 22.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Propose an autoencoder to facilitate empty image identification.  Cluster images into groups using K-means directly on RGB values (it's unclear what tends to fall out of these groups, i.e. whether these are locations, vegetation types, etc.), then train an autoencoder per cluster.  Determine whether an animal is present by "analyzing the dissimilarities between the original image and its reconstruction generated by the RAE".  Evaluate on a dataset of ~46k images from Spain.  Splitting appears to be random, i.e. not by location, though this is a little less problematic here than it usually is, since the assumption is that images would be re-clustered for every study.  Found an AUC of .97, compared to .93 for MegaDetector, but higher accuracy (93% vs. 88%) for MD.
+
+
+<br/>**Bohnett E, Holmberg J, Faryabi SP, An L, Ahmad B, Rashid W, Ostrowski S. Comparison of two individual identification algorithms for snow leopards (Panthera uncia) after automated detection. Ecological Informatics. 2023 Nov 1;77:102214.**
+
+Train a ResNeXt-based PIE network for individual ID of snow leopards, and compare to HotSpotter; find that combining both approaches outperforms either approach alone.  Both are deployed in Whiskerbook.
+
+Operate on cropped snow leopards, using a custom YOLOv2, and do background subtraction within the box using Wild Me's custom background subtractor.  PIE training uses 829 annotations for 126 individuals from wild and captive sites.
+
+Code for the PIE piece is [here](https://github.com/WildMeOrg/wbia-plugin-pie-v2).  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/bohnett-2023.jpg" width="500">
+
+
+<br/>**Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Mühling M, Farwig N, Freisleben B. Recognizing European mammals and birds in camera trap images using convolutional neural networks. In 3rd International Workshop on Camera Traps, AI, and Ecology 2023.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train EfficientNetV2 and ConvNextBase to recognize European wildlife in camera trap images, calling particular attention to the presence of birds in data.  Data and models are released publicly.  Classifiers are run on MDv5a crops, resized to 300x300.  Included an "empty" class.  Although they are targeting European species, they also pull in data from Caltech Camera Traps, ENA24, Idaho Camera Traps, Missouri Camera Traps, NACTI, and WCS Camera Traps, as well as non-camera-tra data from Kaggle and NABirds.  Found that ConvNext slightly outperforms EfficientNet V2.
+
+Code is [here](https://github.com/umr-ds/Marburg-Camera-Traps).
+
+Data and models are [here](https://data.uni-marburg.de/handle/dataumr/246).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/schneider-2023.png" width="500">
+
+
+<br/>**Fabian Z, Miao Z, Li C, Zhang Y, Liu Z, Hernández A, Montes-Rojas A, Escucha R, Siabatto L, Link A, Arbeláez P. Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images. arXiv preprint arXiv:2311.01064. 2023 Nov 2.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Propose the use of large multimodal models to extract text descriptions of camera trap images, which are classified by using an LLM to query a large text knowledge base.  The knowledge base is constructed by automatic summarization of the Wikipedia articles on species present in camera trap images on LILA.  Do some prompt and threshold tuning on data from LILA, evaluate on a novel dataset from Colombia.  The images being evaluated are MD crops.  Find that their approach ("WildMatch") provides better results than off-the-shelf CLIP.
 
 
 #### Papers from 2022
@@ -2057,62 +2224,21 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Bakana SR, Zhang Y, Twala B. WildARe-YOLO: A lightweight and efficient wild animal recognition model. Ecological Informatics. 2024 Feb 23:102541.
-
-* Liu L, Mou C, Xu F. Improved Wildlife Recognition through Fusing Camera Trap Images and Temporal Metadata. Diversity. 2024 Feb 23;16(3):139.
-
-* Nepovinnykh E, Eerola T, Kälviäinen H, Chelak I. NORPPA: novel ringed seal re-identification by pelage pattern aggregation. InProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 1-10).
-
-* Brookes O, Mirmehdi M, Stephens C, Angedakin S, Corogenes K, Dowd D, Dieguez P, Hicks TC, Jones S, Lee K, Leinert V. PanAf20K: A Large Video Dataset for Wild Ape Detection and Behaviour Recognition.  International Journal of Computer Vision, 2024.
-
-* Straka J, Hruz M, Picek L. The Hitchhiker's Guide to Endangered Species Pose Estimation. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 50-59).
-
-* Schindler F, Steinhage V, van Beeck Calkoen ST, Heurich M. Action Detection for Wildlife Monitoring with Camera Traps Based on Segmentation with Filtering of Tracklets (SWIFT) and Mask-Guided Action Recognition (MAROON). Applied Sciences. 2024 Jan 6;14(2):514.
-
-* Barta Z. Deep learning in terrestrial conservation biology. Biologia Futura. 2024 Jan 16:1-9.
-
-* Nazir S, Kaleem M. Object classification and visualization with edge artificial intelligence for a customized camera trap platform. Ecological Informatics. 2024 Jan 2:102453.
-
-* Smith J, Wycherley A, Mulvaney J, Lennane N, Reynolds E, Monks CA, Evans T, Mooney T, Fancourt B. Man versus machine: cost and carbon emission savings of 4G-connected Artificial Intelligence technology for classifying species in camera trap images. 2024.
-
-* Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. InProceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
-
-* Zeuss D, Bald L, Gottwald J, Becker M, Bellafkir H, Bendix J, Bengel P, Beumer LT, Brandl R, Brändle M, Dahlke S. Nature 4.0: A networked sensor system for integrated biodiversity monitoring. Global Change Biology. 2024 Jan;30(1):e17056.
+* Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
 
 #### Papers from 2023
-
-* de la Rosa D, Rivera AJ, del Jesus MJ, Charte F. PARDINUS: Weakly supervised discarding of photo-trapping empty images based on autoencoders. arXiv preprint arXiv:2312.14812. 2023 Dec 22.
-
-* Bohnett E, Holmberg J, Faryabi SP, An L, Ahmad B, Rashid W, Ostrowski S. Comparison of two individual identification algorithms for snow leopards (Panthera uncia) after automated detection. Ecological Informatics. 2023 Nov 1;77:102214.
-
-* Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife-image classification. 2023.
-
-* Velasco-Montero D, Carmona-Galán JF, Francisco AS. Towards an efficient smart camera trap for wildlife monitoring. In3rd International Workshop Camera Traps, AI and Ecology. Jena, Germany 2023 Sep.
-
-* Pahuja V, Luo W, Gu Y, Tu CH, Chen HY, Berger-Wolf T, Stewart C, Gao S, Chao WL, Su Y. Bringing Back the Context: Camera Trap Species Identification as Link Prediction on Multimodal Knowledge Graphs. arXiv preprint arXiv:2401.00608. 2023 Dec 31.
-
-* Gabeff V, Russwurm M, Tuia D, Mathis A. WildCLIP: Scene and animal attribute retrieval from camera trap data with domain-adapted vision-language models. bioRxiv. 2023:2023-12.
-
-* Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Mühling M, Farwig N, Freisleben B. Recognizing European mammals and birds in camera trap images using convolutional neural networks. In 3rd International Workshop on Camera Traps, AI, and Ecology 2023.
-
-* Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
-
-* Gurule M. The Impacts of Transfer Learning for Ungulate Recognition at Sevilleta National Wildlife Refuge. 2023.
-
-* de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. In International Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
-
-* Fabian Z, Miao Z, Li C, Zhang Y, Liu Z, Hernández A, Montes-Rojas A, Escucha R, Siabatto L, Link A, Arbeláez P. Multimodal Foundation Models for Zero-shot Animal Species Recognition in Camera Trap Images. arXiv preprint arXiv:2311.01064. 2023 Nov 2.
-
-* Jamie Alison, Stephanie Payne, Jake M Alexander, Anne D Bjorkman, Vincent Ralph Clarke, Onalenna Gwate, Maria Huntsaar, Evelin Iseli, Jonathan Lenoir, Hjalte Mads Rosenstand Mann, Sandy-Lynn Steenhuisen, Toke Thomas Høye.  Deep learning to extract the meteorological by-catch of wildlife cameras.  bioRxiv 2023.09.25.558780.
-
-* Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
 
 #### Papers from <= 2022
 
 * Berry P. Automated species identification for camera trapping in the Iona Skeleton Coast Trans-Frontier Conservation Area (Doctoral dissertation, Namibia University of Science and Technology).
 
+* Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
+
+* Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
 ### Papers I don't have access to but would read if I did
+
+* Velasco-Montero D, Carmona-Galán JF, Francisco AS. Towards an efficient smart camera trap for wildlife monitoring. In 3rd International Workshop Camera Traps, AI and Ecology. Jena, Germany 2023 Sep.
 
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. In International Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
@@ -2135,6 +2261,16 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
+
+* de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. In International Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
+
+* Gurule M. The Impacts of Transfer Learning for Ungulate Recognition at Sevilleta National Wildlife Refuge. 2023.
+
+* Singh K, Singhal M, Singh N, Rawat SS, Gupta V. A review on wildlife identification and classification. Artificial Intelligence, Blockchain, Computing and Security Volume 1. 2023:21-5.
+
+* Barta Z. Deep learning in terrestrial conservation biology. Biologia Futura. 2024 Jan 16:1-9.
 
 * Thangaraj, R., Rajendar, S., Sanjith, M., Sasikumar, S. and Chandhru, L., 2023, January. Automated Recognition of Wild Animal Species in Camera Trap Images Using Deep Learning Models. In 2023 Third International Conference on Advances in Electrical, Computing, Communication and Sustainable Technologies (ICAECT) (pp. 1-5). IEEE.
 
