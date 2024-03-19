@@ -63,6 +63,14 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
 
+#### EcoAssist
+
+> <https://github.com/PetervanLunteren/EcoAssist>
+
+Client-side tool for running MegaDetector and a number of species classifiers, including various postprocessing steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
+
 #### Camelot
 
 > <https://gitlab.com/camelot-project/camelot>
@@ -88,16 +96,6 @@ Demo [here](https://demo.trapper-project.org/); you have to register and ask for
 OSS platform developed by TNC for managing data from biosecurity cameras, with real-time detection and classifications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
-
-#### WildID
-
-> <https://www.wildid.app>
-
-Web-based platform for processing camera trap images, targeted for Southern Africa, that uses a custom multiclass detector.  Free trial available; paid version allows larger bulk uploads.
-
-Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
 
 #### DeepFaune
 
@@ -145,14 +143,6 @@ Family of region-specific object detection models for camera traps and drones, b
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
 
-#### Mala ML
-
-> <https://www.envir.ai>
-
-AI-accelerated review tool that advertises both browser-based and desktop experiences.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mala.jpg" width="500">
-
 #### Agouti
 
 > <https://agouti.eu> 
@@ -166,28 +156,6 @@ Also see ENETWILD-consortium, Casaer J, Jansen P, Roy D, Stephens PA, Blanco-Agu
 The latter indicates that Agouti includes some bespoke AI tools, as well as DeepFaune and MegaDetector.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
-
-#### RECONN.AI
-
-> <https://www.reconn.ai>
-
-Cloud-based tool that includes a detector and species classifier.  Documentation suggests the classifier is tailored for the American Midwest.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconn-ai.jpg" width="500">
-
-#### PantheraIDS (Integrated Data System)
-
-> <https://www.pantheraids.org/features.html>
-
-Image management and analysis software used at Panthera; includes machine learning functionality for blank removal, species classification, and individual ID.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panthera-ids.png" width="500">
-
-#### Wildlife Observer Network Image ID+
-
-> <https://wildlifeobserver.net/imageidplus>
-
-Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
 
 #### MegaDetector
 
@@ -223,6 +191,62 @@ Thick-client, .net-based tool for reviewing camera trap images.  Incorporates ML
 Connected camera network with cloud-based AI capabilities (for detecting and classifying Australian wildlife).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.webp" width="500">
+
+#### CamTrap Detector
+
+* [Home](https://camtrap.net/detector)
+* [Source](https://github.com/bencevans/camtrap-detector)
+
+Client-side tool for running MegaDetector, including various postprocessing steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
+
+#### OCAPI
+
+> <https://www.terroiko.fr/ocapi/>
+
+Web-based platform for camera trap data management, uses MegaDetector and a custom species classifier (class list [here](https://ocapi-doc.terroiko.fr/#categories)).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ocapi-screenshot.png" width="500">
+
+#### Reconyx connect
+
+* [Reconyx Connect for Android](https://play.google.com/store/apps/details?id=com.reconyx.reconyx2&hl=en_US&gl=US)
+* [Reconyx Connect for iOS](https://apps.apple.com/us/app/reconyx-connect/id1497202185)
+
+Reconyx mostly makes cameras, but their mobile app includes what appears to be cloud-based AI for classifying deer/buck/doe/turkey/human/vehicle in images from connected cameras ([video](https://www.youtube.com/watch?v=pRB15wrd2DE&t=5s&ab_channel=ReconyxCameras)).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconyx-ai.png" width="500">
+
+<!-- -->
+
+
+
+#### WildID
+
+> <https://www.wildid.app>
+
+Web-based platform for processing camera trap images, targeted for Southern Africa, that uses a custom multiclass detector.  Free trial available; paid version allows larger bulk uploads.
+
+Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
+
+#### RECONN.AI
+
+> <https://www.reconn.ai>
+
+Cloud-based tool that includes a detector and species classifier.  Documentation suggests the classifier is tailored for the American Midwest.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconn-ai.jpg" width="500">
+
+#### PantheraIDS (Integrated Data System)
+
+> <http://www.pantheraids.org>
+
+Image management and analysis software used at Panthera; includes machine learning functionality for blank removal, species classification, and individual ID.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panthera-ids.png" width="500">
 
 #### DeCaTron
 
@@ -278,32 +302,22 @@ Tool for captioning images and videos that includes a workflow for camera trap d
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caption-pro.png" width="500">
 
-#### EcoAssist
-
-> <https://github.com/PetervanLunteren/EcoAssist>
-
-Client-side tool for running and fine-tuning MegaDetector, including various postprocessing steps.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
-
-#### CamTrap Detector
-
-* [Home](https://camtrap.net/detector)
-* [Source](https://github.com/bencevans/camtrap-detector)
-
-Client-side tool for running MegaDetector, including various postprocessing steps.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
-
-#### OCAPI
-
-> <https://www.terroiko.fr/ocapi/>
-
-Web-based platform for camera trap data management, uses MegaDetector and a custom species classifier (class list [here](https://ocapi-doc.terroiko.fr/#categories)).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ocapi-screenshot.png" width="500">
 
 ### Systems that appear to be less active
+
+#### Wildlife Observer Network Image ID+
+
+> <https://wildlifeobserver.net/imageidplus>
+
+Web-based system that takes a zipfile of camera trap images and produces an estimate of the presence/number of animals in each image.
+
+#### Mala ML
+
+> <https://www.envir.ai>
+
+AI-accelerated review tool that advertises both browser-based and desktop experiences.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mala.jpg" width="500">
 
 #### CAIMAN
 
