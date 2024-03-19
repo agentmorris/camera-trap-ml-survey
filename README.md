@@ -2376,6 +2376,7 @@ Mentioning this here mostly to highlight that it's superseded by Camtrap DP.
 
 * [Awesome Deep Ecology](https://github.com/patrickcgray/awesome-deep-ecology) (review of deep learning applications in ecology)
 * [Computer Vision and Aerial Imagery for Wildlife Conservation](https://bkellenb.github.io/cv-for-wildlife-aerial-imagery/) (page similar to this one, focused on aerial imagery)
+* [Datasets with annotated wildlife in drone/aerial images](https://github.com/agentmorris/agentmorrispublic/blob/main/drone-datasets.md) (tracks datasets and models related to drone/aerial wildlife surveys)
 
 
 ## Places to chat about this stuff
