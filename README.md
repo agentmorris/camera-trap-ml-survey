@@ -2359,7 +2359,7 @@ The [terrestrial wild animals](https://lila.science/otherdatasets#images-terrest
 
 Bubnicki JW, Norton B, Baskauf SJ, Bruce T, Cagnacci F, Casaer J, Churski M, Cromsigt JP, Dal Farra S, Fiderer C, Forrester TD. Camtrap DP: An open standard for the FAIR exchange and archiving of camera trap data.  EcoEvoRxiv, 2023.
 
-As of 10/2023, export to Camtrap DP is supported by Agouti and Trapper; import from Camtrap DP is supported by GBIF.  If you are looking for a standard to consume or publish in 2023, my relatively unbiased opinion is that Camtrap DP is the one to which you want to hitch your wagon.
+As of 10/2023, export to Camtrap DP is supported by Agouti and Trapper; import from Camtrap DP is supported by GBIF.  If you are looking for a standard to consume or publish, my relatively unbiased opinion is that Camtrap DP is the one to which you want to hitch your wagon.
 
 ### Camera Trap Metadata Standard (CTMS)
 
