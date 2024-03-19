@@ -2345,6 +2345,9 @@ Noting Wildlife Insights here too in anticipation of future data release; as emb
 * [Pri-matrix Factorization](https://www.drivendata.org/competitions/49/deep-learning-camera-trap-animals/) (individual chimp recognition)
 * [iWildCam](https://github.com/visipedia/iwildcam_comp) (camera trap image classification)
 
+### All the other camera trap datasets I know about
+
+The [terrestrial wild animals](https://lila.science/otherdatasets#images-terrestrial-animals-ground) section of LILA's "other data sets" list (i.e., data sets that aren't "on" LILA, just listed there) isn't exclusively camera trap datasets, but it includes a handful of camera trap datasets.
 
 ## Metadata standards for camera trap data
 
