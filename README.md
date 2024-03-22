@@ -2240,6 +2240,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
+* Procko M, Winder SG, Wood SA, Sevigny M, Collins DG, Alves M, Prugh LR.  Quantifying impacts of recreation on elk (Cervus canadensis) using novel modeling approaches.  2024.  ([data](https://zenodo.org/records/10766259))
+
 * Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
 
 #### Papers from 2023
