@@ -2240,6 +2240,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
+* Celis G, Ungar P, Sokolov A, Sokolova N, Böhner H, Liu D, Gilg O, Fufachev I, Pokrovskaya O, Ims RA, Zhou W. A versatile, semi-automated image analysis workflow for time-lapse camera trap image classification. Ecological Informatics. 2024 Mar 26:102578.
+
 * Procko M, Winder SG, Wood SA, Sevigny M, Collins DG, Alves M, Prugh LR.  Quantifying impacts of recreation on elk (Cervus canadensis) using novel modeling approaches.  2024.  ([data](https://zenodo.org/records/10766259))
 
 * Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
@@ -2279,6 +2281,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Lamb G, Lo CH, Wu J, Lee CK. An active learning model to classify animal species in Hong Kong. arXiv preprint arXiv:2403.15675. 2024 Mar 23.
 
 * Zhong Y, Li X, Xie J, Zhang J. A Lightweight Automatic Wildlife Recognition Model Design Method Mitigating Shortcut Learning. Animals. 2023 Feb 25;13(5):838.
 
