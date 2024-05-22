@@ -218,8 +218,17 @@ Reconyx mostly makes cameras, but their mobile app includes what appears to be c
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconyx-ai.png" width="500">
 
-<!-- -->
+#### ecoSecrets
 
+* [Code](https://github.com/naturalsolutions/ecoSecrets)
+* [Docs](https://natural-solutions.gitlab.io/geonature/annotation/)
+
+Web app for processing camera trap images.  Docs refer to the image processing approach presented in [Zhang et al.](https://ieeexplore.ieee.org/abstract/document/7523423); MegaDetector is also mentioned in the code.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecosecrets-docs.png" width="500">
+
+
+<!-- -->
 
 
 #### WildID
@@ -430,6 +439,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * EcoAssist (MDv5 GUI) ([github.com/PetervanLunteren/EcoAssist](https://github.com/PetervanLunteren/EcoAssist))
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
+* ecoSecrets ([github.com/naturalsolutions/ecoSecrets](https://github.com/naturalsolutions/ecoSecrets))
+* tapis-project camera traps (edge device tools for camera traps) ([github.com/tapis-project/camera-traps](https://github.com/tapis-project/camera-traps))
 <!-- Sync'd with the list of repos on the MD README -->
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
