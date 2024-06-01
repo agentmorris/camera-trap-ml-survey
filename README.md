@@ -720,7 +720,7 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 ### Papers with summaries
 
-#### Papers from 2024
+#### <i>Papers from 2024</i>
 
 **Aguirre I, Hood GA, Westbrook CJ. Short-term dynamics of beaver dam flow states. Science of The Total Environment. 2024 Feb 9:170825.**
 
@@ -829,7 +829,85 @@ Data is [here](https://zenodo.org/records/10137731).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/alison-2024.jpg" width="500">
 
 
-#### Papers from 2023
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+
+
+<br/>**Mao W, Li G, Li X. Improved Re-Parameterized Convolution for Wildlife Detection in Neighboring Regions of Southwest China. Animals. 2024 Apr 10;14(8):1152.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Train a multi-class detector on common species in SWG Camera Traps.  Replace the later stages of YOLOv6-N with custom branches, reporting a 3.1% mAP improvement over YOLOv6-N.  Report a rather scorching 300fps on an RTX 2060, also walk through deployment on a Jetson device.  It's not clear whether their modifications are specific to wildlife, or whether they are just proposing improvements to YOLOv6-N; they see improvements on Pascal-VOC as well.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
+
+
+<br/>**Ma Z, Dong Y, Xia Y, Xu D, Xu F, Chen F. Wildlife Real-Time Detection in Complex Forest Scenes Based on YOLOv5s Deep Learning Network. Remote Sensing. 2024 Apr 11;16(8):1350.**
+
+Modify YOLOv5s to improve performance on a camera trap dataset of 14k images in 14 species categories from China.
+
+They refer to their modified YOLOv5s as "WL-YOLO"; the overall structure is the same, but each module has been replaced.  Report a significant speedup and an increase in mAP compared to YOLOv5s, and report mAP comparable to a ~50x larger Faster R-CNN implementation.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/remotesensing-16-01350-g012.png" width="500">
+
+
+<br/>**Tjaden-McClement, K. G. (2024). Understanding drivers of caribou decline and feral horse dynamics in the Chilcotin Plateau of British Columbia (Doctoral dissertation, University of British Columbia). 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the impact of fire on caribou populations in BC, and the impact of feral horses on moose and mule deer populations in BC.  Find that wildfires may be partially driving caribou decline, but find no evidence that feral horses are impacting moose/deer populations.
+
+179 cameras deployed in 2020-2023.  Used MDv5 to streamline blank elimination; species classification was manual.
+
+
+<br/>**Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaille-Jammes S. Zero-shot animal behavior classification with image-text foundation models. bioRxiv. 2024:2024-04.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Look at behavior classification in camera trap images using foundation models  Test with ~132k images labeled on Zooniverse with behavioral tags (eating, moving, resting).  Use MDv5 for cropping prior to zero-shot classification.
+
+For image-text models, they ask the model for similarity scores with captions like "a camera trap picture of an animal eating".  Highest accuracy among off-the-shelf models is 91% (SigLIP), find ~92.5% accuracy for [WildCLIP](https://github.com/amathislab/wildclip) (which is trained on camera trap images).
+
+For LLMs, they ask "is the animal in the image eating, moving, or resting?".   Highest accuracy is 97% (CogVLM).
+
+Code and data will be available on [Zenodo](https://doi.org/10.5281/zenodo.10925926), but are not available as of the time I'm writing this summary.
+
+
+<br/>**Yang DQ, Meng DY, Li HX, Li MT, Jiang HL, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH. A systematic study on transfer learning: Automatically identifying empty camera trap images using deep convolutional neural networks. Ecological Informatics. 2024 Feb 17:102527.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Evaluate alternative fine-tuning strategies when transfer-learning from ImageNet-trained models to camera trap data.  Evaluate on Snapshot Serengeti and a dataset from 218 cameras in China.  Use ResNext-101 for all their experiments.  Splitting was by sequence, but not by location.  Evaluate both binary and 10-species classification tasks.
+
+Find a benefit to selecting layers beyond just the fully-connected layer for fine-tuning, also find that the optimal layers to update vary depending on the dataset.  Using 20k target-domain samples, their optimal layer selection approach gives around a 3% accuracy boost compared to just updating the fully-connected layer (92.9% --> 95.5% for Snapshot Serengeti).
+
+(NB: I'm including the "LILA" tag here because they used Snapshot Serengeti, but in full disclosure, they report downloading the older Snapshot Serengeti data from Dryad.)
+
+
+<br/>**Celis G, Ungar P, Sokolov A, Sokolova N, Böhner H, Liu D, Gilg O, Fufachev I, Pokrovskaya O, Ims RA, Zhou W. A versatile, semi-automated image analysis workflow for time-lapse camera trap image classification. Ecological Informatics. 2024 Mar 26:102578.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe a classification pipeline for arctic images that contain distant animals.  Use MDv5 prior to classification; assess the benefit of TTA, tiling, and RDE; find complementary benefits of each (i.e., TTA and tiling were trivially worth it, RDE improved accuracy and was probably worth it.)  Before training a species classifier, train a binary junk/not-junk model on crops to eliminate additional MD FPs.  Evaluate on <i>years</i> of data not seen in training, but not on <i>cameras</i> not seen in training.
+
+Code is [here](https://github.com/gerlis22/CameraTrap).
+
+(Disclosure: I'm an author on this paper.)
+
+
+<br/>**Procko M, Winder SG, Wood SA, Sevigny M, Collins DG, Alves M, Prugh LR.  Quantifying impacts of recreation on elk (Cervus canadensis) using novel modeling approaches.  2024.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Paper appears not to have been published yet, so I'm basing this summary on the [data](https://zenodo.org/records/10766259) description.
+
+Generate an elk habitat suitability model in Western Washington, to identify areas for camera trap deployment.  Used MD for coarse categorization, WildCo-Faceblur for face blurring, and Timelapse for manual classification of species and recreation categories.
+
+Analysis code is [here](https://zenodo.org/records/10766259).
+
+
+#### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
 
@@ -870,6 +948,8 @@ Findings:
 * Sequence-level classification was higher (of course) than image-level classification; average post-softmax score performed the best among the four ways of generating sequence-level scores, but pre-softmax average (aka average logit) was only slightly worse, and much better calibrated, so they deemed that the best overall.
 
 Code and cropped images are available [here](https://zenodo.org/records/10014376), full images for one dataset (Portugal) are available [here](https://www.gbif.org/dataset/88228250-e465-494e-858e-3bc327de01d7) (the image links are actually public links into Agouti).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dussert-2023-calibration.png" width="500">
 
 
 <br/>**Breen C, Vuyovich C, Odden J, Hall D, Prugh L. Evaluating MODIS snow products using an extensive wildlife camera network. Remote Sensing of Environment. 2023 Sep 1;295:113648.**
@@ -1319,7 +1399,7 @@ Data and models are [here](https://data.uni-marburg.de/handle/dataumr/246).
 Propose the use of large multimodal models to extract text descriptions of camera trap images, which are classified by using an LLM to query a large text knowledge base.  The knowledge base is constructed by automatic summarization of the Wikipedia articles on species present in camera trap images on LILA.  Do some prompt and threshold tuning on data from LILA, evaluate on a novel dataset from Colombia.  The images being evaluated are MD crops.  Find that their approach ("WildMatch") provides better results than off-the-shelf CLIP.
 
 
-#### Papers from 2022
+#### <i>Papers from 2022</i>
 
 **Goward S. I Spy Through a Camera’s Eye: Divii in the Gwich’in Settlement Area. ARCTIC. 2022 Dec 15;75(4):510-5.**
 
@@ -1759,7 +1839,12 @@ Species-level results are a little too complicated to summarize here quantitativ
 Assessed the feasibility of model optimization of image classifiers (on 66k images from UAE) for edge deployment; found that the best-performing architecture (Xception) achieved an F1 of .87 prior to optimization for edge deployment, but optimization reduced the average F1 to 0.7, and had an even more extreme effect on rare classes (F1 0.18).  80/20 train/test split appears to have been based on images, not sequences or locations.
 
 
-#### Papers from 2021
+<br/>**Berry P. Automated species identification for camera trapping in the Iona Skeleton Coast Trans-Frontier Conservation Area (Doctoral dissertation, Namibia University of Science and Technology).**
+
+Used off-the-shelf YOLOv3 for detecting animals, then train Inceptionv3 @ 299x299 to classify crops.  Used ~4k images from Etosha NP in Namibia.
+
+
+#### <i>Papers from 2021</i>
 
 **Gimenez, O., Kervellec, M., Fanjul, J.B., Chaine, A., Marescot, L., Bollet, Y. and Duchamp, C., 2021. Trade-off between deep learning for species identification and inference about predator-prey co-occurrence: Reproducible R workflow integrating models in computer vision and ecological statistics. arXiv preprint arXiv:2108.11509.**
 
@@ -1790,6 +1875,8 @@ Code is available on [GitHub](https://github.com/omipan/camera_traps_self_superv
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
 Take an active learning approach to adapting species classification models to new species distributions; describe an architecture that uses a large embedding model (trained infrequently) and a small classification model (trained frequently), along with active learning selection strategies. Though only in a simulated active learning environment, they show the same results on Snapshot Serengeti with 14.1k labels as was previously achieved with 3.2M labels.  Classification is run on MegaDetector crops and whole images; they demonstrate significantly better results on crops.
+
+(Disclosure: I'm an author on this paper.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/arashactivelearning.jpg" width="500">
 
@@ -1914,7 +2001,7 @@ Ran a field test in Africa for about 2.5 camera-months, spread over five sites. 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/whytock-2021.jpg" width="400">
 
 
-#### Papers from 2020
+#### <i>Papers from 2020</i>
 
 **Evans BC, Tucker A, Wearn OR, Carbone C. Reasoning About Neural Network Activations: An Application in Spatial Animal Behaviour from Camera Trap Classifications. In Joint European Conference on Machine Learning and Knowledge Discovery in Databases 2020 Sep 14 (pp. 26-37). Springer, Cham.**
 
@@ -1997,6 +2084,8 @@ Propose a few methods for capturing change information in each sequence, using O
 
 Find that sequence models outperform baseline significantly, with the "throw everything in" model (images+MOG2+flow, 13 channels total) performing best when splitting train/val by sequence, and the flow+MOG2 (without any raw image data!) performing best when splitting by location.
 
+(Disclosure: I'm an author on this paper.)
+
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/shashidhara-2020.png" width="500">
 
 
@@ -2020,6 +2109,8 @@ Find that their method (Context R-CNN) significantly outperforms the single-fram
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
 Propose the use of synthetic data (rendered from 3D animal models) to bolster training data for rare classes.  Evaluate on Caltech Camera Traps (splitting by location), and use Unity and AirSim as synthetic environments.  Also compare to generating synthetic images by putting synthetic (rendered) animals on real (empty) camera trap backgrounds.  See a significant increase in accuracy on the rare classes with even 120 simulated images, with a minimal decrease in accuracy on other classes.  Do not see the same benefit (in fact see a negative impact) from just oversampling the rare classes in training.  See substantial benefit to significant variation in pose/lighting/model when generating the simulated images.
+
+(Disclosure: I'm an author on this paper.)
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/beery-simulation-2020.png" width="500">
 
@@ -2067,7 +2158,7 @@ Downloadable by request [here](https://classifymeapp.com).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
 
-#### Papers from 2019 and earlier
+#### <i>Papers from 2019 and earlier</i>
 
 **Janzen M, Ritter A, Walker PD, Visscher DR. EventFinder: a program for screening remotely captured images. Environmental monitoring and assessment. 2019 Jun;191(6):1-0.**
 
@@ -2254,55 +2345,10 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
-![LILA](https://img.shields.io/badge/-LILA-4444aa)
-![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
-![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
-
-
-<br/>**Mao W, Li G, Li X. Improved Re-Parameterized Convolution for Wildlife Detection in Neighboring Regions of Southwest China. Animals. 2024 Apr 10;14(8):1152.**
-
-![LILA](https://img.shields.io/badge/-LILA-4444aa)
-
-Train a multi-class detector on common species in SWG Camera Traps.  Replace the later stages of YOLOv6-N with custom branches, reporting a 3.1% mAP improvement over YOLOv6-N.  Report a rather scorching 300fps on an RTX 2060, also walk through deployment on a Jetson device.  It's not clear whether their modifications are specific to wildlife, or whether they are just proposing improvements to YOLOv6-N; they see improvements on Pascal-VOC as well.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
-
-
-<br/>**Ma Z, Dong Y, Xia Y, Xu D, Xu F, Chen F. Wildlife Real-Time Detection in Complex Forest Scenes Based on YOLOv5s Deep Learning Network. Remote Sensing. 2024 Apr 11;16(8):1350.**
-
-Modify YOLOv5s to improve performance on a camera trap dataset of 14k images in 14 species categories from China.
-
-They refer to their modified YOLOv5s as "WL-YOLO"; the overall structure is the same, but each module has been replaced.  Report a significant speedup and an increase in mAP compared to YOLOv5s, and report mAP comparable to a ~50x larger Faster R-CNN implementation.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/remotesensing-16-01350-g012.png" width="500">
-
-
-<br/>**Tjaden-McClement, K. G. (2024). Understanding drivers of caribou decline and feral horse dynamics in the Chilcotin Plateau of British Columbia (Doctoral dissertation, University of British Columbia). 2024.**
-
-![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
-![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
-
-Evaluate the impact of fire on caribou populations in BC, and the impact of feral horses on moose and mule deer populations in BC.  Find that wildfires may be partially driving caribou decline, but find no evidence that feral horses are impacting moose/deer populations.
-
-179 cameras deployed in 2020-2023.  Used MDv5 to streamline blank elimination; species classification was manual.
-
-
-* Dussert G, Chamaille-Jammes S, Dray S, Miele V. Being confident in confidence scores: calibration in deep learning models for camera trap image sequences. bioRxiv. 2023 Nov 13:2023-11.
-
-* Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaille-Jammes S. Zero-shot animal behavior classification with image-text foundation models. bioRxiv. 2024:2024-04.
-
-* Yang DQ, Meng DY, Li HX, Li MT, Jiang HL, Tan K, Huang ZP, Li N, Wu RH, Li XW, Chen BH. A systematic study on transfer learning: Automatically identifying empty camera trap images using deep convolutional neural networks. Ecological Informatics. 2024 Feb 17:102527.
-
-* Celis G, Ungar P, Sokolov A, Sokolova N, Böhner H, Liu D, Gilg O, Fufachev I, Pokrovskaya O, Ims RA, Zhou W. A versatile, semi-automated image analysis workflow for time-lapse camera trap image classification. Ecological Informatics. 2024 Mar 26:102578.
-
-* Procko M, Winder SG, Wood SA, Sevigny M, Collins DG, Alves M, Prugh LR.  Quantifying impacts of recreation on elk (Cervus canadensis) using novel modeling approaches.  2024.  ([data](https://zenodo.org/records/10766259))
-
-* Gebauer E, Thiele S, Ouvrard P, Sicard A, Risse B. Towards a Dynamic Vision Sensor-Based Insect Camera Trap. In Proceedings of the IEEE/CVF Winter Conference on Applications of Computer Vision 2024 (pp. 7157-7166).
-
 #### Papers from 2023
 
 #### Papers from <= 2022
 
-* Berry P. Automated species identification for camera trapping in the Iona Skeleton Coast Trans-Frontier Conservation Area (Doctoral dissertation, Namibia University of Science and Technology).
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
 
