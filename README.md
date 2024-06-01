@@ -1008,7 +1008,8 @@ Assess the difference between domestic and wild animals in Mexican temperate and
 
 They had a wild number of blanks; only 7604 positives in 370,800 total images.  Used MegaDetector (version unspecified, confidence threshold 0.3, so probably MDv5) to eliminate blanks.
 
-<br/>**Penn M, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock: a flexible, low-resource tool for processing camera-trapping images. bioRxiv. 2023:2023-03.**
+
+<br/>**Penn MJ, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock—A flexible, low‐resource tool for processing camera‐trapping images. Methods in Ecology and Evolution. 2024 Jan;15(1):91-102.**
 
 Present a new tool (Sherlock) for camera trap image processing; test it on ~241k images from 46 cameras in the UK to identify badgers.  Correctly classified 91.9% of badgers and removed 49.3% of blanks.
 
