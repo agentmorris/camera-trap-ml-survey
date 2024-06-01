@@ -2253,11 +2253,37 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Mao W, Li G, Li X. Improved Re-Parameterized Convolution for Wildlife Detection in Neighboring Regions of Southwest China. Animals. 2024 Apr 10;14(8):1152.
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
 
-* Ma Z, Dong Y, Xia Y, Xu D, Xu F, Chen F. Wildlife Real-Time Detection in Complex Forest Scenes Based on YOLOv5s Deep Learning Network. Remote Sensing. 2024 Apr 11;16(8):1350.
 
-* Tjaden-McClement, K. G. (2024). Understanding drivers of caribou decline and feral horse dynamics in the Chilcotin Plateau of British Columbia (Doctoral dissertation, University of British Columbia). 2024.
+<br/>**Mao W, Li G, Li X. Improved Re-Parameterized Convolution for Wildlife Detection in Neighboring Regions of Southwest China. Animals. 2024 Apr 10;14(8):1152.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Train a multi-class detector on common species in SWG Camera Traps.  Replace the later stages of YOLOv6-N with custom branches, reporting a 3.1% mAP improvement over YOLOv6-N.  Report a rather scorching 300fps on an RTX 2060, also walk through deployment on a Jetson device.  It's not clear whether their modifications are specific to wildlife, or whether they are just proposing improvements to YOLOv6-N; they see improvements on Pascal-VOC as well.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
+
+
+<br/>**Ma Z, Dong Y, Xia Y, Xu D, Xu F, Chen F. Wildlife Real-Time Detection in Complex Forest Scenes Based on YOLOv5s Deep Learning Network. Remote Sensing. 2024 Apr 11;16(8):1350.**
+
+Modify YOLOv5s to improve performance on a camera trap dataset of 14k images in 14 species categories from China.
+
+They refer to their modified YOLOv5s as "WL-YOLO"; the overall structure is the same, but each module has been replaced.  Report a significant speedup and an increase in mAP compared to YOLOv5s, and report mAP comparable to a ~50x larger Faster R-CNN implementation.  Train/val/test split appears to have been by image, not by sequence or location, so YMMV.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/remotesensing-16-01350-g012.png" width="500">
+
+
+<br/>**Tjaden-McClement, K. G. (2024). Understanding drivers of caribou decline and feral horse dynamics in the Chilcotin Plateau of British Columbia (Doctoral dissertation, University of British Columbia). 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the impact of fire on caribou populations in BC, and the impact of feral horses on moose and mule deer populations in BC.  Find that wildfires may be partially driving caribou decline, but find no evidence that feral horses are impacting moose/deer populations.
+
+179 cameras deployed in 2020-2023.  Used MDv5 to streamline blank elimination; species classification was manual.
+
 
 * Dussert G, Chamaille-Jammes S, Dray S, Miele V. Being confident in confidence scores: calibration in deep learning models for camera trap image sequences. bioRxiv. 2023 Nov 13:2023-11.
 
