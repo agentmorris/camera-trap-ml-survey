@@ -908,6 +908,48 @@ Generate an elk habitat suitability model in Western Washington, to identify are
 Analysis code is [here](https://zenodo.org/records/10766259).
 
 
+<br/>**Morris SA. Influence of Cross-Country Skiing and Off-leash Dogs on Wildlife Habitat Use in Lubrecht Experimental Forest.  University of Montana MS thesis, 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+(Only the abstract is available as of the time I'm writing this, but for purposes of this page, that's enough.)
+
+Used camera traps to study the impact of winter sports on deer, coyote, and foxes in Montana.  Found that WTD daily activity varied on weekends vs. weekdays, and coyotes and foxes become more active later at night during periods of high recreational use.
+
+Used MDv5 for blank elimination.
+
+
+<br/>**Alting BF, Pitcher BJ, Rees MW, Ferrer‐Paris JR, Jordan NR. Population density and ranging behaviour of a generalist carnivore varies with human population. Ecology and Evolution. 2024 May;14(5):e11404.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Used camera traps to study the relationship between dingo ranges/density and human density.  Found "human population density to be a strong driver of dingo density (ranging from 0.025 to 0.433 dingoes/km2 across the natural-urban gradient), and to have a negative effect on dingo home range size."
+
+Used MDv5 (the paper says MDv3, but I'm like 99% sure from both anecdotal communication and the threshold reported in the paper that it was MDv5) with a 15% confidence threshold to eliminate blanks (reduced 854k images to 160k images).
+
+
+<br/>**Bassing SB, Ho C, Gardner B. Anthropogenic activities influence spatiotemporal patterns of predator-prey interactions. Global Ecology and Conservation. 2024 May 29:e03017.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Used camera traps to evaluate how cattle and human hunting activities influenced interactions among predators (black bear, bobcat, cougar, coyote, wolf) and prey (elk, moose, mule deer, wtd) in WA.  Found that mesopredators and deer were more likely to use areas with cattle activity, but cougars avoided cattle; predators and moose used areas with greater hunter activity. 
+
+Used MDv5 to reduce blanks.
+
+
+<br/>**Felker L, Koch M, Schmidt H, Gethöffer F, Gräber R, Keuling O, Siebert U. Analyse des möglichen Einflusses des Wolfes (Canis lupus) und Luchses (Lynx lynx) auf das Verhalten des Rehwildes (Capreolus capreolus) in Niedersachsen (Analysis of the potential influence of wolf (Canis lupus) and lynx (Lynx lynx) on the behaviour of roe deer (Capreolus capreolus) in Lower Saxony). Wildbiologische Forschungsberichte.:208.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Used camera traps to study interactions between predators and prey after relatively recent recolonization of wolves and lynx in Germany.
+
+Used MD to remove non-animal images (removed ~200k of ~700k) before uploading to Agouti.
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
@@ -2346,20 +2388,9 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Morris SA. INFLUENCE OF CROSS-COUNTRY SKIING & OFF-LEASH DOGS ON WILDLIFE HABITAT USE IN LUBRECHT EXPERIMENTAL FOREST.
-
-* Hijii J, Naguwa W, Chhimcanal B. Creating a Framework to Test the Effectiveness of a Suite of Projects in the Maunalua Region.
-
-* Alting BF, Pitcher BJ, Rees MW, Ferrer‐Paris JR, Jordan NR. Population density and ranging behaviour of a generalist carnivore varies with human population. Ecology and Evolution. 2024 May;14(5):e11404.
-
-* Bassing SB, Ho C, Gardner B. Anthropogenic activities influence spatiotemporal patterns of predator-prey interactions. Global Ecology and Conservation. 2024 May 29:e03017.
-
-* Felker L, Koch M, Schmidt H, Gethöffer F, Gräber R, Keuling O, Siebert U. Analyse des möglichen Einflusses des Wolfes (Canis lupus) und Luchses (Lynx lynx) auf das Verhalten des Rehwildes (Capreolus capreolus) in Niedersachsen (Analysis of the potential influence of wolf (Canis lupus) and lynx (Lynx lynx) on the behaviour of roe deer (Capreolus capreolus) in Lower Saxony). Wildbiologische Forschungsberichte.:208.
-
 #### Papers from 2023
 
 #### Papers from <= 2022
-
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
 
@@ -2390,6 +2421,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Hijii J, Naguwa W, Chhimcanal B. Creating a Framework to Test the Effectiveness of a Suite of Projects in the Maunalua Region.  University of Hawaii student project.
 
 * Lamb G, Lo CH, Wu J, Lee CK. An active learning model to classify animal species in Hong Kong. arXiv preprint arXiv:2403.15675. 2024 Mar 23.
 
