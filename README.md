@@ -460,8 +460,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * BayDetect (GUI and automation pipeline for running MD) ([github.com/enguy-hub/BayDetect](https://github.com/enguy-hub/BayDetect))
 * Automated Camera Trapping Identification and Organization Network (ACTION) ([github.com/humphrem/action](https://github.com/humphrem/action))
 * TigerVid (animal frame/clip extraction from videos) ([github.com/sheneman/tigervid](https://github.com/sheneman/tigervid))
-* Trapper AI (AI backend for the TRAPPER platform) [gitlab.com/trapper-project/trapper-ai](https://gitlab.com/trapper-project/trapper-ai)
-* video-processor (MD workflow for security camera footage) [github.com/evz/video-processor](https://github.com/evz/video-processor)
+* Trapper AI (AI backend for the TRAPPER platform) ([gitlab.com/trapper-project/trapper-ai](https://gitlab.com/trapper-project/trapper-ai))
+* video-processor (MD workflow for security camera footage) ([github.com/evz/video-processor](https://github.com/evz/video-processor))
 
 ### Last updated < 2021
 
