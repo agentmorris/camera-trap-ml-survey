@@ -747,7 +747,7 @@ Report benchmark results for ape detection and behavior recognition.  For detect
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panaf20k.jpg" width="500">
 
 
-<br/>**Smith J, Wycherley A, Mulvaney J, Lennane N, Reynolds E, Monks CA, Evans T, Mooney T, Fancourt B. Man versus machine: cost and carbon emission savings of 4G-connected Artificial Intelligence technology for classifying species in camera trap images. Preprint. 2024.**
+<br/>**Smith J, Wycherley A, Mulvaney J, Lennane N, Reynolds E, Monks CA, Evans T, Mooney T, Fancourt B. Man versus machine: cost and carbon emission savings of 4G-connected Artificial Intelligence technology for classifying species in camera trap images. Scientific Reports. 2024 Jun 24;14(1):14530.**
 
 The first paper I've seen to look at the cost savings associated with deploying AI for a camera trap project, and <i>also</i> the first paper I've seen to look at the carbon benefits of connected cameras.  Two totally new things in one paper!
 
