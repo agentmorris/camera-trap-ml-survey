@@ -51,7 +51,7 @@ Wildlife Insights (WI) is a platform for camera trap image management that inclu
 
 > <https://wildeyeconservation.org/traptagger>
 
-An online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (for South African species), and an integration with HotSpotter for individual identification.
+An [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (for South African species), and an integration with HotSpotter for individual identification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
@@ -65,9 +65,9 @@ An online platform for camera trap data management that includes automated blank
 
 #### EcoAssist
 
-> <https://github.com/PetervanLunteren/EcoAssist>
+> <https://addaxdatascience.com/ecoassist>
 
-Client-side tool for running MegaDetector and a number of species classifiers, including various postprocessing steps.
+[Open-source](https://github.com/PetervanLunteren/EcoAssist) client-side tool for running MegaDetector and a number of species classifiers, including various postprocessing steps.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
 
@@ -101,7 +101,7 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 > <https://www.deepfaune.cnrs.fr/en/>
 
-Thick-client tool with a custom detector (based on YOLOv8 as of 2023.12.05) and a custom 28-class species classifier focused on European animals.
+[Open-source](https://plmlab.math.cnrs.fr/deepfaune/software) thick-client tool with a custom detector (based on YOLOv8 as of 2023.12.05) and a custom 28-class species classifier focused on European animals.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
 
@@ -119,11 +119,9 @@ Thick-client tool with a custom detector (based on YOLOv8 as of 2023.12.05) and 
 
 > <https://www.zambacloud.com>
 
-> <https://github.com/drivendataorg/zamba>
+[Open-source](https://github.com/drivendataorg/zamba) Python toolkit (Project Zamba) to find species in camera trap videos, specifically tuned for 23 species often seen in central Africa. Algorithms were trained on data from the [Chimp & See](https://www.chimpandsee.org/#/) Zooniverse project. The [description](http://zamba.drivendata.org/docs/algorithms.html) says it's a five-model ensemble trained in Keras.
 
-Python toolkit (Project Zamba) to find species in camera trap videos, specifically tuned for 23 species often seen in central Africa. Algorithms were trained on data from the [Chimp & See](https://www.chimpandsee.org/#/) Zooniverse project. The [description](http://zamba.drivendata.org/docs/algorithms.html) says it's a five-model ensemble trained in Keras.
-
-Evolved into the application available at <https://www.zambacloud.com/>.
+Deployed via  [Zamba Cloud](https://www.zambacloud.com), a Web application for no-code training of video classification models.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
 
