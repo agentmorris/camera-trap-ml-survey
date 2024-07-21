@@ -266,9 +266,9 @@ AI-driven tool for camera trap image review, with spatial analytics.
 
 #### Dudek AI Image Toolkit
 
-> <https://dudek.com/services/wildlife-camera-trap-ai-image-processing-and-management>
+> <https://ait.dudek.com>
 
-Cloud-based platform that leverages MDv5; the image indicates that a species classifier is involved as well, but I don't have more information.
+Cloud-based platform that leverages MDv5.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dudek.png" width="500">
 
