@@ -1289,7 +1289,7 @@ Case study on a deployment of [TrailGuard AI](https://www.nightjar.tech/) in Ind
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/trailguard.jpg" width="500">
 
 
-<br/>**Mitterwallner V, Peters A, Edelhoff H, Mathes G, Nguyen H, Peters W, Heurich M, Steinbauer MJ. Automated visitor and wildlife monitoring with camera traps and machine learning. Remote Sensing in Ecology and Conservation. 2023.**
+<br/>**Mitterwallner V, Peters A, Edelhoff H, Mathes G, Nguyen H, Peters W, Heurich M, Steinbauer MJ. Automated visitor and wildlife monitoring with camera traps and machine learning. Remote Sensing in Ecology and Conservation. 2024 Apr;10(2):236-47.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
@@ -2388,6 +2388,10 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 #### Papers from 2024
+
+* Tam J, Kay J. Comparing fine-grained and coarse-grained object detection for ecology. arXiv preprint arXiv:2407.00018. 2024 May 6.
+
+* Suessle V, Heurich M, Downs CT, Weinmann A, Hergenroether E. CNN Based Flank Predictor for Quadruped Animal Species. arXiv preprint arXiv:2406.13588. 2024 Jun 19.
 
 #### Papers from 2023
 
