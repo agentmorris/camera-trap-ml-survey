@@ -2395,6 +2395,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2023
 
+* Cultrera L, Seidenari L, Del Bimbo A. Leveraging Visual Attention for out-of-distribution Detection. InProceedings of the IEEE/CVF International Conference on Computer Vision 2023 (pp. 4447-4456). ([data](https://github.com/lcultrera/WildCapture))
+
 #### Papers from <= 2022
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
