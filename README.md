@@ -997,7 +997,7 @@ Fine-tune Faster R-CNN on ResNet-101 with ~4k images of 18 species in South Kore
 
 Compare against MDv5a run via EcoAssist, also compare to a COCO-trained EfficientDet D7.  found that MDv5a slightly outperformed the custom model, and both outperformed the generic COCO-trained model.
 
-Data is available [here](https://figshare.com/s/3552bd60cffd3a850f48)).
+Images are available [here](https://figshare.com/s/3552bd60cffd3a850f48).
 
 
 #### <i>Papers from 2023</i>
