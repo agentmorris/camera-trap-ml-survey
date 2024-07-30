@@ -989,6 +989,17 @@ Train a model to classify which side of the animal is visible in an image, to fa
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/suessle_flank_2024.png" width="300">
 
 
+<br/>**Park S, Cho M, Kim S, Choi J, Song W, Kim W, Song Y, Park H, Yoo J, Seo SB, Park C. Exploring the potential application of a custom deep learning model for camera trap analysis of local urban species. Landscape and Ecological Engineering. 2024 Jul 22:1-0.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Fine-tune Faster R-CNN on ResNet-101 with ~4k images of 18 species in South Korea.  Image split is random.
+
+Compare against MDv5a run via EcoAssist, also compare to a COCO-trained EfficientDet D7.  found that MDv5a slightly outperformed the custom model, and both outperformed the generic COCO-trained model.
+
+Data is available [here](https://figshare.com/s/3552bd60cffd3a850f48)).
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
@@ -2022,7 +2033,7 @@ Compare classifiers (MobileNetV2-224, MobileNetV2-320, EfficientNet-B0, and Effi
 
 <br/>**Choiński M, Rogowski M, Tynecki P, Kuijper DP, Churski M, Bubnicki JW. A first step towards automated species recognition from camera trap images of mammals using AI in a European temperate forest. In International Conference on Computer Information Systems and Industrial Management 2021 Sep 24 (pp. 299-310). Springer, Cham.**
 
-Evaluate YOLOv5 on 2700 images from Poland.  Cross-validation appears to have been based on images, not sequences or locations.  Achieve an F1 of 0.85, express optimism about YOLOv5.  Code is [available on GitHub](https://gitlab.com/oscf/trapper-species-classifier).
+Evaluate YOLOv5l on 2700 images from Poland.  Cross-validation appears to have been based on images, not sequences or locations.  Achieve an F1 of 0.85, express optimism about YOLOv5.  Code is [available on GitHub](https://gitlab.com/oscf/trapper-species-classifier).
 
 
 <br/>**Yang DQ, Li T, Liu M, Chen B.  A systematic study of the class imbalance problem: Automatically identifying empty camera trap images using convolutional neural networks.  Ecological Informatics. 2021 June 10.**
@@ -2442,8 +2453,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 #### Papers from 2024
-
-* Park S, Cho M, Kim S, Choi J, Song W, Kim W, Song Y, Park H, Yoo J, Seo SB, Park C. Exploring the potential application of a custom deep learning model for camera trap analysis of local urban species. Landscape and Ecological Engineering. 2024 Jul 22:1-0. ([data](https://figshare.com/s/3552bd60cffd3a850f48))
 
 #### Papers from 2023
 
