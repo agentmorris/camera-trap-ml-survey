@@ -952,6 +952,43 @@ Used camera traps to study interactions between predators and prey after relativ
 Used MD to remove non-animal images (removed ~200k of ~700k) before uploading to Agouti.
 
 
+<br/>**Hopkins J, Santos-Elizondo GM, Villablanca F. Detecting and monitoring rodents using camera traps and machine learning versus live trapping for occupancy modeling. Frontiers in Ecology and Evolution. 2024 May 22;12:1359201.**
+
+Compare downward-facing camera traps with live trapping for estimating rodent occupancy.  Find that "live trapping yielded biasedly low estimates of occupancy, required greater effort, and had a lower probability of detection".  I'll summarize the ML below, but overall it's not central to the thesis, it's primarily a comparison of invasive and non-invasive sampling.  Train/val split appears to be random (i.e., not location-based), but the ML results are ancillary here, the point is that camera traps are likely competitive with live trapping for occupancy estimation.  But, FWIW, they trained YOLOv5x on ~1200 images total, annotated in CVAT. 
+
+
+<br/>**Shermeister B, Mor D, Levy O. Leveraging camera traps and artificial intelligence to explore thermoregulation behaviour. Journal of Animal Ecology. 2024.**
+
+Oooh, it's fun when there's a paper that's neither about detection nor species classification.  Here they train a detector for agamas in images from an enclosure, then classify their thermoregulation behavior.  Trained Faster R-CNN on ~30k annotations generated in LabelImg.  Splitting is random.  Images are cropped according to the detector, and a ResNet-101 is trained to classify (a) whether the lizard is in sun or shade (so explicitly classifying something about the background microhabitat within the box) and (b) color (which is time-varying in this species).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/shermeister_2024.png" width="500">
+
+
+<br/>**Yang Z, Tian Y, Zhang J. Adaptive image processing embedding to make the ecological tasks of deep learning more robust on camera traps images. Ecological Informatics. 2024 Jun 29:102705.**
+
+Present a deep-learning-based image filtering approach to improve camera trap image quality, demonstrate that it improves classification accuracy.  Used ~12k images representing 13 species from NACTI.  Randomly split (i.e., did not split based on location or sequence).  Downsize to 256x256; jointly learn parameters of an image filtering model (e.g. gamma, contrast, tone) and YOLOv3.
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/yang_adaptive_2024.jpg" width="500">
+
+
+<br/>**Tam J, Kay J. Comparing fine-grained and coarse-grained object detection for ecology. arXiv preprint arXiv:2407.00018. 2024 May 6.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare species-level classification with classifying higher-level categories.  Evaluated on 15k images from 15 classes in 30 cameras in New South Wales.  Used MDv5 to remove blanks and generate boxes.  They trained a fine-grained model with 14 classes, and a coarse-grained model with 9 classes, e.g creating a "non-native predator" class.  Trained YOLOv8 "small" (which I think is YOLOv8s).  Found that coarse-grained models perform better, and discuss strategies for deciding when to merge classes.
+
+
+<br/>**Suessle V, Heurich M, Downs CT, Weinmann A, Hergenroether E. CNN Based Flank Predictor for Quadruped Animal Species. arXiv preprint arXiv:2406.13588. 2024 Jun 19.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train a model to classify which side of the animal is visible in an image, to facilitate individual ID.  Use a dataset of 26k images from 50 species, not necessarily camera traps, to train.  Cropped images with MegaDetector, trained ResNet-50, MobileNetV2, and EfficientNetV2-S.  Validated on (1) leopards and bobcats from AP-10k (not camera traps) and (2) a private dataset of lynx in Germany.  EfficientNetV2-S outperformed the other architectures.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/suessle_flank_2024.png" width="300">
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
@@ -970,6 +1007,22 @@ Used MD (I'm mostly sure this was MDv4) to find human images with a confidence t
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
 Look at the effects of wildfire smoke (via PM2.5 measurement) on mammals in Washington; find a decrease in activity for bobcat, moose, and mule deer.  Used MD + Timelapse for image review.
+
+
+<br/>**Cultrera L, Seidenari L, Del Bimbo A. Leveraging Visual Attention for out-of-distribution Detection. InProceedings of the IEEE/CVF International Conference on Computer Vision 2023 (pp. 4447-4456).**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+They aim to support the detection of out-of-domain examples, i.e. species that weren't present in training.  They propose doing this by (a) training a classifier (which happens to be a ViT, but that's not the point), (b) generating visual attention maps from that classifier, (c) training an autoencoder on the attention maps, and (d) treating poor reconstruction of the attention map as an indicator of OOD data.
+
+They evaluate on the "WildCapture" dataset: 60k images of species that appear to come from a variety of ecosystems.  Images are cropped with MD prior to classification.  They also evaluate on Caltech Camera Traps as OOD data.  It's unclear exactly how splitting works into train/val, but since this paper isn't really about classification, that doesn't really matter here, it just means that the classification accuracies may not represent a typical real-world scenario.  But they're clear on splitting into ID/OOD, which is the only thing that matters here.
+
+They demonstrate high accuracy re: classifying images into ID/OOD.
+
+The WildCapture dataset is available ([here](https://github.com/lcultrera/WildCapture)).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/cultrera_2023.png" width="500">
 
 
 <br/>**Charlton G, Falzon G, Shepley A, Fleming PJ, Ballard G, Meek PD. The Sentinel Bait Station: an automated, intelligent design pest animal baiting system. Wildlife Research. 2023 Apr 17.**
@@ -2390,13 +2443,9 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Tam J, Kay J. Comparing fine-grained and coarse-grained object detection for ecology. arXiv preprint arXiv:2407.00018. 2024 May 6.
-
-* Suessle V, Heurich M, Downs CT, Weinmann A, Hergenroether E. CNN Based Flank Predictor for Quadruped Animal Species. arXiv preprint arXiv:2406.13588. 2024 Jun 19.
+* Park S, Cho M, Kim S, Choi J, Song W, Kim W, Song Y, Park H, Yoo J, Seo SB, Park C. Exploring the potential application of a custom deep learning model for camera trap analysis of local urban species. Landscape and Ecological Engineering. 2024 Jul 22:1-0. ([data](https://figshare.com/s/3552bd60cffd3a850f48))
 
 #### Papers from 2023
-
-* Cultrera L, Seidenari L, Del Bimbo A. Leveraging Visual Attention for out-of-distribution Detection. InProceedings of the IEEE/CVF International Conference on Computer Vision 2023 (pp. 4447-4456). ([data](https://github.com/lcultrera/WildCapture))
 
 #### Papers from <= 2022
 
