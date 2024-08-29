@@ -2456,6 +2456,20 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
+* Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.
+
+* Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual Animal Identification with Calibrated Similarity Fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.
+
+* Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Farwig N, Freisleben B. Recognition of European mammals and birds in camera trap images using deep neural networks. IET Computer Vision. 2024.
+
+* Serra A. An Investigation of Nocturnal Activity in American Pikas (Ochotona princeps) Using Camera Traps Along a Temperature Gradient (Doctoral dissertation, University of Colorado).
+
+* Pantazis O, Bevan P, Pringle H, Ferreira GB, Ingram DJ, Madsen E, Thomas L, Thanet DR, Silwal T, Rayamajhi S, Brostow G. Deep learning-based ecological analysis of camera trap images is impacted by training data quality and size. arXiv preprint arXiv:2408.14348. 2024 Aug 26.
+
+* McIntire SE. Woody Plant Expansion Drives Habitat Use in a Predator Community and Increases Rates of Nest Predation for an At-Risk Species (Master's thesis, University of Idaho).
+
+* Neave G, Murphy BP, Rangers T, Andersen AN, Davies HF. The intact and the imperilled: contrasting mammal population trajectories between two large adjacent islands. Wildlife Research. 2024 Aug 8;51(8).
+
 #### Papers from 2023
 
 #### Papers from <= 2022
