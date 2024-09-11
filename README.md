@@ -2456,6 +2456,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
+* Velasco-Montero D, Fernández-Berni J, Carmona-Galán R, Sanglas A, Palomares F. Reliable and efficient integration of AI into camera traps for smart wildlife monitoring based on continual learning. Ecological Informatics. 2024 Sep 8:102815.
+
 * Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.
 
 * Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual Animal Identification with Calibrated Similarity Fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.
