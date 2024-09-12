@@ -137,9 +137,9 @@ Open-source, client-side Shiny app that includes image review and client-side cl
 
 > <https://conservationai.co.uk>
 
-Family of region-specific object detection models for camera traps and drones, backed by real-time and batch processing services, with a browser-based <a href="https://conservationai.co.uk/trymodel">demo</a>.  Also supports acoustic classification.
+Includes a family (~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.  Also supports acoustic classification.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image_conservationai.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/conservation-ai-bobcat.jpg" width="500">
 
 #### Agouti
 
