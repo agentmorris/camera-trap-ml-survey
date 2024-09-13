@@ -1002,6 +1002,30 @@ Compare against MDv5a run via EcoAssist, also compare to a COCO-trained Efficien
 Images are available [here](https://figshare.com/s/3552bd60cffd3a850f48).
 
 
+<br/>**Werner S, duBois Z, Hazard M, LaMana N. Efficient Highlighting of Visual Targets in Complex Natural Scenes. Proceedings of the Human Factors and Ergonomics Society Annual Meeting 2024 Sep 9 (p. 10711813241263830). Sage CA: Los Angeles, CA: SAGE Publications.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Compare different approaches to drawing a user's attention to a MegaDetector-identified animal in an image, specifically compare (1) boxes with varying degrees of padding and (2) blurring the image outside of the box.  Present iWildCam images to 57 participants.  Find that speed and accuracy of review are improved when boxes are padded, but the effect is only significant when the animal is subtle in the first place.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/werner_2024.jpeg" width="500">
+
+
+<br/>**Velasco-Montero D, Fernández-Berni J, Carmona-Galán R, Sanglas A, Palomares F. Reliable and efficient integration of AI into camera traps for smart wildlife monitoring based on continual learning. Ecological Informatics. 2024 Sep 8:102815.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+This paper addresses a number of problems related to edge AI systems for camera traps:
+
+* They describe a Pi-based camera trap with edge inference capability.
+* They train models for blank filtering and species identification, specifically training SqueezeNet on both a regional dataset from Spain and on Snapshot Serengeti.  Train/val split appears to be by image, not by location or sequence.
+* They evaluate the generalizability of both of those models to a novel site in Spain.
+* They evaluate the fine-tuning of both models based on a location-specific set of calibration images.
+* They compare their model to a variety of public models - MDv4, DeepFaune, Willi, and Nourouzzadeh - finding that only DeepFaune exceeds their model in terms of F1.
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
@@ -2455,8 +2479,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 #### Papers from 2024
-
-* Velasco-Montero D, Fernández-Berni J, Carmona-Galán R, Sanglas A, Palomares F. Reliable and efficient integration of AI into camera traps for smart wildlife monitoring based on continual learning. Ecological Informatics. 2024 Sep 8:102815.
 
 * Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.
 
