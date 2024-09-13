@@ -442,6 +442,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * ecoSecrets ([github.com/naturalsolutions/ecoSecrets](https://github.com/naturalsolutions/ecoSecrets))
 * tapis-project camera traps (edge device tools for camera traps) ([github.com/tapis-project/camera-traps](https://github.com/tapis-project/camera-traps))
 * Smart camera traps (see Velasco-Montero 2024 below) ([github.com/DVM000/smart_camera_trap_research](https://github.com/DVM000/smart_camera_trap_research/))
+* European mammal/bird recognition (see Schneider 2024 below) ([github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition](https://github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition))
 <!-- Sync'd with the list of repos on the MD README -->
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
@@ -1025,6 +1026,69 @@ This paper addresses a number of problems related to edge AI systems for camera 
 * They evaluate the generalizability of both of those models to a novel site in Spain.
 * They evaluate the fine-tuning of both models based on a location-specific set of calibration images.
 * They compare their model to a variety of public models - MDv4, DeepFaune, Willi, and Nourouzzadeh - finding that only DeepFaune exceeds their model in terms of F1.
+
+
+<br/>**Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+
+Assess progress toward automatic density estimation using AI tools (MegaDetector and Wildlife Insights).  Evaluate on ~30k images from 20 cameras in Italy with distance markers.  Ran MDv5a through EcoAssist, including RDE, and reviewed images in Timelapse.  Found that MDv5 has a precision of 0.98 at a recall of 0.9.  Evaluated WI species classification for three focal species: roe deer (recall=0.75), red badget (recall=0.56), and Eurasian badget (recall=0.15).  They find that despite errors in both detection and classification, distance-sampling-based density estimates are robust, and only slightly impacted by errors.
+
+
+<br/>**Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual Animal Identification with Calibrated Similarity Fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Propose a novel ensembling method (WildFusion) for individual animal ID that combines embeddings from [MegaDescriptor](https://huggingface.co/BVRA/MegaDescriptor-L-384) and DINOv2, and local matching scores from a variety of similarity methods.  Find state-of-the-art performance on a 17 datasets representing a variety of taxa.  Find that the ensemble method significantly outperforms embeddings from MegaDescriptor or DINOv2 alone.
+
+Datasets are published [here](https://github.com/WildlifeDatasets/wildlife-datasets), code [here](https://github.com/WildlifeDatasets/wildlife-tools).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/cermak-individual-id-2024.jpg" width="500">
+
+
+<br/>**Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Farwig N, Freisleben B. Recognition of European mammals and birds in camera trap images using deep neural networks. IET Computer Vision. 2024.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Compare a variety of architectures for species classification on mammals and birds in camera trap images from Germany and Poland.
+
+Use MDv5a for detection; classify within boxes (after resizing to 224x224).  Train models for 25 mammal species and 63 bird species.  In addition to training species-only models, for some architectures, they train an additional model with output heads for each taxonomic level.  Train on existing dataset from Germany (distinct from the val data), bird data from NABirds and Kaggle, and other camera trap data from a variety of LILA datasets.  Backfill some species from eMammal, iNat, and the Web.  Have a total of 1.2M boxes.  Split into train/val randomly (i.e., not based on location), although in this case it doesn't really matter since they are evaluating on new data.  Find that among the architectures they compare, ConvNeXt models perform best on the test data.
+
+Code is available [here](https://github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/schneider-2024.jpg" width="500">
+
+
+<br/>**McIntire SE. Woody Plant Expansion Drives Habitat Use in a Predator Community and Increases Rates of Nest Predation for an At-Risk Species (Master's thesis, University of Idaho). 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the relationship between landscape changes (particularly conifer removal) and predator-prey dynamics (particularly wrt sage-grouse) in Idaho, using ~80 camera traps.  Found a positive association between conifer (particularly juniper) presence and habitat use by mesopredators.
+
+Used MDv5a for blank removal, reviewed images in Timelapse.
+
+
+<br/>**Neave G, Murphy BP, Rangers T, Andersen AN, Davies HF. The intact and the imperilled: contrasting mammal population trajectories between two large adjacent islands. Wildlife Research. 2024 Aug 8;51(8).**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate native mammal populations with camera traps and live trapping on two islands with different densities of feral cats; find that the island with higher cat densities (Melville island) is experiencing a sharper decline in native mammal population than an island (Bathurst) with lower cat densities.
+
+Deployed camera traps on both islands, processed with MDv4 (to eliminate blanks) and Timelapse.
+
+
+<br/>**Pantazis O, Bevan P, Pringle H, Ferreira GB, Ingram DJ, Madsen E, Thomas L, Thanet DR, Silwal T, Rayamajhi S, Brostow G. Deep learning-based ecological analysis of camera trap images is impacted by training data quality and size. arXiv preprint arXiv:2408.14348. 2024 Aug 26.**
+
+Evaluate the impact of training dataset size on downstream ecological metrics derived from species classification models.  Look at 176 cameras from Kenya and 148 camera traps from Nepal.  Trained separate models for each of the two ecosystems, with O(50k) images for each ecosystem.  Looked at the automatic computation of activity patterns, occupancy, and species richness.  Varied architecture, synthetic label noise, and training set size.  Classify within MD boxes.  
+
+Find that:
+
+* Ecological metrics are pretty robust to architecture changes and label noise.
+* ML accuracy metrics correlate well with species richness accuracy, less so with occupancy accuracy.
 
 
 #### <i>Papers from 2023</i>
@@ -2481,19 +2545,7 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.
-
-* Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual Animal Identification with Calibrated Similarity Fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.
-
-* Schneider D, Lindner K, Vogelbacher M, Bellafkir H, Farwig N, Freisleben B. Recognition of European mammals and birds in camera trap images using deep neural networks. IET Computer Vision. 2024.
-
 * Serra A. An Investigation of Nocturnal Activity in American Pikas (Ochotona princeps) Using Camera Traps Along a Temperature Gradient (Doctoral dissertation, University of Colorado).
-
-* Pantazis O, Bevan P, Pringle H, Ferreira GB, Ingram DJ, Madsen E, Thomas L, Thanet DR, Silwal T, Rayamajhi S, Brostow G. Deep learning-based ecological analysis of camera trap images is impacted by training data quality and size. arXiv preprint arXiv:2408.14348. 2024 Aug 26.
-
-* McIntire SE. Woody Plant Expansion Drives Habitat Use in a Predator Community and Increases Rates of Nest Predation for an At-Risk Species (Master's thesis, University of Idaho).
-
-* Neave G, Murphy BP, Rangers T, Andersen AN, Davies HF. The intact and the imperilled: contrasting mammal population trajectories between two large adjacent islands. Wildlife Research. 2024 Aug 8;51(8).
 
 #### Papers from 2023
 
@@ -2508,8 +2560,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 <!--
 
 ### Papers I don't have access to but would read if I did
-
-* Velasco-Montero D, Carmona-Galán JF, Francisco AS. Towards an efficient smart camera trap for wildlife monitoring. In 3rd International Workshop Camera Traps, AI and Ecology. Jena, Germany 2023 Sep.
 
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. In International Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
