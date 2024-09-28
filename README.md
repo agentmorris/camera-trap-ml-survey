@@ -827,19 +827,13 @@ Build on their previous segmentation/tracking work ([SWIFT](https://www.scienced
 Evaluate MobileNetV2 running on a Pi for species classification.  Evaluate on a Web-sourced (non-camera-trap) dataset, as well as a two-location camera trap dataset from Florida ("[Florida Wildlife Camera Trap Dataset](https://www.crcv.ucf.edu/research/projects/florida-wildlife-camera-trap-dataset/)") (~100k images).  Classification accuracies were high even with MobileNetV2, but splitting was random (i.e., not by location), so a little hard to evaluate.
 
 
-<br/>**Alison J, Payne S, Alexander JM, Bjorkman AD, Clark VR, Gwate O, Huntsaar M, Iseli E, Lenoir J, Mann HM, Steenhuisen SL. Deep learning to extract the meteorological by‐catch of wildlife cameras. Global Change Biology. 2024 Jan;30(1):e17078.**
+<br/>**Alison J, Payne S, Alexander JM, Bjorkman AD, Clark VR, Gwate O, Huntsaar M, Iseli E, Lenoir J, Mann HM, Steenhuisen SL. Deep learning to extract the meteorological by-catch of wildlife cameras. Global Change Biology. 2024 Jan;30(1):e17078.**
 
 Train models to classifier weather conditions from camera trap images in South Africa and Switzerland (overcast, sunshine, hail, snow), find ~92% accuracy on cameras not seen in training, and 94% accuracy for a two-class problem (overcast vs. sunshine) on a novel location (Norway).  Total dataset is ~9k images.  Train MobileNet and ensemble over five seeds.
 
 Data is [here](https://zenodo.org/records/10137731).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/alison-2024.jpg" width="500">
-
-
-![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
-![LILA](https://img.shields.io/badge/-LILA-4444aa)
-![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
-![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
 
 
 <br/>**Mao W, Li G, Li X. Improved Re-Parameterized Convolution for Wildlife Detection in Neighboring Regions of Southwest China. Animals. 2024 Apr 10;14(8):1152.**
@@ -1089,6 +1083,31 @@ Find that:
 
 * Ecological metrics are pretty robust to architecture changes and label noise.
 * ML accuracy metrics correlate well with species richness accuracy, less so with occupancy accuracy.
+
+
+<br/>**Wang Y, Wang J, Shang Y. New Methods for Animal Detection in Camera Trap Image Sequences. In2024 IEEE Intelligent Mobile Computing (MobileCloud) 2024 Jul 15 (pp. 32-37). IEEE.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Present two strategies for improving counting performance (beyond just counting MD boxes) using sequence information:
+
+1. Use [PWC-Net](https://github.com/NVlabs/PWC-Net) to compute optical flow, and assume that MD boxes containing no optical flow are more likely to be false positives, so they use a higher confidence threshold for those boxes.
+2. Use median subtraction and smoothing to identify potential MD false negatives
+
+Evaluate on a 13k image subset of iWildCam, and an 11k image non-public dataset from Missouri.  Demonstrate reduced counting error when combining MD with their heuristics.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wang-2024-flow.png" width="500">
+
+
+<br/>**Serra A. An Investigation of Nocturnal Activity in American Pikas (Ochotona princeps) Using Camera Traps Along a Temperature Gradient.  Honors thesis, University of Colorado, 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Collected data from camera traps facing pika haypiles over two years at eight sites in Colorado.  Used MD to eliminate blanks, with a 50% confidence threshold (hopefully that was MDv4, that's a very high threshold for MDv5, especially given the small size of the focal species).  Reviewed images in Timelapse.  Found that "pika activity, both during daytime and nighttime were inversely related with mean daytime temperatures across the temperature/elevation gradient".
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/serra-pikas-2024.png" width="500">
 
 
 #### <i>Papers from 2023</i>
@@ -2545,7 +2564,7 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 #### Papers from 2024
 
-* Serra A. An Investigation of Nocturnal Activity in American Pikas (Ochotona princeps) Using Camera Traps Along a Temperature Gradient (Doctoral dissertation, University of Colorado).
+* Balasubramaniam S. Optimized Classification in Camera Trap Images: An Approach with Smart Camera Traps, Machine Learning, and Human Inference (Master's thesis, The Ohio State University).
 
 #### Papers from 2023
 
