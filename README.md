@@ -2571,6 +2571,8 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 This section tracks papers that may use data from LILA, but may not have anything to do with camera traps.  I say "may" because this is just based on a cursory gScholar search.  This section is basically personal book-keeping, nothing to see here.
 
+* Jakuschona N, Niers T, Stenkamp J, Bartoschek T, Schade S, Cardoso A. Evaluating image-based species recognition models suitable for citizen science application to support European invasive alien species policy.
+
 * Jain A, Lee K, Swaminathan G, Yang H, Schiele B, Ravichandran A, Dabeer O. ComplETR: Reducing the cost of annotations for object detection in dense scenes with vision transformers. arXiv preprint arXiv:2209.05654. 2022 Sep 13.
 
 * Hammond P. Life on the ground: the behavioural ecology of risk and terrestriality in primates (Doctoral dissertation, University of Oxford).
@@ -2616,6 +2618,8 @@ This section tracks papers that may use data from LILA, but may not have anythin
 * Nandutu I, Atemkeng M, Okouma P. Intelligent systems using sensors and/or machine learning to mitigate wildlife–vehicle collisions: A review, challenges, and new perspectives. Sensors. 2022 Mar 23;22(7):2478.
 
 #### Papers from 2024
+
+* Jasim E. Wildlife Animal Detection and Classification Using Deep Learning Models (Master's thesis, NTNU).
 
 * Kilima FG. Performance comparison of object detectors in detecting wildlife animals in camera-trap images vis-à-vis their performance on MS COCO. Computational Ecology and Software. 2024 Mar 1;14(1):30.
 
