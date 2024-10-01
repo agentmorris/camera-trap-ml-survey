@@ -1185,6 +1185,7 @@ Tested on 210 videos from the PanAf leopard dataset, finding 116 matches (I thin
 
 <br/>**Bothmann L, Wimmer L, Charrakh O, Weber T, Edelhoff H, Peters W, Nguyen H, Benjamin C, Menzel A. Automated wildlife image classification: An active learning tool for ecological applications. arXiv preprint arXiv:2303.15823. 2023 Mar 28.**
 
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
 Present an active learning pipeline for detection and classification for camera traps, including a pretrained model for six European deer species.  Code is available [here](https://github.com/slds-lmu/wildlife-ml).
@@ -1192,6 +1193,10 @@ Present an active learning pipeline for detection and classification for camera 
 Experiment on a dataset of ~50k images from 37 camera traps in Europe.  Use MD (version not specified) for cropping and blank elimination; optimize the threshold during the training process, rather than using a fixed threshold.  Crop boxes and resize to 224x224, assigning the image-level label to each box (their data doesn't have multi-species images).
 
 Compare InceptionResNetv2, Xception, and DenseNet121; compare MD thresholds from 0.1 to 0.9.  Get the highest F1 from Xception and a MegaDetector confidence threshold of 0.5.  Also compare to not cropping at all, and show that cropping provides an F1 boost of around 0.05: significant, though not overwhelming, largely because their classification accuracy is pretty high to start with.
+
+Evaluate on Channel Islands Camera Traps in an appendix
+
+Code is [here](https://github.com/slds-lmu/wildlife-ml) and [here](https://github.com/slds-lmu/wildlife-experiments/).
 
 
 <br/>**He W, Luo Z, Tong X, Hu X, Chen C, Shu Z. Long-Tailed Metrics and Object Detection in Camera Trap Datasets. Applied Sciences. 2023 May 14;13(10):6029.**
@@ -1397,7 +1402,7 @@ Code is [here](https://github.com/OSU-NLP-Group/COSMO).
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Fine-tune [CLIP](https://openai.com/research/clip) on camera trap images.  The text encoder is frozen; they fine-tune the visual backbone, by generating text descriptions based on metadata.  They use Snapshot Serengeti S1-S6, so they have metadata about time and age, and can generate training examples like "a moving leopard in the morning".  Train and evaluate on the public MD crops (single-species images only).  The task they want to evaluate is a retrieval task, which <i>can</i> just be used for species classification (e.g. "show me all the lions", "show me all the wildebeest"), but can also be used for more complex queries ("show me all the topi calves at location x").  Find that domain-specific fine-tuning significantly improves performance compare to off-the-shelf CLIP.
+Fine-tune [CLIP](https://openai.com/research/clip) on camera trap images.  The text encoder is frozen; they fine-tune the visual backbone, by generating text descriptions based on metadata.  They use Snapshot Serengeti S1-S6, so they have metadata about time and age, and can generate training examples like "a moving leopard in the morning".  Train and evaluate on the public MD crops (single-species images only).  The task they want to evaluate is a retrieval task, which <i>can</i> just be used for species classification (e.g. "show me all the lions", "show me all the wildebeest"), but can also be used for more complex queries ("show me all the topi calves at location x").  Find that domain-specific fine-tuning significantly improves performance compared to off-the-shelf CLIP.
 
 Code is [here](https://github.com/amathislab/wildclip).
 
@@ -2388,15 +2393,89 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+#### LILA-only (non-camera-trap) papers
+
+This section tracks papers that may use data from LILA, but may not have anything to do with camera traps.  I say "may" because this is just based on a cursory gScholar search.  This section is basically personal book-keeping, nothing to see here.
+
+* Jain A, Lee K, Swaminathan G, Yang H, Schiele B, Ravichandran A, Dabeer O. ComplETR: Reducing the cost of annotations for object detection in dense scenes with vision transformers. arXiv preprint arXiv:2209.05654. 2022 Sep 13.
+
+* Hammond P. Life on the ground: the behavioural ecology of risk and terrestriality in primates (Doctoral dissertation, University of Oxford).
+
+* Norinder U, Lowry S. Predicting Larch Casebearer damage with confidence using Yolo network models and conformal prediction. Remote Sensing Letters. 2023 Oct 3;14(10):1021-33.
+
+* Wu L, Jinma Y, Wang X, Yang F, Xu F, Cui X, Sun Q. Amur Tiger Individual Identification Based on the Improved InceptionResNetV2. Animals. 2024 Aug 9;14(16):2312.
+
+* Algasov A, Nepovinnykh E, Eerola T, Kälviäinen H, Stewart CV, Otarashvili L, Holmberg JA. Understanding the Impact of Training Set Size on Animal Re-identification. arXiv preprint arXiv:2405.15976. 2024 May 24.
+
+* Xu Z, Wang T, Skidmore AK, Lamprey R. A review of deep learning techniques for detecting animals in aerial and satellite images. International Journal of Applied Earth Observation and Geoinformation. 2024 Apr 1;128:103732.
+
+* Harley AW, You Y, Sun A, Zheng Y, Raghuraman N, Liang S, Chu WH, You S, Dave A, Tokmakov P, Ambrus R. TAG: Tracking at Any Granularity.
+
+* Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual animal identification with calibrated similarity fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.
+
+* Danaci KI, Akagunduz E. A survey on infrared image & video sets. Multimedia Tools and Applications. 2024 Feb;83(6):16485-523.
+
+* Ye M, Chen S, Li C, Zheng WS, Crandall D, Du B. Transformer for Object Re-Identification: A Survey. arXiv preprint arXiv:2401.06960. 2024 Jan 13.
+
+* Senatore S, Albamonte G, Falcone G. Remote Glacier Monitoring Through Semantic Fusion of Geographic and Contextual Data. Available at SSRN 4796151.
+
+* Aryal B. Glacier Segmentation from Remote Sensing Imagery Using Deep Learning (Doctoral dissertation, The University of Texas at El Paso).
+
+* Yang X, Burghardt T, Mirmehdi M. Dynamic curriculum learning for great ape detection in the wild. International Journal of Computer Vision. 2023 May;131(5):1163-81.
+
+* Turri V, Morrison K, Robinson KM, Abidi C, Perer A, Forlizzi J, Dzombak R. Transparency in the Wild: Navigating Transparency in a Deployed AI System to Broaden Need-Finding Approaches. InThe 2024 ACM Conference on Fairness, Accountability, and Transparency 2024 Jun 3 (pp. 1494-1514).
+
+* Le VA, Reddy V, Chen Z, Li M, Tang X, Ortiz A, Nsutezo SF, Robinson C. Mask Conditional Synthetic Satellite Imagery. arXiv preprint arXiv:2302.04305. 2023 Feb 8.
+
+* Stennett M, Rubenstein DI, Burghardt T. Towards Individual Grevy's Zebra Identification via Deep 3D Fitting and Metric Learning. arXiv preprint arXiv:2206.02261. 2022 Jun 5.
+
+* Stewart AJ, Robinson C, Corley IA, Ortiz A, Ferres JM, Banerjee A. Torchgeo: deep learning with geospatial data. InProceedings of the 30th international conference on advances in geographic information systems 2022 Nov 1 (pp. 1-12).
+
+* Rolf E, Malkin N, Graikos A, Jojic A, Robinson C, Jojic N. Resolving label uncertainty with implicit posterior models. arXiv preprint arXiv:2202.14000. 2022 Feb 28.
+
+* Bondi E, Koster R, Sheahan H, Chadwick M, Bachrach Y, Cemgil T, Paquet U, Dvijotham K. Role of human-AI interaction in selective prediction. InProceedings of the AAAI Conference on Artificial Intelligence 2022 Jun 28 (Vol. 36, No. 5, pp. 5286-5294).
+
+* Pochelu P. Ensembles de réseaux de neurones répartis et parallèles appliqués au domaine de l’énergie Ensembles of Deep Neural Networks distributed and parallel for the energy industry (Doctoral dissertation, Université de Lille, France). 2022.
+
+* Wang P, Cai Z, Yang H, Swaminathan G, Vasconcelos N, Schiele B, Soatto S. Omni-detr: Omni-supervised object detection with transformers. InProceedings of the IEEE/CVF conference on computer vision and pattern recognition 2022 (pp. 9367-9376).
+
+* Nandutu I, Atemkeng M, Okouma P. Intelligent systems using sensors and/or machine learning to mitigate wildlife–vehicle collisions: A review, challenges, and new perspectives. Sensors. 2022 Mar 23;22(7):2478.
+
 #### Papers from 2024
+
+* Kilima FG. Performance comparison of object detectors in detecting wildlife animals in camera-trap images vis-à-vis their performance on MS COCO. Computational Ecology and Software. 2024 Mar 1;14(1):30.
+
+* Rastikerdar MM, Huang J, Guan H, Ganesan D. In-Situ Fine-Tuning of Wildlife Models in IoT-Enabled Camera Traps for Efficient Adaptation. arXiv preprint arXiv:2409.07796. 2024 Sep 12.
+
+* Mesnage C, Corbett A, Curry J, Rowlands S, Dutta A, Everson R, Simmons B. Copy-paste augmentation improves automatic species identification in camera trap images.  EcoEvoRxiv, 2024.
 
 * Tam J, Kay J. Comparing fine-grained and coarse-grained object detection for ecology. arXiv preprint arXiv:2407.00018. 2024 May 6.
 
 * Suessle V, Heurich M, Downs CT, Weinmann A, Hergenroether E. CNN Based Flank Predictor for Quadruped Animal Species. arXiv preprint arXiv:2406.13588. 2024 Jun 19.
 
+* Hernández Celis AA. MACAW: Multimodal artificial intelligence for conservation of amazon wildlife.  MS thesis, Fundación Universitaria de Ciencias de la Salud.
+
+* Ireland M. Captive trials of a potential predator exclusion device for kea (Nestor notabilis) burrows and analysis of burrow monitoring footage (Doctoral dissertation, Open Access Te Herenga Waka-Victoria University of Wellington).
+
+* Curran B, Nekooei SM, Chen G. Accurate New Zealand wildlife image classification-deep learning approach. InAustralasian Joint Conference on Artificial Intelligence 2022 Feb 2 (pp. 632-644). Cham: Springer International Publishing.
+
+
 #### Papers from 2023
 
+* Chen H, Lindshield S, Ndiaye PI, Ndiaye YH, Pruetz JD, Reibman AR. Applying Few-Shot Learning for In-the-Wild Camera-Trap Species Classification. AI. 2023 Jul 31;4(3):574-97.
+
+* Wang H. When Segment and Track Anything Meets Wildlife Videos.  MS thesis, 2023.
+
+* Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
+
+* Pochelu P, Erard C, Cordier P, Petiton SG, Conche B. Weakly Supervised Faster-RCNN+ FPN to classify small animals in camera trap images. Authorea Preprints. 2023 Oct 30. (This <i>may</i> be the same as a paper I've already summarized, double-check.)
+
+* Sakthivanitha M, Lakshmi RB, Chitra A, Priscila SS. Detection of Animal Hunters in Forest Using Regional Convolutional Neural Network Algorithm. In 2023 International Conference on New Frontiers in Communication, Automation, Management and Security (ICCAMS) 2023 Oct 27 (Vol. 1, pp. 1-8). IEEE.
+
+
 #### Papers from <= 2022
+
+* Velez Gomez J. Enhancing mammal conservation in multi-functional landscapes using artificial intelligence, joint species distribution modeling and ecological experimentation.  PhD thesis, 2022.
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
 
@@ -2417,8 +2496,6 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 * Binta Islam S, Valles D, Hibbitts TJ, Ryberg WA, Walkup DK, Forstner MR. Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images. Animals. 2023 Jan;13(9):1526.
 
 * Schneider S, Taylor GW, Kremer SC. Similarity learning networks for animal individual re-identification: an ecological perspective. Mammalian Biology. 2022 Apr 27:1-6.
-
-* Curran B, Nekooei SM, Chen G. Accurate New Zealand Wildlife Image Classification-Deep Learning Approach. In Australasian Joint Conference on Artificial Intelligence 2022 Feb 2 (pp. 632-644). Springer, Cham.
 
 * Kays R, Lasky M, Allen ML, Dowler RC, Hawkins MT, Hope AG, Kohli BA, Mathis VL, McLean B, Olson LE, Thompson CW. Which mammals can be identified from camera traps and crowdsourced photographs?. Journal of Mammalogy. 2022 Apr 7.
 
