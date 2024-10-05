@@ -226,9 +226,6 @@ Web app for processing camera trap images.  Docs refer to the image processing a
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecosecrets-docs.png" width="500">
 
 
-<!-- -->
-
-
 #### WildID
 
 > <https://www.wildid.app>
@@ -309,6 +306,13 @@ Tool for captioning images and videos that includes a workflow for camera trap d
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caption-pro.png" width="500">
 
+#### Declas
+
+> <https://github.com/stangandaho/declas>
+
+Cross-platform client-side tool for running MD and species classifiers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/declas.jpg" width="500">
 
 ### Systems that appear to be less active
 
@@ -462,6 +466,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * TigerVid (animal frame/clip extraction from videos) ([github.com/sheneman/tigervid](https://github.com/sheneman/tigervid))
 * Trapper AI (AI backend for the TRAPPER platform) ([gitlab.com/trapper-project/trapper-ai](https://gitlab.com/trapper-project/trapper-ai))
 * video-processor (MD workflow for security camera footage) ([github.com/evz/video-processor](https://github.com/evz/video-processor))
+* Declas (client-side tool for running MD and classifiers) ([github.com/stangandaho/declas](https://github.com/stangandaho/declas))
 
 ### Last updated < 2021
 
@@ -2618,6 +2623,10 @@ This section tracks papers that may use data from LILA, but may not have anythin
 * Nandutu I, Atemkeng M, Okouma P. Intelligent systems using sensors and/or machine learning to mitigate wildlife–vehicle collisions: A review, challenges, and new perspectives. Sensors. 2022 Mar 23;22(7):2478.
 
 #### Papers from 2024
+
+* Schillé L, Castagneyrol B, Mrazova A. Accuracy in bird predation assessment: Camera trap testing the efficacy of plasticine caterpillars as prey models.
+
+* Alipio C, McCullah-Boozer MR, Gaete CL, Hall LK. Spatiotemporal partitioning between the endangered San Joaquin kit fox and a novel mesocarnivore community in the urban environment as revealed by camera traps. Global Ecology and Conservation. 2024 Sep 10:e03184.
 
 * Jasim E. Wildlife Animal Detection and Classification Using Deep Learning Models (Master's thesis, NTNU).
 
