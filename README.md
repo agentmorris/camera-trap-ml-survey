@@ -314,6 +314,14 @@ Cross-platform client-side tool for running MD and species classifiers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/declas.jpg" width="500">
 
+#### Animal Detect
+
+> <https://www.animaldetect.com/>
+
+Online platform for processing camera trap images; only a demo video as of 10/2024.  <i>Appears</i> to use MD for cropping and blank elimination (or another model with a very similar confidence distribution), but also does some novel stuff re: similarity-based grouping in an embedding space to help with species classification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect.png" width="500">
+
 ### Systems that appear to be less active
 
 #### Wildlife Observer Network Image ID+
@@ -334,7 +342,7 @@ AI-accelerated review tool that advertises both browser-based and desktop experi
 
 > <https://sensingclues.org/caiman>
 
-Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 5/23.
+Cloud-based, AI-enabled system for camera trap image processing.  Integrated with online spatial analysis tools ([Focus](https://sensingclues.org/focus) and [WildCAT](https://sensingclues.org/wildcat)).  Listed as "available by the end of 2021", but not yet available as of 10/2024.
 
 #### CAMinos
 
