@@ -2632,6 +2632,10 @@ This section tracks papers that may use data from LILA, but may not have anythin
 
 #### Papers from 2024
 
+* Mustafić S, Dachs D, Prüller R, Schöggl F, Perko R. Improving Wildlife Management with AI: Species Detection and Classification from Camera Trap Data.
+
+* Hamann F, Ghosh S, Martinez IJ, Hart T, Kacelnik A, Gallego G. Fourier-based Action Recognition for Wildlife Behavior Quantification with Event Cameras. arXiv preprint arXiv:2410.06698. 2024 Oct 9.
+
 * Schillé L, Castagneyrol B, Mrazova A. Accuracy in bird predation assessment: Camera trap testing the efficacy of plasticine caterpillars as prey models.
 
 * Alipio C, McCullah-Boozer MR, Gaete CL, Hall LK. Spatiotemporal partitioning between the endangered San Joaquin kit fox and a novel mesocarnivore community in the urban environment as revealed by camera traps. Global Ecology and Conservation. 2024 Sep 10:e03184.
