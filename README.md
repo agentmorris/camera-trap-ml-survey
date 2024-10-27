@@ -1228,6 +1228,27 @@ The primary goal of this work is to assess a physical device that excludes preda
 Primary findings are that (1) burrow protection devices need more work and (2) predation (particularly of eggs) is still a major issue at wild kea burrows, with predation as the primary cause of low fledging rates.
 
 
+<br/>**Vyskočil J, Picek L. Towards Zero-Shot Camera Trap Image Categorization. arXiv preprint arXiv:2410.12769. 2024 Oct 16.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare a few classification architectures, under the following conditions:
+
+* Whole-image classification
+* Classifying MD crops
+* Classifying MD crops, unless there are no detections, in which case, whole-image classification
+* Classifying MD crops passed through SAM, unless there are no detections, in which case, whole-image classification
+
+Evaluate on CCT, WCT, and a private dataset from Europe, using both cis- and trans-location validation.  On whole images, find that CNNs slightly outperform transformers for cis-validation, but transformers significantly outperform CNNs for trans-validation.  Find that cropping increases top-1 accuracy by ~10%, and applying SAM hurts.  Trans-validation accuracy is lower than cis-validation accuracy with or without cropping, but the falloff is more severe without cropping (30% vs. 15%).  They show an overall accuracy benefit of ~20% (!!!) from passing "empty" images according to MD into a second classifier, but they don't specify their threshold.  That huge gap suggests a high threshold.
+
+Also evaluate zero-shot classification using LLMs.  Specifically, they evaluate two approaches: (1) ask [BLIP](https://github.com/salesforce/BLIP) to caption images, then filter the output with ChatGPT, and (@) use DINOv2 or [BioCLIP](https://imageomics.github.io/bioclip/) to generate embeddings, and use [FAISS](https://github.com/facebookresearch/faiss) to classify in that embedding space via similarity search (after populating an embedding DB) (so this part is not exactly zero-shot learning, but it's also not a fully-supervised model, so it's easy to, e.g., add new classes).  In both cases, they use MD crops.  For this part they evaluate on CCT and their European dataset, and also on Snapshot Safari ENO, KGA, and KRU.
+
+They find that DINOv2 competes well with fully-supervised models.  BioCLIP did not work as well.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/vyskocil-zeroshot-2024.png" width="500">
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
