@@ -2842,6 +2842,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2024
 
+* Darras KF, Balle M, Xu W, Yan Y, Zakka VG, Toledo-Hernández M, Sheng D, Lin W, Zhang B, Lan Z, Fupeng L. Eyes on nature: Embedded vision cameras for multidisciplinary biodiversity monitoring. BioRxiv. 2023 Jul 29:2023-07.
+
 #### Papers from 2023
 
 * Chen H, Lindshield S, Ndiaye PI, Ndiaye YH, Pruetz JD, Reibman AR. Applying Few-Shot Learning for In-the-Wild Camera-Trap Species Classification. AI. 2023 Jul 31;4(3):574-97.
