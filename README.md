@@ -317,11 +317,20 @@ Cross-platform client-side tool for running MD and species classifiers.
 
 #### Animal Detect
 
-> <https://www.animaldetect.com/>
+> <https://www.animaldetect.com>
 
 Online platform for processing camera trap images; only a demo video as of 10/2024.  <i>Appears</i> to use MD for cropping and blank elimination (or another model with a very similar confidence distribution), but also does some novel stuff re: similarity-based grouping in an embedding space to help with species classification.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect.png" width="500">
+
+#### Grizzly Systems
+
+> <https://www.grizcam.com>
+
+As of 10/30/2024, there is not a lot of detail on the Web site, but they describe a device with edge inference capability ("smart trigger") and mesh networking, and AI-enabled software tools that run locally or in the cloud.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/grizzly-systems-2024.png" width="500">
+
 
 ### Systems that appear to be less active
 
