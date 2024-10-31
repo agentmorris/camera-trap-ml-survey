@@ -327,7 +327,7 @@ Online platform for processing camera trap images; only a demo video as of 10/20
 
 > <https://www.grizcam.com>
 
-As of 10/30/2024, there is not a lot of detail on the Web site, but they describe a device with edge inference capability ("smart trigger") and mesh networking, and AI-enabled software tools that run locally or in the cloud.
+They describe a device with edge inference capability ("smart trigger") and mesh networking, and AI-enabled software tools that run locally or in the cloud.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/grizzly-systems-2024.png" width="500">
 
