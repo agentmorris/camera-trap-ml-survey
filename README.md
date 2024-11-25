@@ -486,6 +486,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * video-processor (MD workflow for security camera footage) ([github.com/evz/video-processor](https://github.com/evz/video-processor))
 * Declas (client-side tool for running MD and classifiers) ([github.com/stangandaho/declas](https://github.com/stangandaho/declas))
 * AI for Wildlife Monitoring (real-time alerts using 4G camera traps) ([github.com/ratsakatika/camera-traps])(https://github.com/ratsakatika/camera-traps/)
+* Identifying snow depth in camera trap images ([github.com/catherine-m-breen/snowpoles](https://github.com/catherine-m-breen/snowpoles))
 
 ### Last updated < 2021
 
@@ -2852,6 +2853,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 #### Papers from 2024
 
 * Darras KF, Balle M, Xu W, Yan Y, Zakka VG, Toledo-Hernández M, Sheng D, Lin W, Zhang B, Lan Z, Fupeng L. Eyes on nature: Embedded vision cameras for multidisciplinary biodiversity monitoring. BioRxiv. 2023 Jul 29:2023-07.
+
+* Breen CM, Currier WR, Vuyovich C, Miao Z, Prugh LR. Snow depth extraction from time‐lapse imagery using a keypoint deep learning model. Water Resources Research. 2024 Jul;60(7):e2023WR036682.
+
+* Gadot T, Istrate Ș, Kim H, Morris D, Beery S, Birch T, Ahumada J.  To crop or not to crop: Comparing whole-image and cropped classification on a large dataset of camera trap images. IET Computer Vision, Nov 2024.
 
 #### Papers from 2023
 
