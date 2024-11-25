@@ -327,7 +327,7 @@ Online platform for processing camera trap images; only a demo video as of 10/20
 
 > <https://www.grizcam.com>
 
-As of 10/30/2024, there is not a lot of detail on the Web site, but they describe a device with edge inference capability ("smart trigger") and mesh networking, and AI-enabled software tools that run locally or in the cloud.
+They describe a device with edge inference capability ("smart trigger") and mesh networking, and AI-enabled software tools that run locally or in the cloud.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/grizzly-systems-2024.png" width="500">
 
@@ -1772,6 +1772,24 @@ Data and models are [here](https://data.uni-marburg.de/handle/dataumr/246).
 Propose the use of large multimodal models to extract text descriptions of camera trap images, which are classified by using an LLM to query a large text knowledge base.  The knowledge base is constructed by automatic summarization of the Wikipedia articles on species present in camera trap images on LILA.  Do some prompt and threshold tuning on data from LILA, evaluate on a novel dataset from Colombia.  The images being evaluated are MD crops.  Find that their approach ("WildMatch") provides better results than off-the-shelf CLIP.
 
 
+<br/>**Chen H, Lindshield S, Ndiaye PI, Ndiaye YH, Pruetz JD, Reibman AR. Applying Few-Shot Learning for In-the-Wild Camera-Trap Species Classification. AI. 2023 Jul 31;4(3):574-97.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe methods for few-shot learning on a dataset of ~55k videos and ~122k images from camera traps in Senegal.  Run MegaDetector on one frame per 3s in the videos, then sample 8k of the resulting ~64k bounding boxes as a benchmark.  Train a classifier on Snapshot Serengeti data, and another on ImageNet, then experiment with few-shot learning approaches for fine-tuning or searching those networks using images from their Senegal dataset.  Also compare to using DINO and a nearest-neighbor search.  In all cases, they are using only cropped pixels, not whole images.
+
+Find that the DINO-based approach outperforms all the other approaches, even with no fine-tuning.
+
+<br/>**Wang H. When Segment and Track Anything Meets Wildlife Videos.  MS thesis, 2023.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Propose and evaluate a pipeline ("MegaCutie") for segmenting and tracking animals from camera trap videos, using MD, SAM, and [Cutie](https://github.com/hkchengrex/Cutie).  Evaluate on data from the [PanAF](https://link.springer.com/article/10.1007/s11263-024-02003-z) dataset.  Overall SAM works well in this context; they report a Mask IoU > 0.85.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wang-2023-segmentation.png" width="500">
+
+
 #### <i>Papers from 2022</i>
 
 **Goward S. I Spy Through a Camera’s Eye: Divii in the Gwich’in Settlement Area. ARCTIC. 2022 Dec 15;75(4):510-5.**
@@ -2860,10 +2878,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2023
 
-* Chen H, Lindshield S, Ndiaye PI, Ndiaye YH, Pruetz JD, Reibman AR. Applying Few-Shot Learning for In-the-Wild Camera-Trap Species Classification. AI. 2023 Jul 31;4(3):574-97.
-
-* Wang H. When Segment and Track Anything Meets Wildlife Videos.  MS thesis, 2023.
-
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
 
 * Pochelu P, Erard C, Cordier P, Petiton SG, Conche B. Weakly Supervised Faster-RCNN+ FPN to classify small animals in camera trap images. Authorea Preprints. 2023 Oct 30. (This <i>may</i> be the same as a paper I've already summarized, double-check.)
@@ -2908,6 +2922,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Darras KF, Balle M, Xu W, Yan Y, Zakka VG, Toledo-Hernández M, Sheng D, Lin W, Zhang B, Lan Z, Fupeng L. Eyes on nature: Embedded vision cameras for multidisciplinary biodiversity monitoring. BioRxiv. 2023 Jul 29:2023-07.
 
 * Hijii J, Naguwa W, Chhimcanal B. Creating a Framework to Test the Effectiveness of a Suite of Projects in the Maunalua Region.  University of Hawaii student project.
 
