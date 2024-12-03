@@ -2870,6 +2870,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2024
 
+* Chalmers C, Fergus P, Wich S, Longmore SN, Walsh ND, Oliver L, Warrington J, Quinlan J, Appleby K. AI-Driven Real-Time Monitoring of Ground-Nesting Birds: A Case Study on Curlew Detection Using YOLOv10. arXiv preprint arXiv:2411.15263. 2024 Nov 22.
+
+* Picek L, Neumann L, Matas J. Animal Identification with Independent Foreground and Background Modeling. arXiv preprint arXiv:2408.12930. 2024 Aug 23.
+
 * Fergus P, Chalmers C, Matthews N, Nixon S, Burger A, Hartley O, Sutherland C, Lambin X, Longmore S, Wich S. Towards Context-Rich Automated Biodiversity Assessments: Deriving AI-Powered Insights from Camera Trap Data. arXiv preprint arXiv:2411.14219. 2024 Nov 21.
 
 * Darras KF, Balle M, Xu W, Yan Y, Zakka VG, Toledo-Hernández M, Sheng D, Lin W, Zhang B, Lan Z, Fupeng L. Eyes on nature: Embedded vision cameras for multidisciplinary biodiversity monitoring. BioRxiv. 2023 Jul 29:2023-07.
