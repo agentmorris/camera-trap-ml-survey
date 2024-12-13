@@ -191,6 +191,20 @@ Connected camera network with cloud-based AI capabilities (for detecting and cla
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.webp" width="500">
 
+#### Zooniverse
+
+> <https://www.zooniverse.org>
+
+This is a bit of an outlier on this list... Zooniverse is a platform for engaging <i>human</i> volunteers for data labeling.  It doesn't explicitly use ML, and it isn't explicitly about camera traps, but here's my rationalization for including it here:
+
+1. By some arbitrary way of dividing projects, a weak plurality of the projects on Zooniverse are about camera traps.
+2. By some arbitrary way of dividing data sources, Zooniverse projects <i>contribute</i> more data to the global pool of publicly-available camera trap data than any other data source (e.g. all of the <a href="https://lila.science/category/camera-traps/snapshot-safari/">Snapshot Safari projects on LILA</a> began life on Zooniverse.
+3. Zooniverse is at least... noodling on the idea of incorporating ML for camera trap projects, e.g. see the <a href="https://github.com/zooniverse/subject-assistant">Zooniverse subject assistant</a>.
+4. I know from anecdotal interactions that lots of Zooniverse project owners use AI to (a) remove images of humans and (b) manage the number of blanks prior to uploading images to Zooniverse.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zooniverse00.png" width="500">
+
+
 #### CamTrap Detector
 
 * [Home](https://camtrap.net/detector)
@@ -225,7 +239,6 @@ Reconyx mostly makes cameras, but their mobile app includes what appears to be c
 Web app for processing camera trap images.  Docs refer to the image processing approach presented in [Zhang et al.](https://ieeexplore.ieee.org/abstract/document/7523423); MegaDetector is also mentioned in the code.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecosecrets-docs.png" width="500">
-
 
 #### WildID
 
