@@ -168,7 +168,7 @@ This is not a "platform" or "system" in the same sense as other items on this li
 
 #### Timelapse2
 
-> <http://saul.cpsc.ucalgary.ca/timelapse>
+> <https://timelapse.ucalgary.ca/>
 
 > <https://github.com/saulgreenberg/Timelapse>
 
