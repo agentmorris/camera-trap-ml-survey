@@ -2883,6 +2883,136 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2024
 
+* Watkins J. Evaluating Risk to Koalas from Wild Canids in Southeast Queensland Using Remote Sensing and Machine Learning (Doctoral dissertation, Queensland University of Technology).
+
+* Fathi Emara JA. Comparison of human eye and artificial intelligence in identifying Eurasian lynx individuals from camera trap photos (Doctoral dissertation, Veterinarski fakultet, Zagreb).
+
+* Schindler F. Instance Segmentation, Tracking and Action Detection of Animals in Wildlife Videos (Doctoral dissertation, Universitäts-und Landesbibliothek Bonn).
+
+* Legrand R, Ladd R, Eang S, Meek P, Eames JC. Use of trapeangs by Eld’s deer Rucervus eldii siamensis in Siem.
+
+* Huebner SE, Palmer MS, Packer C. Human Supervision is Key to Achieving Accurate AI-assisted Wildlife Identifications in Camera Trap Images. Citizen Science: Theory and Practice. 2024 Dec 9;9(1).
+
+* Tjaden-McClement KG. Understanding drivers of caribou decline and feral horse dynamics in the Chilcotin Plateau of British Columbia (Doctoral dissertation, University of British Columbia).
+
+* Schmidt G. Multi-scale approaches to wildlife ecology and conservation in arid environments (Doctoral dissertation, San Diego State University).
+
+* Wrazej MC. The impacts of recreation on mountain goats in Banff and Yoho national parks (Doctoral dissertation, University of British Columbia).
+
+* Harbo V. Human Recreation in Protected Areas Impacts Spatial Dynamics and Risk-Resource Trade-Offs Among a Wildlife Community (Doctoral dissertation).
+
+* Palencia P, Barroso P. Disentangling ground-nest predation rates through an artificial nests experiment in an area with western capercaillie (Tetrao urogallus) presence: martens are the key. European Journal of Wildlife Research. 2024 Oct;70(5):87.
+
+* Keller AL. Using predictors of public reporting and reducing attractant accessibility can support proactive management of human conflict with urban coyotes.
+
+* Granados A, McDonald Z, McPherson K, Stoner D. Unraveling the impact of dog‐friendly spaces on urban–wildland pumas and other wildlife. Wildlife Biology. 2024 Aug:e01290.
+
+* Ala-Mantila S. Machine Learning for Camera Traps Image Analysis: Applications for Ecology and Conservation.
+
+* Hogue KA. Land Guardians and Linear Corridors: Weaving Knowledge and Prioritizing Indigenous Values in Grey Wolf (Zhòh, Canis lupus) Research in the North Boreal (Doctoral dissertation, University of Guelph).
+
+* Parsons MA. Ecological Interactions of Cougars, Deer, And Wild Pigs in the Central Coast Range, California.
+
+* Homoláč D. Spatio-temporal activity of African ungulates at water sources in Mogalakwena River Reserve, South Africa.
+
+* Taraporevala NF. Citizen Science Project on Urban Canids Provides Different Results From Camera Traps but Generates Interest and Revenue.
+
+* Verschueren S. Strengthening cheetah population monitoring for biodiversity conservation (Doctoral dissertation, University of Antwerp).
+
+* Stift AM. Sagebrush Steppe Wildlife in a Working Landscape: Habitat Use, Abundance, and Detection (Master's thesis, Washington State University).
+
+* Harrity EJ, Traphagen M, Bethel M, Facka AN, Dax M, Burns E. USA-Mexico border wall impedes wildlife movement. Frontiers in Ecology and Evolution. 2024 Nov 21;12:1487911.
+
+* Lyet A, Waller S, Chambert T, Acevedo P, Howe E, Kühl HS, Naidoo R, O'Brien T, Palencia P, Soutyrina SV, Vicente J. Estimating animal density using the Space‐to‐Event model and bootstrap resampling with motion‐triggered camera-trap data. Remote Sensing in Ecology and Conservation. 2024 Apr;10(2):141-55.
+
+* Kline J, O'Quinn A, Berger-Wolf T, Stewart C. Characterizing and modeling ai-driven animal ecology studies at the edge. arXiv preprint arXiv:2412.01000. 2024 Dec 1.
+
+* Hickling GJ, Day TD. Brushtail possums (Trichosurus vulpecula) dominate dama wallabies (Notamacropus eugenii) and Bennett’s wallabies (Notamacropus rufogriseus) at bait feeders: implications for invasive species management. Wildlife Research. 2024 Aug 8;51(8).
+
+* Pernat N, Canavan S, Golivets M, Hillaert J, Itescu Y, Jarić I, Mann HM, Pipek P, Preda C, Richardson DM, Teixeira H. Overcoming biodiversity blindness: Secondary data in primary citizen science observations. Ecological Solutions and Evidence. 2024 Jan;5(1):e12295.
+
+* Elihu AJ, Ortiz JL. Concrete Jungle to Urban Oasis: Scale, Greenspace Size and Patchiness Influence Wildlife in Cities of Eastern Los Angeles County, California.
+
+* Levy O, Shahar S. Artificial intelligence for climate change biology: from data collection to predictions. Integrative and Comparative Biology. 2024 Sep;64(3):953-74.
+
+* Hedges BA, Beasley-Hall PG, Berry TE, Dawkins KL, Austin AD, Weinstein P, Guzik MT. Environmental DNA and wildlife camera traps uncover complimentary vertebrate visitation patterns at freshwater granite rock-holes. bioRxiv. 2024:2024-10.
+
+* Cardona LM, Brook BW, Aandahl Z, Buettel JC. Survival analysis of wildlife cameras exposed to theft.
+
+* Ye S, Filippova A, Lauer J, Schneider S, Vidal M, Qiu T, Mathis A, Mathis MW. SuperAnimal pretrained pose estimation models for behavioral analysis. Nature Communications. 2024 Jun 21;15(1):5165.
+
+* Silva-Rodríguez EA, Cortés EI, Álvarez X, Cabeza D, Cáceres B, Cariñanos A, Crego RD, Cisternas G, Fernández R, Godoy C, González J. A camera-trap assessment of the native and invasive mammals present in protected areas of Magallanes, Chilean Patagonia. Gayana (Concepción). 2024 Jun;88(1):27-43.
+
+* Blair J. Computer vision as a tool to automate specimen classification in large-scale ecological research (Doctoral dissertation, University of British Columbia).
+
+* Shreshtha S, Dutta B, Dosi M, Vatsa M, Singh R, Anand S, Sarkar S, Parihar SM. BirdCollect: A Comprehensive Benchmark for Analyzing Dense Bird Flock Attributes. InProceedings of the AAAI Conference on Artificial Intelligence 2024 Mar 24 (Vol. 38, No. 20, pp. 21879-21887).
+
+* McCampbell M, Spencer M, Hart K, Link G, Watson A, McCleery R. Mammalian lures monitored with time-lapse cameras increase detection of pythons and other snakes. PeerJ. 2024 Jun 24;12:e17577.
+
+* McIntire SE. Woody Plant Expansion Drives Habitat Use in a Predator Community and Increases Rates of Nest Predation for an At-Risk Species (Master's thesis, University of Idaho).
+
+* Eriksson M. From Pixels to Predators: Wildlife Monitoring with Machine Learning.
+
+* Hijii J, Naguwa W, Chhimcanal B. Creating a Framework to Test the Effectiveness of a Suite of Projects in the Maunalua Region.
+
+* Labadie M, Do Linh San E, Morand S, Caron A, Niama FR, Nguilili GF, Tobi NK, De Nys HM, Bourgarel M. Video of rusty‐spotted genets consuming bats and other prey: Behaviors observed and eco‐epidemiological considerations. Ecosphere. 2024 Nov;15(11):e70011.
+
+* Thuiller W, Saillard A, Abdulhak S, Augé V, Birck C, Bonet R, Choler P, Delestrade A, Kunstler G, Leccia MF, Lienard B. ORCHAMP: an observation network for monitoring biodiversity and ecosystem functioning across space and time in mountainous regions. Comptes Rendus. Biologies. 2024;347(G1):223-47.
+
+* Trivedi SJ. Small bird detection using Markov Random Fields and YOLOv8.  Doctoral dissertation, California State Polytechnic University, Pomona. 2024.
+
+* Shermeister B, Mor D, Levy O. Leveraging camera traps and artificial intelligence to explore thermoregulation behaviour. Journal of Animal Ecology. 2024 Sep;93(9):1246-61.
+
+* Lürig MD, Di Martino E, Porto A. BioEncoder: A metric learning toolkit for comparative organismal biology. Ecology Letters. 2024 Aug;27(8):e14495.
+
+* Satish EG, Aluvala S, Al-Jawahry HM, Vasukidevi G, Rao MS. Particle Swarm Optimization based Prediction and Ensemble Machine Learning Classification of Wildlife Habitats. In2024 International Conference on Intelligent Algorithms for Computational Intelligence Systems (IACIS) 2024 Aug 23 (pp. 1-5). IEEE.
+
+* Verschueren S, Hofmann T, Kakove M, Bauer H, Cristescu B, Marker L. High carnivore richness despite human pressure and prey depletion in the south-west of the Kavango–Zambezi Transfrontier Conservation Area. Oryx. 2024:1-9.
+
+* Seljebotn K, Lawal IA. Machine Learning Tool for Wildlife Image Classification. InProceedings of the 2024 9th International Conference on Machine Learning Technologies 2024 May 24 (pp. 127-132).
+
+* Singh GK, Saini S, Kaur N, Shukla S. Artificial Intelligence in Wildlife Forensics. InArtificial Intelligence in Forensic Science 2024 (pp. 112-129). CRC Press.
+
+* Roilo S, Hofmeester TR, Frauendorf M, Widén A, Cord AF. The untapped potential of camera traps for farmland biodiversity monitoring: current practice and outstanding agroecological questions. Remote Sensing in Ecology and Conservation. 2024.
+
+* Subedi A. Improving Generalization Performance of YOLOv8 for Camera Trap Object Detection (Master's thesis, University of Cincinnati).
+
+* Palencia P, Barroso P. How many sequences should I track when applying the random encounter model to camera trap data?. Journal of Zoology. 2024.
+
+* Dede J. Detecting animals in challenging outdoor environments (Doctoral dissertation, Universität Bremen).
+
+* Verschueren S, Hofmann T, Schmidt-Küntzel A, Kakove M, Munyandi B, Bauer H, Balkenhol N, Leirs H, Neumann S, Cristescu B, Marker L. Combining detection dogs and camera traps improves minimally-invasive population monitoring for the cheetah, an elusive and rare large carnivore. Ecological Solutions and Evidence. 2024.
+
+* Tøn A, Ahmed A, Imran AS, Ullah M, Azad RM. Metadata augmented deep neural networks for wild animal classification. Ecological Informatics. 2024 Nov 1;83:102805.
+
+* Jack AR. Examining Covariates Influencing the Spread of Chronic Wasting Disease Among White-Tailed Deer (Master's thesis, University of Minnesota).
+
+* Cowans A, Lambin X, Hare D, Sutherland C. Improving the integration of AI into existing ecological inference workflows. bioRxiv. 2024:2024-11.
+
+* Neave G, Murphy BP, Rangers T, Andersen AN, Davies HF. The intact and the imperilled: contrasting mammal population trajectories between two large adjacent islands. Wildlife Research. 2024 Aug 8;51(8).
+
+* Botet Rodriguez JA. Nest site selection and predator impacts on the reproductive success of three endangered waterbirds in Hawai-i.  Doctoral dissertation.
+
+* Speiser J. Methods for Optimizing Detection and Evaluating Habitat Use of North American River Otters in South Dakota.
+
+* Kaltenbach TL. Smart wildlife monitoring: evaluating a camera trap enabled with artificial intelligence (Doctoral dissertation, Montana State University-Bozeman, College of Agriculture).
+
+* Schillé L, Plat N, Barbaro L, Jactel H, Raspail F, Rivoal JB, Castagneyrol B, Mrazova A. Camera traps unable to determine whether plasticine models of caterpillars reliably measure bird predation. bioRxiv. 2024 Oct 3:2024-10.
+
+* Giraldo JH, Isaza C, Diaz-Pulido A. Audio vs. Visual Approach to Monitor the Critically Endangered Species Atlapetes blancae: Developing Deep Learning Models with Limited Data.
+
+* Wang L, Wang S, Deng C, Zhu H, Tian Y, Zhang J. DeLoCo: Decoupled location context-guided framework for wildlife species classification using camera trap images. Ecological Informatics. 2024 Dec 19:102949.
+
+* Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Contrasting impacts of invasive Opuntia cacti on mammal habitat use. bioRxiv. 2024:2024-12.
+
+* Allabadi G, Lucic A, Wang YX, Adve V. Learning to Detect Novel Species with SAM in the Wild. International Journal of Computer Vision. 2024 Nov 13:1-2.
+
+* Santamaria JD, Isaza C, Giraldo JH. CATALOG: A Camera Trap Language-guided Contrastive Learning Model. arXiv preprint arXiv:2412.10624. 2024 Dec 14.
+
+* Chen H, Reibman AR. Minimizing Human Labor for In-the-Wild Camera Trap Processing Pipeline. In2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP) 2024 Oct 2 (pp. 1-6). IEEE.
+
+* Petroni L, Natucci L, Massolo A. An Ecologist‐Friendly R Workflow for Expediting Species‐Level Classification of Camera Trap Images. Ecology and Evolution. 2024 Dec;14(12):e70544.
+
 * Chalmers C, Fergus P, Wich S, Longmore SN, Walsh ND, Oliver L, Warrington J, Quinlan J, Appleby K. AI-Driven Real-Time Monitoring of Ground-Nesting Birds: A Case Study on Curlew Detection Using YOLOv10. arXiv preprint arXiv:2411.15263. 2024 Nov 22.
 
 * Picek L, Neumann L, Matas J. Animal Identification with Independent Foreground and Background Modeling. arXiv preprint arXiv:2408.12930. 2024 Aug 23.
