@@ -540,8 +540,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Addax Data Science Iran Classifier](https://huggingface.co/Addax-Data-Science/Iran_v1) (YOLOv8 classifier trained on MD crops for 14 Iranian mammal/bird classes) (2024)
 * [Addax Data Science Namib Desert Classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1) (YOLOv8 classifier trained on MD crops for 30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
 * [Marburg Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
-* [DeepFaune](https://pbil.univ-lyon1.fr/software/download/deepfaune/v1.0/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
-* [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
+* [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.2/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
 * [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
 * MegaClassifier's close cousin, the "[IDFG classifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions)" (EfficientNet, PyTorch, runs on crops, \~10 categories relevant to Idaho) (2023)
 * [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
@@ -1686,7 +1685,7 @@ Code is [here](https://github.com/catherine-m-breen/snowpoles).
 
 Main contributions:
 
-* Evaluate the benefit of cropping (MDv5a) for species classification (compared to classifying whole images).  Find that cropping provides an F1 improvement of around 25% on Wildlife Insights data, and that this result is reproducible on a novel LILA subset, and on iWildCam.
+* Evaluate the benefit of cropping (MDv5a) for species classification (compared to classifying whole images).  Find that cropping provides an F1 improvement of around 25% on Wildlife Insights (WI) data, and that this result is reproducible on a novel LILA subset, and on iWildCam.
 * Demonstrate the benefit of principled training data cleanup (primarily using MD to eliminate false positive labels), particularly for noisy datasets like iWildCam.
 * Describe the WI training data (~51M images, of the 118M verified images in WI) and classification architecture (EfficientNetV2-M), and demonstrate that this architecture is a good idea, i.e. it provides SOTA accuracy on iWildCam
 
