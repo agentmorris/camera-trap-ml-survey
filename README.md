@@ -3323,6 +3323,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ### Papers I know exist, and I have access to, but I haven't read yet
 
+#### Papers from 2025
+
+* Labadie M, Morand S, Bourgarel M, Niama FR, Nguilili GF, Caron A, De Nys H. Habitat sharing and interspecies interactions in caves used by bats in the Republic of Congo. PeerJ. 2025 Jan 9;13:e18145.
+
 #### Papers from 2024
 
 #### Papers from 2023
