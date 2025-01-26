@@ -1273,7 +1273,7 @@ Describe a two-stage classification approach based on MDv5 + ResNet-50.  Evaluat
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-The primary goal of this work is to assess a physical device that excludes predators from kea burrows; they use camera traps to monitor kea and predator activity around burrows (both in captivity, using the proposed device, and in the wild.  They worked with \~1.6M images from NZ DOC and the Kea Conservation Trust, used MDv5 + the NZ DOC classifier to reduce the image load by \~97.8% at a recall of \~96.7%.  The NZ DOC model is not open-source AFAIK, but supporting scripts for this work are [here](https://github.com/MatthewDIreland/Kea-MSc).
+The primary goal of this work is to assess a physical device that excludes predators from kea burrows; they use camera traps to monitor kea and predator activity around burrows (both in captivity, using the proposed device, and in the wild.  They worked with \~1.6M images from NZ DOC and the Kea Conservation Trust, used MDv5 + the NZ DOC classifier.  The NZ DOC model is not open-source AFAIK, but supporting scripts for this work are [here](https://github.com/MatthewDIreland/Kea-MSc).
 
 Primary findings are that (1) burrow protection devices need more work and (2) predation (particularly of eggs) is still a major issue at wild kea burrows, with predation as the primary cause of low fledging rates.
 
@@ -3337,6 +3337,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Sakthivanitha M, Lakshmi RB, Chitra A, Priscila SS. Detection of Animal Hunters in Forest Using Regional Convolutional Neural Network Algorithm. In 2023 International Conference on New Frontiers in Communication, Automation, Management and Security (ICCAMS) 2023 Oct 27 (Vol. 1, pp. 1-8). IEEE.
 
+* WildEye. MegaDetector evaluation.  (This is really a note to self to add this to this page, I've read this a zillion times.)
 
 #### Papers from <= 2022
 
