@@ -3327,6 +3327,14 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Labadie M, Morand S, Bourgarel M, Niama FR, Nguilili GF, Caron A, De Nys H. Habitat sharing and interspecies interactions in caves used by bats in the Republic of Congo. PeerJ. 2025 Jan 9;13:e18145.
 
+* Rechter J. Improving the domain adaptation of camera trap image classifiers using inserted animal cutouts.  Doctoral dissertation, University of Guelph, 2025.
+
+* Jolin E. Quantifying Ecological Processes Predicting Barren-Ground Caribou (Ɂetthën; Rangifer tarandus groenlandicus) Occurrence Across a Heterogenous Northern Indigenous Protected and Conserved Area.  MS thesis, 2025.
+
+* Li HX, Zhang M, Meng DY, Geng B, Li ZK, Huang CF, Li WK, Jiang HL, Wu RH, Li XW, Chen BH. An automatic identification method of common species based on ensemble learning. Ecological Informatics. 2025 Jan 25:103046.
+
+* Trevathan J, Tan WL, Xing W, Holzner D, Kerlin D, Zhou J, Castley G. A computer vision enhanced IoT system for koala monitoring and recognition. Internet of Things. 2025 Jan 1;29:101474.
+
 #### Papers from 2024
 
 #### Papers from 2023
