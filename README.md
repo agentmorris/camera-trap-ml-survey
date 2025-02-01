@@ -3335,6 +3335,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Trevathan J, Tan WL, Xing W, Holzner D, Kerlin D, Zhou J, Castley G. A computer vision enhanced IoT system for koala monitoring and recognition. Internet of Things. 2025 Jan 1;29:101474.
 
+* Neave G, Murphy B, Rangers T, Davies H. Exotic megaherbivores as ecosystem engineers in Australian savannas: do they facilitate predator movement?.  Authorea preprint, 2025.
+
 #### Papers from 2024
 
 #### Papers from 2023
