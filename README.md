@@ -779,6 +779,61 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 ### Papers with summaries
 
+#### <i>Papers from 2025</i>
+
+**Labadie M, Morand S, Bourgarel M, Niama FR, Nguilili GF, Caron A, De Nys H. Habitat sharing and interspecies interactions in caves used by bats in the Republic of Congo. PeerJ. 2025 Jan 9;13:e18145.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Used camera traps to study two caves in the Republic of Congo known to be rich bat haibtats.  Used MegaDetector + Timelapse for image review; indicated that "Megadetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
+
+They did not do a systematic recall analysis; and they highlight that "data processing with [MegaDetector] may also have had an impact on the detection of bats and insects, as it is not yet perfectly calibrated for this type of taxon".
+
+
+<br/>**Rechter J. Improving the domain adaptation of camera trap image classifiers using inserted animal cutouts.  Doctoral dissertation, University of Guelph, 2025.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Look at copy and paste augmentation for species classifier training.  Work with two private datasets from Canada, with ~650k and 3.3M images.  Restricted analysis to a small set of classes with large support in training.  Used MegaDetector (MDv5a) to remove blanks, then to generate boxes for cutouts.  Pixels within MD boxes were segmented with SAM prior to pasting.  Trained DenseNet201 models.
+
+Without copy and paste augmentation, replicated previous results showing substantial accuracy falloff in new cameras; they report ~30 percentage points lower accuracy and ~40 percentage points lower F1 for trans-tested models.  Found that copy paste augmentation did not significantly improve cis-tested models.  Found that synthetic images (i.e., copy-paste augmentation) improved performance in trans-tested models, and that class-balancing hurt rather than helped performance.
+
+
+<br/>**Jolin E. Quantifying Ecological Processes Predicting Barren-Ground Caribou (Ɂetthën; Rangifer tarandus groenlandicus) Occurrence Across a Heterogenous Northern Indigenous Protected and Conserved Area.  MS thesis, 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Use camera traps to assess the importance of apparent competition and other ecological factors on caribou population and land use in the Northwest Territories.  Found evidence for "a localized seasonal shift in the relative importance of ecological processes, where top-down pressures exerted by gray wolves were the dominant driver of winter caribou occurrence."
+
+Used MDv4.1 in WildTrax to eliminate blanks, and used the image blurring functionality in WildTrax to blur human images.  They used a threshold of 0.15 for blank removal.  Highlight that in open tundra environments, nearby caribou are detected effectively, but MD will miss very distant caribou.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/jolin-2025-caribou.png" width="500">
+
+
+<br/>**Neave G, Murphy B, Rangers T, Davies H. Exotic megaherbivores as ecosystem engineers in Australian savannas: do they facilitate predator movement?  Authorea preprint, 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Used camera traps to compare predator activity on game trails vs. nearby undisturbed vegetation (&lt;60m away).  Found that "dingoes and cats were 34 times, and 6 times more likely to be detected on game trails than in adjacent vegetation, respectively, suggesting these predators preferentially use game trails".
+
+Used MDv5a and Timelapse for image review.
+
+
+<br/>**Li HX, Zhang M, Meng DY, Geng B, Li ZK, Huang CF, Li WK, Jiang HL, Wu RH, Li XW, Chen BH. An automatic identification method of common species based on ensemble learning. Ecological Informatics. 2025 Jan 25:103046.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Propose an ensemble learning approach for species classification, combining ResNet-18, ResNeXt-50, and ViT-Base on Snapshot Serengeti and Camera CATalogue (500k images).  They train separate models for "common species" (with a single "rare species" class) and "all species" (with labels per class, but rare species predictions were still condensed into a single "rare species" output label).  Trained on S1-S6, treated S7-S11 as test data (they acknowledge that they come from the same sites).  Because their goal is to have high precision on common species, their ensembling method basically looks for unanimous prediction across all three models.  Classify whole images.  With the caveat that "out of sample" is still just a temporal split on the same cameras, they report that "on the out-of-sample test set, all species except for Zebra, Buffalo, and [Grant's Gazelle] had a recall of over 95%. Apart from [Grant's Gazelle], the precision for the other species was above 90%."
+
+
+<br/>**Trevathan J, Tan WL, Xing W, Holzner D, Kerlin D, Zhou J, Castley G. A computer vision enhanced IoT system for koala monitoring and recognition. Internet of Things. 2025 Jan 1;29:101474.**
+
+Deploy GPS-connected cameras for koala monitoring, and train a koala detector that runs in the cloud.  The paper is not primarily about ML, it's more about the practicality  and logistics of assembling a real-time monitoring system (everything from cost to insect infestation of the cameras).  But they also train YOLOv5 and YOLOv8 models for koala detection, so, I'm including it here.
+
+
 #### <i>Papers from 2024</i>
 
 **Aguirre I, Hood GA, Westbrook CJ. Short-term dynamics of beaver dam flow states. Science of The Total Environment. 2024 Feb 9:170825.**
@@ -984,7 +1039,7 @@ Used MDv5 for blank elimination.
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Used camera traps to study the relationship between dingo ranges/density and human density.  Found "human population density to be a strong driver of dingo density (ranging from 0.025 to 0.433 dingoes/km2 across the natural-urban gradient), and to have a negative effect on dingo home range size."
+Used camera traps to study the relationship between dingo ranges/density and human density.  Found "human population density to be a strong driver of dingo density (ranging from 0.025 to 0.433 dingoes/km2 across the natural-urban gradient), and to have a negative effect on dingo home range size."
 
 Used MDv5 (the paper says MDv3, but I'm like 99% sure from both anecdotal communication and the threshold reported in the paper that it was MDv5) with a 15% confidence threshold to eliminate blanks (reduced 854k images to 160k images).
 
@@ -2242,6 +2297,13 @@ Propose and evaluate a pipeline ("MegaCutie") for segmenting and tracking animal
 This paper provides an overview of Dall sheep population monitoring using camera traps and aerial surveys in Canada.  Processed \~500k images through MD + Timelapse.
 
 
+<br/>**WildEye.  MegaDetector Version 5 evaluation.  White paper, august 2022.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate MDv4, MDv5a, and MDv5b on ~43k images from the Okavango Delta.  For confidence thresholds from 0.05 to 0.25, find >99% animal precision for both MDv5a, and recall values ranging from 95% to 99%.  Overall end up favoring MDv5b with a threshold of 9.1, with 99.37% recall at 97.72% precision for animals, and 98.00% recall and 99.46% precision overall.  The compare this to MDv4 (97.94% recall and 95.9% precision for animals, 94.67% recall and 97.16% precision overall), and to humans (99.46% recall and 99.82% precision for animals, 93.39% recall and 99.87% precision overall).
+
+
 <br/>**Thompson S, Hurley M, Roberts S, Lukacs P, Oates B, Mumma M. Camera-Based Estimation of Statewide Wolf Abundance in Idaho-2019–2021.  Interim Report, 2/28/22.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -3325,18 +3387,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* Labadie M, Morand S, Bourgarel M, Niama FR, Nguilili GF, Caron A, De Nys H. Habitat sharing and interspecies interactions in caves used by bats in the Republic of Congo. PeerJ. 2025 Jan 9;13:e18145.
-
-* Rechter J. Improving the domain adaptation of camera trap image classifiers using inserted animal cutouts.  Doctoral dissertation, University of Guelph, 2025.
-
-* Jolin E. Quantifying Ecological Processes Predicting Barren-Ground Caribou (Ɂetthën; Rangifer tarandus groenlandicus) Occurrence Across a Heterogenous Northern Indigenous Protected and Conserved Area.  MS thesis, 2025.
-
-* Li HX, Zhang M, Meng DY, Geng B, Li ZK, Huang CF, Li WK, Jiang HL, Wu RH, Li XW, Chen BH. An automatic identification method of common species based on ensemble learning. Ecological Informatics. 2025 Jan 25:103046.
-
-* Trevathan J, Tan WL, Xing W, Holzner D, Kerlin D, Zhou J, Castley G. A computer vision enhanced IoT system for koala monitoring and recognition. Internet of Things. 2025 Jan 1;29:101474.
-
-* Neave G, Murphy B, Rangers T, Davies H. Exotic megaherbivores as ecosystem engineers in Australian savannas: do they facilitate predator movement?.  Authorea preprint, 2025.
-
 #### Papers from 2024
 
 #### Papers from 2023
@@ -3347,7 +3397,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Sakthivanitha M, Lakshmi RB, Chitra A, Priscila SS. Detection of Animal Hunters in Forest Using Regional Convolutional Neural Network Algorithm. In 2023 International Conference on New Frontiers in Communication, Automation, Management and Security (ICCAMS) 2023 Oct 27 (Vol. 1, pp. 1-8). IEEE.
 
-* WildEye. MegaDetector evaluation.  (This is really a note to self to add this to this page, I've read this a zillion times.)
 
 #### Papers from <= 2022
 
