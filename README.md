@@ -474,6 +474,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Haucke et al 2022 (depth from stereo) ([github.com/timmh/socrates](https://github.com/timmh/socrates))
 * Cacophony Project: species classification in thermal images ([github.com/TheCacophonyProject/classifier-pipeline](https://github.com/TheCacophonyProject/classifier-pipeline))
 * Oregon Critters (species classification) ([github.com/appelc/oregon_critters](https://github.com/appelc/oregon_critters))
+* Mbaza AI (desktop app for CT data management) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
+* BatNet (classification of bats in CT images) ([github.com/GabiK-bat/BatNet](https://github.com/GabiK-bat/BatNet))
 <!-- Related to MD, but not literally 1:1 with the list of repos on the MD README -->
 * MegaDetector (finds animals/people/vehicles in camera trap images) ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
