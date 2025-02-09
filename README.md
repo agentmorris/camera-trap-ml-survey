@@ -486,6 +486,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * tapis-project camera traps (edge device tools for camera traps) ([github.com/tapis-project/camera-traps](https://github.com/tapis-project/camera-traps))
 * Smart camera traps (see Velasco-Montero 2024 below) ([github.com/DVM000/smart_camera_trap_research](https://github.com/DVM000/smart_camera_trap_research/))
 * European mammal/bird recognition (see Schneider 2024 below) ([github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition](https://github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition))
+* WildCLIP (VLMs for camera trap analysis) ([github.com/amathislab/wildclip](https://github.com/amathislab/wildclip))
 <!-- Sync'd with the list of repos on the MD README -->
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
