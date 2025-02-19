@@ -537,6 +537,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
+* [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
 * [Hex-Data/Panthera AI model for Kyrgyzstan](https://huggingface.co/Hex-Data/Panthera) (EfficientNetV2L trained on MD crops for 11 class-/family-level categories) (2024)
 * [TRAPPER AI model for 18 European mammals](https://huggingface.co/OSCF/TrapperAI-v02.2024) (YOLOv8-m detector) (2024)
 * [Addax Data Science New Zealand Classifier](https://huggingface.co/Addax-Data-Science/New_Zealand_v1) (YOLOv8 classifier trained on MD crops for 17 New Zealand mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/#2024-06-NZF)) (2024)
