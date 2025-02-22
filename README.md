@@ -64,13 +64,13 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
 
-#### EcoAssist
+#### AddaxAI (formerly EcoAssist)
 
-> <https://addaxdatascience.com/ecoassist>
+> <https://addaxdatascience.com/addaxai/>
 
-[Open-source](https://github.com/PetervanLunteren/EcoAssist) client-side tool for running MegaDetector and a number of species classifiers, including various postprocessing steps.
+[Open-source](https://github.com/PetervanLunteren/AddaxAI) client-side tool for running MegaDetector and a number of species classifiers, including various postprocessing steps.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai.png" width="500">
 
 #### Camelot
 
@@ -479,7 +479,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 <!-- Related to MD, but not literally 1:1 with the list of repos on the MD README -->
 * MegaDetector (finds animals/people/vehicles in camera trap images) ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
-* EcoAssist (MDv5 GUI) ([github.com/PetervanLunteren/EcoAssist](https://github.com/PetervanLunteren/EcoAssist))
+* AddaxAI (formerly EcoAssist) (GUI for running models) ([github.com/PetervanLunteren/AddaxAI](https://github.com/PetervanLunteren/AddaxAI))
 * Zamba ([github.com/drivendataorg/zamba](https://github.com/drivendataorg/zamba))
 * TrapTagger ([github.com/WildEyeConservation/TrapTagger](https://github.com/WildEyeConservation/TrapTagger))
 * Goanna detector (detector for several Australian species, esp goannas) ([github.com/agentmorris/unsw-goannas](https://github.com/agentmorris/unsw-goannas))
@@ -1113,7 +1113,7 @@ Train a model to classify which side of the animal is visible in an image, to fa
 
 Fine-tune Faster R-CNN on ResNet-101 with \~4k images of 18 species in South Korea.  Image split is random.
 
-Compare against MDv5a run via EcoAssist, also compare to a COCO-trained EfficientDet D7.  found that MDv5a slightly outperformed the custom model, and both outperformed the generic COCO-trained model.
+Compare against MDv5a run via AddaxAI (formerly EcoAssist), also compare to a COCO-trained EfficientDet D7.  found that MDv5a slightly outperformed the custom model, and both outperformed the generic COCO-trained model.
 
 Images are available [here](https://figshare.com/s/3552bd60cffd3a850f48).
 
@@ -1147,7 +1147,7 @@ This paper addresses a number of problems related to edge AI systems for camera 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
 
-Assess progress toward automatic density estimation using AI tools (MegaDetector and Wildlife Insights).  Evaluate on \~30k images from 20 cameras in Italy with distance markers.  Ran MDv5a through EcoAssist, including RDE, and reviewed images in Timelapse.  Found that MDv5 has a precision of 0.98 at a recall of 0.9.  Evaluated WI species classification for three focal species: roe deer (recall=0.75), red badget (recall=0.56), and Eurasian badget (recall=0.15).  They find that despite errors in both detection and classification, distance-sampling-based density estimates are robust, and only slightly impacted by errors.
+Assess progress toward automatic density estimation using AI tools (MegaDetector and Wildlife Insights).  Evaluate on \~30k images from 20 cameras in Italy with distance markers.  Ran MDv5a through AddaxAI (formerly EcoAssist), including RDE, and reviewed images in Timelapse.  Found that MDv5 has a precision of 0.98 at a recall of 0.9.  Evaluated WI species classification for three focal species: roe deer (recall=0.75), red badget (recall=0.56), and Eurasian badget (recall=0.15).  They find that despite errors in both detection and classification, distance-sampling-based density estimates are robust, and only slightly impacted by errors.
 
 
 <br/>**Cermak V, Picek L, Adam L, Neumann L, Matas J. WildFusion: Individual Animal Identification with Calibrated Similarity Fusion. arXiv preprint arXiv:2408.12934. 2024 Aug 23.**
@@ -1249,7 +1249,7 @@ Not <i>exactly</i> about camera traps, but close enough.  They work with images 
 Used camera traps to observe bird predation events (on caterpillars), primarily to assess whether this can complement and/or replace the use of artificial prey and/or dead prey as a survey tool.  Found that "camera trap analyses
 revealed that birds respond similarly to plasticine models and dead caterpillars, suggesting no advantage in using dead prey for assessing avian predation", but also that "the results of posterior identification of predation marks showed contradictory results, making the interpretation of the results ambiguous".  I.e., visually assessing predation in camera trap images is hard.
 
-Installed two cameras on the trunks of 12 oak trees in France, collected data for two weeks.  Used EcoAssist to run MD, used a confidence threshold of 0.01; at that threshold, MD found animals in 37.5k out of 148k images.  Most of the paper is not about detecting birds, it's about detecting evidence of predation in images.
+Installed two cameras on the trunks of 12 oak trees in France, collected data for two weeks.  Used AddaxAI (formerly EcoAssist) to run MD, used a confidence threshold of 0.01; at that threshold, MD found animals in 37.5k out of 148k images.  Most of the paper is not about detecting birds, it's about detecting evidence of predation in images.
 
 Originally published with the title "Accuracy in bird predation assessment: Camera traps testing the efficacy of plasticine caterpillars as prey models".
 
@@ -1271,7 +1271,7 @@ Used MDv5 to remove non-animal images.
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Trained custom classifiers on MDv5 crops on Missouri Camera Traps.  Used EcoAssist to run MDv5, left with \~15k crops.  Resized crops to 128x128, did a random (non-location-based) 80/20 split, trained a variety of classifiers.  Got the best performance from ConvNeXT.  Did not find huge variability in mAP, and the difference between mAP on COCO (30%-35%) and mAP on camera traps (\~80%) was much larger than the differences among architectures.
+Trained custom classifiers on MDv5 crops on Missouri Camera Traps.  Used AddaxAI (formerly EcoAssist) to run MDv5, left with \~15k crops.  Resized crops to 128x128, did a random (non-location-based) 80/20 split, trained a variety of classifiers.  Got the best performance from ConvNeXT.  Did not find huge variability in mAP, and the difference between mAP on COCO (30%-35%) and mAP on camera traps (\~80%) was much larger than the differences among architectures.
 
 
 <br/>**Kilima FG. Performance comparison of object detectors in detecting wildlife animals in camera-trap images vis-à-vis their performance on MS COCO. Computational Ecology and Software. 2024 Mar 1;14(1):30.**
@@ -1449,7 +1449,7 @@ Reviewed images in WildePod, which uses MegaDetector for empty/animal/person/veh
 
 Investigated the use of linear corridors by wolves in boreal forest; found that wolves use corridors significantly more than surrounding areas.  Deployed 72 cameras, report a 90% blank rate.  
 
-Ran MD via EcoAssist, used MegaDetector at a confidence of 70% to eliminate blanks (that is a scary high confidence threshold!).  Reviewed images in Timelapse, including reviewing a random sample of 10,000 of the blanks.  They provide a super-detailed description of their workflow, including everything they did in Timelapse.  
+Ran MD via AddaxAI (formerly EcoAssist), used MegaDetector at a confidence of 70% to eliminate blanks (that is a scary high confidence threshold!).  Reviewed images in Timelapse, including reviewing a random sample of 10,000 of the blanks.  They provide a super-detailed description of their workflow, including everything they did in Timelapse.  
 
 
 <br/>**Parsons MA. Ecological Interactions of Cougars, Deer, And Wild Pigs in the Central Coast Range, California.  PhD thesis, Utah State University, 2024.**
@@ -1527,7 +1527,7 @@ Investigate whether (native) possum interference can mess with bait stations set
 
 Used 26 camera traps in LA county to evaluate species richness in urban green spaces.  Found that over large scales, high herbaceous cover positively influences species richness; at smaller scales, high woody cover positively influences species richness.
 
-Used EcoAssist to run MDv5 to eliminate non-animal images.
+Used AddaxAI (formerly EcoAssist) to run MDv5 to eliminate non-animal images.
 
 
 <br/>**Hedges BA, Beasley-Hall PG, Berry TE, Dawkins KL, Austin AD, Weinstein P, Guzik MT. Environmental DNA and wildlife camera traps uncover complementary vertebrate visitation patterns at freshwater granite rock-holes. bioRxiv. 2024:2024-10.**
@@ -2141,13 +2141,13 @@ Generally pretty bullish on automating depth measurement: "Our study demonstrate
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rse2362-fig-0005-m.jpg" width="500">
 
 
-<br/>**van Lunteren P. EcoAssist: A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.**
+<br/>**van Lunteren P. AddaxAI (formerly EcoAssist): A no-code platform to train and deploy custom YOLOv5 object detection models. Journal of Open Source Software. 2023 Aug 4;8(88):5581.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Describes the main components of [EcoAssist](https://github.com/PetervanLunteren/EcoAssist/blob/main/README.md).
+Describes the main components of [AddaxAI](https://github.com/PetervanLunteren/AddaxAI).
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecoassist.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai.png" width="500">
 
 
 <br/>**Lonsinger RC, Dart MM, Larsen RT, Knight RN. Efficacy of machine learning image classification for automated occupancy-based monitoring. Remote Sensing in Ecology and Conservation. 2023.**
