@@ -1142,7 +1142,7 @@ This paper addresses a number of problems related to edge AI systems for camera 
 * They compare their model to a variety of public models - MDv4, DeepFaune, Willi, and Nourouzzadeh - finding that only DeepFaune exceeds their model in terms of F1.
 
 
-<br/>**Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera-traps. bioRxiv. 2024 Aug 7:2024-08.**
+<br/>**Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera‐traps. Methods in Ecology and Evolution. 2024 Dec;15(12):2276-88.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
