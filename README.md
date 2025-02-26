@@ -320,8 +320,7 @@ Online platform with several ecosystem-specific detectors, which can be accessed
 
 #### Caption Pro
 
-* [Home](https://captionpro.com.au:444/AlekaConsulting/index.php/caption-photos/)
-* [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/CaptionProFiles/Processing%20Camera%20Trap%20Data%20with%20Caption%20Pro.pdf)
+* [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/index.php/camera-trap-data-analysis/)
 * [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
 
 Tool for captioning images and videos that includes a workflow for camera trap data, including running MegaDetector via a Web service.
@@ -423,6 +422,8 @@ System for removing false positives from camera trap image collections. Unclear 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image3.png" width="500">
 
+<!--
+
 #### SnapCat
 
 > <https://www.snapcatconservation.org/our-product>
@@ -430,6 +431,8 @@ System for removing false positives from camera trap image collections. Unclear 
 TF model and maybe front-end, with plans to build a smart camera trap. Not sure how far along they are, but their Web page is nice, and they definitely make stuff, since they made this neat [waterproof scale for penguins](https://blog.synapse.com/post/how-much-does-a-magellanic-penguin-weigh).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image1.png" width="500">
+
+-->
 
 #### ClassifyMe
 
@@ -545,7 +548,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Addax Data Science Namib Desert Classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1) (YOLOv8 classifier trained on MD crops for 30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
 * [Marburg Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.2/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
-* [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
+* [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/megadetector/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
 * MegaClassifier's close cousin, the "[IDFG classifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions)" (EfficientNet, PyTorch, runs on crops, \~10 categories relevant to Idaho) (2023)
 * [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
 * [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
@@ -653,7 +656,7 @@ Not repeating items that were already included in the "AI-enabled" list above.  
 
 Sneaking these in before I get to the list of actual labeling tools.  These aren't necessarily <i>just</i> about labeling tools, but if they're in this section, they at least contain a good review of labeling tools.
 
-* Wearn, O., & Glover-Kapfer, P. (2017). <a href="https://www.wwf.org.uk/conservationtechnology/camera-trap.html">Camera-trapping for Conservation: a Guide to Best-practices</a>. WWF-UK: Woking, UK. ([pdf](https://www.wwf.org.uk/conservationtechnology/documents/CameraTraps-WWF-guidelines.pdf))
+* Wearn, O., & Glover-Kapfer, P. (2017). <a href="https://www.wwf.org.uk/conservationtechnology/camera-trap.html">Camera-trapping for Conservation: a Guide to Best-practices</a>. WWF-UK: Woking, UK. ([pdf](https://www.wwf.org.uk/sites/default/files/2019-04/CameraTraps-WWF-guidelines.pdf))
 
 * Young, S., Rode-Margono, J., & Amin, R. (2018). <a href="https://onlinelibrary.wiley.com/doi/full/10.1002/ece3.4464">Software to facilitate and streamline camera trap data management</a>: a review. Ecology and Evolution, 8(19), 9947-9957.
 
@@ -753,7 +756,7 @@ As of 8/22, the last update appears to have been \~2016.
 
 ### Non-camera-trap-specific labeling tools that people use for camera trap data
 
-* [Adobe Lightroom](www.adobe.com/Lightroom](http://www.adobe.com/Lightroom))
+* [Adobe Lightroom](https://www.adobe.com/products/photoshop-lightroom/)
 * [Exif Pro](http://www.exifpro.com)
 * [digikam](https://www.digikam.org) ([code](https://github.com/KDE/digikam))
 
@@ -1971,7 +1974,7 @@ Test on videos from 35 camera traps in France, containing 31 species, from which
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
 
-Develop a pipeline for isolating and cropping images of wild dogs, and performing automated individual ID.  Compare [HotSpotter](http://cs.rpi.edu/hotspotter/crall-hotspotter-wacv-2013.pdf), [I3S Pattern](https://reijns.com/i3s/i3s-pattern/), and [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger).  Using handheld images, not camera trap images.
+Develop a pipeline for isolating and cropping images of wild dogs, and performing automated individual ID.  Compare [HotSpotter](https://oar.princeton.edu/bitstream/88435/pr1dz29/1/AM_HotSpotter_Patterned_Species_Instance_Recognition.pdf), [I3S Pattern](https://reijns.com/i3s/i3s-pattern/), and [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger).  Using handheld images, not camera trap images.
 
 Pipeline stages:
 
@@ -2110,7 +2113,7 @@ Train a custom detector for 16 species, try to assess environmental factors that
 
 <br/>**Dertien JS, Negi H, Dinerstein E, Krishnamurthy R, Negi HS, Gopal R, Gulick S, Pathak SK, Kapoor M, Yadav P, Benitez M, Ferreira M, Wijnveen AJ, Lee ATL, Wright B, Baldwin RF. Mitigating human–wildlife conflict and monitoring endangered tigers using a real-time camera-based alert system, BioScience, 2023.**
 
-Case study on a deployment of [TrailGuard AI](https://www.nightjar.tech/) in India.  Supplementary material has some description of the AI components, but not a lot; they mention that [CVEDIA](https://www.cvedia.com/) did the training, and that synthetic 3D models are used for training.  They also indicate that after the edge model detects and transmits an event of interest, a trained YOLOv5 is used in the cloud.  Edge inference runs on a [Myriad X](https://www.intel.com/content/www/us/en/products/details/processors/movidius-vpu/movidius-myriad-x/products.html).  Primary transmission is cellular, though the device suppots a long-range radio.
+Case study on a deployment of [TrailGuard AI](https://www.nightjar.tech/) in India.  Supplementary material has some description of the AI components, but not a lot; they mention that [CVEDIA](https://www.cvedia.com/) did the training, and that synthetic 3D models are used for training.  They also indicate that after the edge model detects and transmits an event of interest, a trained YOLOv5 is used in the cloud.  Edge inference runs on an Intel Myriad X.  Primary transmission is cellular, though the device supports a long-range radio.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/trailguard.jpg" width="500">
 
@@ -3060,8 +3063,6 @@ Present a non-ML technique that uses edge detection and frame-to-frame differenc
 
 Present a thick-client tool ("ClassifyMe") that allows a menu of Yolov2-based models.  Five models are provided out of the gate, trained primarily on open data sets (Snapshot Serengeti, Caltech Camera Traps, Snapshot Wisconsin).
 
-Downloadable by request [here](https://classifymeapp.com).
-
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/classifyme.png" width="500">
 
 
@@ -3391,6 +3392,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
+
 #### Papers from 2024
 
 #### Papers from 2023
@@ -3542,7 +3545,7 @@ Mentioning this here mostly to highlight that it's superseded by Camtrap DP.
 
 ### COCO Camera Traps
 
-[COCO Camera Traps](https://github.com/agentmorris/MegaDetector/blob/main/data_management/README.md#coco-camera-traps-format) is a minor extension to the [COCO format](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/md-coco-overview.html), relevant only because it's used for all the camera trap data on [LILA](https://lila.science).  Suitable for representing ML training data, but incomplete for ecology applications.
+[COCO Camera Traps](https://github.com/agentmorris/MegaDetector/blob/main/megadetector/data_management/README.md#coco-camera-traps-format) is a minor extension to the [COCO format](https://docs.aws.amazon.com/rekognition/latest/customlabels-dg/md-coco-overview.html), relevant only because it's used for all the camera trap data on [LILA](https://lila.science).  Suitable for representing ML training data, but incomplete for ecology applications.
 
 
 ## Further reading
