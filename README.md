@@ -493,6 +493,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * European mammal/bird recognition (see Schneider 2024 below) ([github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition](https://github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition))
 * WildCLIP (VLMs for camera trap analysis) ([github.com/amathislab/wildclip](https://github.com/amathislab/wildclip))
 <!-- Sync'd with the list of repos on the MD README -->
+* SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * MegaDetectorLite (ONNX/TensorRT conversions for MD) ([github.com/timmh/MegaDetectorLite](https://github.com/timmh/MegaDetectorLite))
 * MegaDetector-FastAPI (MD serving via FastAPI/Streamlit) ([github.com/abhayolo/megadetector-fastapi](https://github.com/abhayolo/megadetector-fastapi))
@@ -541,37 +542,46 @@ I am making a very loose effort to include last-updated dates for each of these.
 When possible, the first link for each line item should get you pretty close to the model weights.
 
 * [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
-* [Hex-Data/Panthera AI model for Kyrgyzstan](https://huggingface.co/Hex-Data/Panthera) (EfficientNetV2L trained on MD crops for 11 class-/family-level categories) (2024)
-* [TRAPPER AI model for 18 European mammals](https://huggingface.co/OSCF/TrapperAI-v02.2024) (YOLOv8-m detector) (2024)
-* [Addax Data Science New Zealand Classifier](https://huggingface.co/Addax-Data-Science/New_Zealand_v1) (YOLOv8 classifier trained on MD crops for 17 New Zealand mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/#2024-06-NZF)) (2024)
-* [Addax Data Science Iran Classifier](https://huggingface.co/Addax-Data-Science/Iran_v1) (YOLOv8 classifier trained on MD crops for 14 Iranian mammal/bird classes) (2024)
-* [Addax Data Science Namib Desert Classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1) (YOLOv8 classifier trained on MD crops for 30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
-* [Marburg Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
-* [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.2/) (custom detector and 28-class classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2023)
-* [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/megadetector/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
-* MegaClassifier's close cousin, the "[IDFG classifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions)" (EfficientNet, PyTorch, runs on crops, \~10 categories relevant to Idaho) (2023)
-* [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
-* [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
-* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
-* [Tegu detector](https://github.com/agentmorris/usgs-tegus/releases) (YOLOv5x6 detector for tegus and a few other species in Florida, trained from MDv5a) (2023)
+* [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
+* [SpeciesNet](https://github.com/google/cameratrapai) (global species classifier for ~2k categories) (2025)
+
+* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
+  * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
+  * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
+
 * The SDZG [Animl](https://github.com/conservationtechlab/animl) package includes several [models](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/161119248144), all trained in TF, all run on MD crops:
   * [Southwest US v2](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/169794550910) (26 classes, including human and empty) (2022)
   * [Southwest US v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/188389181940) (33 classes, including human and empty) (2023)
   * [Kenyan savanna](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196933085878) (60 classes, including human and empty) (2023)
   * [Peruvian Amazon](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196929943950) (43 classes, including empty) (2023) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Amazon))
   * [Peruvian Andes](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/265140166999) (53 classes, including human and empty) (2024) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Andes))
+
+* [Hex-Data/Panthera AI model for Kyrgyzstan](https://huggingface.co/Hex-Data/Panthera) (EfficientNetV2L trained on MD crops for 11 class-/family-level categories) (2024)
+* [TRAPPER AI model for 18 European mammals](https://huggingface.co/OSCF/TrapperAI-v02.2024) (YOLOv8-m detector) (2024)
+* [Addax Data Science New Zealand Classifier](https://huggingface.co/Addax-Data-Science/New_Zealand_v1) (YOLOv8 classifier trained on MD crops for 17 New Zealand mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/#2024-06-NZF)) (2024)
+* [Addax Data Science Iran Classifier](https://huggingface.co/Addax-Data-Science/Iran_v1) (YOLOv8 classifier trained on MD crops for 14 Iranian mammal/bird classes) (2024)
+* [OSU small mammal classifier for Ohio](https://huggingface.co/spaces/sowbaranika13/ohio_space) (for [AHDriFT](https://meridian.allenpress.com/jfwm/article/12/1/197/447665/Evaluation-of-the-AHDriFT-Camera-Trap-System-to) cameras) (TF, whole-image classifier(s) at the class and species levels) ([code](https://github.com/sowbaranika1302/ohio_classifier)) (2024)
+
+* [Addax Data Science Namib Desert Classifier](https://huggingface.co/Addax-Data-Science/Namib-Desert-v1) (YOLOv8 classifier trained on MD crops for 30 African mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/2023-01-dlc/)) (2023)
+* [Marburg Camera Traps](https://data.uni-marburg.de/handle/dataumr/246)  (EfficientNetv2 and ConvNext classifiers in TF2 for European mammals and birds) ([code](https://github.com/umr-ds/Marburg-Camera-Traps)) ([paper](https://inf-cv.uni-jena.de/wordpress/wp-content/uploads/2023/09/Talk-8-Daniel-Schneider.pdf)) (2023)
+* [MegaClassifier](https://github.com/agentmorris/MegaDetector/tree/main/megadetector/classification#megaclassifier-instructions) (EfficientNet, PyTorch, runs on crops, several hundred output classes but really only ever used for a small set of classes in North America) (2023)
+* MegaClassifier's close cousin, the "[IDFG classifier](https://github.com/agentmorris/MegaDetector/tree/main/classification#megaclassifier-instructions)" (EfficientNet, PyTorch, runs on crops, \~10 categories relevant to Idaho) (2023)
+* [Rewilding Europe YOLOv8](https://huggingface.co/skylord/ReWilding-Europe-Yolov8/tree/main) (detector trained from YOLOv8m on 30 European species) (requires login, but is otherwise publicly accessible) (2023)
+* [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
+* [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
+* [Tegu detector](https://github.com/agentmorris/usgs-tegus/releases) (YOLOv5x6 detector for tegus and a few other species in Florida, trained from MDv5a) (2023)
 * [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://github.com/microsoft/CameraTraps/blob/e9edc7c05525a7cc5ab39ed62bf9c0770813fc9b/PytorchWildlife/models/classification/resnet/amazon.py)) + human + unknown) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
 * [AI4GOpossum](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, binary opossum classifier) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
+
 * [Small mammal classifier for Norway](https://zenodo.org/records/7142734) (TF, whole-image classifier, 8 classes including "empty") ([code](https://github.com/hannaboe/camera_trap_workflow?tab=readme-ov-file)) (2022)
-* [OSU small mammal classifier for Ohio](https://huggingface.co/spaces/sowbaranika13/ohio_space) (for [AHDriFT](https://meridian.allenpress.com/jfwm/article/12/1/197/447665/Evaluation-of-the-AHDriFT-Camera-Trap-System-to) cameras) (TF, whole-image classifier(s) at the class and species levels) ([code](https://github.com/sowbaranika1302/ohio_classifier)) (2024)
 * [SpSeg models](https://github.com/bhlab/SpSeg?tab=readme-ov-file#spseg-models) (TF classifier(s) that run on MD crops, 36 Indian species) ([code](https://github.com/bhlab/SpSeg)) (requires filling out a form, but access to model weights is granted automatically) (2022)
-* [Willi et al African Classifier](https://github.com/marco-willi/camera-trap-classifier/releases/tag/2.1) (TF1, whole-image classifier) (2019)
-* [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
-* [MLWIC](https://drive.google.com/file/d/1dY-49drRrSotFMHOOPZXrTgl5gqozGVL/view) (TF, whole-image classifier for North American species) ([code](https://github.com/mikeyEcology/MLWIC)) (2019)
+
 * [MLWIC2](https://drive.google.com/file/d/1VkIBdA-oIsQ_Y83y0OWL6Afw6S9AQAbh/view) (TF, whole-image classifiers for (a) blank/non-blank, (b) 58 North American species) ([code](https://github.com/mikeyEcology/MLWIC2)) (2020)
-* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
-  * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
-  * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
+
+* [Willi et al African Classifier](https://github.com/marco-willi/camera-trap-classifier/releases/tag/2.1) (TF1, whole-image classifier) (2019)
+* [MLWIC](https://drive.google.com/file/d/1dY-49drRrSotFMHOOPZXrTgl5gqozGVL/view) (TF, whole-image classifier for North American species) ([code](https://github.com/mikeyEcology/MLWIC)) (2019)
+
+* [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
 
 
 ## Smart camera traps
