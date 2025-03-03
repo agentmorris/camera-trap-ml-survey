@@ -544,7 +544,6 @@ When possible, the first link for each line item should get you pretty close to 
 * [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
 * [SpeciesNet](https://github.com/google/cameratrapai) (global species classifier for ~2k categories) (2025)
-
 * [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
@@ -555,7 +554,6 @@ When possible, the first link for each line item should get you pretty close to 
   * [Kenyan savanna](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196933085878) (60 classes, including human and empty) (2023)
   * [Peruvian Amazon](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196929943950) (43 classes, including empty) (2023) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Amazon))
   * [Peruvian Andes](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/265140166999) (53 classes, including human and empty) (2024) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Andes))
-
 * [Hex-Data/Panthera AI model for Kyrgyzstan](https://huggingface.co/Hex-Data/Panthera) (EfficientNetV2L trained on MD crops for 11 class-/family-level categories) (2024)
 * [TRAPPER AI model for 18 European mammals](https://huggingface.co/OSCF/TrapperAI-v02.2024) (YOLOv8-m detector) (2024)
 * [Addax Data Science New Zealand Classifier](https://huggingface.co/Addax-Data-Science/New_Zealand_v1) (YOLOv8 classifier trained on MD crops for 17 New Zealand mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/#2024-06-NZF)) (2024)
@@ -788,7 +786,7 @@ As promised above, although I don't filter papers for this list based on whether
 ![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
 ![Video](https://img.shields.io/badge/-Video-orange)
 
-The fist tag ("Ecology Paper") is used to indicate that this paper isn't <i>about</i> camera trap AI, it just happens to <i>use</i> AI for camera traps.  With any luck, a few years from now, this kind of paper will be 99% of this list!  NB: there is a gray area around ecology methods papers that are clearly not about AI, but aren't <i>exactly</i> ecology papers (e.g. papers comparing camera traps to other forms of observation); I've included those in this tag.
+The first tag ("Ecology Paper") is used to indicate that this paper isn't <i>about</i> camera trap AI, it just happens to <i>use</i> AI for camera traps.  With any luck, a few years from now, this kind of paper will be 99% of this list!  NB: there is a gray area around ecology methods papers that are clearly not about AI, but aren't <i>exactly</i> ecology papers (e.g. papers comparing camera traps to other forms of observation); I've included those in this tag.
 
 The "Individual ID" tag is new as of the time that I'm writing this, in fact it's possible that someone already has a survey on papers that used AI-assisted individual ID for camera trap images.  If that exists, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a>.  My goal is not to track the literature on individual ID, just to track papers that are pretty specific to camera traps, especially ecology papers that use AI-assisted individual ID in camera trap images.
 
@@ -803,7 +801,7 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Used camera traps to study two caves in the Republic of Congo known to be rich bat haibtats.  Used MegaDetector + Timelapse for image review; indicated that "Megadetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
+Used camera traps to study two caves in the Republic of Congo known to be rich bat habitats.  Used MegaDetector + Timelapse for image review; indicated that "Megadetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
 
 They did not do a systematic recall analysis; and they highlight that "data processing with [MegaDetector] may also have had an impact on the detection of bats and insects, as it is not yet perfectly calibrated for this type of taxon".
 
