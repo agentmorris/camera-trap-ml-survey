@@ -3400,7 +3400,18 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
+* Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
+
+* Trusca LM. Investigating suitable vision transformer models for wildlife camera trap data (Bachelor's thesis, University of Twente).
+
+* Arends AJ. Monitoring endangered wildlife utilising computer vision models (Bachelor's thesis, University of Twente).
+
+* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co‐occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648.
+
+* Genevier EE, Price C, Evans N, Streicher JP, Downs CT. Population dynamics and morphometrics of Nile monitors along a gradient of urbanization in KwaZulu‐Natal, South Africa. Journal of Zoology.
+
+* Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.
+
 
 #### Papers from 2024
 
@@ -3411,7 +3422,6 @@ Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey 
 * Pochelu P, Erard C, Cordier P, Petiton SG, Conche B. Weakly Supervised Faster-RCNN+ FPN to classify small animals in camera trap images. Authorea Preprints. 2023 Oct 30. (This <i>may</i> be the same as a paper I've already summarized, double-check.)
 
 * Sakthivanitha M, Lakshmi RB, Chitra A, Priscila SS. Detection of Animal Hunters in Forest Using Regional Convolutional Neural Network Algorithm. In 2023 International Conference on New Frontiers in Communication, Automation, Management and Security (ICCAMS) 2023 Oct 27 (Vol. 1, pp. 1-8). IEEE.
-
 
 #### Papers from <= 2022
 
