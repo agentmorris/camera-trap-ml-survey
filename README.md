@@ -1760,6 +1760,15 @@ Main contributions:
 * Describe the WI training data (~51M images, of the 118M verified images in WI) and classification architecture (EfficientNetV2-M), and demonstrate that this architecture is a good idea, i.e. it provides SOTA accuracy on iWildCam
 
 
+<br/>**Brook BW, Buettel JC, Aandahl Z. MEWC: A user-friendly AI workflow for customised wildlife-image classification. Preprint. 2024.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and running classifiers on MegaDetector crops.  Available classifiers include EfficientNet B0, V2S, V2M, and V2L.  Everything is packaged and run via Docker.  MEWC plays nicely with Camelot, by writing predictions to EXIF data, specifically by co-opting some metadata fields that are searchable in Camelot, but that no one really uses (photo-iso-setting, photo-exposure-value, and photo-fnumber-setting).  Clever!  Present a case study on \~5000 images from Tasmania.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brook-mewc.png" width="500">
+
+
 #### <i>Papers from 2023</i>
 
 **Fennell MJ, Ford AT, Martin TG, Burton AC. Assessing the impacts of recreation on the spatial and temporal activity of mammals in an isolated alpine protected area. Ecology and Evolution. 2023 Nov;13(11):e10733.**
@@ -2206,15 +2215,6 @@ Gestalt of the images:
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
 Explore a bootstrapping approach where they train a small, single-class detector (SSD) on a small subset of Snapshot Serengeti, run that on lots of Snapshot Serengeti images, filter detections with a low confidence threshold but only keep images where the number of boxes is reasonable, and use the boxes from that inference pass - and the very large number of species labels - to train a larger, multi-class detector.
-
-
-<br/>**Brook BW, Buettel JC, Aandahl Z. A user-friendly AI workflow for customised wildlife image classification. Preprint. 2023.**
-
-![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
-
-Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and running classifiers on MegaDetector crops.  Available classifiers include EfficientNet B0, V2S, V2M, and V2L.  Everything is packaged and run via Docker.  MEWC plays nicely with Camelot, by writing predictions to EXIF data, specifically by co-opting some metadata fields that are searchable in Camelot, but that no one really uses (photo-iso-setting, photo-exposure-value, and photo-fnumber-setting).  Clever!  Present a case study on \~5000 images from Tasmania.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brook-mewc.png" width="500">
 
 
 <br/>**Pahuja V, Luo W, Gu Y, Tu CH, Chen HY, Berger-Wolf T, Stewart C, Gao S, Chao WL, Su Y. Bringing Back the Context: Camera Trap Species Identification as Link Prediction on Multimodal Knowledge Graphs. arXiv preprint arXiv:2401.00608. 2023 Dec 31.**
