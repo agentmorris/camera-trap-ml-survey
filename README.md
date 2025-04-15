@@ -543,6 +543,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 * [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
+* [DeepFaune-New-England](https://code.usgs.gov/vtcfwru/deepfaune-new-england) (species classifier for New England wildlife, fine-tuned from the DeepFaune model, runs on crops)
 * [SpeciesNet](https://github.com/google/cameratrapai) (global species classifier for ~2k categories) (2025)
 * [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022)
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
@@ -3399,6 +3400,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 #### Papers from 2025
+
+* Bruce T, Amir Z, Allen BL, Alting BF, Amos M, Augusteyn J, Ballard GA, Behrendorff LM, Bell K, Bengsen AJ, Bennett A. Large‐scale and long‐term wildlife research and monitoring using camera traps: a continental synthesis. Biological Reviews. 2025 Jan 17.
+
+* Pestell AJ, Rendall AR, Sinclair RD, Ritchie EG, Nguyen DT, Corva DM, Eichholtzer AC, Kouzani AZ, Driscoll DA. Smart camera traps and computer vision improve detections of small fauna. Ecosphere. 2025 Mar;16(3):e70220.
+
+* Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.
 
 * Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
 
