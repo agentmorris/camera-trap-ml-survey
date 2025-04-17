@@ -114,6 +114,14 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
 
+#### AddaxAI-connect
+
+> <https://addaxdatascience.com/early-warning-systems/>
+
+Cloud-based platform that receives images from connected cameras, runs AI models, and sends notifications based on specific conditions (e.g. specific species).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai-connect.jpg" width="500">
+
 #### Project Zamba
 
 > <http://zamba.drivendata.org>
@@ -1693,7 +1701,7 @@ Present a method ("DeLoCo") for explicitly encoding location (i.e., camera backg
 Use 27 camera traps to assess the impact of invasive cacti on twelve mammal species in Kenya.  Found that cacti were positively correlated with baboon and elephant activity (both eat the fruit from this cactus).  Used MDv4.1 to discard images of humans and vehicles (threshold 0.1) prior to upload to Zooniverse.  Also used MD animal confidence, but I couldn't quite follow the logic.  I think the gist of it was that they didn't upload very low-confidence images.
 
 
-<br/>**Santamaria JD, Isaza C, Giraldo JH. CATALOG: A Camera Trap Language-guided Contrastive Learning Model. arXiv preprint arXiv:2412.10624. 2024 Dec 14.**
+<br/>**Santamaria JD, Isaza C, Giraldo JH. CATALOG: A Camera Trap Language-guided Contrastive Learning Model. In2025 IEEE/CVF Winter Conference on Applications of Computer Vision (WACV) 2025 Feb 26 (pp. 1197-1206). IEEE.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -2211,7 +2219,7 @@ Gestalt of the images:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/4Myotis_daubentonii.JPG" width="500">
 
 
-<br/>**Zhao X, Xie P, Gao R, Lu W, He J, Shen L. Weakly Supervised Bounding-Box Generation for Camera-Trap Image Based Animal Detection. Available at SSRN 4370104.**
+<br/>**Xie P, Gao R, Lu W, Shen L. Weakly supervised bounding‐box generation for camera‐trap image based animal detection. IET Computer Vision. 2025 Jan;19(1):e12332.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
@@ -3400,6 +3408,18 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, but I haven't read yet
 
 #### Papers from 2025
+
+* Svenning A, Mougeot G, Alison J, Chevalier D, Molina NL, Ong SQ, Bjerge K, Carrillo J, Hoeye TT, Geissmann Q. A General Method for Detection and Segmentation of Terrestrial Arthropods in Images. bioRxiv. 2025:2025-04.
+
+* Antonov A. Development and Evaluation of an AI-Driven Pipeline for Wildlife Monitoring (Bachelor's thesis, University of Twente).
+
+* Dede J, Förster A. Thewolf–Automatic Labelling, Evaluation and Model Training Optimised for Camera Trap Wildlife Images. Evaluation and Model Training Optimised for Camera Trap Wildlife Images.
+
+* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. INFERRING BIRD COMMUNITIES ON REMOTE FRESHWATER LAKES THROUGH TIME-LAPSE IMAGERY. Canadian Journal of Zoology. 2025 Apr 14(ja).
+
+* Mirka B, Lippitt CD, Harris GM, Converse R, Gurule M, Sesnie SE, Bulter MJ, Stewart DR, Rossman Z. A photogrammetric approach to the estimation of distance to animals in camera trap images. Ecological Informatics. 2025 Mar 26:103120.
+
+* Ma Y, Tan M, Liu X, Zhang Y, Xu Z, Sun W, Ge J, Feng L. Deep learning for Amur tiger re-identification in camera traps: A tool assisting population monitoring and spatio-temporal analysis. Ecological Indicators. 2025 Feb 1;171:113227.
 
 * Bruce T, Amir Z, Allen BL, Alting BF, Amos M, Augusteyn J, Ballard GA, Behrendorff LM, Bell K, Bengsen AJ, Bennett A. Large‐scale and long‐term wildlife research and monitoring using camera traps: a continental synthesis. Biological Reviews. 2025 Jan 17.
 
