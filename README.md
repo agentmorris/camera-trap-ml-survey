@@ -3405,6 +3405,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Miller S, Kirkland M, Hart KM, McCleery RA. Object detection‐assisted workflow facilitates cryptic snake monitoring. Remote Sensing in Ecology and Conservation. 2025.
+
 * Svenning A, Mougeot G, Alison J, Chevalier D, Molina NL, Ong SQ, Bjerge K, Carrillo J, Hoeye TT, Geissmann Q. A General Method for Detection and Segmentation of Terrestrial Arthropods in Images. bioRxiv. 2025:2025-04.
 
 * Antonov A. Development and Evaluation of an AI-Driven Pipeline for Wildlife Monitoring (Bachelor's thesis, University of Twente).
