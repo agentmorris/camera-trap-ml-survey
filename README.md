@@ -122,17 +122,13 @@ Cloud-based platform that receives images from connected cameras, runs AI models
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai-connect.jpg" width="500">
 
-#### Project Zamba
-
-> <http://zamba.drivendata.org>
+#### Zamba Cloud
 
 > <https://www.zambacloud.com>
 
-[Open-source](https://github.com/drivendataorg/zamba) Python toolkit (Project Zamba) to find species in camera trap videos, specifically tuned for 23 species often seen in central Africa. Algorithms were trained on data from the [Chimp & See](https://www.chimpandsee.org/#/) Zooniverse project. The [description](http://zamba.drivendata.org/docs/algorithms.html) says it's a five-model ensemble trained in Keras.
+Cloud-based platform for no-code training of image and video classification models.  They also maintain a [Python package](https://github.com/drivendataorg/zamba) that includes some of Zamba Cloud's functionality.
 
-Deployed via  [Zamba Cloud](https://www.zambacloud.com), a Web application for no-code training of video classification models.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-hero.jpeg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-thumb.png" width="400">
 
 #### Mbaza
 
