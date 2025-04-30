@@ -295,7 +295,7 @@ Cloud-based platform that leverages MDv5.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dudek.png" width="500">
 
-#### Bounding Box Editor and Exporter (BBoxEE) (formerly "Animal Detection Network")
+#### Bounding Box Editor and Exporter (BBoxEE)
 
 > <https://github.com/persts/BBoxEE>
 
@@ -343,9 +343,9 @@ Cross-platform client-side tool for running MD and species classifiers.
 
 > <https://www.animaldetect.com>
 
-Online platform for processing camera trap images; only a demo video as of 10/2024.  <i>Appears</i> to use MD for cropping and blank elimination (or another model with a very similar confidence distribution), but also does some novel stuff re: similarity-based grouping in an embedding space to help with species classification.
+Online platform for processing camera trap images.  Uses MD for cropping and blank elimination, incorporates species classification, and allows similarity-based grouping in an embedding space.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect_20250430.jpg" width="600">
 
 #### Grizzly Systems
 
@@ -496,6 +496,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Smart camera traps (see Velasco-Montero 2024 below) ([github.com/DVM000/smart_camera_trap_research](https://github.com/DVM000/smart_camera_trap_research/))
 * European mammal/bird recognition (see Schneider 2024 below) ([github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition](https://github.com/umr-ds/Mammal-Bird-Camera-Trap-Recognition))
 * WildCLIP (VLMs for camera trap analysis) ([github.com/amathislab/wildclip](https://github.com/amathislab/wildclip))
+* TeraiNet (species classifier for Nepal) ([github.com/alexvmt/TeraiNet](https://github.com/alexvmt/TeraiNet))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
@@ -545,6 +546,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
+* [TeraiNet](https://huggingface.co/alexvmt/TeraiNet) (EfficientNetV2M trained on MD crops for 10 classes relevant to the Terai region of Nepal) ([code](https://github.com/alexvmt/TeraiNet)) (2025)
 * [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
 * [DeepFaune-New-England](https://code.usgs.gov/vtcfwru/deepfaune-new-england) (species classifier for New England wildlife, fine-tuned from the DeepFaune model, runs on crops) (2025)
