@@ -3407,6 +3407,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Yang Z, Tian Y, Wang L, Zhang J. Enhancing generalization in camera trap image recognition: Fine-tuning visual language models. Neurocomputing. 2025 Jun 14;634:129826.
+
+* He H, Xie H, Shen G, Fu B, You H, Sanchez Silva V. 4S-Classifier: empowering conservation through semi-supervised learning for rare and endangered species.  2025.
+
+* Mulero-Pázmány M, Hurtado S, Barba-González C, Antequera-Gómez ML, Díaz-Ruiz F, Real R, Navas-Delgado I, Aldana-Montes JF. Addressing significant challenges for animal detection in camera trap images: a novel deep learning-based approach. Scientific Reports. 2025 May 9;15(1):1-8.
+
 * Miller S, Kirkland M, Hart KM, McCleery RA. Object detection‐assisted workflow facilitates cryptic snake monitoring. Remote Sensing in Ecology and Conservation. 2025.
 
 * Svenning A, Mougeot G, Alison J, Chevalier D, Molina NL, Ong SQ, Bjerge K, Carrillo J, Hoeye TT, Geissmann Q. A General Method for Detection and Segmentation of Terrestrial Arthropods in Images. bioRxiv. 2025:2025-04.
