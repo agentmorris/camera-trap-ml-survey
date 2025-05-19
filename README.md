@@ -3407,6 +3407,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Sharpe CR, Hill RA, Chappell HM, Green SE, Holden K, Fergus P, Stephens PA. Increasing citizen scientist accuracy with artificial intelligence on UK camera trap data Running Title (45 characters) Crowdsourcing and AI for camera trap data Word count. Remote Sensing in Ecology and Conservation. 2025 May 5.
+
 * Yang Z, Tian Y, Wang L, Zhang J. Enhancing generalization in camera trap image recognition: Fine-tuning visual language models. Neurocomputing. 2025 Jun 14;634:129826.
 
 * He H, Xie H, Shen G, Fu B, You H, Sanchez Silva V. 4S-Classifier: empowering conservation through semi-supervised learning for rare and endangered species.  2025.
