@@ -813,6 +813,16 @@ Used camera traps to study two caves in the Republic of Congo known to be rich b
 They did not do a systematic recall analysis; and they highlight that "data processing with [MegaDetector] may also have had an impact on the detection of bats and insects, as it is not yet perfectly calibrated for this type of taxon".
 
 
+<br/>**Tjaden-McClement K, Gharajehdaghipour T, Shores C, White S, Steenweg R, Bourbonnais M, Konanz Z, Burton AC. Mixed evidence for disturbance-mediated apparent competition for declining caribou in western British Columbia, Canada. The Journal of Wildlife Management. 2025:e70040.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluated the relationship between post-fire vegetation recovery and caribou predation risk; found mixed support for disturbance-mediated apparent competition.
+
+179 cameras deployed in 2020-2023.  Used MDv5 to streamline blank elimination; species classification was manual.
+
+
 <br/>**Rechter J. Improving the domain adaptation of camera trap image classifiers using inserted animal cutouts.  Doctoral dissertation, University of Guelph, 2025.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -3407,6 +3417,20 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex-and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.
+
+* The interspecies relationships among the wildlife crossing structures of the Qinghai-Tibet Railway
+
+* Villalva P, Jordano P. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. bioRxiv. 2025 Jan 1.
+
+* Boyce PM, McLoughlin PD. Habitat selection and occupancy of feral horses in comparison to cattle and elk in the Rocky Mountain Foothills of Canada. Frontiers in Conservation Science. 2025 May 23;6:1585546.
+
+* Okuley OS, Aiello CM, Glad W, Perkins K, Ianniello R, Darby N, Epps CW. Improving AI performance in wildlife monitoring through species and environment-specific training: A case study on desert Bighorn sheep. Ecological Informatics. 2025 May 2:103179.
+
+* Murali K, Prashanthi R, Bai JN, Reddy MC. Automated Detection of Large Animals in Road Scene Environments Using Deep Learning. International Journal of Human Computations & Intelligence. 2025 May 16;4(4):500-10.
+
+* Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
+
 * Sharpe CR, Hill RA, Chappell HM, Green SE, Holden K, Fergus P, Stephens PA. Increasing citizen scientist accuracy with artificial intelligence on UK camera trap data Running Title (45 characters) Crowdsourcing and AI for camera trap data Word count. Remote Sensing in Ecology and Conservation. 2025 May 5.
 
 * Yang Z, Tian Y, Wang L, Zhang J. Enhancing generalization in camera trap image recognition: Fine-tuning visual language models. Neurocomputing. 2025 Jun 14;634:129826.
@@ -3423,7 +3447,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Dede J, Förster A. Thewolf–Automatic Labelling, Evaluation and Model Training Optimised for Camera Trap Wildlife Images. Evaluation and Model Training Optimised for Camera Trap Wildlife Images.
 
-* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. INFERRING BIRD COMMUNITIES ON REMOTE FRESHWATER LAKES THROUGH TIME-LAPSE IMAGERY. Canadian Journal of Zoology. 2025 Apr 14(ja).
+* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14(ja).
 
 * Mirka B, Lippitt CD, Harris GM, Converse R, Gurule M, Sesnie SE, Bulter MJ, Stewart DR, Rossman Z. A photogrammetric approach to the estimation of distance to animals in camera trap images. Ecological Informatics. 2025 Mar 26:103120.
 
