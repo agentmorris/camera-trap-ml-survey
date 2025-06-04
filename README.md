@@ -833,6 +833,19 @@ Evaluate MDv5 on a snake dataset from Florida, where MD doesn't typically do ver
 Overall this paper is optimistic about the role of AI-accelerated review, even for cases as difficult as this (this is close to a worse-case scenario for MDv5: relatively rare images of relatively small things that were not in represented well in training).
 
 
+<br/>**Mirka B, Lippitt CD, Harris GM, Converse R, Gurule M, Sesnie SE, Bulter MJ, Stewart DR, Rossman Z. A photogrammetric approach to the estimation of distance to animals in camera trap images. Ecological Informatics. 2025 Mar 26:103120.**
+
+Present and evaluate a pipeline for wildlife depth estimation with a single camera and a calibration step.
+
+Deployed three camera traps in New Mexico, and placed 10 poles as distance markers/GCPs from 4m to 35m away from each camera.  Took a radial pattern of pictures on an iPhone by walking a 20m-radius circle around the camera (not standing at the camera and spinning around, but walking a circle and taking pictures <i>towards</i> the camera).  This was O(150) pictures per site.  Used Metashape to compute a 3D scene model from images and GCPs.
+
+Collect ~1500 images of wildlife, and manually put boxes on them (in Zooniverse), then used those boxes - along with the precomputed scene map - to estimate animal depth, using the minimum distance to the bottom of each box.  
+
+Data (including images and code) is [here](https://datadryad.org/share/Ud_-_rbaTfuki8oOXk6qLmDSuEWD0s-cNRp_eIgneN4).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mirka-2025-800.jpg" width="500">
+
+
 <br/>**Labadie M, Morand S, Bourgarel M, Niama FR, Nguilili GF, Caron A, De Nys H. Habitat sharing and interspecies interactions in caves used by bats in the Republic of Congo. PeerJ. 2025 Jan 9;13:e18145.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -843,6 +856,15 @@ Used camera traps to study two caves in the Republic of Congo known to be rich b
 They did not do a systematic recall analysis; and they highlight that "data processing with [MegaDetector] may also have had an impact on the detection of bats and insects, as it is not yet perfectly calibrated for this type of taxon".
 
 
+<br/>**Pestell AJ, Rendall AR, Sinclair RD, Ritchie EG, Nguyen DT, Corva DM, Eichholtzer AC, Kouzani AZ, Driscoll DA. Smart camera traps and computer vision improve detections of small fauna. Ecosphere. 2025 Mar;16(3):e70220.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare AI performance of a smart camera ("DeakinCams") to traditional cameras with MegaDetector, on 86k and 51k videos, respectively.  Found that overall MD had higher accuracy (99% precision @ 98% recall compared to 98% precision @ 47% recall), but that only the DeakinCams system detected ectotherms/invertebrates.
+
+Ran MDv5a via Camelot, reviewed images in Timelapse.  Found that "MegaDetector performed just as well as manual classification", but "some manual processing is necessary to validate model outputs, with the level of human intervention varying by model selection".
+
+
 <br/>**Mulero-Pázmány M, Hurtado S, Barba-González C, Antequera-Gómez ML, Díaz-Ruiz F, Real R, Navas-Delgado I, Aldana-Montes JF. Addressing significant challenges for animal detection in camera trap images: a novel deep learning-based approach. Scientific Reports. 2025 May 9;15(1):1-8.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -851,7 +873,7 @@ They propose a two-model ensemble, where the first model classifies objects base
 
 They used MDv5 for initial labeling, and after comparing other approaches, all models are also fine-tuned MDv5 instances.  Specifically, they froze the first 10 layers of MDv5, and trained for 300 epochs.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/41598_2025_90249_Fig2_HTML.jpg.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/41598_2025_90249_Fig2_HTML.jpg" width="500">
 
 
 <br/>**Tjaden-McClement K, Gharajehdaghipour T, Shores C, White S, Steenweg R, Bourbonnais M, Konanz Z, Burton AC. Mixed evidence for disturbance-mediated apparent competition for declining caribou in western British Columbia, Canada. The Journal of Wildlife Management. 2025:e70040.**
@@ -932,6 +954,13 @@ Propose an ensemble learning approach for species classification, combining ResN
 <br/>**Trevathan J, Tan WL, Xing W, Holzner D, Kerlin D, Zhou J, Castley G. A computer vision enhanced IoT system for koala monitoring and recognition. Internet of Things. 2025 Jan 1;29:101474.**
 
 Deploy GPS-connected cameras for koala monitoring, and train a koala detector that runs in the cloud.  The paper is not primarily about ML, it's more about the practicality  and logistics of assembling a real-time monitoring system (everything from cost to insect infestation of the cameras).  But they also train YOLOv5 and YOLOv8 models for koala detection, so, I'm including it here.
+
+
+<br/>**Bruce T, Amir Z, Allen BL, Alting BF, Amos M, Augusteyn J, Ballard GA, Behrendorff LM, Bell K, Bengsen AJ, Bennett A. Large-scale and long-term wildlife research and monitoring using camera traps: a continental synthesis. Biological Reviews. 2025 Jan 17.**
+
+A little off the beaten path for this list, because this paper isn't specifically about AI, rather it presents the results of a [survey](https://www.dropbox.com/scl/fi/94f4l4ev2k1z9vs6y9u5i/WildObs-Camera-trap-participant-survey-Google-Forms_2023_11_14.pdf?rlkey=yy840dyu58j5n5n9buf7bqj5c&e=1&dl=0) about the use of camera traps, deployed to 132 camera trappers in Australia.  I'm just summarizing the findings related to AI (or adjacent to AI).  In fact I don't need to summarize, there's a great paragraph about this already:
+
+<i>&ldquo;There was little evidence that the use of AI/ML computer vision (CV) to process Australian images is widespread. Only 38/132 respondents indicated they used some form of CV in their image processing. Seven of the 38 respondents who indicated they used CV reported using custom or bespoke software during data processing. Online CV models were the most frequently used CV model, with 30/38 respondents using either a globally trained detection model (MegaDetector) and/or detector plus classifier (Wildlife Insights, which itself uses MegaDetector), or interfaces with MegaDetector (e.g. tools on Ecoassist). Three used Evorta, a for-profit Australian-specific online AI model that charges per image.&rdquo;</i>
 
 
 #### <i>Papers from 2024</i>
@@ -3485,36 +3514,19 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* Svenning A, Mougeot G, Alison J, Chevalier D, Molina NL, Ong SQ, Bjerge K, Carrillo J, Hoeye TT, Geissmann Q. A General Method for Detection and Segmentation of Terrestrial Arthropods in Images. bioRxiv. 2025:2025-04.
+* Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
 
-* Antonov A. Development and Evaluation of an AI-Driven Pipeline for Wildlife Monitoring (Bachelor's thesis, University of Twente).
+* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648.
 
-* Dede J, Förster A. Thewolf–Automatic Labelling, Evaluation and Model Training Optimised for Camera Trap Wildlife Images. Evaluation and Model Training Optimised for Camera Trap Wildlife Images.
+* Genevier EE, Price C, Evans N, Streicher JP, Downs CT. Population dynamics and morphometrics of Nile monitors along a gradient of urbanization in KwaZulu-Natal, South Africa. Journal of Zoology.
 
-* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14(ja).
-
-* Mirka B, Lippitt CD, Harris GM, Converse R, Gurule M, Sesnie SE, Bulter MJ, Stewart DR, Rossman Z. A photogrammetric approach to the estimation of distance to animals in camera trap images. Ecological Informatics. 2025 Mar 26:103120.
-
-* Ma Y, Tan M, Liu X, Zhang Y, Xu Z, Sun W, Ge J, Feng L. Deep learning for Amur tiger re-identification in camera traps: A tool assisting population monitoring and spatio-temporal analysis. Ecological Indicators. 2025 Feb 1;171:113227.
-
-* Bruce T, Amir Z, Allen BL, Alting BF, Amos M, Augusteyn J, Ballard GA, Behrendorff LM, Bell K, Bengsen AJ, Bennett A. Large‐scale and long‐term wildlife research and monitoring using camera traps: a continental synthesis. Biological Reviews. 2025 Jan 17.
-
-* Pestell AJ, Rendall AR, Sinclair RD, Ritchie EG, Nguyen DT, Corva DM, Eichholtzer AC, Kouzani AZ, Driscoll DA. Smart camera traps and computer vision improve detections of small fauna. Ecosphere. 2025 Mar;16(3):e70220.
+* Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.
 
 * Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.
-
-* Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
 
 * Trusca LM. Investigating suitable vision transformer models for wildlife camera trap data (Bachelor's thesis, University of Twente).
 
 * Arends AJ. Monitoring endangered wildlife utilising computer vision models (Bachelor's thesis, University of Twente).
-
-* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co‐occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648.
-
-* Genevier EE, Price C, Evans N, Streicher JP, Downs CT. Population dynamics and morphometrics of Nile monitors along a gradient of urbanization in KwaZulu‐Natal, South Africa. Journal of Zoology.
-
-* Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.
-
 
 #### Papers from 2024
 
@@ -3528,6 +3540,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from <= 2022
 
+* Tan M, Chao W, Cheng JK, Zhou M, Ma Y, Jiang X, Ge J, Yu L, Feng L. Animal detection and classification from camera trap images using different mainstream object detection architectures. Animals. 2022 Aug 4;12(15):1976.
+
 * Velez Gomez J. Enhancing mammal conservation in multi-functional landscapes using artificial intelligence, joint species distribution modeling and ecological experimentation.  PhD thesis, 2022.
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
@@ -3539,6 +3553,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 <!--
 
 ### Papers I don't have access to but would read if I did
+
+* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.
 
 * Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
 
@@ -3571,6 +3587,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Ma Y, Tan M, Liu X, Zhang Y, Xu Z, Sun W, Ge J, Feng L. Deep learning for Amur tiger re-identification in camera traps: A tool assisting population monitoring and spatio-temporal analysis. Ecological Indicators. 2025 Feb 1;171:113227.
+
+* Dede J, Förster A. Thewolf – Automatic Labelling, Evaluation and Model Training Optimised for Camera Trap Wildlife Images.
+
+* Antonov A. Development and Evaluation of an AI-Driven Pipeline for Wildlife Monitoring (Bachelor's thesis, University of Twente).
 
 * He H, Xie H, Shen G, Fu B, You H, Sanchez Silva V. 4S-Classifier: empowering conservation through semi-supervised learning for rare and endangered species.  2025.
 
