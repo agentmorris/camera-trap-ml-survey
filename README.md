@@ -24,7 +24,7 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 [Post-hoc analysis tools people use for camera trap data](#post-hoc-analysis-tools-people-use-for-camera-trap-data)  
 [Camera trap ML papers](#camera-trap-ml-papers)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers with summaries](#papers-with-summaries)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Papers I haven't read yet](#papers-i-know-exist-and-i-have-access-to-but-i-havent-read-yet)  
+&nbsp;&nbsp;&nbsp;&nbsp;[Papers I haven't read yet](#papers-i-know-exist-and-i-have-access-to-and-plan-to-read)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Papers that use LILA data but mostly aren't about camera traps](#lila-only-non-camera-trap-papers)  
 [Data sources for camera trap ML](#data-sources-for-camera-trap-ml)  
 [Metadata standards for camera trap data](#metadata-standards-for-camera-trap-data)  
@@ -961,6 +961,52 @@ Deploy GPS-connected cameras for koala monitoring, and train a koala detector th
 A little off the beaten path for this list, because this paper isn't specifically about AI, rather it presents the results of a [survey](https://www.dropbox.com/scl/fi/94f4l4ev2k1z9vs6y9u5i/WildObs-Camera-trap-participant-survey-Google-Forms_2023_11_14.pdf?rlkey=yy840dyu58j5n5n9buf7bqj5c&e=1&dl=0) about the use of camera traps, deployed to 132 camera trappers in Australia.  I'm just summarizing the findings related to AI (or adjacent to AI).  In fact I don't need to summarize, there's a great paragraph about this already:
 
 <i>&ldquo;There was little evidence that the use of AI/ML computer vision (CV) to process Australian images is widespread. Only 38/132 respondents indicated they used some form of CV in their image processing. Seven of the 38 respondents who indicated they used CV reported using custom or bespoke software during data processing. Online CV models were the most frequently used CV model, with 30/38 respondents using either a globally trained detection model (MegaDetector) and/or detector plus classifier (Wildlife Insights, which itself uses MegaDetector), or interfaces with MegaDetector (e.g. tools on Ecoassist). Three used Evorta, a for-profit Australian-specific online AI model that charges per image.&rdquo;</i>
+
+
+<br/>**Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+
+Used 60 camera traps to monitor wolf activity in Israel, specifically to assess the impact of wolf culling on wolf behavior.  Found that "Overall, culling did not deter wolves, singles or packs, from conflict zones; all zones were occupied by wolves. However, wolves shifted temporally to avoid daytime human activity and were predominantly nocturnal in high-culling areas."
+
+Used MD to filter blanks; reviewed images in Camelot.
+
+
+<br/>**Genevier EE, Price C, Evans N, Streicher JP, Downs CT. Population dynamics and morphometrics of Nile monitors along a gradient of urbanization in KwaZulu-Natal, South Africa. Journal of Zoology.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+
+Evaluate whether morphological differences are evident between urban and rural populations of Nile monitors; find only insignificant differences, although urban individuals were slightly smaller.
+
+Tried to use MDv5b, but even with a threshold of 0.05, MD wasn't very good at this and they had to review all images manually.
+
+Breaking the fourth wall: it's great (and rare!) when authors at least mention tools that <i>didn't</i> work!
+
+
+</br>**Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+
+Deployed 36 cameras around the Hansen Dam flood control zone in LA; this dam creates rare riparian habitat in the LA area.  Found 15 species in this area using cameras and traps.
+
+Eliminated blanks with MD using a confidence threshold of 0.8 (version unspecified, but given that confidence threshold, hopefully MDv4).  Species classification was done in Excel.
+
+
+</br>**Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.**
+
+Present methods for blank classification that are suitable for embedded devices.  Use example blank images from each camera to train per-camera models, then re-train a base embedding to facilitate generalization to new cameras.  Worked with 100k images from 30 cameras in China.  Train MobileNetV1 with triplet loss.
+
+Code is [here](https://github.com/hzl-bjfu/AIPL/tree/master/RFTI).
+
+
+<br/>**Trusca LM. Investigating suitable vision transformer models for wildlife camera trap data (Bachelor's thesis, University of Twente).**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train species classifiers for bird species; compare DETA ("Detection Transformer with Assignment") and [OWL-ViT](https://huggingface.co/docs/transformers/en/model_doc/owlvit).  Find that "DETA performs best for known species detection, while OWLVIT offers more flexibility for handling new species".  Started with 77GB of images from the Netherlands; removed blank images from their dataset with MDv5b in EcoAssist, labeled the remaining images in Label Studio.
 
 
 #### <i>Papers from 2024</i>
@@ -3510,23 +3556,9 @@ Propose a detection framework "designed to explicitly complete missing annotatio
 Look at the relationship between behavior and predation fear in primates, primarily in Mozambique, but also in a number of other sites across Africa, using a variety of methods (including camera traps).  Included on this list because it looks like the actual data records for Snapshot Kruger, Snapshot Mountain Zebra, and Snapshot Karoo were retrieved from LILA, presumably coupled with spatial metadata that was obtained directly from the Snapshot Safari program (this is consistent with acknowledgments in the text).
 
 
-### Papers I know exist, and I have access to, but I haven't read yet
+### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2025
-
-* Preiss-Bloom S, Shamon H, Ben-Ami D et al. Landscape of risk: responses of grey wolves to lethal control in a mosaic landscape. Eur J Wildl Res 71, 24 (2025).
-
-* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648.
-
-* Genevier EE, Price C, Evans N, Streicher JP, Downs CT. Population dynamics and morphometrics of Nile monitors along a gradient of urbanization in KwaZulu-Natal, South Africa. Journal of Zoology.
-
-* Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.
-
-* Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.
-
-* Trusca LM. Investigating suitable vision transformer models for wildlife camera trap data (Bachelor's thesis, University of Twente).
-
-* Arends AJ. Monitoring endangered wildlife utilising computer vision models (Bachelor's thesis, University of Twente).
 
 #### Papers from 2024
 
@@ -3550,9 +3582,9 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
-<!--
+#### Papers I don't have access to but would read if I did
 
-### Papers I don't have access to but would read if I did
+* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
 
 * Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.
 
@@ -3580,13 +3612,13 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Radig B, Bodesheim P, Korsch D, Denzler J, Haucke T, Klasen M, Steinhage V. Automated Visual Large Scale Monitoring of Faunal Biodiversity. Pattern Recognition and Image Analysis. 2021 Jul;31(3):477-88.
 
--->
-
 <!--
 
 ### Papers that are more or less pre-publication versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Arends AJ. Monitoring endangered wildlife utilising computer vision models (Bachelor's thesis, University of Twente).
 
 * Ma Y, Tan M, Liu X, Zhang Y, Xu Z, Sun W, Ge J, Feng L. Deep learning for Amur tiger re-identification in camera traps: A tool assisting population monitoring and spatio-temporal analysis. Ecological Indicators. 2025 Feb 1;171:113227.
 
