@@ -3236,7 +3236,18 @@ Present a thick-client tool ("ClassifyMe") that allows a menu of Yolov2-based mo
 
 #### <i>Papers from 2019 and earlier</i>
 
-**Janzen M, Ritter A, Walker PD, Visscher DR. EventFinder: a program for screening remotely captured images. Environmental monitoring and assessment. 2019 Jun;191(6):1-0.**
+**Devost E, Lai S, Casajus N, Berteaux D. FoxMask: a new automated tool for animal detection in camera trap images. BioRxiv. 2019 May 17:640037.
+
+Propose a background subtraction approach for blank elimination, based on within-sequence background subtrction.  Evaluated on 14.5k images of arctic fox dens.  
+
+Not exactly ML, but kudos to them for doing this in 2019.
+
+Code is [here](https://github.com/edevost/foxmask).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/devost-2019.jpg" width="500">
+
+
+<br/>**Janzen M, Ritter A, Walker PD, Visscher DR. EventFinder: a program for screening remotely captured images. Environmental monitoring and assessment. 2019 Jun;191(6):1-0.**
 
 Describe a thick-client tool (EventFinder) for eliminating empty images, using background subtraction and color histogram comparisons.
 
@@ -3574,11 +3585,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Tan M, Chao W, Cheng JK, Zhou M, Ma Y, Jiang X, Ge J, Yu L, Feng L. Animal detection and classification from camera trap images using different mainstream object detection architectures. Animals. 2022 Aug 4;12(15):1976.
 
-* Velez Gomez J. Enhancing mammal conservation in multi-functional landscapes using artificial intelligence, joint species distribution modeling and ecological experimentation.  PhD thesis, 2022.
-
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
-
-* Devost E, Lai S, Casajus N, Berteaux D. FoxMask: a new automated tool for animal detection in camera trap images. BioRxiv. 2019 May 17:640037.
 
 * Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
@@ -3614,9 +3621,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 <!--
 
-### Papers that are more or less pre-publication versions of another paper that is already included
+### Papers that are more or less pre-publication / alternative versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Velez Gomez J. Enhancing mammal conservation in multi-functional landscapes using artificial intelligence, joint species distribution modeling and ecological experimentation.  PhD thesis, 2022.
 
 * Arends AJ. Monitoring endangered wildlife utilising computer vision models (Bachelor's thesis, University of Twente).
 
