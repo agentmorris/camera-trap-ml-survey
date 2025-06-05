@@ -3236,7 +3236,7 @@ Present a thick-client tool ("ClassifyMe") that allows a menu of Yolov2-based mo
 
 #### <i>Papers from 2019 and earlier</i>
 
-**Devost E, Lai S, Casajus N, Berteaux D. FoxMask: a new automated tool for animal detection in camera trap images. BioRxiv. 2019 May 17:640037.
+**Devost E, Lai S, Casajus N, Berteaux D. FoxMask: a new automated tool for animal detection in camera trap images. BioRxiv. 2019 May 17:640037.**
 
 Propose a background subtraction approach for blank elimination, based on within-sequence background subtrction.  Evaluated on 14.5k images of arctic fox dens.  
 
