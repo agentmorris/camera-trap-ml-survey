@@ -52,7 +52,7 @@ Wildlife Insights (WI) is a platform for camera trap image management that inclu
 
 > <https://wildeyeconservation.org/traptagger>
 
-An [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (for South African species), and an integration with HotSpotter for individual identification.
+A free, [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes AI (for blank elimination and species classification), integration with HotSpotter for individual identification, and spatiotemporal analysis.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
