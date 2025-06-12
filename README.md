@@ -3571,6 +3571,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Davies Walsh N, Chalmers C, Fergus P, Longmore S, Johnson B, Wich S. Comparison of a computer vision model to a human observer in detecting African mammals in camera trap images within a safari park. bioRxiv. 2025:2025-06.
+
+* Muthivhi M, Huo J, Gustafsson F, van Zyl TL. Improving Wildlife Out-of-Distribution Detection: Africas Big Five. arXiv preprint arXiv:2506.06719. 2025 Jun 7.
+
+
 #### Papers from 2024
 
 #### Papers from 2023
