@@ -628,6 +628,14 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
 
+### Behold
+
+> <https://www.behold.cam/>
+
+AI-enabled camera trap designed for backyard wildlife monitoring.  Still pre-kickstarter as of 2025.06, so still hard to say what this will be, or whether it will get made.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/behold-mock.jpg" width="500">
+
 ### RobotEye Kapan
 
 > <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
