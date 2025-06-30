@@ -589,6 +589,13 @@ When possible, the first link for each line item should get you pretty close to 
 
 * [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
 
+### Models that I know exist, but...
+
+...when I last checked, there wasn't enough information in the README to add to the above list, so these are notes to self to revisit.
+
+* [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) ([original model on GitHub](https://github.com/gifu-wildlife/MDetToolsForJCameraTraps))
+* [Addax Data Science Sub-Saharan Drylands](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt)
+
 
 ## Smart camera traps
 
