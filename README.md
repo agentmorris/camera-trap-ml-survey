@@ -52,7 +52,7 @@ Wildlife Insights (WI) is a platform for camera trap image management that inclu
 
 > <https://wildeyeconservation.org/traptagger>
 
-An [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes automated blank/non-blank elimination (not ecosystem-specific, uses MegaDetector), species classification (for South African species), and an integration with HotSpotter for individual identification.
+A free, [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes AI (for blank elimination and species classification), integration with HotSpotter for individual identification, and spatiotemporal analysis.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
 
@@ -635,6 +635,14 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
 
+### Behold
+
+> <https://www.behold.cam/>
+
+AI-enabled camera trap designed for backyard wildlife monitoring.  Still pre-kickstarter as of 2025.06, so still hard to say what this will be, or whether it will get made.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/behold-mock.jpg" width="500">
+
 ### RobotEye Kapan
 
 > <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
@@ -798,6 +806,7 @@ As promised above, although I don't filter papers for this list based on whether
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
 ![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
 ![Video](https://img.shields.io/badge/-Video-orange)
 
@@ -1014,6 +1023,28 @@ Code is [here](https://github.com/hzl-bjfu/AIPL/tree/master/RFTI).
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
 Train species classifiers for bird species; compare DETA ("Detection Transformer with Assignment") and [OWL-ViT](https://huggingface.co/docs/transformers/en/model_doc/owlvit).  Find that "DETA performs best for known species detection, while OWLVIT offers more flexibility for handling new species".  Started with 77GB of images from the Netherlands; removed blank images from their dataset with MDv5b in EcoAssist, labeled the remaining images in Label Studio.
+
+
+<br/>**Davies Walsh N, Chalmers C, Fergus P, Longmore S, Johnson B, Wich S. Comparison of a computer vision model to a human observer in detecting African mammals in camera trap images within a safari park. bioRxiv. 2025:2025-06.**
+
+Deploy a custom YOLOv10x (in the Conservation AI app) to monitor lions, rhino, zebras, and baboons in a UK safari park.  Compare manual to automated processing, for both species classification and counting.  Find good correlation, but significant differences between human and automated counts for lions, rhinos, and baboons (but not zebras).
+
+Run fully automated counting on 3k baboon images, find that AI reduces processing time by 82% (the time taken in the AI case is just upload and management time).  The manual case was ~1k images per hour.
+
+
+<br/>**Muthivhi M, Huo J, Gustafsson F, van Zyl TL. Improving Wildlife Out-of-Distribution Detection: Africa's Big Five. arXiv preprint:2506.06719. 2025 Jun 7.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+They present methods for detecting out-of-distribution species.  "In distribution" is arbitrary here, they use the big five African safari species (buffalo, elephant, lion, leopard, rhino) as in-distribution, and impala/zebra/cheetah/giraffe/wildebeest/hippo as out of distribution (not seen in training), all from LILA.  They compare four pretrained encoders, which are fine-tuned as classifiers on the in-distribution species: SpeciesNet, MagaClassifier, BioCLIP, and an ImageNet-trained ViT, all running on MD crops (confidence threshold 0.2, presumably MDv5).
+
+This isn't really the point of the paper, but they indicate that the ImageNet-trained backbone has the highest classification performance on the in-domain classes. (Breaking the fourth wall: I'm pretty suspicious of that result; there are a lot of hyperparameters that go into fine-tuning and this is sufficiently counter to intuition that IMO Occam's razor says something happened in the fine-tuning.  But in any case, that's not the point of the paper, so it doesn't really matter, in fact classification accuracy doesn't really matter.)
+
+They also find that the ImageNet-trained model gives the highest performance for OOD detection, and there is not a clear winner among the several methods they tried for OOD detection for each backbone: their "energy-based", "max logit", and "nearest class mean" metrics for OOD detection all do well by various methods.
+
+Code is intended to be [here](https://github.com/pxpana/BIG5OOD), and I think it will be, but the repo is empty as of the time I'm writing this (6/2025).
 
 
 #### <i>Papers from 2024</i>
