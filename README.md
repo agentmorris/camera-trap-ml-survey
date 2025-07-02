@@ -557,15 +557,16 @@ When possible, the first link for each line item should get you pretty close to 
 * [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022, metadata update in 2025)
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
+* [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 
 ### Last updated 2024
 
 * The SDZG [Animl](https://github.com/conservationtechlab/animl) package includes several [models](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/161119248144), all trained in TF, all run on MD crops:
-  * [Southwest US v2](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/169794550910) (26 classes, including human and empty) (2022)
-  * [Southwest US v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/188389181940) (33 classes, including human and empty) (2023)
-  * [Kenyan savanna](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196933085878) (60 classes, including human and empty) (2023)
-  * [Peruvian Amazon](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196929943950) (43 classes, including empty) (2023) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Amazon))
-  * [Peruvian Andes](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/265140166999) (53 classes, including human and empty) (2024) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Andes))
+  * [Southwest US v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/251181548722) (26 classes, including human and empty) (2024)
+  * [Southwest US extended v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/188389181940) (33 classes, including human and empty) (2023)
+  * [Kenyan savanna v3](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196933085878) (60 classes, including human and empty) (2024)
+  * [Peruvian Amazon v1](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196929943950) (43 classes, including empty) (2024) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Amazon))
+  * [Peruvian Andes v1](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/265140166999) (53 classes, including human and empty) (2024) ([on Hugging Face](https://huggingface.co/Addax-Data-Science/Peruvian_Andes))
 * [Hex-Data/Panthera AI model for Kyrgyzstan](https://huggingface.co/Hex-Data/Panthera) (EfficientNetV2L trained on MD crops for 11 class-/family-level categories) (2024)
 * [TRAPPER AI model for 18 European mammals](https://huggingface.co/OSCF/TrapperAI-v02.2024) (YOLOv8-m detector) (2024)
 * [Addax Data Science New Zealand Classifier](https://huggingface.co/Addax-Data-Science/New_Zealand_v1) (YOLOv8 classifier trained on MD crops for 17 New Zealand mammal/bird classes) ([documentation](https://addaxdatascience.com/projects/#2024-06-NZF)) (2024)
@@ -602,7 +603,6 @@ When possible, the first link for each line item should get you pretty close to 
 ...when I last checked, there wasn't enough information in the README to add to the above list, so these are notes to self to revisit.
 
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) ([original model on GitHub](https://github.com/gifu-wildlife/MDetToolsForJCameraTraps))
-* [Addax Data Science Sub-Saharan Drylands](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt)
 
 
 ## Smart camera traps
