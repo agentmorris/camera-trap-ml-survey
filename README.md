@@ -558,6 +558,7 @@ When possible, the first link for each line item should get you pretty close to 
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
+* [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 
 ### Last updated 2024
 
@@ -3616,6 +3617,14 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2025
+
+* Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
+
+* Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.
+
+* Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Multi‐Species Impacts of Invasive Opuntia Cacti on Mammal Habitat Use. Ecology Letters. 2025 Jul;28(7):e70163.
+
+* Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):1-4.
 
 #### Papers from 2024
  
