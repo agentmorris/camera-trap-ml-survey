@@ -498,6 +498,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * WildCLIP (VLMs for camera trap analysis) ([github.com/amathislab/wildclip](https://github.com/amathislab/wildclip))
 * TeraiNet (species classifier for Nepal) ([github.com/alexvmt/TeraiNet](https://github.com/alexvmt/TeraiNet))
 * SpeciesNet-Rust (Rust port of SpeciesNet) ([github.com/zubalis/speciesnet-rust](https://github.com/zubalis/speciesnet-rust))
+* Alita (species classifier for NZ wildlife) ([github.com/Wologman/Alita](https://github.com/Wologman/Alita))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
@@ -558,6 +559,8 @@ When possible, the first link for each line item should get you pretty close to 
   * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
+* [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
+* [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 
 ### Last updated 2024
@@ -598,12 +601,6 @@ When possible, the first link for each line item should get you pretty close to 
 * [Willi et al African Classifier](https://github.com/marco-willi/camera-trap-classifier/releases/tag/2.1) (TF1, whole-image classifier) (2019)
 * [MLWIC](https://drive.google.com/file/d/1dY-49drRrSotFMHOOPZXrTgl5gqozGVL/view) (TF, whole-image classifier for North American species) ([code](https://github.com/mikeyEcology/MLWIC)) (2019)
 * [Norouzzadeh et al. Serengeti Classifier](https://github.com/Evolving-AI-Lab/deep_learning_for_camera_trap_images?tab=readme-ov-file#2-running) (TF1, whole-image classifiers for blank/non-blank, species, and counting) (2018)
-
-### Models that I know exist, but...
-
-...when I last checked, there wasn't enough information in the README to add to the above list, so these are notes to self to revisit.
-
-* [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) ([original model on GitHub](https://github.com/gifu-wildlife/MDetToolsForJCameraTraps))
 
 
 ## Smart camera traps
