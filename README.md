@@ -1446,7 +1446,7 @@ Collected data from camera traps facing pika haypiles over two years at eight si
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/serra-pikas-2024.png" width="500">
 
 
-<br/>**Mustafić S, Dachs D, Prüller R, Schöggl F, Perko R. Improving Wildlife Management with AI: Species Detection and Classification from Camera Trap Data.**
+<br/>**Mustafić S, Dachs D, Prüller R, Schöggl F, Perko R. Improving Wildlife Management with AI: Species Detection and Classification from Camera Trap Data.  CamTrapAI workshop, 2024.**
 
 Experimented on a dataset of 25,000 bounding boxes on wildlife in Austria, as part of the [Pentamap](https://pentamap.com/) [DeerAI](https://projekte.ffg.at/projekt/4352932) program.  Split train/val/test by image (not by location), though they acknowledged the limitations of this approach.  Compared multi-class detection (landing on [YOLOR](https://github.com/WongKinYiu/yolor)) with a two-stage approach (with a custom detector, IIUC also YOLOR, and EfficientNet-B7).  Did not find massive differences between the approaches, concluded they were data-limited.
 
@@ -3627,6 +3627,7 @@ Look at the relationship between behavior and predation fear in primates, primar
  
 * Kissling WD, Evans JC, Zilber R, Breeze TD, Shinneman S, Schneider LC, Chalmers C, Fergus P, Wich S, Geelen LH. Development of a cost-efficient automated wildlife camera network in a European Natura 2000 site. Basic and Applied Ecology. 2024 Sep 1;79:141-52.
 
+* Zhao W. Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Multi-species Wildlife Animal Action Recognition. CamTrapAI workshop, 2024.
 #### Papers from 2023
 
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
