@@ -126,7 +126,9 @@ Cloud-based platform that receives images from connected cameras, runs AI models
 
 > <https://www.zambacloud.com>
 
-Cloud-based platform for no-code training of image and video classification models.  They also maintain a [Python package](https://github.com/drivendataorg/zamba) that includes some of Zamba Cloud's functionality.
+Cloud-based platform for no-code training of image and video classification models.  Explanatory video [here](https://www.youtube.com/watch?v=cvH9aQgYTv0).
+
+They also maintain a [Python package](https://github.com/drivendataorg/zamba) that includes some of Zamba Cloud's functionality.  
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-thumb.png" width="400">
 
