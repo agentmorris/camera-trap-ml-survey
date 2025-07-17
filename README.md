@@ -629,7 +629,7 @@ AI-enabled camera with detection and classification capabilities.
 
 ### TrailGuard AI
 
-> <https://www.nightjar.tech/general-9>
+> <https://www.nightjar.tech>
 
 AI-enabled camera developed for anti-poaching and HWC applications.
 
