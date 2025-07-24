@@ -468,6 +468,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 ### Last updated >= 2021
 
+* Paying attention to other animal detections improves camera trap classification models ([github.com/gdussert/MCA_Classifier](https://github.com/gdussert/MCA_Classifier))
 * A semi-automatic workflow to process camera trap images in R ([github.com/hannaboe/camera_trap_workflow](https://github.com/hannaboe/camera_trap_workflow))
 * Bounding Box Editor and Exporter (BBoxEE) for the Animal Detection Network ([github.com/persts/BBoxEE](https://github.com/persts/BBoxEE))
 * Camelot ([gitlab.com/camelot-project/camelot](https://gitlab.com/camelot-project/camelot))
@@ -3617,6 +3618,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.
+
 * Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
 
 * Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.
@@ -3625,11 +3628,30 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):1-4.
 
+* Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In 2025 IST-Africa Conference (IST-Africa) 2025 May 28 (pp. 1-8). IEEE.
+
+* Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. InPractice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-8).
+
+* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.
+
+* Stubbs J, Balasubramaniam S, Khuvis S, Withana S, Vallabhajosyula MS, Cardone R, Garcia C, Freeman N, Guzman C, Plale B, Ramnath R. ML Field Planner: Analyzing and Optimizing ML Pipelines For Field Research. In Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-9).
+
+* Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Multi‐Species Impacts of Invasive Opuntia Cacti on Mammal Habitat Use. Ecology letters. 2025 Jul;28(7):e70163.
+
+* Miles H. Spatiotemporal Patterns of Large Mammal Presence in a Megafire Impacted Landscape of Western Oregon.  Oregon State University thesis, 2025.
+
+* Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):16323.
+
+* Chan AH, Putra P, Schupp H, Köchling J, Straßheim J, Renner B, Schroeder J, Pearse WD, Nakagawa S, Burke T, Griesser M. YOLO‐Behaviour: A simple, flexible framework to automatically quantify animal behaviours from videos. Methods in Ecology and Evolution. 2025 Apr;16(4):760-74.
+
+* Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaillé-Jammes S. Zero-shot animal behaviour classification with vision-language foundation models. Methods in Ecology and Evolution. 2025 May 20
+
 #### Papers from 2024
  
 * Kissling WD, Evans JC, Zilber R, Breeze TD, Shinneman S, Schneider LC, Chalmers C, Fergus P, Wich S, Geelen LH. Development of a cost-efficient automated wildlife camera network in a European Natura 2000 site. Basic and Applied Ecology. 2024 Sep 1;79:141-52.
 
 * Zhao W. Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Multi-species Wildlife Animal Action Recognition. CamTrapAI workshop, 2024.
+
 #### Papers from 2023
 
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
@@ -3648,9 +3670,15 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers I don't have access to but would read if I did
 
-* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
+* Katayama LS. Wild Ungulate Impacts on Ranchlands and Across Managed Landscapes in the Hawaiian Islands.  Master's thesis, University of Hawai'i at Manoa.  2025.
 
-* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.
+* Burgstahler K. Climatic Adaptability and Resiliency of North American Sagebrush-Steppe Mammals and Birds.  Master's thesis, Washington State University.  2025.
+
+* Singh S. Will a Tale of Two Cats Become a Tale of One? Canada Lynx and Bobcat Density and Dynamic Occupancy in a Mountain Ecosystem.  Master's thesis, Washington State University.  2025.
+
+* Mahmoud M. Montane Carnivore Detection and Occupancy in the High Oregon Cascades.  Master's thesis, Washington State University.  2025.
+
+* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
 
 * Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
 
