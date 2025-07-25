@@ -641,7 +641,7 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 > <https://www.behold.cam/>
 
-AI-enabled camera trap designed for backyard wildlife monitoring.  Still pre-kickstarter as of 2025.06, so still hard to say what this will be, or whether it will get made.
+AI-enabled camera trap designed for backyard wildlife monitoring.  Still conceptual as of 2025.06, so still hard to say what this will be, or whether it will get made.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/behold-mock.jpg" width="500">
 
@@ -822,7 +822,7 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 
 #### <i>Papers from 2025</i>
 
-**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex-and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
+**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -839,7 +839,7 @@ Used MDv4 in Timelapse to remove blanks; species identification was manual.
 
 Use 120 cameras in Alberta to monitor occupancy of horses, domestic cattle, and elk.  Found that "trail-camera occupancy analyses ... pointed to the presence of cattle as a potential modulator of horse habitat use" and that "elk summer occupancy increased with decreasing distance to conifer forest and increasing native rangeland".
 
-Had about 1/3rd of their images processed manually by students for, the rest were initially processed by MD (version unspecified); all non-empty images from either batch were reviewed (for the manual first pass) or classified (for the MD first pass) by the authors.
+Had about 1/3rd of their images processed manually by students, the rest were initially processed by MD (version unspecified); all non-empty images from either batch were reviewed (for the manual first pass) or classified (for the MD first pass) by the authors.
 
 
 <br/>**Miller S, Kirkland M, Hart KM, McCleery RA. Object detection-assisted workflow facilitates cryptic snake monitoring. Remote Sensing in Ecology and Conservation. 2025.**
@@ -869,7 +869,7 @@ Data (including images and code) is [here](https://datadryad.org/share/Ud_-_rbaT
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
-Used camera traps to study two caves in the Republic of Congo known to be rich bat habitats.  Used MegaDetector + Timelapse for image review; indicated that "Megadetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
+Used camera traps to study two caves in the Republic of Congo known to be rich bat habitats.  Used MegaDetector + Timelapse for image review; indicated that "MegaDetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
 
 They did not do a systematic recall analysis; and they highlight that "data processing with [MegaDetector] may also have had an impact on the detection of bats and insects, as it is not yet perfectly calibrated for this type of taxon".
 
@@ -2552,7 +2552,7 @@ Propose a workflow for camera trap image processing in R, somewhere between "bes
 * Do some manual classification, e.g. for error-prone species
 * Post-processing and ecological analysis
 
-They present a case study on camera trap data from Norway, from 92 camera traps, target species are small mammals (lemmings, voles, stoats, weasels).  Trained a six-class ResNet-50 classifier using TF via KerasR.  Splitting appears to have been random (not by camera), but this may matter less than usual here, because their camera are enclosed in a metal box, so the background is very controlled (see below).  Resizing to ImageNet resolution probably also matters less here than it would for small mammals in typical camera traps.  
+They present a case study on camera trap data from Norway, from 92 camera traps, target species are small mammals (lemmings, voles, stoats, weasels).  Trained a six-class ResNet-50 classifier using TF via KerasR.  Splitting appears to have been random (not by camera), but this may matter less than usual here, because their cameras are enclosed in a metal box, so the background is very controlled (see below).  Resizing to ImageNet resolution probably also matters less here than it would for small mammals in typical camera traps.  
 
 They found 99.3% accuracy on the 97.3% of images that were classified above a confidence threshold.  On data from a subsequent season, accuracy fell to 95.3% on existing cameras, and 90.7% on new cameras.
 
@@ -3246,7 +3246,7 @@ Overall, performance improves logarithmically until around 500 images per class,
 
 Evaluate species classification performance on around 47k images from Canada (around 9k empty).  Experiment with validation within and across locations.  When validating within locations, DenseNet201 provides the highest accuracy (95.6%, F1=.79), with slightly higher accuracy from an ensemble.  See substantial falloff when moving to new locations (down to 71% accuracy, F1=0.7 from the ensemble).
 
-Also look at how performance varies across classes, highlight the impact of class imbalance, and find that they need to group species into classes to get at least 1000 images per classes before they hit an average of 95% recall at the class level.
+Also look at how performance varies across classes, highlight the impact of class imbalance, and find that they need to group species into classes to get at least 1000 images per class before they hit an average of 95% recall at the class level.
 
 
 <br/>**Greenberg S. Automated Image Recognition for Wildlife Camera Traps: Making it Work for You. Research report, University of Calgary: Prism Digital Repository; 2020.**
