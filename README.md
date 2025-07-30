@@ -131,6 +131,14 @@ They also maintain a [Python package](https://github.com/drivendataorg/zamba) th
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-thumb.png" width="400">
 
+#### BoquilaHUB
+
+> <https://boquila.org/hub>
+
+Client-side tool that runs a variety of models (MD, custom animal detectors).  Code is [here](https://github.com/boquila/boquilahub).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/boquila-hub.jpg" width="400">
+
 #### Mbaza
 
 > <https://appsilon.com/data-for-good/mbaza-ai>
@@ -480,6 +488,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Mbaza AI (desktop app for CT data management) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
 * BatNet (classification of bats in CT images) ([github.com/GabiK-bat/BatNet](https://github.com/GabiK-bat/BatNet))
 <!-- Related to MD, but not literally 1:1 with the list of repos on the MD README -->
+* BoquilaHUB (client-side tool for running models) ([github.com/boquila/boquilahub](https://github.com/boquila/boquilahub))
 * MegaDetector (finds animals/people/vehicles in camera trap images) ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
 * TNC Animl platform ([github.com/tnc-ca-geo/animl-frontend](https://github.com/tnc-ca-geo/animl-frontend))
 * AddaxAI (formerly EcoAssist) (GUI for running models) ([github.com/PetervanLunteren/AddaxAI](https://github.com/PetervanLunteren/AddaxAI))
