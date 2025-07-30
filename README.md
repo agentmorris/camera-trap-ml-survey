@@ -3620,6 +3620,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Jack AR, Sansom WC, Wolf TM, Zhang L, Schultze ML, Scott WJ, Forester JD. Assessment of Mammalian Scavenger and Wild White-Tailed Deer Activity at White-Tailed Deer Farms. Viruses. 2025 Jul 22;17(8):1024.
+
 * Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.
 
 * Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
