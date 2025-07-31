@@ -3620,6 +3620,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Qianqian Zhang, Khandakar Ahmed, Muhammad Imad Khan, Hua Wang, Youyang Qu.  YOLO-FCE: A Feature and Clustering Enhanced Object Detection Model for Species Classification. Pattern Recognition, 2025 July.
+
 * Jack AR, Sansom WC, Wolf TM, Zhang L, Schultze ML, Scott WJ, Forester JD. Assessment of Mammalian Scavenger and Wild White-Tailed Deer Activity at White-Tailed Deer Farms. Viruses. 2025 Jul 22;17(8):1024.
 
 * Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.
