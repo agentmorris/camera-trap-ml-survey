@@ -1055,7 +1055,74 @@ This isn't really the point of the paper, but they indicate that the ImageNet-tr
 
 They also find that the ImageNet-trained model gives the highest performance for OOD detection, and there is not a clear winner among the several methods they tried for OOD detection for each backbone: their "energy-based", "max logit", and "nearest class mean" metrics for OOD detection all do well by various methods.
 
-Code is intended to be [here](https://github.com/pxpana/BIG5OOD), and I think it will be, but the repo is empty as of the time I'm writing this (6/2025).
+Code is intended to be [here](https://github.com/pxpana/BIG5OOD), and I think it will be, but the repo is empty as of the time I'm writing this (8/2025).
+
+
+<br/>**Jack AR, Sansom WC, Wolf TM, Zhang L, Schultze ML, Scott WJ, Forester JD. Assessment of Mammalian Scavenger and Wild White-Tailed Deer Activity at White-Tailed Deer Farms. Viruses. 2025 Jul 22;17(8):1024.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Characterize scavenger and deer activities around deer farms, to assess the risk of chronic wasting disease (CWD) transmission.  They monitor 14 farms in MN, WI, and PA.  Found that "interactions between wild and farmed deer at the fence line were infrequent", but "mammalian scavengers were frequently observed inside and outside of the fence".  Covariate analysis of the likelihood of wild/farmed interactions suggests that "farm location is less important than management practices".
+
+Use MDv5 with a confidence threshold of 0.1 to eliminate blanks.
+
+
+<br/>**Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train a self-attention mechanism to improve classification of crops in multi-crop images, i.e. they use information from one crop to inform the classification of others in an image.  Train on Snapshot Serengeti, use Snapshot Safari for OOD eval.  Use MD+RDE results from LILA (MDv1000-redwood for Snapshot Serengeti, MDv5a for Snapshot Safari).  During training, all crops with confidence > 0.5 are given the sequence-level label.  They evaluate only on images with >= 2 crops (nothing interesting would happen in the within-image attention stage when only one crop is present).
+
+Their baseline crop classifier is DINOv2, fine-tuned via timm (although the classifier is not the important part, and they are clear that you could swap in other classifiers).  Their proposed "multi-crop attention" classifier uses the same encoder as the baseline classifier, but embeddings are first passed through a set of transformer blocks that receive information from all crops in the image.  They find that their method improves accuracy from 90% to 95% on the training dataset, and from 93% to 95% on the OOD dataset.  They admit that test is a bit artificial, because they're using sequences with a single label, so simpler heuristics to integrate data across crops might achieve similar results, but they create a multi-species synthetic data benchmark and see similar improvements.
+
+Code is [here](https://github.com/gdussert/MCA_Classifier).
+
+Data (distilled from LILA data) is [here](https://zenodo.org/records/15736090).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dussert-2025-attention.jpg" width="500">
+
+
+<br/>**Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Multi-Species Impacts of Invasive Opuntia Cacti on Mammal Habitat Use. Ecology Letters. 2025 Jul;28(7):e70163.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the impacts of an invasive cactus on 12 mammals in Laikipia County, Kenya.  "We found clear effects of Opuntia on the occupancy and activity of multiple species, with the strength and direction of effects varying according to spatial scale and environmental context".  Used MDv4 with a threshold of 0.1 to eliminate humans and vehicles before uploading to Zooniverse.  If I'm reading this right, they used a threshold of 0.98 for animal images (that seems very very very high!).  MD took them from 1.7M images to 186k images, of which 22.7k were determined to be MD false positives.
+
+Zooniverse project is [here](https://www.zooniverse.org/projects/peter-dot-stewart/prickly-pear-project-kenya).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/stewart-cacti-2025.jpg" width="500">
+
+
+<br/>**Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. arXiv, July 2025.** 
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the GreenCrossingAI project, a workflow for AI-accelerated camera trap data review designed to meet the needs of their partner ecologists.  They run MD on a local GPU (1x4090) in Windows, and image review is done in Timelapse.  Their total volume is 6.7TB, including ~1M photos and videos from 20-35 camera traps, only 40k of which contain animals.  
+
+Unlike other papers on this list, this is more like a practical experience report describing an end-to-end workflow, rather than a research paper per se.
+
+
+<br/>**Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+They are trying to replace manual observation with timelapse imagery to monitor waterbirds in BC.  They find that MDv4 (with thresholds of 0.1 or 0.8) does not work well on their images.  Found a recall of 0.55 and a precision of either 0.64 or 0.025 at a MDv4 threshold of 0.1.  Conclusion: "overall, MegaDetector v4.1 performed poorly for our application".  They found that timelapse imagery (after manual review) was effective in capturing the maximum daily counts that were recorded by on-site observers.
+
+Based on the sample images they show, I think MDv5 would do a lot better, but would still miss an unacceptable number of birds.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sanderson-birds-2025.jpg" width="500">
+
+
+<br/>**Miles H. Spatiotemporal Patterns of Large Mammal Presence in a Megafire Impacted Landscape of Western Oregon.  Oregon State University thesis, 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate the response of elk and black-tailed deer after a megafire in Oregon, using 56 camera traps.  Find that "black-tailed deer displayed a clear preference for unburned and lowseverity areas, particularly in the fall, likely due to sustained forage availability and cover. Conversely, Roosevelt elk favored moderately burned areas exhibiting heterogeneous landscapes that balanced forage availability with sufficient structural complexity for cover".
+
+Collected 3-image bursts and 5-minute timelapse images.  Used MDv5 to eliminate blanks, with a threshold of 0.75 (that's very very high!).  Acknowledgements suggest that the total data set was ~10M images.
 
 
 #### <i>Papers from 2024</i>
@@ -3620,35 +3687,15 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* Qianqian Zhang, Khandakar Ahmed, Muhammad Imad Khan, Hua Wang, Youyang Qu.  YOLO-FCE: A Feature and Clustering Enhanced Object Detection Model for Species Classification. Pattern Recognition, 2025 July.
-
-* Jack AR, Sansom WC, Wolf TM, Zhang L, Schultze ML, Scott WJ, Forester JD. Assessment of Mammalian Scavenger and Wild White-Tailed Deer Activity at White-Tailed Deer Farms. Viruses. 2025 Jul 22;17(8):1024.
-
-* Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.
-
 * Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
 
 * Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.
 
-* Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Multi‐Species Impacts of Invasive Opuntia Cacti on Mammal Habitat Use. Ecology Letters. 2025 Jul;28(7):e70163.
-
 * Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):1-4.
-
-* Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In 2025 IST-Africa Conference (IST-Africa) 2025 May 28 (pp. 1-8). IEEE.
-
-* Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. InPractice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-8).
-
-* Sanderson S, Haines GE, Reimchen TE, Beirne C, Burton C, Hendry AP. Inferring bird communities on remote freshwater lakes through time-lapse imagery. Canadian Journal of Zoology. 2025 Apr 14.
 
 * Stubbs J, Balasubramaniam S, Khuvis S, Withana S, Vallabhajosyula MS, Cardone R, Garcia C, Freeman N, Guzman C, Plale B, Ramnath R. ML Field Planner: Analyzing and Optimizing ML Pipelines For Field Research. In Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-9).
 
-* Stewart PS, Hill RA, Oduor AM, Stephens PA, Whittingham MJ, Dawson W. Multi‐Species Impacts of Invasive Opuntia Cacti on Mammal Habitat Use. Ecology letters. 2025 Jul;28(7):e70163.
-
-* Miles H. Spatiotemporal Patterns of Large Mammal Presence in a Megafire Impacted Landscape of Western Oregon.  Oregon State University thesis, 2025.
-
-* Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):16323.
-
-* Chan AH, Putra P, Schupp H, Köchling J, Straßheim J, Renner B, Schroeder J, Pearse WD, Nakagawa S, Burke T, Griesser M. YOLO‐Behaviour: A simple, flexible framework to automatically quantify animal behaviours from videos. Methods in Ecology and Evolution. 2025 Apr;16(4):760-74.
+* Chan AH, Putra P, Schupp H, Köchling J, Straßheim J, Renner B, Schroeder J, Pearse WD, Nakagawa S, Burke T, Griesser M. YOLO-Behaviour: A simple, flexible framework to automatically quantify animal behaviours from videos. Methods in Ecology and Evolution. 2025 Apr;16(4):760-74.
 
 * Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaillé-Jammes S. Zero-shot animal behaviour classification with vision-language foundation models. Methods in Ecology and Evolution. 2025 May 20
 
@@ -3675,6 +3722,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
 #### Papers I don't have access to but would read if I did
+
+* Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In 2025 IST-Africa Conference (IST-Africa) 2025 May 28.
 
 * Katayama LS. Wild Ungulate Impacts on Ranchlands and Across Managed Landscapes in the Hawaiian Islands.  Master's thesis, University of Hawai'i at Manoa.  2025.
 
@@ -3715,6 +3764,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication / alternative versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Zhang Q, Ahmed K, Khan MI, Wang H, Qu Y.  YOLO-FCE: A Feature and Clustering Enhanced Object Detection Model for Species Classification. Pattern Recognition, 2025 July.
 
 * Velez Gomez J. Enhancing mammal conservation in multi-functional landscapes using artificial intelligence, joint species distribution modeling and ecological experimentation.  PhD thesis, 2022.
 
