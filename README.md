@@ -567,6 +567,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
 * [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
+* [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
 
 ### Last updated 2024
 
