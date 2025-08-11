@@ -3688,6 +3688,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.
+
 * Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
 
 * Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.
