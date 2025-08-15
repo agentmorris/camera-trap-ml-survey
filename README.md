@@ -852,6 +852,16 @@ Use 120 cameras in Alberta to monitor occupancy of horses, domestic cattle, and 
 Had about 1/3rd of their images processed manually by students, the rest were initially processed by MD (version unspecified); all non-empty images from either batch were reviewed (for the manual first pass) or classified (for the MD first pass) by the authors.
 
 
+<br/>**Gurney SM, Christensen SA, Nichols MJ, Stewart CM, Williams DM, Mayhew SL, Gilbert NA, Etter DR.  Harvest restrictions fail to influence population abundance.  Ecosphere, August 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Use camera traps to assess the impact of limiting hunting via antler point restrictions (prohibiting the hunting of antlers with less than four points on one antler) in Michigan.  The goal of this restriction was to increase the population of legal-antlered deer (older males) while reducing the population overall.  Found that the restriction did not influence overall population; population increased in all categories.  It's unknown whether that's because enforcement was incomplete or because the strategy is ineffective.
+
+Placed 144 cameras for two months each year for four years (2019-2022).  Used MDv3 to remove blanks (removed 44% of their images).
+
+
 <br/>**Miller S, Kirkland M, Hart KM, McCleery RA. Object detection-assisted workflow facilitates cryptic snake monitoring. Remote Sensing in Ecology and Conservation. 2025.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
