@@ -135,7 +135,7 @@ They also maintain a [Python package](https://github.com/drivendataorg/zamba) th
 
 > <https://boquila.org/hub>
 
-Client-side tool that runs a variety of models (MD, custom animal detectors).  Code is [here](https://github.com/boquila/boquilahub).
+Client-side tool that runs a variety of models (MD, SpeciesNet, custom animal detectors).  Code is [here](https://github.com/boquila/boquilahub).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/boquila-hub.jpg" width="400">
 
@@ -3697,6 +3697,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2025
+
+* Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. In2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
 
 * Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.
 
