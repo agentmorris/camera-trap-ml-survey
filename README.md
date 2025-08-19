@@ -3698,6 +3698,14 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Yamashita TJ, Wester DB, Wardle ZM, Scognamillo DG, Schofield LR, Tewes ME, Young Jr JH, Lombardi JV. Influence of traffic volume on mammal beta diversity within the road effect zone. Biological Conservation. 2025 Nov 1;311:111428.
+
+* Gruner P, Beukes M, Suessle V, Biber M, Jansen M, Hergenröther E, Weinmann A. Fine-Grained Visual Classification of Antelope Species. InIberian Conference on Pattern Recognition and Image Analysis 2025 Jul 1 (pp. 325-339). Cham: Springer Nature Switzerland.
+
+* Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
+
+* Brenner LJ, Rindlaub N, Matos J, Meyler S, Pollock S, Schuetzenmeister F, Holmes ND. Real-time island biosecurity surveillance: evaluating a wireless camera network for AI-assisted early detection of invasive mammals on Santa Cruz Island, CA. Western North American Naturalist. 2025 May;85(2):365-75.
+
 * Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. In2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
 
 * Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.
