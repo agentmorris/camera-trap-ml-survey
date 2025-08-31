@@ -3698,6 +3698,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Sharpe C. Innovations in camera trapping: Streamlining image classification and adapting camera traps for small mammal monitoring.  Doctoral dissertation, Durham University. 2025.
+
+* Barnas AF, Fisher JT. Will using artificial intelligence to review camera trap images reduce human connection to wildlife research?. Wildlife Society Bulletin. 2025 Jun;49(2):e1588.
+
+* Mononen T, Hardwick B, Alcobia S, Barrett A, Blagoev GA, Boyer S, Gonçalves P, Gottsberger B, Groner E, Ho CC, Houska Tahadlova M. An active ensemble classifier for detecting animal sequences from global camera trap data. Methods in Ecology and Evolution.
+
 * Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. In2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
 
 * Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.
