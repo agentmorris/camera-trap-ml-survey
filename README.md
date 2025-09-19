@@ -3698,6 +3698,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2025.
+
 * Sharpe C. Innovations in camera trapping: Streamlining image classification and adapting camera traps for small mammal monitoring.  Doctoral dissertation, Durham University. 2025.
 
 * Barnas AF, Fisher JT. Will using artificial intelligence to review camera trap images reduce human connection to wildlife research?. Wildlife Society Bulletin. 2025 Jun;49(2):e1588.
@@ -3751,6 +3753,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
 #### Papers I don't have access to but would read if I did
+
+* Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In2025 IST-Africa Conference (IST-Africa) 2025 May 28 (pp. 1-8). IEEE.
+
+* Muhammad S, Xiang W, Mann S, Han K, Nair S, Nair J. MoVE: multi-expert vision encoder fusion for zero-shot species classification in camera trap images. InEighth International Conference on Machine Vision and Applications (ICMVA 2025) 2025 Aug 1 (Vol. 13734, pp. 75-84). SPIE.
 
 * Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In 2025 IST-Africa Conference (IST-Africa) 2025 May 28.
 
