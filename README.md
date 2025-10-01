@@ -504,7 +504,6 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * TeraiNet (species classifier for Nepal) ([github.com/alexvmt/TeraiNet](https://github.com/alexvmt/TeraiNet))
 * SpeciesNet-Rust (Rust port of SpeciesNet) ([github.com/zubalis/speciesnet-rust](https://github.com/zubalis/speciesnet-rust))
 * Alita (species classifier for NZ wildlife) ([github.com/Wologman/Alita](https://github.com/Wologman/Alita))
-* WildSight AI (autonomous pan/tilt camera that tracks wildlife) ([github.com/s59mz/wild-sight-ai](https://github.com/s59mz/wild-sight-ai))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
@@ -529,6 +528,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * AI for Wildlife Monitoring (real-time alerts using 4G camera traps) ([github.com/ratsakatika/camera-traps])(https://github.com/ratsakatika/camera-traps/)
 * Identifying snow depth in camera trap images ([github.com/catherine-m-breen/snowpoles](https://github.com/catherine-m-breen/snowpoles))
 * CATALOG: A Camera Trap Language-guided Contrastive Learning Model ([github.com/Julian075/CATALOG](https://github.com/Julian075/CATALOG))
+* WildSight AI (autonomous pan/tilt camera that tracks wildlife) ([github.com/s59mz/wild-sight-ai](https://github.com/s59mz/wild-sight-ai))
 
 ### Last updated < 2021
 
