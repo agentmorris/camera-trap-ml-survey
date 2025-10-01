@@ -11,7 +11,7 @@ Maintained by [Dan Morris](http://dmorris.net).  Disclosure of what I work on: I
 [Camera trap systems using ML](#camera-trap-systems-using-ml)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Systems in active development](#systems-that-appear-to-be-in-active-development)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Systems that appear to be less active](#systems-that-appear-to-be-less-active)  
-&nbsp;&nbsp;&nbsp;&nbsp;[Systems that appear not to exist any more](#systems-that-appear-not-to-exist-any-more)
+&nbsp;&nbsp;&nbsp;&nbsp;[Systems that appear not to exist any more](#systems-that-appear-not-to-exist-any-more)  
 [OSS repos about ML for camera traps](#oss-repos-about-ml-for-camera-traps)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Active repos](#last-updated--2021)  
 &nbsp;&nbsp;&nbsp;&nbsp;[Less active repos](#last-updated--2021-1)  
