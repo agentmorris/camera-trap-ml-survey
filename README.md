@@ -871,6 +871,15 @@ Evaluate MDv5 on a snake dataset from Florida, where MD doesn't typically do ver
 Overall this paper is optimistic about the role of AI-accelerated review, even for cases as difficult as this (this is close to a worse-case scenario for MDv5: relatively rare images of relatively small things that were not in represented well in training).
 
 
+<br/>**McCormack L, Hamilton G. Evaluating a popular open-source detection model for processing complex camera trap imagery. Available at SSRN 5510369.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate MDv5a on 6500 camera trap images from Queensland and Tasmania.  Used confidence thresholds of 0.5 (!!!) and 0.9 (!!!!!), yielding 95-99% precision but recall values of 0.68 and 0.3, respectively.  The discussion highlights poor recall on small animals in particular.
+
+Breaking the fourth wall a little: the low recall is expected here, since those are *very* high confidence thresholds, higher than would ever be recommended for a production workload.  In fact those are  2.5x and 4.5x the recommended threshold, respectively.  It's possible those were taken from previous MDv4 workloads, otherwise I don't know of any sources of guidance that would have led to those thresholds.  I hope the data is made available or P/R curves are published; it would be interesting to see what performance looks like closer to typical confidence threshold ranges.
+
+
 <br/>**Mirka B, Lippitt CD, Harris GM, Converse R, Gurule M, Sesnie SE, Bulter MJ, Stewart DR, Rossman Z. A photogrammetric approach to the estimation of distance to animals in camera trap images. Ecological Informatics. 2025 Mar 26:103120.**
 
 Present and evaluate a pipeline for wildlife depth estimation with a single camera and a calibration step.
@@ -3698,7 +3707,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* McCormack L, Hamilton G. Evaluating a popular open-source detection model for processing complex camera trap imagery. Available at SSRN 5510369.
+* Shameer M, Mubeena V. Comparative Analysis Of Various Opencv Methods For Automatic Species Detection Using Camera Trap Images. International Journal of Environmental Sciences. 2025 Jun 10;11(9s):1121-7.
 
 * Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.
 
