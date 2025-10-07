@@ -565,7 +565,7 @@ When possible, the first link for each line item should get you pretty close to 
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
-* [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)
+* [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita))
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 * [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
 
