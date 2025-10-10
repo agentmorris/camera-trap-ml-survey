@@ -504,6 +504,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * TeraiNet (species classifier for Nepal) ([github.com/alexvmt/TeraiNet](https://github.com/alexvmt/TeraiNet))
 * SpeciesNet-Rust (Rust port of SpeciesNet) ([github.com/zubalis/speciesnet-rust](https://github.com/zubalis/speciesnet-rust))
 * Alita (species classifier for NZ wildlife) ([github.com/Wologman/Alita](https://github.com/Wologman/Alita))
+* Irvine Ranch Conservancy Animal Detection (classifier for California wildlife) ([github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect](https://github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect/))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
