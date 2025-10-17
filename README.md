@@ -3708,6 +3708,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Fleuré V, Planolles K, Claverie T, Mulot B, Villéger S. Impact of deep learning and post-processing algorithms performances on biodiversity metrics assessed on videos. PLoS One. 2025 Aug 11;20(8):e0327577.
+
+* Henrich M, Fiderer C, Klamm A, Schneider A, Ballmann A, Stein J, Kratzer R, Reiner R, Greiner S, Twietmeyer S, Rönitz T. Camera traps and deep learning enable efficient large‐scale density estimation of wildlife in temperate forest ecosystems. Remote Sensing in Ecology and Conservation. 2025.
+
 * Shameer M, Mubeena V. Comparative Analysis Of Various Opencv Methods For Automatic Species Detection Using Camera Trap Images. International Journal of Environmental Sciences. 2025 Jun 10;11(9s):1121-7.
 
 * Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.
