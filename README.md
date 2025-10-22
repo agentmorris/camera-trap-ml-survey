@@ -101,7 +101,7 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 > <https://www.deepfaune.cnrs.fr/en/>
 
-[Open-source](https://plmlab.math.cnrs.fr/deepfaune/software) thick-client tool with a custom detector (based on YOLOv8 as of 2023.12.05) (which can be swapped out for MD or run alongside MD) and a custom species classifier focused on European animals.
+[Open-source](https://plmlab.math.cnrs.fr/deepfaune/software) thick-client tool with a custom multiclass detector (based on YOLOv8s) for European animals, operating in tandem with MDv1000-sorrel and/or MDv1000-redwood.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
 
