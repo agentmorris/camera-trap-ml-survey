@@ -3708,6 +3708,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Preiss-Bloom S, Shamon H, Amir Z, Ben-Ami D, Dayan T. Human disturbance thresholds determine the ecological role of an apex predator. Scientific Reports volume 15, October 2025.
+
 * Fleuré V, Planolles K, Claverie T, Mulot B, Villéger S. Impact of deep learning and post-processing algorithms performances on biodiversity metrics assessed on videos. PLoS One. 2025 Aug 11;20(8):e0327577.
 
 * Henrich M, Fiderer C, Klamm A, Schneider A, Ballmann A, Stein J, Kratzer R, Reiner R, Greiner S, Twietmeyer S, Rönitz T. Camera traps and deep learning enable efficient large‐scale density estimation of wildlife in temperate forest ecosystems. Remote Sensing in Ecology and Conservation. 2025.
