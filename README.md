@@ -3708,6 +3708,24 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Allabadi G, Lucic A, Wang YX, Adve V. Learning to detect novel species with SAM in the wild. International Journal of Computer Vision. 2025 May;133(5):2247-58.
+
+* Santoro S, Gutiérrez0Zapata S, Calzada J, Selva N, Marín‐Santos D, Beery S, Brandis K, Fernández de Viana I, Meek P, Mortelliti A, Revilla E. Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data. Methods in Ecology and Evolution. 2025.
+
+* Hoefer S, Allen-Ankins S, McKnight DT, Nordberg EJ, Schwarzkopf L. Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals. Methods in Ecology and Evolution. 2025.
+
+* Miller S, Kirkland M, Hart KM, McCleery RA. Mammalian scent lures fail to increase detections of invasive Burmese pythons (Python bivittatus). Management of Biological Invasions. 2025;16.
+
+* Huo J, Muthivhi M, van Zyl TL, Gustafsson F. Nearest-Class Mean and Logits Agreement for Wildlife Open-Set Recognition. arXiv preprint arXiv:2510.17338. 2025 Oct 20.
+
+* Jeon S, Mai Z, Tian H, Bakshi V, Wang L, Hou J, Zhang P, Chowdhury A, Chao WL. Continually Adapt or Not (CAN)? A Continual Learning Benchmark of Camera Trap Species Classification over Time. InNeurIPS 2025 Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI.
+
+* Amin N, Oyshi NT, Zidan TA, Noor M, Shafin MA. Automated species identification in camera trap images for wildlife conservation. Doctoral dissertation, Brac University, 2025.
+
+* Leonor AM. A Deep-learning Based System for Assisting in the Annotation of Time-lapse Photography Datasets in Animal Ecology.
+
+* Kim Y, Kim CH, Yun CS, Joo GJ. Advancing Wildlife Image Analysis: A Graph Attention Contrastive Learning Approach for Region-Specific Mammal Classification. bioRxiv. 2025:2025-09.
+
 * Preiss-Bloom S, Shamon H, Amir Z, Ben-Ami D, Dayan T. Human disturbance thresholds determine the ecological role of an apex predator. Scientific Reports volume 15, October 2025.
 
 * Fleuré V, Planolles K, Claverie T, Mulot B, Villéger S. Impact of deep learning and post-processing algorithms performances on biodiversity metrics assessed on videos. PLoS One. 2025 Aug 11;20(8):e0327577.
