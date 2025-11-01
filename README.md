@@ -1119,7 +1119,7 @@ Zooniverse project is [here](https://www.zooniverse.org/projects/peter-dot-stewa
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/stewart-cacti-2025.jpg" width="500">
 
 
-<br/>**Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. arXiv, July 2025.** 
+<br/>**Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. arXiv, July 2025.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Video](https://img.shields.io/badge/-Video-orange)
@@ -1262,7 +1262,7 @@ Ran DeepFaune 1.1 via TRAPPER.  Also used the [Distance Estimation Workbench](ht
 "Overall, the seasonal manual and automated population density estimates with CTDS for eight different species in 10 study areas did not differ significantly, with two exceptions: red deer in autumn and wild boar in summer in Hainich National Park."
 
 
-<br>** Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.**
+<br>**Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
