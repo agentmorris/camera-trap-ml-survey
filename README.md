@@ -898,6 +898,7 @@ Data (including images and code) is [here](https://datadryad.org/share/Ud_-_rbaT
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Video](https://img.shields.io/badge/-Video-orange)
 
 Used camera traps to study two caves in the Republic of Congo known to be rich bat habitats.  Used MegaDetector + Timelapse for image review; indicated that "MegaDetector falsely detected the presence of animals and humans in only 2.3% of all photos".  Reviewed all non-blanks manually for species identification and human behavior categorization.  Used video for behavioral tagging of both humans and animals.  Main findings include "greater species diversity and richness outside caves compared to inside", "during wet seasons, bats tend to be more numerous", frequent detection of rodents, and extensive use of the one of the caves by humans, for prayer activity and bat/guano harvesting.
 
@@ -907,6 +908,7 @@ They did not do a systematic recall analysis; and they highlight that "data proc
 <br/>**Pestell AJ, Rendall AR, Sinclair RD, Ritchie EG, Nguyen DT, Corva DM, Eichholtzer AC, Kouzani AZ, Driscoll DA. Smart camera traps and computer vision improve detections of small fauna. Ecosphere. 2025 Mar;16(3):e70220.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Video](https://img.shields.io/badge/-Video-orange)
 
 Compare AI performance of a smart camera ("DeakinCams") to traditional cameras with MegaDetector, on 86k and 51k videos, respectively.  Found that overall MD had higher accuracy (99% precision @ 98% recall compared to 98% precision @ 47% recall), but that only the DeakinCams system detected ectotherms/invertebrates.
 
@@ -946,6 +948,7 @@ Without copy and paste augmentation, replicated previous results showing substan
 <br/>**Villalva P, Jordano P. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. bioRxiv. 2025 Jan 1.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Video](https://img.shields.io/badge/-Video-orange)
 
 Introduce a computer-vision-based workflow for assessing species-species interactions, including animal-animal and animal-plant interactions (specifically fruit consumption).  
 
@@ -1119,6 +1122,7 @@ Zooniverse project is [here](https://www.zooniverse.org/projects/peter-dot-stewa
 <br/>**Boscoe B, Johnson S, Osborn A, Campbell C, Mager K. GreenCrossingAI: A Camera Trap/Computer Vision Pipeline for Environmental Science Research Groups. arXiv, July 2025.** 
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Video](https://img.shields.io/badge/-Video-orange)
 
 Describe the GreenCrossingAI project, a workflow for AI-accelerated camera trap data review designed to meet the needs of their partner ecologists.  They run MD on a local GPU (1x4090) in Windows, and image review is done in Timelapse.  Their total volume is 6.7TB, including ~1M photos and videos from 20-35 camera traps, only 40k of which contain animals.  
 
@@ -1144,6 +1148,233 @@ Based on the sample images they show, I think MDv5 would do a lot better, but wo
 Evaluate the response of elk and black-tailed deer after a megafire in Oregon, using 56 camera traps.  Find that "black-tailed deer displayed a clear preference for unburned and lowseverity areas, particularly in the fall, likely due to sustained forage availability and cover. Conversely, Roosevelt elk favored moderately burned areas exhibiting heterogeneous landscapes that balanced forage availability with sufficient structural complexity for cover".
 
 Collected 3-image bursts and 5-minute timelapse images.  Used MDv5 to eliminate blanks, with a threshold of 0.75 (that's very very high!).  Acknowledgements suggest that the total data set was ~10M images.
+
+
+<br/>**Santoro S, Gutiérrez-Zapata S, Calzada J, Selva N, Marín-Santos D, Beery S, Brandis K, Fernández de Viana I, Meek P, Mortelliti A, Revilla E. Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data. Methods in Ecology and Evolution. 2025.**
+
+Collected camera trap data from Spain, had ~1.1M labeled into 18 categories (mostly species) on Zooniverse.  Trained EfficientNet-B5 on ~400k training images @ 640px (whole images), compared to DeepFaune 1.2 (YOLOv8s multi-class detector).
+
+Compared volunteers and AI on classification accuracy: found that volunteers had higher precision, but AI models showed higher recall at night.
+
+Also compared occupancy analyses using volunteer labels and both classifiers.  There wasn't a consistent theme here across taxa, volunteers and AI each over- or under-estimated occupancy for some taxa.  Found that precision was the strongest driver of model accuracy.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/santoro-2025-mee370132-fig-0004-m.jpg" width="350">
+
+
+<br/>**Hoefer S, Allen-Ankins S, McKnight DT, Nordberg EJ, Schwarzkopf L. Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer-based monitoring for terrestrial mammals. Methods in Ecology and Evolution. 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare PAM with observer-based monitoring and camera traps for mammalian biodiversity monitoring.  Found that "for detecting species in the entire mammal community, observer-based monitoring performed the best, followed by camera trapping and then passive acoustic monitoring. However, when focusing on vocal mammals only, all methods showed comparable performance".
+
+Deployed ARUs at six sites in Australia.  Conducted observer-based surveys at the same sites (specifically, for plots at each site near the ARU); observer-based methods included a variety of physical traps, plus nocturnal spotlighting and incidental manual observation.  Camera traps were placed on each plot at each site.  
+
+PAM data was processed via a custom classified trained on BirdNET feature embeddings.  Images were processed with MegaDetector and Timelapse; version is unspecified, but it indicates that the Timelapse default confidence was 0.8, suggestion MDv4.  They used a MD confidence value of 0.5 (which would be a safe threshold for MDv4).
+
+"We identified a total of 45 species of mammals, of which 17 were classified as ‘vocal mammals’. For all mammals combined, OBM recorded the highest species richness (45/45 species), followed by camera traps (25/45 species), PAM using all available audio (17/45 species) and PAM using audio matching the survey period only (13/45 species). Overall, OBM detected 11 unique species not detected by any other method. The highest number of vocal mammals were detected by PAM using all audio (17/17 species) and OBM (17/17 species), followed by PAM using audio recorded only during the survey period (13/17 species), and camera traps (11/17 species)."
+
+They also evaluated the time cost of each method; OBM was gobs more time-consuming than PAM or camera trapping: " the time investment per survey day for PAM and camera traps amounted to less than 0.1% and 4.6% of OBM's time, respectively, with PAM taking 1.8% of the time required by camera traps. With 4032h of OBM (45 species detected), 299h of PAM (17 species), and 181h of camera trapping (25 species), detection of each individual species took 90h for OBM, 18h for PAM and 7h for camera trapping."
+
+
+<br/>**Miller S, Kirkland M, Hart KM, McCleery RA. Mammalian scent lures fail to increase detections of invasive Burmese pythons (Python bivittatus). Management of Biological Invasions. 2025;16.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+It's known that live animal lures can increase python detection; this study asked whether scent lures (specifically rabbit scent) could have the same impact.  They found that scent lures did not attract more pythons than control stations, although it did increase native snake detection, likely by increasing rodent density around the lures.  Set up 21 paired plots (control/scent), with camera traps at each site.  Captured timelapse images @ 1min intervals. Used MDv5 with a threshold of 0.05.  Collected a total of ~4.8M images, with only 1546 containing snakes, representing 11 python detections and 662 non-python snake detections.
+
+
+<br/>**Huo J, Muthivhi M, van Zyl TL, Gustafsson F. Nearest-Class Mean and Logits Agreement for Wildlife Open-Set Recognition. arXiv preprint arXiv:2510.17338. 2025 Oct 20.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Propose a method for identifying novel taxa in camera trap images by comparing feature space with logit space: "this study aims to develop an uncertainty measure for a model’s predictions by
+evaluating the agreement between two prediction heads".  They use BioCLIP 2 as their embedding space.  Evaluate on images from both LILA (dataset unspecified) and [TreeOfLife-10M](https://huggingface.co/datasets/imageomics/TreeOfLife-10M).  Used MD for cropping the LILA images, with a threshold of 0.5.  They use a unique approach for train/test splitting, based on visual clustering (with DINOv2) rather than locations.  For the open-world experiments, they select visually similar species.
+
+
+<br/>**Jeon S, Mai Z, Tian H, Bakshi V, Wang L, Hou J, Zhang P, Chowdhury A, Chao WL. Continually Adapt or Not (CAN)? A Continual Learning Benchmark of Camera Trap Species Classification over Time. NeurIPS 2025 Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+Simulate online model adaptation using 546 cameras from 17 LILA datasets.  Compare zero-shot BioCLIP 2, an oracle trained on all data, and an accumulated model trained sequentially.  Found that:
+
+* "BioCLIP 2 already generalizes well—over 30% of cameras exceed 90% accuracy" but "another 30% remain below 80%".
+* "Despite full-data training, the oracle occasionally falls below zero-shot accuracy due to severe class imbalance and limited samples"
+
+No strong conclusions about adaptation, the theme isn't really "this is the best way to do online adaptation", rather something more like "adaptation is copmlicated".
+
+
+<br>**Kim Y, Kim CH, Yun CS, Joo GJ. Advancing Wildlife Image Analysis: A Graph Attention Contrastive Learning Approach for Region-Specific Mammal Classification. bioRxiv. 2025:2025-09.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+
+Used 60k images from Korea across four classes (boar, goral, deer, and other) (15k images per class).  Used MD (v5 implied, because they mention YOLOv5) for cropping.  Create a separate validation set that's the same size (15k images for each of the four classes), plus 15k non-animal images.
+
+Propose a novel "graph attention contrastive learning" architecture for classification, that uses three encoders: a graph attention encoder, a ViT, and BERT (for text descriptions).
+
+Compare performance on the validation set to Wildlife Insights, it looks like without any class remapping, so not surprisingly for some species (particularly goral) lots of images are "misclassified as other" by WI.  Overall, results are similar for boar and non-animal images; WI has a higher misclassification rate for deer and goral.  Because no mapping is applied (other than, presumably, geofencing), any misclassification or non-species-level prediction is considered an error.
+
+
+<br>**Preiss-Bloom S, Shamon H, Amir Z, Ben-Ami D, Dayan T. Human disturbance thresholds determine the ecological role of an apex predator. Scientific Reports volume 15, October 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We examined whether apex predators still regulate prey and mesopredators in the large mammal community of the Golan Heights" ... "We found that endangered mountain gazelles were most active in protected areas with higher wolf activity and consistently avoided jackals. Species-specific culling increased jackal activity but decreased boar activity in nonprotected areas, outweighing the suppressive effects of wolves. While jackal culling modestly benefited gazelles in protected areas, the positive association between wolves and gazelles was sevenfold stronger. These findings suggest that apex predators may maintain their ecological roles in fragmented landscapes up to a threshold of human disturbance, beyond which top-down regulation weakens and ecosystem function deteriorates."
+
+Used 60 camera traps over a total of ~6k camera nights.  Processed images with MDv4.1 in Camelot.
+
+
+<br/>**Fleuré V, Planolles K, Claverie T, Mulot B, Villéger S. Impact of deep learning and post-processing algorithms performances on biodiversity metrics assessed on videos. PLoS One. 2025 Aug 11;20(8):e0327577.**
+
+![Video](https://img.shields.io/badge/-Video-orange)
+
+This paper isn't really about ML <i>or</i> camera traps, but it's relevant, and I think it's neat, and I think someone should do this analysis for camera traps, so I'm including it.
+
+They look at the relationship between simulated ML accuracy and biodiversity metrics (e.g. species richness, abundance) for marine video surveys.
+
+* "For each video, we simulated an automated processing with a detection algorithm and then a classification algorithm with varying performances."
+* "We first varied the processing rate of video processing with 7 levels from 0.25, 0.5, 1, 2, 5, 10, and 30 frames per second."
+* For the initial (species-agnostic) detector: "The precision score of the algorithm also varied from 0.60 to 0.99 with 5 intermediate levels."
+* For the species classifier: "The algorithm had an accuracy score ranging from 0.60 to 0.99 with 5 intermediate levels."
+
+Found that:
+
+* 1Hz was definitely enough, 0.25/0.5 missed ~0.5 species per community.
+* "Total abundance was overestimated by 160% when video was processed at 1 image per second by detection and classification models with low performance (recall and precision of detection both <0.8 and classification accuracy <0.8). Even with a near perfect detection model (recall and precision both 0.99) and a near perfect classification model (classification accuracy=0.99), abundance was still overestimated by at least 128% due to false positives."
+* "Species diversity, which accounts for the evenness of species abundances, was overestimated by all models although less than species richness."
+* "Selecting a processing rate of 1 image per second optimizes the trade-off of minimizing false positives and subsequent misidentifications while ensuring the detection of rare species. Using a detection model with a high recall then applying a post-processing on outputs of the model classification using a strict confidence threshold eventually allows faithful estimates of key biodiversity metrics."
+
+
+<br>**Henrich M, Fiderer C, Klamm A, Schneider A, Ballmann A, Stein J, Kratzer R, Reiner R, Greiner S, Twietmeyer S, Rönitz T. Camera traps and deep learning enable efficient large-scale density estimation of wildlife in temperate forest ecosystems. Remote Sensing in Ecology and Conservation. 2025.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate DeepFaune on ~900k images from protected areas in Germany.  Find &gt;90% overall accuracy.  Automated estimation of density had variable accuracy across species, overall they express optimism about the potential for automated density estimation, even if it's not quite there yet for all species.
+
+Ran DeepFaune 1.1 via TRAPPER.  Also used the [Distance Estimation Workbench](https://github.com/timmh/distance-estimation) to derive distance estimates for density estimation, using MDv4 with a threshold of 0.75.
+
+"For a deep learning algorithm applied to a diverse out-of-sample dataset that included images of animal species not used to train the model, the overall accuracy of 90% was very good."
+
+"Overall, the seasonal manual and automated population density estimates with CTDS for eight different species in 10 study areas did not differ significantly, with two exceptions: red deer in autumn and wild boar in summer in Hainich National Park."
+
+
+<br>** Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+This is a case study around parameterization of spatial population models: "...we examined the effects of covariate temporal resolution, discretisation scale in discrete-time (DT) models, and interpolation methods in continuous-time (CT) models."  "Overall, our results suggest that when detectability is of ecological interest, exploring a range of temporal treatments of detection covariates, from fine-scale to coarser resolutions, can reveal complementary insights into scale-dependent patterns in detection".
+
+They conduct their analysis over ~800k images.  They run MDv5 locally to eliminate ~350k, then use OCAPI to review the rest, which includes MDv5 and FaunIA (which I think is an OCAPI-specific crop classifier, although the citation they use only talks about DeepFaune).
+
+
+<br/>**Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2025.**
+
+Trained a custom YOLOv7 model to review nest footage, highlight challenges related to object size and recommend getting cameras as close to nests as possible.
+
+To assemble their dataset, they first ran MDv5a via EcoAssist to eliminate blanks, used a confidence threshold of 0.4.  They label boxes (via Label Studio) as female eider, male eider, or larid (gull).  Train YOLOv7 @ 640 (they use the default size, which is the smallest in the YOLOv7 family).
+
+Combine their custom YOLOv7 with [StrongSORT](https://github.com/dyhBUPT/StrongSORT) for continuous tracking.
+
+There is a partially-populated repository [here](https://github.com/lindsayveazey/common-eider-ml-pipeline).  The paper indicates that model weights are available on Dryad, but I couldn't find them.
+
+
+<br/>**Mononen T, Hardwick B, Alcobia S, Barrett A, Blagoev GA, Boyer S, Gonçalves P, Gottsberger B, Groner E, Ho CC, Houska Tahadlova M. An active ensemble classifier for detecting animal sequences from global camera trap data. Methods in Ecology and Evolution.*
+
+Use image-to-image differencing and a custom model for blank/human/animal classification.  Specifically, they trained a human/non-human model and a blank/non-blank model.  Train/val split was by time, not my location.  Train each classifier as an ensemble of ResNet18 instances.  Compared to MDv5a, but did most their primary comparison based on MD results derived from 312x224 thumbnails (?).  Also evaluate MD on full images, found 91% recall @ 85% precision.  There's not a single performance comparison, and I couldn't find an aggregate performance number for their classifiers, but the gestalt is that MD is more accurate despite having not seen camera-specific data, but MD used more training data, runs slower, and requires larger images.
+
+
+<br>**Yamashita TJ, Wester DB, Wardle ZM, Scognamillo DG, Schofield LR, Tewes ME, Young Jr JH, Lombardi JV. Influence of traffic volume on mammal beta diversity within the road effect zone. Biological Conservation. 2025 Nov 1;311:111428.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We aimed to assess how traffic volume and distance to highway influenced mammal beta diversity within the road effect zone. We placed camera traps along a low-traffic and high-traffic highway in Texas, USA."  "We detected fewer species around the high-volume road, which contributed to a significant difference in beta diversity between the low and high-volume roads. Additionally, community composition tended to be more variable around the high-volume road than the low-volume road."
+
+Used MDv5a and Timelapse with a threshold of ~0.55; they indicate that MD was "95–98% accurate at identifying ghosts" (I think that's overall blank/non-blank accuracy).
+
+
+<br/>**Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.**
+
+![Video](https://img.shields.io/badge/-Video-orange)
+
+Develop a novel method for visitor counting at five locations in a national park in Spain; cameras were a mix of IP cameras and traditional camera traps, all collecting video.  Count humans based on traversal events across vertical lines within the frame.  Because they are processing high-frame-rate video, they train a variety of custom YOLOv8/v9/v10 models) rather than using MD.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/moreno-2025-1-s2.0-S2213078025000362-gr4_lrg.jpg" width="350">
+
+
+<br/>**Brenner LJ, Rindlaub N, Matos J, Meyler S, Pollock S, Schuetzenmeister F, Holmes ND. Real-time island biosecurity surveillance: evaluating a wireless camera network for AI-assisted early detection of invasive mammals on Santa Cruz Island, CA. Western North American Naturalist. 2025 May;85(2):365-75.**
+
+Describe the whole wireless camera setup on Santa Cruz Island SI, and compare the wireless camera system with AI-accelerated review to the previous SD-card-with-manual-review system, find "significant improvements in data review frequency and reliability, improving the likelihood of prompt nonnative species detection. Despite higher initial equipment costs, networked cameras were cost-effective over time, outperforming traditional methods in long-term deployments."
+
+Their cameras are BuckeyeCam X80 cameras (which use a local RF network with repeaters), with motion triggering.  Locations were baited.  Images were processed via [Animl](animl.camera), which uses MDv5a and a custom classifier (MIRA) trained on SCI data to recognize rodent/fox/skunk/bird/lizard.  Images labeled as rodent were reviewed within 24 hours by biologists.
+
+Interesting tidbits from their findings:
+
+* "Networked cameras captured images of all terrestrial mammals native to SCI, as well as images of domestic dogs brought to the island by visitors."
+* "On average, networked cameras captured fewer images per day than SD-card cameras (12.2 vs. 34.6 photos per camera per day). This may be due to differences in baiting regimes attracting fewer animals, different trigger sensitivities across camera models, or a lower rate of false triggers in networked cameras."
+* "Real-time data allowed managers to immediately notice excessive photos triggered by overgrown vegetation, wind, or shadows and either remotely adjust settings or visit the camera...".
+* "Thus, for long-term (>20-month) deployments, we found that networked, wireless cameras were more costeffective than SD-card cameras, despite higher initial cost"
+* "Although we did not attempt a cost-benefit analysis of integrating AI classification into our image review workflow, the addition of an island-specific classifier allowed us to prioritize review of images of rodents, likely reducing time to detection in the event of a rat incursion."
+* "Our evaluation of classifier recall indicated that Megadetector and MIRA correctly identified rodents in 93% of sequences that contained at least 1 image of a rodent"
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brenner-sci-2025.jpg" width="700">
+
+
+<br/>**Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Video](https://img.shields.io/badge/-Video-orange)
+
+Describe "The Doñana Frugivory Camtrap Dataset", which captures video interactions between animals and vegetation.  Used a combination of MDv4, MDv5, and DeepkMeerkat for analysis, then reviewed images in Timelapse.  Data release includes interaction records, but not (AFAICT) the videos themselves.  Provide analysis of the interaction network, but the main contribution is framed as the dataset, not the ecological analysis.
+
+Analysis code is available [here](https://github.com/PJordano-Lab/frugivory-camtrap).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/villalva-plants-2025.jpg" width="700">
+
+
+<br/>**Rudebjer D, Tångring T. Smartphone-Based Camera Traps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps.  MS tehsis, Linkoping University, 2025.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Develop a smartphone-based connected camera trap that runs MD on deice, and compare this to a commercial connected camera ([Qulinda](https://www.euroquity.com/en/company/qulinda-ab)).  Use time-triggered capture and a fine-tuned MDv6-yolov10-c, converted to TF Lite to run on the Android phone.  Analysis showed that the fine-tuned version was basically worse across the board than the base MD model, so they dropped the fine-tune model for practical tests.  Found that the MD-based system outperformed the Qulinda system.
+
+
+<br/>**Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
+
+Propose several innovations for individual ID from camera traps.  Highlights:
+
+* Leverage the fact that a single sequence contains multiple views of the same individual, but only use boxes that partially overlap in subsequent frames (to avoid problems with multiple animals)
+* Compare a long list of encoders intended to learn similarity
+* Use terrestrial wildlife data from [Wildlife Datasets](https://github.com/WildlifeDatasets/wildlife-datasets), pre-train on a private dataset from South Africa
+* Crop all animals (for training and inference) for MD (version unspecified, v5 implied by threshold) at a threshold of 0.5
+
+The main contribution is not a particular encoder or similarity metric, rather the approach to identifying training pairs from camera trap sequences.
+
+[This repo](https://github.com/pxpana/SSLWildlife) is linked from the paper, but the repo is empty as of 2025.11.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/muthivi-2025.jpg" width="700">
+
+
+<br/>**Stubbs J, Balasubramaniam S, Khuvis S, Withana S, Vallabhajosyula MS, Cardone R, Garcia C, Freeman N, Guzman C, Plale B, Ramnath R. ML Field Planner: Analyzing and Optimizing ML Pipelines For Field Research. In Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-9).**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the "ML Field Planner", a set of connected tools/infrastructure designed to facilitate ML-accelerated field ecology deployments.  Use [Tapis](https://github.com/tapis-project/) for orchestration.  As a case study, they use this system to evaluate MDv5 and MDv6-yolov9c on small animals in Ohio.  Find that when pinned to 100% precision, MDv5 outperforms MDv6 in accuracy (89% vs 82%) and recall (89% vs 41%).  Fine-tuning MDv6 closes about half the gap.
+
+
+<br/>**Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaillé-Jammes S. Zero-shot animal behaviour classification with vision-language foundation models. Methods in Ecology and Evolution. 2025 May 20**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Evaluate on "CREA Mont-Blanc" (a private camera trap dataset) and Snapshot Serengeti.  CMD contains 132k images from France containing 20 species.  Used three behavioral labels for each dataset (eating/moving/resting for CMD, eating/moving/standing for SER).  Evaluate zero-shot behavior classification for CLIP, SigLIP, [WildCLIP](https://github.com/amathislab/wildclip), CogVLM, MobileVLM V2, and PaliGemma.  Prior to behavior analysis, cropped animals with MDv5.  Prompts were, e.g., "Is the animal in the image eating, moving or resting? Answer the question using a single word."  CogVLM had the highest F1 (86%) on CMD, WildCLIP had the highest F1 (89%) on SER.
 
 
 #### <i>Papers from 2024</i>
@@ -1450,7 +1681,7 @@ This paper addresses a number of problems related to edge AI systems for camera 
 * They compare their model to a variety of public models - MDv4, DeepFaune, Willi, and Nourouzzadeh - finding that only DeepFaune exceeds their model in terms of F1.
 
 
-<br/>**Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera‐traps. Methods in Ecology and Evolution. 2024 Dec;15(12):2276-88.**
+<br/>**Zampetti A, Mirante D, Palencia P, Santini L. Towards an automated protocol for wildlife density estimation using camera traps. Methods in Ecology and Evolution. 2024 Dec;15(12):2276-88.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
@@ -2064,6 +2295,13 @@ Main contributions:
 Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and running classifiers on MegaDetector crops.  Available classifiers include EfficientNet B0, V2S, V2M, and V2L.  Everything is packaged and run via Docker.  MEWC plays nicely with Camelot, by writing predictions to EXIF data, specifically by co-opting some metadata fields that are searchable in Camelot, but that no one really uses (photo-iso-setting, photo-exposure-value, and photo-fnumber-setting).  Clever!  Present a case study on \~5000 images from Tasmania.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brook-mewc.png" width="500">
+
+
+<br/>**Zhao W. Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Multi-species Wildlife Animal Action Recognition. CamTrapAI workshop, 2024.**
+
+[Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
+
+Use human video behavior datasets as pretraining for models intended to recognize animal behaviors.  Evaluate on the [Animal Kingdom dataset](https://sutdcv.github.io/Animal-Kingdom/), and start training from the [SlowFast](https://github.com/facebookresearch/SlowFast) network using the [Kinetics K400](https://github.com/cvdfoundation/kinetics-dataset) human behavior dataset.
 
 
 #### <i>Papers from 2023</i>
@@ -2968,6 +3206,8 @@ Not a paper about camera traps per se, rather about using data augmentation to m
 
 <br/>**Corva DM, Semianiw NI, Eichholtzer AC, Adams SD, Mahmud MP, Gaur K, Pestell AJ, Driscoll DA, Kouzani AZ. A Smart Camera Trap for Detection of Endotherms and Ectotherms. Sensors. 2022 May 28;22(11):4094.**
 
+![Video](https://img.shields.io/badge/-Video-orange)
+
 Point out that PIR sensors require a 2.7C difference in temperature (compared to background) to detect an animal, which you don't really get from ecotherms.  They propose an AI-based trigger based on a mixture-of-Guassians approach to F/B segmentation, and also present a hardware implementation that includes solar power, supporting a peak power consumption of 5W.  If I'm reading correctly, capture is time-triggered (frequently), with the MoG approach being run frequently, and used to determine whether to store a video.  Intended for support small ectotherms (their sample images include, e.g., worms).
 
 
@@ -3708,72 +3948,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* Allabadi G, Lucic A, Wang YX, Adve V. Learning to detect novel species with SAM in the wild. International Journal of Computer Vision. 2025 May;133(5):2247-58.
-
-* Santoro S, Gutiérrez0Zapata S, Calzada J, Selva N, Marín‐Santos D, Beery S, Brandis K, Fernández de Viana I, Meek P, Mortelliti A, Revilla E. Essential tools but overlooked bias: Artificial intelligence and citizen science classification affect camera trap data. Methods in Ecology and Evolution. 2025.
-
-* Hoefer S, Allen-Ankins S, McKnight DT, Nordberg EJ, Schwarzkopf L. Sensors versus surveyors: Comparing passive acoustic monitoring, camera trapping and observer‐based monitoring for terrestrial mammals. Methods in Ecology and Evolution. 2025.
-
-* Miller S, Kirkland M, Hart KM, McCleery RA. Mammalian scent lures fail to increase detections of invasive Burmese pythons (Python bivittatus). Management of Biological Invasions. 2025;16.
-
-* Huo J, Muthivhi M, van Zyl TL, Gustafsson F. Nearest-Class Mean and Logits Agreement for Wildlife Open-Set Recognition. arXiv preprint arXiv:2510.17338. 2025 Oct 20.
-
-* Jeon S, Mai Z, Tian H, Bakshi V, Wang L, Hou J, Zhang P, Chowdhury A, Chao WL. Continually Adapt or Not (CAN)? A Continual Learning Benchmark of Camera Trap Species Classification over Time. InNeurIPS 2025 Workshop for Imageomics: Discovering Biological Knowledge from Images Using AI.
-
-* Amin N, Oyshi NT, Zidan TA, Noor M, Shafin MA. Automated species identification in camera trap images for wildlife conservation. Doctoral dissertation, Brac University, 2025.
-
-* Leonor AM. A Deep-learning Based System for Assisting in the Annotation of Time-lapse Photography Datasets in Animal Ecology.
-
-* Kim Y, Kim CH, Yun CS, Joo GJ. Advancing Wildlife Image Analysis: A Graph Attention Contrastive Learning Approach for Region-Specific Mammal Classification. bioRxiv. 2025:2025-09.
-
-* Preiss-Bloom S, Shamon H, Amir Z, Ben-Ami D, Dayan T. Human disturbance thresholds determine the ecological role of an apex predator. Scientific Reports volume 15, October 2025.
-
-* Fleuré V, Planolles K, Claverie T, Mulot B, Villéger S. Impact of deep learning and post-processing algorithms performances on biodiversity metrics assessed on videos. PLoS One. 2025 Aug 11;20(8):e0327577.
-
-* Henrich M, Fiderer C, Klamm A, Schneider A, Ballmann A, Stein J, Kratzer R, Reiner R, Greiner S, Twietmeyer S, Rönitz T. Camera traps and deep learning enable efficient large‐scale density estimation of wildlife in temperate forest ecosystems. Remote Sensing in Ecology and Conservation. 2025.
-
-* Shameer M, Mubeena V. Comparative Analysis Of Various Opencv Methods For Automatic Species Detection Using Camera Trap Images. International Journal of Environmental Sciences. 2025 Jun 10;11(9s):1121-7.
-
-* Pautrel L, Moulherat S, Charrasse B, Debat G, Gendron L, Kellner K, Etienne MP, Gimenez O. When does temporal resolution matter? Including detection covariates in discrete-versus continuous-time occupancy and N-mixture models. bioRxiv. 2025:2025-08.
-
-* Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2025.
-
-* Sharpe C. Innovations in camera trapping: Streamlining image classification and adapting camera traps for small mammal monitoring.  Doctoral dissertation, Durham University. 2025.
-
-* Barnas AF, Fisher JT. Will using artificial intelligence to review camera trap images reduce human connection to wildlife research?. Wildlife Society Bulletin. 2025 Jun;49(2):e1588.
-
-* Mononen T, Hardwick B, Alcobia S, Barrett A, Blagoev GA, Boyer S, Gonçalves P, Gottsberger B, Groner E, Ho CC, Houska Tahadlova M. An active ensemble classifier for detecting animal sequences from global camera trap data. Methods in Ecology and Evolution.
-
-* Yamashita TJ, Wester DB, Wardle ZM, Scognamillo DG, Schofield LR, Tewes ME, Young Jr JH, Lombardi JV. Influence of traffic volume on mammal beta diversity within the road effect zone. Biological Conservation. 2025 Nov 1;311:111428.
-
-* Gruner P, Beukes M, Suessle V, Biber M, Jansen M, Hergenröther E, Weinmann A. Fine-Grained Visual Classification of Antelope Species. InIberian Conference on Pattern Recognition and Image Analysis 2025 Jul 1 (pp. 325-339). Cham: Springer Nature Switzerland.
-
-* Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
-
-* Brenner LJ, Rindlaub N, Matos J, Meyler S, Pollock S, Schuetzenmeister F, Holmes ND. Real-time island biosecurity surveillance: evaluating a wireless camera network for AI-assisted early detection of invasive mammals on Santa Cruz Island, CA. Western North American Naturalist. 2025 May;85(2):365-75.
-
-* Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. In2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
-
-* Villalva P, Arroyo-Correa B, Calvo G, Homet P, Isla J, Mendoza I, Moracho E, Quintero E, Rodríguez-Sánchez F, Jordano P. FRUGIVORY CAMTRAP: A dataset of plant-animal interactions recorded with camera traps. Ecology. 2024 Nov 1;105(11):e4424.
-
-* Rudebjer D, Tångring T. Smartphone-Based CameraTraps: On-Device Wildlife Detection: Comparing Detection Accuracy, Bandwidth Efficiency, and Per-formance Against Traditional Camera Traps, 2025.
-
-* Muthivhi M, van Zyl TL. Wildlife Target Re-Identification Using Self-supervised Learning in Non-Urban Settings. arXiv, July 2025.
-
-* Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):1-4.
-
-* Stubbs J, Balasubramaniam S, Khuvis S, Withana S, Vallabhajosyula MS, Cardone R, Garcia C, Freeman N, Guzman C, Plale B, Ramnath R. ML Field Planner: Analyzing and Optimizing ML Pipelines For Field Research. In Practice and Experience in Advanced Research Computing 2025: The Power of Collaboration 2025 Jul 20 (pp. 1-9).
-
-* Chan AH, Putra P, Schupp H, Köchling J, Straßheim J, Renner B, Schroeder J, Pearse WD, Nakagawa S, Burke T, Griesser M. YOLO-Behaviour: A simple, flexible framework to automatically quantify animal behaviours from videos. Methods in Ecology and Evolution. 2025 Apr;16(4):760-74.
-
-* Dussert G, Miele V, Van Reeth C, Delestrade A, Dray S, Chamaillé-Jammes S. Zero-shot animal behaviour classification with vision-language foundation models. Methods in Ecology and Evolution. 2025 May 20
-
 #### Papers from 2024
  
-* Kissling WD, Evans JC, Zilber R, Breeze TD, Shinneman S, Schneider LC, Chalmers C, Fergus P, Wich S, Geelen LH. Development of a cost-efficient automated wildlife camera network in a European Natura 2000 site. Basic and Applied Ecology. 2024 Sep 1;79:141-52.
-
-* Zhao W. Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Multi-species Wildlife Animal Action Recognition. CamTrapAI workshop, 2024.
-
 #### Papers from 2023
 
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
@@ -3792,6 +3968,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers I don't have access to but would read if I did
 
+* Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. 2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
+
+* Gruner P, Beukes M, Suessle V, Biber M, Jansen M, Hergenröther E, Weinmann A. Fine-Grained Visual Classification of Antelope Species. Iberian Conference on Pattern Recognition and Image Analysis 2025 Jul 1 (pp. 325-339). Cham: Springer Nature Switzerland.
+
+* Sharpe C. Innovations in camera trapping: Streamlining image classification and adapting camera traps for small mammal monitoring.  Doctoral dissertation, Durham University. 2025.
+
 * Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In2025 IST-Africa Conference (IST-Africa) 2025 May 28 (pp. 1-8). IEEE.
 
 * Muhammad S, Xiang W, Mann S, Han K, Nair S, Nair J. MoVE: multi-expert vision encoder fusion for zero-shot species classification in camera trap images. InEighth International Conference on Machine Vision and Applications (ICMVA 2025) 2025 Aug 1 (Vol. 13734, pp. 75-84). SPIE.
@@ -3807,8 +3989,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Mahmoud M. Montane Carnivore Detection and Occupancy in the High Oregon Cascades.  Master's thesis, Washington State University.  2025.
 
 * Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
-
-* Moreno H, Gómez A, Andújar D. Deep learning-based video analysis for visitor detection and tracking in protected areas. Journal of Outdoor Recreation and Tourism. 2025 Jun 1;50:100890.
 
 * Maierdiyali A, Wang Y, Chen J, Li R, Yang Y, Tao S, Kong Y, Lu Z. The interspecies relationships among the wildlife crossing structures of the Qinghai-Tibet Railway. Journal for Nature Conservation. 2025 May 4:126957.*
 
@@ -3837,6 +4017,22 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication / alternative versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Kissling WD, Evans JC, Zilber R, Breeze TD, Shinneman S, Schneider LC, Chalmers C, Fergus P, Wich S, Geelen LH. Development of a cost-efficient automated wildlife camera network in a European Natura 2000 site. Basic and Applied Ecology. 2024 Sep 1;79:141-52.
+
+* Chan AH, Putra P, Schupp H, Köchling J, Straßheim J, Renner B, Schroeder J, Pearse WD, Nakagawa S, Burke T, Griesser M. YOLO-Behaviour: A simple, flexible framework to automatically quantify animal behaviours from videos. Methods in Ecology and Evolution. 2025 Apr;16(4):760-74.
+
+* Cai Y, Tian K, Ji L, Xiao Y, Pang D, Hou P, Ji Y, Wang L, Li X, Lu J, Zhang W. A novel target-oriented enhanced infrared camera trap data screening method. Scientific Reports. 2025 May 10;15(1):1-4.
+
+* Barnas AF, Fisher JT. Will using artificial intelligence to review camera trap images reduce human connection to wildlife research? Wildlife Society Bulletin. 2025 Jun;49(2):e1588.
+
+* Shameer M, Mubeena V. Comparative Analysis Of Various Opencv Methods For Automatic Species Detection Using Camera Trap Images. International Journal of Environmental Sciences. 2025 Jun 10;11(9s):1121-7.
+
+* Leonor AM. A Deep-learning Based System for Assisting in the Annotation of Time-lapse Photography Datasets in Animal Ecology, 2025.
+
+* Amin N, Oyshi NT, Zidan TA, Noor M, Shafin MA. Automated species identification in camera trap images for wildlife conservation. Doctoral dissertation, Brac University, 2025.
+
+* Allabadi G, Lucic A, Wang YX, Adve V. Learning to detect novel species with SAM in the wild. International Journal of Computer Vision. 2025 May;133(5):2247-58.
 
 * Zhang Q, Ahmed K, Khan MI, Wang H, Qu Y.  YOLO-FCE: A Feature and Clustering Enhanced Object Detection Model for Species Classification. Pattern Recognition, 2025 July.
 
