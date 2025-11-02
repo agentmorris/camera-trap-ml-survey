@@ -3948,6 +3948,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Markoff H, Galaktionovs J. Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering. arXiv preprint arXiv:2510.14596. 2025 Oct 16.
+
+* Markoff H, Galaktionovs J. Hierarchical Re-Classification: Combining Animal Classification Models with Vision Transformers. arXiv preprint arXiv:2510.14594. 2025 Oct 16.
+
 #### Papers from 2024
  
 #### Papers from 2023
