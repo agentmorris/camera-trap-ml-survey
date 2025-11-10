@@ -467,7 +467,7 @@ TF model and maybe front-end, with plans to build a smart camera trap. Not sure 
 
 Stratifying these based on whether they appear to be active, but this isn't updated automatically, so if I've incorrectly filed a project into the "last updated a long time ago" category, please <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">let me know</a>!
 
-### Last updated >= 2021
+### Last updated &gt;= 2021
 
 * Paying attention to other animal detections improves camera trap classification models ([github.com/gdussert/MCA_Classifier](https://github.com/gdussert/MCA_Classifier))
 * A semi-automatic workflow to process camera trap images in R ([github.com/hannaboe/camera_trap_workflow](https://github.com/hannaboe/camera_trap_workflow))
@@ -505,6 +505,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * SpeciesNet-Rust (Rust port of SpeciesNet) ([github.com/zubalis/speciesnet-rust](https://github.com/zubalis/speciesnet-rust))
 * Alita (species classifier for NZ wildlife) ([github.com/Wologman/Alita](https://github.com/Wologman/Alita))
 * Irvine Ranch Conservancy Animal Detection (classifier for California wildlife) ([github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect](https://github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect/))
+* DeepForestVision (classifier for African tropical forests) ([github.com/MNHN-OFVI/DeepForestVision](https://github.com/MNHN-OFVI/DeepForestVision))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
@@ -531,7 +532,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * CATALOG: A Camera Trap Language-guided Contrastive Learning Model ([github.com/Julian075/CATALOG](https://github.com/Julian075/CATALOG))
 * WildSight AI (autonomous pan/tilt camera that tracks wildlife) ([github.com/s59mz/wild-sight-ai](https://github.com/s59mz/wild-sight-ai))
 
-### Last updated < 2021
+### Last updated &lt; 2021
 
 * Autofocus species classifier ([github.com/uptake/autofocus](https://github.com/uptake/autofocus))
 * Torch Traps (student project on training/running classifiers on LILA data) ([github.com/winzurk/torchtraps/](https://github.com/winzurk/torchtraps))
@@ -554,7 +555,7 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
-### Last updated 2025
+### Last updated &gt;= 2025
 
 * [TeraiNet](https://huggingface.co/alexvmt/TeraiNet) (EfficientNetV2M trained on MD crops for 10 classes relevant to the Terai region of Nepal) ([code](https://github.com/alexvmt/TeraiNet)) (2025)
 * [U Tasmania model for Tasmanian vertebrates](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates) (EfficientNetV2S trained on MD crops for 96 classes) (2025)
@@ -569,6 +570,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita))
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 * [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
+* [DeepForestVision](https://github.com/MNHN-OFVI/DeepForestVision) (classifier for African tropical forests) (2025)
 
 ### Last updated 2024
 
@@ -3947,6 +3949,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2025
+
+* Liu Z, Burghardt T. Long-tailed Species Recognition in the NACTI Wildlife Dataset. arXiv preprint arXiv:2510.21657. 2025 Oct 24.
 
 * Markoff H, Galaktionovs J. Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering. arXiv preprint arXiv:2510.14596. 2025 Oct 16.
 
