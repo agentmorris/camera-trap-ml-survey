@@ -3950,6 +3950,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Raza A, Hanif F, Mohammed HA. Analyzing the enhancement of CNN-YOLO and transformer based architectures for real-time animal detection in complex ecological environments. Scientific Reports. 2025 Nov 7;15(1):1-33.
+
 * Liu Z, Burghardt T. Long-tailed Species Recognition in the NACTI Wildlife Dataset. arXiv preprint arXiv:2510.21657. 2025 Oct 24.
 
 * Markoff H, Galaktionovs J. Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering. arXiv preprint arXiv:2510.14596. 2025 Oct 16.
