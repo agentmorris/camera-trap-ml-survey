@@ -3960,6 +3960,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2024
  
+Goward SL. Using remote camera traps to monitor population demographics and community ecology of divii (Dall’s sheep): Part of a community-based monitoring program in the Northern Richardson Mountains, NT.  Doctoral dissertation, University of Victoria, 2024.
+ 
 #### Papers from 2023
 
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
