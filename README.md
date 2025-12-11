@@ -3813,6 +3813,13 @@ Maybe the dawn of the field? I can't find much before 2013. Use SIFT and cLBP fe
 
 This section tracks papers that use data from LILA, but don't have anything to do with camera traps.  This section is basically me overloading the use of this document to track things I want to track.  This section will likely migrate to another document at some point.
 
+<br/>**Carion N, Gustafson L, Hu Y-T, Debnath S, Hu R, et al. SAM 3: Segment Anything with Concepts. White paper, 2025.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+
+[WCS Camera Traps](https://lila.science/datasets/wcscameratraps/) is used as part of the training data for SAM3.
+
+
 <br/>**Wu L, Jinma Y, Wang X, Yang F, Xu F, Cui X, Sun Q. Amur Tiger Individual Identification Based on the Improved InceptionResNetV2. Animals. 2024 Aug 9;14(16):2312.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
@@ -3949,6 +3956,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2025
+
+* Dorne E, Qi J, Bull P, Stephens C, Bessone M, Debetencourt B, Fruth B, Morgan D, Palmer MS, Sanz C, Wendefeuer J. Zamba: Computer vision for wildlife conservation. Python in Science Conference, 2025 2025 Sep 5 (pp. 85-111).
+
+* Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.
 
 * Clarfeld LA, Gieder KD, Fuller A, Miao Z, Sirén AP, Webb SM, Morelli TL, Wilson TL, Kilborn J, Callahan CB, Prout LS. DeepFaune New England: A Species Classification Model for Trail Camera Images in Northeastern North America. Ecology and Evolution. 2025 Nov;15(11):e72174.
 
