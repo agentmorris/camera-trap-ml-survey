@@ -3957,6 +3957,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+* Magaldi H, Cornette R, Tibesigwa JJ, Katumba R, Rugonge H, Amarasekaran B, Anderson N, Cappelle N, Cardoso AW, Cornélis D, Deschner T, Fonteyn D, Garriga RM, van Lunteren P, Rufray X, Vanthomme H, Zwerts JZ, Krief S. DeepForestVision: Automated wildlife identification forcamera traps of African tropical forests. Ecological Solutions and Evidence, 2025.
+
 * Dorne E, Qi J, Bull P, Stephens C, Bessone M, Debetencourt B, Fruth B, Morgan D, Palmer MS, Sanz C, Wendefeuer J. Zamba: Computer vision for wildlife conservation. Python in Science Conference, 2025 2025 Sep 5 (pp. 85-111).
 
 * Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.
