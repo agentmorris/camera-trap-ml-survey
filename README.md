@@ -3957,6 +3957,24 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ### Papers I know exist, and I have access to, and plan to read
 
+#### Papers from 2026
+
+* Liu X, Yang X, Zhou J, Li X, Guo Z, Yang J. Patterns of Avian Frugivory in Beijing's Urban Forest Across Multiple Temporal Scales. Ecology and Evolution. 2025 Dec;15(12):e72699.
+
+* Yousif H, Al-Milaji Z. Image classification and object detection complexity optimization: Exploring deep learning models on camera trap and surveillance clips. Results in Control and Optimization. 2026 Jan 3:100654.
+
+* Sha L, Tian Y, Zhang J. GDP-CT: Grouped data pruning for camera trap. Expert Systems with Applications. 2026 Mar 1;299:130234.
+
+* Yoshida S, Matsuda Y, Tsubouchi K, Suwa H, Yasumoto K. Wildlife Detection using Motion History Information Captured by Camera Trap in the Dark. InCompanion Proceedings of the 27th International Conference on Distributed Computing and Networking 2026 Jan 6 (pp. 22-23).
+
+* Hughes C, Caouette A, Lorentz B, Scherger J, Becker M, Harrison W.  [Lessons Learned for Using Camera Traps to Understand Human Recreation: A Case Study from the Northern Rocky Mountains of Alberta, Canada](https://www.mdpi.com/2073-445X/15/1/120). January 2026.
+
+* Ploquin OA, Basso O, Ndlovu M, Prugnolle F, Caron A, Munzamba M, Porovha E, Nkomo K, Corbel G, Arnathau C, Boissière A. Using social network analysis and non-invasive antibody detection to explore pathogen exposure in wildlife communities. bioRxiv. 2025:2025-12.
+
+* Rastikerdar MM, Huang J, Guan H, Ganesan D. In-Situ Fine-Tuning of Wildlife Models in IoT-Enabled Camera Traps for Efficient Adaptation. arXiv preprint arXiv:2409.07796. 2024 Sep 12.
+
+* Yousif H, Al-Milaji Z. Image classification and object detection complexity optimization: Exploring deep learning models on camera trap and surveillance clips. Results in Control and Optimization, March 2026.
+
 #### Papers from 2025
 
 * Magaldi H, Cornette R, Tibesigwa JJ, Katumba R, Rugonge H, Amarasekaran B, Anderson N, Cappelle N, Cardoso AW, Cornélis D, Deschner T, Fonteyn D, Garriga RM, van Lunteren P, Rufray X, Vanthomme H, Zwerts JZ, Krief S. DeepForestVision: Automated wildlife identification forcamera traps of African tropical forests. Ecological Solutions and Evidence, 2025.
