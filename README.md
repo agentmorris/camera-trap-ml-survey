@@ -557,6 +557,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 ### Last updated &gt;= 2025
 
+* [AddaxAI Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
 * [AHDriFT-ID](https://u.osu.edu/lipps.37/ahdrift-id) (fine-tuned SpeciesNet for 46 categories in downward-facing small animal cameras in Ohio) (2026)
 * [WildObs Wet Tropics](https://huggingface.co/Addax-Data-Science/WetTropics_WildObs/tree/main) (fine-tuned SpeciesNet for 121 Australian taxa) (2026)
 * [TeraiNet](https://huggingface.co/alexvmt/TeraiNet) (EfficientNetV2M trained on MD crops for 10 classes relevant to the Terai region of Nepal) ([code](https://github.com/alexvmt/TeraiNet)) (2025)
@@ -3958,6 +3959,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+* Gaya HE, Jorge MH, Jorge LA, Ruder MG, D’Angelo GJ, Chandler RB, Chamberlain MJ. White-tailed deer population declines in a high-prevalence chronic wasting disease region of Arkansas, USA. PloS one. 2026 Jan 7;21(1):e0340070.
 
 * Liu X, Yang X, Zhou J, Li X, Guo Z, Yang J. Patterns of Avian Frugivory in Beijing's Urban Forest Across Multiple Temporal Scales. Ecology and Evolution. 2025 Dec;15(12):e72699.
 
