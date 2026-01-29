@@ -617,7 +617,9 @@ When possible, the first link for each line item should get you pretty close to 
 
 ## Smart camera traps
 
-### The Sentinel (Conservation X Labs)
+### Smart camera traps I'm pretty sure have active deployments
+
+#### The Sentinel (Conservation X Labs)
 
 > <https://sentinel.conservationxlabs.com/>
 
@@ -629,7 +631,7 @@ Not related to this [other smart camera trap also called "Sentinel"](https://www
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel.png" width="500">
 
-### University of Idaho RCDS camera (no fancy name that I'm aware of)
+#### University of Idaho RCDS camera (no fancy name that I'm aware of)
 
 > <https://www.iids.uidaho.edu/news.php?newsid=126>
 
@@ -637,7 +639,7 @@ AI-enabled camera with detection and classification capabilities.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/uidaho-ai-camera.jpg" width="400">
 
-### TrailGuard AI
+#### TrailGuard AI
 
 > <https://www.nightjar.tech>
 
@@ -645,7 +647,7 @@ AI-enabled camera developed for anti-poaching and HWC applications.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image7.jpg" width="500">
 
-### Thylation Felixer
+#### Thylation Felixer
 
 > <https://thylation.com/>
 
@@ -653,23 +655,7 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
 
-### Behold
-
-> <https://www.behold.cam/>
-
-AI-enabled camera trap designed for backyard wildlife monitoring.  Still conceptual as of 2025.06, so still hard to say what this will be, or whether it will get made.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/behold-mock.jpg" width="500">
-
-### RobotEye Kapan
-
-> <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
-
-AI-enabled camera trap designed for anti-poaching applications.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
-
-### Instant Detect
+#### Instant Detect
 
 > <https://instantdetect.co.uk>
 
@@ -677,7 +663,15 @@ Connected camera that transmits images via LoRa to a base station, which transmi
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-2.0.jpg" width="500">
 
-### Insect Detect
+#### RobotEye Kapan
+
+> <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
+
+AI-enabled camera trap designed for anti-poaching applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
+
+#### Insect Detect
 
 > <https://github.com/maxsitt/insect-detect>
 
@@ -685,7 +679,19 @@ AI-enabled, RPi-based camera trap for insect monitoring.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/insect-detect.png" width="500">
 
-### PoacherCam
+### Smart camera traps that might not be available...
+
+...either because they are no longer being produced, or because they were still conceptual prototypes as of the last time I updated this page.
+
+#### Behold
+
+> <https://www.behold.cam/>
+
+AI-enabled camera trap designed for backyard wildlife monitoring.  Still conceptual as of 2026.01, so still hard to say what this will be, or whether it will get made.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/behold-mock.jpg" width="500">
+
+#### PoacherCam
 
 > <https://www.panthera.org/conservation-technology/poachercam>
 
