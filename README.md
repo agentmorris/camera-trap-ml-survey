@@ -147,11 +147,13 @@ Open-source, client-side Shiny app that includes image review and client-side cl
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaza1.png" width="500">
 
-#### Conservation AI
+#### TrapTracker
 
-> <https://conservationai.co.uk>
+> <https://traptracker.co.uk/>
 
-Includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.  Also supports acoustic classification.
+Includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.
+
+NB: that information is based on the previous incarnation of this platform, as "Conservation AI".  IIUC the broader program/organization is still called "Conservation AI", but the camera trap platform was renamed to "TrapTracker" in 2026.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/conservation-ai-bobcat.jpg" width="500">
 
@@ -956,14 +958,14 @@ Look at copy and paste augmentation for species classifier training.  Work with 
 Without copy and paste augmentation, replicated previous results showing substantial accuracy falloff in new cameras; they report ~30 percentage points lower accuracy and ~40 percentage points lower F1 for trans-tested models.  Found that copy paste augmentation did not significantly improve cis-tested models.  Found that synthetic images (i.e., copy-paste augmentation) improved performance in trans-tested models, and that class-balancing hurt rather than helped performance.
 
 
-<br/>**Villalva P, Jordano P. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. bioRxiv. 2025 Jan 1.**
+<br/>**Villalva P, Jordano P. A Machine Learning Application to Camera‐Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. Ecology and Evolution. 2026 Jan 21;16(1):e72584.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Video](https://img.shields.io/badge/-Video-orange)
 
 Introduce a computer-vision-based workflow for assessing species-species interactions, including animal-animal and animal-plant interactions (specifically fruit consumption).  
 
-They work with camera trap video; they use MD (version not specified) for blank video elimination, and review videos in Timelapse, for both species annotation and behavioral annotation (particularly fruit handling/consumption).  Found that their workflow had an overall accuracy of 0.92 in terms of the presence of behaviors of interest, but they also fine that a large number of videos with behaviors of interest were missed by MD.  However, this analysis is only done for a confidence threshold of 0.8 (which is *very* high for MDv5, and even for MDv4, this is very high for difficult data with obstruction by leaves, so they were heavily favoring precision over recall).  They include a discussion of the impacts of confidence threshold later in the paper, so the decision to favor precision overall is likely a design choice.
+They work with camera trap video; they use MD (version not specified, but the text implies MDv4) for blank video elimination, and review videos in Timelapse, for both species annotation and behavioral annotation (particularly fruit handling/consumption).  Found that their workflow had an overall accuracy of 0.92 in terms of the presence of behaviors of interest, but they also find that a large number of videos with behaviors of interest were missed by MD.  However, this analysis is only done at a confidence threshold of 0.8 (which is *very* high for MDv5, and even for MDv4, this is very high for difficult data with obstruction by leaves, so they were favoring precision over recall).  They include a discussion of the impacts of confidence threshold later in the paper, so the decision to favor precision overall is likely a design choice.
 
 Code is [here](https://github.com/PJordano-Lab/Ecological-interactions-camtrap-protocol).
 
