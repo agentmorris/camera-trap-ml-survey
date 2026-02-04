@@ -1050,7 +1050,7 @@ Tried to use MDv5b, but even with a threshold of 0.05, MD wasn't very good at th
 Breaking the fourth wall: it's great (and rare!) when authors at least mention tools that <i>didn't</i> work!
 
 
-</br>**Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.**
+<br/>**Privett-Mendoza AG, Oganesyan S, Fisher RN, Hitchcock CJ, Clark DR, Zellmer AJ. Terrestrial mammal diversity at Hansen Dam (Los Angeles, California, USA): flood control area acts as habitat in a human-dominated landscape. Check List. 2025 Feb 14;21(1):198-215.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -1060,7 +1060,7 @@ Deployed 36 cameras around the Hansen Dam flood control zone in LA; this dam cre
 Eliminated blanks with MD using a confidence threshold of 0.8 (version unspecified, but given that confidence threshold, hopefully MDv4).  Species classification was done in Excel.
 
 
-</br>**Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.**
+<br/>**Zhu R, Zhao E, Hu C, Xie J, Zhang J, Hu H. Metric learning unveiling disparities: A novel approach to recognize false trigger images in wildlife monitoring. Ecological Informatics. 2025 Mar 5:103091.**
 
 Present methods for blank classification that are suitable for embedded devices.  Use example blank images from each camera to train per-camera models, then re-train a base embedding to facilitate generalization to new cameras.  Worked with 100k images from 30 cameras in China.  Train MobileNetV1 with triplet loss.
 
@@ -3968,6 +3968,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+* Hitchcock K, Tollington S, Yarnell R W, Williams LJ, Hamill K, Fergus P. Optimizing the Accuracy and Efficiency of Camera Trap Image Analysis: Evaluating AI Model Performance and a Semi-Automated Workflow. Remote Sensing, 18(3), 502. https://doi.org/10.3390/rs18030502. 2026.
 
 * Gaya HE, Jorge MH, Jorge LA, Ruder MG, D’Angelo GJ, Chandler RB, Chamberlain MJ. White-tailed deer population declines in a high-prevalence chronic wasting disease region of Arkansas, USA. PloS one. 2026 Jan 7;21(1):e0340070.
 
