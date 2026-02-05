@@ -3989,6 +3989,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Yousif H, Al-Milaji Z. Image classification and object detection complexity optimization: Exploring deep learning models on camera trap and surveillance clips. Results in Control and Optimization, March 2026.
 
+* Markoff M, Bengtson SH, Ørsted M. Vision Transformers for Zero-Shot Clustering of Animal Images: A Comparative Benchmarking Study. arXiv, February 2026.
+
 #### Papers from 2025
 
 * Magaldi H, Cornette R, Tibesigwa JJ, Katumba R, Rugonge H, Amarasekaran B, Anderson N, Cappelle N, Cardoso AW, Cornélis D, Deschner T, Fonteyn D, Garriga RM, van Lunteren P, Rufray X, Vanthomme H, Zwerts JZ, Krief S. DeepForestVision: Automated wildlife identification forcamera traps of African tropical forests. Ecological Solutions and Evidence, 2025.
