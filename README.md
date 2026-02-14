@@ -557,10 +557,12 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
-### Last updated &gt;= 2025
+### Last updated &gte; 2025
 
 * [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
-* [AddaxAI Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
+* [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
+* [Addax Data Science New Zealand Invasives](https://huggingface.co/Addax-Data-Science/NZI-ADS-v1) (YOLOv8-cls model for 17 New Zealand taxa) (2026)
+* [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
 * [AHDriFT-ID](https://u.osu.edu/lipps.37/ahdrift-id) (fine-tuned SpeciesNet for 46 categories in downward-facing small animal cameras in Ohio) (2026)
 * [WildObs Wet Tropics](https://huggingface.co/Addax-Data-Science/WetTropics_WildObs/tree/main) (fine-tuned SpeciesNet for 121 Australian taxa) (2026)
 * [TeraiNet](https://huggingface.co/alexvmt/TeraiNet) (EfficientNetV2M trained on MD crops for 10 classes relevant to the Terai region of Nepal) ([code](https://github.com/alexvmt/TeraiNet)) (2025)
@@ -987,7 +989,7 @@ Model training code is [here](https://github.com/wtglad/deep_sheep).
 Evaluate citizen-scientist accuracy on MammalWeb data, and show that a hybrid human/AI workflow can produce higher accuracy than human classifications alone.  Use Conservation AI for AI analyses.  Found that registered users' accuracy was 94%, but anonymous users (who may be the same users, but working on the mobile platform) had an accuracy of 55%.  AI accuracy was 78%.  Used a variety of heuristics to determine agreement between AI and humans, and found that for sequences with agreement, accuracy was between 95% and 98%, potentially allowing retirement of those sequences without expert review.
 
 
-<br/>**Jolin E. Quantifying Ecological Processes Predicting Barren-Ground Caribou (Ɂetthën; Rangifer tarandus groenlandicus) Occurrence Across a Heterogenous Northern Indigenous Protected and Conserved Area.  MS thesis, 2025.**
+<br/>**Jolin E. Quantifying Ecological Processes Predicting Barren-Ground Caribou (rangifer tarandus groenlandicus) Occurrence Across a Heterogenous Northern Indigenous Protected and Conserved Area.  MS thesis, 2025.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1296,7 +1298,7 @@ Combine their custom YOLOv7 with [StrongSORT](https://github.com/dyhBUPT/StrongS
 There is a partially-populated repository [here](https://github.com/lindsayveazey/common-eider-ml-pipeline).  The paper indicates that model weights are available on Dryad, but I couldn't find them.
 
 
-<br/>**Mononen T, Hardwick B, Alcobia S, Barrett A, Blagoev GA, Boyer S, Gonçalves P, Gottsberger B, Groner E, Ho CC, Houska Tahadlova M. An active ensemble classifier for detecting animal sequences from global camera trap data. Methods in Ecology and Evolution.*
+<br/>**Mononen T, Hardwick B, Alcobia S, Barrett A, Blagoev GA, Boyer S, Gonçalves P, Gottsberger B, Groner E, Ho CC, Houska Tahadlova M. An active ensemble classifier for detecting animal sequences from global camera trap data. Methods in Ecology and Evolution.**
 
 Use image-to-image differencing and a custom model for blank/human/animal classification.  Specifically, they trained a human/non-human model and a blank/non-blank model.  Train/val split was by time, not my location.  Train each classifier as an ensemble of ResNet18 instances.  Compared to MDv5a, but did most their primary comparison based on MD results derived from 312x224 thumbnails (?).  Also evaluate MD on full images, found 91% recall @ 85% precision.  There's not a single performance comparison, and I couldn't find an aggregate performance number for their classifiers, but the gestalt is that MD is more accurate despite having not seen camera-specific data, but MD used more training data, runs slower, and requires larger images.
 
@@ -3968,6 +3970,16 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+* Shapira O, Izhaki I, Zemah-Shamir S, Malkinson D. How Pastoral Are Pastoral Landscapes? Scavenger Assemblage Structure in Human-Dominated Landscapes: A Case Study From Mediterranean Pastures. Ecology and Evolution. 2026 Jan;16(1):e72839.
+
+* Parsons MA, Dellinger JA, Vercauteren KC, Lombardi JV, Young JK. Introduced wild pigs affect the foraging ecology of a native predator as both prey and scavenger. Wildlife Biology. 2026 Jan;2026(1):e01581.
+
+* Raynes T, Brookes O, Haucke T, Bösch L, Crunchant AS, Kühl H, Beery S, Mirmehdi M, Burghardt T. Deep in the Jungle: Towards Automating Chimpanzee Population Estimation. arXiv preprint arXiv:2601.22917. 2026 Jan 30.
+
+* Sharpe CR, Hill RA, Diggins SY, Stephens PA. Camera trapping for small mammals: the case of a non-native shrew. European Journal of Wildlife Research. 2026 Feb;72(1):20.
+
+* Hughes C, Caouette A, Lorentz B, Scherger J, Becker M, Harrison WC. Lessons Learned for Using Camera Traps to Understand Human Recreation: A Case Study from the Northern Rocky Mountains of Alberta, Canada. Land. 2026 Jan 7;15(1):120.
 
 * Hitchcock K, Tollington S, Yarnell R W, Williams LJ, Hamill K, Fergus P. Optimizing the Accuracy and Efficiency of Camera Trap Image Analysis: Evaluating AI Model Performance and a Semi-Automated Workflow. Remote Sensing, 18(3), 502. https://doi.org/10.3390/rs18030502. 2026.
 
