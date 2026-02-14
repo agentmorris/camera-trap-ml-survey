@@ -471,6 +471,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 ### Last updated &gt;= 2021
 
+* AWC Wildlife Classifier ([github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier))
 * Paying attention to other animal detections improves camera trap classification models ([github.com/gdussert/MCA_Classifier](https://github.com/gdussert/MCA_Classifier))
 * A semi-automatic workflow to process camera trap images in R ([github.com/hannaboe/camera_trap_workflow](https://github.com/hannaboe/camera_trap_workflow))
 * Bounding Box Editor and Exporter (BBoxEE) for the Animal Detection Network ([github.com/persts/BBoxEE](https://github.com/persts/BBoxEE))
