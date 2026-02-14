@@ -478,6 +478,8 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Camelot ([gitlab.com/camelot-project/camelot](https://gitlab.com/camelot-project/camelot))
 * CameraTrapDetectoR ([github.com/TabakM/CameraTrapDetectoR](https://github.com/TabakM/CameraTrapDetectoR))
 * DeepFaune software ([plmlab.math.cnrs.fr/deepfaune/software](https://plmlab.math.cnrs.fr/deepfaune/software))
+* Wildlife Age-Sex Classification ([github.com/slds-lmu/wildlife-age-sex](https://github.com/slds-lmu/wildlife-age-sex))
+* Wildlife Detection API (Flask app to serve MD) ([github.com/cloudpresser/wildlifeApp](https://github.com/cloudpresser/wildlifeApp))
 * Image Level Label to Bounding Box Pipeline ([github.com/persts/IL2BB](https://github.com/persts/IL2BB))
 * Trapper species classification ([gitlab.com/oscf/trapper-species-classifier](https://gitlab.com/oscf/trapper-species-classifier))
 * Gimenez et al 2021 (integrating DL results into ecological statistics) ([github.com/oliviergimenez/computo-deeplearning-occupany-lynx](https://github.com/oliviergimenez/computo-deeplearning-occupany-lynx))
