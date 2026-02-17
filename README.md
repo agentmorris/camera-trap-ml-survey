@@ -1009,7 +1009,7 @@ Found that DINOv3 outperformed other embedding spaces, t-SNE outperformed other 
 
 #### <i>Papers from 2025</i>
 
-**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
+<br/>**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1554,6 +1554,55 @@ Evaluate on "CREA Mont-Blanc" (a private camera trap dataset) and Snapshot Seren
 
 
 #### <i>Papers from 2024</i>
+
+<br/>**Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We use camera traps and spatially-explicit-capture-recapture modeling to examine how climatic gradients influence current and future patterns of density, abundance, and density overlap between ...  cold-adapted Canada lynx and warm-adapted bobcats - at a range margin in Washington, United States. Temperature drove density patterns along the range margin, with lynx densities declining and bobcat densities increasing as a function of temperature."
+
+Deployed 72 double-sided camera stations (144 cameras overall) along human-created movement corridors.  Used MD to eliminate non-human images.
+
+
+</br/>**Clarfeld LA, Gieder KD, Fuller A, Miao Z, Sirén AP, Webb SM, Morelli TL, Wilson TL, Kilborn J, Callahan CB, Prout LS. DeepFaune New England: A Species Classification Model for Trail Camera Images in Northeastern North America. Ecology and Evolution. 2025 Nov;15(11):e72174.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+Trained a DINOv2 ViT to recognize 24 categories relevant to the Northeastern US.  Used regional datasets, several LILA datasets (NACTI, ENA24, CCT), and iNat.  Used MDv5a for cropping, trained only on crops with confidence above 0.75.  Kept false positives for a dedicated "no species" class.
+
+Compared to SpeciesNet, found that SpeciesNet did OK, but worse than RFNE (.97 F1 vs. 0.9 F1).
+ 
+Code is [here](https://code.usgs.gov/vtcfwru/deepfaune-new-england).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/clarfeld-dfne-2026.jpg" width="500">
+
+
+<br/>**Magaldi H, Cornette R, Tibesigwa JJ, Katumba R, Rugonge H, Amarasekaran B, Anderson N, Cappelle N, Cardoso AW, Cornélis D, Deschner T, Fonteyn D, Garriga RM, van Lunteren P, Rufray X, Vanthomme H, Zwerts JZ, Krief S. DeepForestVision: Automated wildlife identification for camera traps of African tropical forests. Ecological Solutions and Evidence, 2025.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+
+Train a classifier for 33 categories of African forest taxa, on ~2.8M images and ~222k videos from partners, also data from LILA and WI, spanning 63 locations in 11 countries.  Used MDv5 for cropping (threshold 0.8), used DINOv2 for feature extraction.  Compared to Mbaza, Zamba, and SpeciesNet, found that DeepForestVision outperformed all of them by a significant margin.
+
+Code is [here](https://github.com/MNHN-OFVI/DeepForestVision).
+
+
+<br/>**Dorne E, Qi J, Bull P, Stephens C, Bessone M, Debetencourt B, Fruth B, Morgan D, Palmer MS, Sanz C, Wendefeuer J. Zamba: Computer vision for wildlife conservation. Python in Science Conference, 2025 2025 Sep 5 (pp. 85-111).**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Describe the [Zamba](https://github.com/drivendataorg/zamba) package and [Zamba Cloud](https://www.zambacloud.com/) app.
+
+They describe Zamba's video classification approach, using 250k videos from Africa (half from [Chimp&See](https://www.zooniverse.org/projects/sassydumbledore/chimp-and-see), half from private sources).  Describe an EfficientNetV2 approach that aggregates frame-level predictions, and a video-native [SlowFast](https://github.com/facebookresearch/SlowFast) approach (neither is "better"; they are both available in the Zamba package).  To select frames for both training and inference, they distill MegaDetector into "MegaDetectorLite" (YOLOx-tiny @ 640px), and take the 16 frames per video that MDLite says are most likely to contain animals.
+
+They also describe Zamba's image classification approach, which uses MDv5 (not MDLite) for both training and inference.  Their base classifier is trained on ~7 images from LILA (more or less all the camera trap datasets that were available at the time).  Harmonized datasets into 178 categories.  Compared ConvNeXt, BEiT, EfficientNet, LeViT, and ViT, found that ConvNeXt V2 performed best.
+
 
 **Aguirre I, Hood GA, Westbrook CJ. Short-term dynamics of beaver dam flow states. Science of The Total Environment. 2024 Feb 9:170825.**
 
@@ -2478,6 +2527,17 @@ Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and
 [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
 
 Use human video behavior datasets as pretraining for models intended to recognize animal behaviors.  Evaluate on the [Animal Kingdom dataset](https://sutdcv.github.io/Animal-Kingdom/), and start training from the [SlowFast](https://github.com/facebookresearch/SlowFast) network using the [Kinetics K400](https://github.com/cvdfoundation/kinetics-dataset) human behavior dataset.
+
+
+<br/>**Goward SL. Using remote camera traps to monitor population demographics and community ecology of divii (Dall’s sheep): Part of a community-based monitoring program in the Northern Richardson Mountains, NT.  Doctoral dissertation, University of Victoria, 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+* "...employed novel methods in remote camera trapping as part of a community-based monitoring program to investigate Dall’s sheep population demography and predator-prey dynamics with grizzly bears"
+* "found clear temporal segregation of nursery groups and grizzly bears, and showed that grizzly bears were more closely tracking nursery groups than ram bands, especially early in the spring when lambs are most vulnerable to predation".
+
+Used MD (v4 for earlier images, later v5) for blank elimination, reviewed images in Timelapse.
 
 
 #### <i>Papers from 2023</i>
@@ -4133,16 +4193,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
-* Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.
-
-* Clarfeld LA, Gieder KD, Fuller A, Miao Z, Sirén AP, Webb SM, Morelli TL, Wilson TL, Kilborn J, Callahan CB, Prout LS. DeepFaune New England: A Species Classification Model for Trail Camera Images in Northeastern North America. Ecology and Evolution. 2025 Nov;15(11):e72174.
-
-* Magaldi H, Cornette R, Tibesigwa JJ, Katumba R, Rugonge H, Amarasekaran B, Anderson N, Cappelle N, Cardoso AW, Cornélis D, Deschner T, Fonteyn D, Garriga RM, van Lunteren P, Rufray X, Vanthomme H, Zwerts JZ, Krief S. DeepForestVision: Automated wildlife identification for camera traps of African tropical forests. Ecological Solutions and Evidence, 2025.
-
-* Dorne E, Qi J, Bull P, Stephens C, Bessone M, Debetencourt B, Fruth B, Morgan D, Palmer MS, Sanz C, Wendefeuer J. Zamba: Computer vision for wildlife conservation. Python in Science Conference, 2025 2025 Sep 5 (pp. 85-111).
-
-* Raza A, Hanif F, Mohammed HA. Analyzing the enhancement of CNN-YOLO and transformer based architectures for real-time animal detection in complex ecological environments. Scientific Reports. 2025 Nov 7;15(1):1-33.
-
 * Liu Z, Burghardt T. Long-tailed Species Recognition in the NACTI Wildlife Dataset. arXiv preprint arXiv:2510.21657. 2025 Oct 24.
 
 * Markoff H, Galaktionovs J. Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering. arXiv preprint arXiv:2510.14596. 2025 Oct 16.
@@ -4150,8 +4200,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Markoff H, Galaktionovs J. Hierarchical Re-Classification: Combining Animal Classification Models with Vision Transformers. arXiv preprint arXiv:2510.14594. 2025 Oct 16.
 
 #### Papers from 2024
- 
-* Goward SL. Using remote camera traps to monitor population demographics and community ecology of divii (Dall’s sheep): Part of a community-based monitoring program in the Northern Richardson Mountains, NT.  Doctoral dissertation, University of Victoria, 2024.
  
 #### Papers from 2023
 
@@ -4220,6 +4268,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication / alternative versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Raza A, Hanif F, Mohammed HA. Analyzing the enhancement of CNN-YOLO and transformer based architectures for real-time animal detection in complex ecological environments. Scientific Reports. 2025 Nov 7;15(1):1-33.
 
 * Yoshida S, Matsuda Y, Tsubouchi K, Suwa H, Yasumoto K. Wildlife Detection using Motion History Information Captured by Camera Trap in the Dark. In Companion Proceedings of the 27th International Conference on Distributed Computing and Networking 2026 Jan 6 (pp. 22-23).
 
