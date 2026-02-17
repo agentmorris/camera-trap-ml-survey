@@ -837,11 +837,11 @@ As of 8/22, the last update appears to have been \~2016.
 As promised above, although I don't filter papers for this list based on whether they use stuff I've worked on, I <i>do</i> use this list as a way of tracking how those systems are being used.  So you will see the following tags throughout this section:
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
 ![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
-![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
 ![Video](https://img.shields.io/badge/-Video-orange)
 
 The first tag ("Ecology Paper") is used to indicate that this paper isn't <i>about</i> camera trap AI, it just happens to <i>use</i> AI for camera traps.  With any luck, a few years from now, this kind of paper will be 99% of this list!  NB: there is a gray area around ecology methods papers that are clearly not about AI, but aren't <i>exactly</i> ecology papers (e.g. papers comparing camera traps to other forms of observation); I've included those in this tag.
@@ -851,6 +851,23 @@ The "Individual ID" tag is new as of the time that I'm writing this, in fact it'
 If you have other tags you think I should be tracking here, <a href="mailto:agentmorris+cameratrapsurvey@gmail.com">email me</a>.
 
 ### Papers with summaries
+
+#### <i>Papers from 2026</i>
+
+<br/>**Zampetti A, Santini L, Baltzinger C, Beirne C, Bowler MT, Cedeño-Panchez BA, Ferreiro-Arias I, Forget P-M, Guilbert E, Kemp YJM, Paltrinieri L, Ortiz I, Peres CA, Scabin AB, Benítez-López A. Introducing TropiCam-AI: An automated classifier of Neotropical arboreal mammals and birds from camera-trap images. Methods in Ecology and Evolution. 2025.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train ConvNeXt-Base on 84 taxa of arboreal taxa from South America.  Incorporate taxonomic fallback into their analysis, analogous to SpeciesNet.  Trained on ~85k images and ~26k videos from camera traps, and ~100k  images from iNat (seven categories came only from iNat).  Used MDv5 with a threshold of 0.8 for training (0.2 for inference), classified crops.  Split at the sequence level, rather than the camera level.  Used a rollup classification threshold of 0.75.  Model is available in AddaxAI, code is [here](https://github.com/andrewzamp/TropiCam-AI).
+
+
+<br/>**Shapira O, Izhaki I, Zemah-Shamir S, Malkinson D. How Pastoral Are Pastoral Landscapes? Scavenger Assemblage Structure in Human-Dominated Landscapes: A Case Study From Mediterranean Pastures. Ecology and Evolution. 2026 Jan;16(1):e72839.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+They conduct an "in situ “cafeteria” field experiment" (awesome phrase) in Israel, to assess scavenger activity when domesticated carrion (cattle) and native carrion (boar) are placed in both pastoral and non-pastoral landscapes.  Monitored predator activity with camera traps; found that foxes preferred native species, other predators exhibited no preference.  Deployed 14 camera traps for up to 14 days, capturing one still plus a 30s video.  Used MegaDetector with a 20% confidence threshold on images and videos, reviewed in Timelapse.
+
 
 #### <i>Papers from 2025</i>
 
@@ -3975,10 +3992,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
-
-* Zampetti A, Santini L, Baltzinger C, Beirne C, Bowler MT, Cedeño-Panchez BA, Ferreiro-Arias I, Forget P-M, Guilbert E, Kemp YJM, Paltrinieri L, Ortiz I, Peres CA, Scabin AB, Benítez-López A. Introducing TropiCam-AI: An automated classifier of Neotropical arboreal mammals and birds from camera-trap images. Methods in Ecology and Evolution. 2025.
-
-* Shapira O, Izhaki I, Zemah-Shamir S, Malkinson D. How Pastoral Are Pastoral Landscapes? Scavenger Assemblage Structure in Human-Dominated Landscapes: A Case Study From Mediterranean Pastures. Ecology and Evolution. 2026 Jan;16(1):e72839.
 
 * Parsons MA, Dellinger JA, Vercauteren KC, Lombardi JV, Young JK. Introduced wild pigs affect the foraging ecology of a native predator as both prey and scavenger. Wildlife Biology. 2026 Jan;2026(1):e01581.
 
