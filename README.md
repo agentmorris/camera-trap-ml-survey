@@ -471,6 +471,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 ### Last updated &gt;= 2021
 
+* TropiCam-AI (arboreal taxa classifier) ([github.com/andrewzamp/TropiCam-AI](https://github.com/andrewzamp/TropiCam-AI))
 * AWC Wildlife Classifier ([github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier))
 * Paying attention to other animal detections improves camera trap classification models ([github.com/gdussert/MCA_Classifier](https://github.com/gdussert/MCA_Classifier))
 * A semi-automatic workflow to process camera trap images in R ([github.com/hannaboe/camera_trap_workflow](https://github.com/hannaboe/camera_trap_workflow))
@@ -562,6 +563,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 ### Last updated &ge; 2025
 
+* [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
 * [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
 * [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
 * [Addax Data Science New Zealand Invasives](https://huggingface.co/Addax-Data-Science/NZI-ADS-v1) (YOLOv8-cls model for 17 New Zealand taxa) (2026)
@@ -3973,6 +3975,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+* Zampetti A, Santini L, Baltzinger C, Beirne C, Bowler MT, Cedeño-Panchez BA, Ferreiro-Arias I, Forget P-M, Guilbert E, Kemp YJM, Paltrinieri L, Ortiz I, Peres CA, Scabin AB, Benítez-López A. Introducing TropiCam-AI: An automated classifier of Neotropical arboreal mammals and birds from camera-trap images. Methods in Ecology and Evolution. 2025.
 
 * Shapira O, Izhaki I, Zemah-Shamir S, Malkinson D. How Pastoral Are Pastoral Landscapes? Scavenger Assemblage Structure in Human-Dominated Landscapes: A Case Study From Mediterranean Pastures. Ecology and Evolution. 2026 Jan;16(1):e72839.
 
