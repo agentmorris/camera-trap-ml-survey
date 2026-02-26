@@ -41,31 +41,7 @@ I've broken this category out into "systems that look like they're being activel
 
 ### Systems that appear to be in active development
 
-#### Wildlife Insights
-
-> <https://wildlifeinsights.org>
-
-Wildlife Insights (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ'd at [WildMon](https://wildmon.ai/), with an AI component developed at Google.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wi_screen_shot_2020-12-15_at_3.46.14_pm.png" width="500">
-
-#### TrapTagger
-
-> <https://wildeyeconservation.org/traptagger>
-
-A free, [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes AI (for blank elimination and species classification), integration with HotSpotter for individual identification, and spatiotemporal analysis.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
-
-#### WildTrax
-
-> <https://www.wildtrax.ca>
-
-An online platform for camera trap data management that includes automated blank/non-blank elimination (using MegaDetector), species classification (as of the time I'm writing this, two models are available: (a) MegaClassifier, and (b) a platform-specific cattle/non-cattle model).  Also manages acoustic data, with some AI functionality for acoustic data as well.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
-
-#### AddaxAI (formerly EcoAssist)
+#### AddaxAI
 
 > <https://addaxdatascience.com/addaxai/>
 
@@ -73,89 +49,13 @@ An online platform for camera trap data management that includes automated blank
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai.png" width="500">
 
-#### Camelot
-
-> <https://gitlab.com/camelot-project/camelot>
-
-Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with MegaDetector allows selective review of human/animal/empty/vehicle images.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
-
-#### Trapper
-
-> <https://gitlab.com/oscf/trapper-project>
-
-Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Offers several AI models, including MD (see the [Trapper AI](https://gitlab.com/trapper-project/trapper-ai) module).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
-
-#### Animl
-
-> <https://animl.camera/>
-
-OSS platform developed by TNC for managing data from biosecurity cameras, with real-time detection and classifications.  Code is [here](https://github.com/tnc-ca-geo/animl-frontend).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
-
-#### DeepFaune
-
-> <https://www.deepfaune.cnrs.fr/en/>
-
-[Open-source](https://plmlab.math.cnrs.fr/deepfaune/software) thick-client tool with a custom multiclass detector (based on YOLOv8s) for European animals, operating in tandem with MDv1000-sorrel and/or MDv1000-redwood.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
-
-#### wpsWatch
-
-> <https://wildlabs.net/inventory/products/wpswatch>
-
-<a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a> deploys connected cameras in protected areas to detect and combat poaching; wpsWatch is their monitoring platform, which leverages AI for both human/animal/vehicle detection (using MegaDetector) and species classification.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
-
-#### AddaxAI-connect
+##### AddaxAI-connect
 
 > <https://addaxdatascience.com/early-warning-systems/>
 
 Cloud-based platform that receives images from connected cameras, runs AI models, and sends notifications based on specific conditions (e.g. specific species).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai-connect.jpg" width="500">
-
-#### Zamba Cloud
-
-> <https://www.zambacloud.com>
-
-Cloud-based platform for no-code training of image and video classification models.  Explanatory video [here](https://www.youtube.com/watch?v=cvH9aQgYTv0).
-
-They also maintain a [Python package](https://github.com/drivendataorg/zamba) that includes some of Zamba Cloud's functionality.  
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-thumb.png" width="400">
-
-#### BoquilaHUB
-
-> <https://boquila.org/hub>
-
-Client-side tool that runs a variety of models (MD, SpeciesNet, custom animal detectors).  Code is [here](https://github.com/boquila/boquilahub).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/boquila-hub.jpg" width="400">
-
-#### Mbaza
-
-> <https://appsilon.com/data-for-good/mbaza-ai>
-
-Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaza1.png" width="500">
-
-#### TrapTracker
-
-> <https://traptracker.co.uk/>
-
-Includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.
-
-NB: that information is based on the previous incarnation of this platform, as "Conservation AI".  IIUC the broader program/organization is still called "Conservation AI", but the camera trap platform was renamed to "TrapTracker" in 2026.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/conservation-ai-bobcat.jpg" width="500">
 
 #### Agouti
 
@@ -167,33 +67,54 @@ The [documentation](https://docs.agouti.eu/general/automatic_annotation.html#ai-
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
-#### WildePod
+#### Animal Detect
 
-> <https://wildepod.org/>
+> <https://www.animaldetect.com>
 
-Web-based image management platform built for the Felidae Conservation Fund.  Uses MD for empty/animal/blank/vehicle categorization.
+Online platform for processing camera trap images.  Uses MD for cropping and blank elimination, incorporates species classification, and allows similarity-based grouping in an embedding space.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildepod.jpg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect_20250430.jpg" width="600">
 
-#### MegaDetector
+#### Animl
 
-> <https://github.com/agentmorris/MegaDetector>
+> <https://animl.camera/>
 
-This is not a "platform" or "system" in the same sense as other items on this list, the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I contribute to this project.
+OSS platform developed by TNC for managing data from biosecurity cameras, with real-time detection and classifications.  Code is [here](https://github.com/tnc-ca-geo/animl-frontend).
 
-<a href="https://github.com/agentmorris/MegaDetector/blob/main/megadetector.md">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the [MegaDetector Python package](https://pypi.org/project/megadetector/) wraps that up in pip-installable format.  MegaDetector (or its output) has also been integrated into some of the other items on this list.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
+#### BoquilaHUB
 
-#### Timelapse2
+> <https://boquila.org/hub>
 
-> <https://timelapse.ucalgary.ca/>
+Client-side tool that runs a variety of models (MD, SpeciesNet, custom animal detectors).  Code is [here](https://github.com/boquila/boquilahub).
 
-> <https://github.com/saulgreenberg/Timelapse>
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/boquila-hub.jpg" width="400">
 
-Thick-client, .net-based tool for reviewing camera trap images.  Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> and associated species classifiers.
+#### Camelot
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
+> <https://gitlab.com/camelot-project/camelot>
+
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with MegaDetector allows selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+
+#### CamTrap Detector
+
+* [Home](https://camtrap.net/detector)
+* [Source](https://github.com/bencevans/camtrap-detector)
+
+Client-side tool for running MegaDetector, including various postprocessing steps.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
+
+#### DeepFaune
+
+> <https://www.deepfaune.cnrs.fr/en/>
+
+[Open-source](https://plmlab.math.cnrs.fr/deepfaune/software) thick-client tool with a custom multiclass detector (based on YOLOv8s) for European animals, operating in tandem with MDv1000-sorrel and/or MDv1000-redwood.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
 
 #### eVorta
 
@@ -210,27 +131,23 @@ Connected camera network with cloud-based AI capabilities (for detecting and cla
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.webp" width="500">
 
-#### Zooniverse
+#### Mbaza
 
-> <https://www.zooniverse.org>
+> <https://appsilon.com/data-for-good/mbaza-ai>
 
-This is a bit of an outlier on this list... Zooniverse is a platform for engaging <i>human</i> volunteers for data labeling.  It doesn't explicitly use ML, and it isn't explicitly about camera traps, but here's my rationalization for including it here:
+Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
 
-1. By some arbitrary way of dividing projects, a weak plurality of the projects on Zooniverse are about camera traps.
-2. By some arbitrary way of dividing data sources, Zooniverse projects <i>contribute</i> more data to the global pool of publicly-available camera trap data than any other data source (e.g. all of the <a href="https://lila.science/category/camera-traps/snapshot-safari/">Snapshot Safari projects on LILA</a> began life on Zooniverse.
-3. Zooniverse is at least... noodling on the idea of incorporating ML for camera trap projects, e.g. see the <a href="https://github.com/zooniverse/subject-assistant">Zooniverse subject assistant</a>.
-4. I know from anecdotal interactions that lots of Zooniverse project owners use AI to (a) remove images of humans and (b) manage the number of blanks prior to uploading images to Zooniverse.
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaza1.png" width="500">
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zooniverse00.png" width="500">
+#### MegaDetector
 
-#### CamTrap Detector
+> <https://github.com/agentmorris/MegaDetector>
 
-* [Home](https://camtrap.net/detector)
-* [Source](https://github.com/bencevans/camtrap-detector)
+This is not a "platform" or "system" in the same sense as other items on this list, the tooling is *almost* a "system", so for this list, I'm upgrading MegaDetector to "system".  Full disclosure: I maintain this project.
 
-Client-side tool for running MegaDetector, including various postprocessing steps.
+<a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> is an object detection model that is used to identify camera trap images that contain animals, people, vehicles, or none of the above; in practice, it's primarily used to eliminate blank images from large camera trap surveys.  The GitHub repo provides Python scripts to run MegaDetector and do stuff with the output, and the [MegaDetector Python package](https://pypi.org/project/megadetector/) wraps that up in pip-installable format.  MegaDetector (or its output) has also been integrated into most of the other items on this list.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/camtrap-detector.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/megadetector_example.jpeg" width="500">
 
 #### OCAPI
 
@@ -249,14 +166,110 @@ Reconyx mostly makes cameras, but their mobile app includes what appears to be c
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconyx-ai.png" width="500">
 
-#### ecoSecrets
+#### Timelapse2
 
-* [Code](https://github.com/naturalsolutions/ecoSecrets)
-* [Docs](https://natural-solutions.gitlab.io/geonature/annotation/)
+> <https://timelapse.ucalgary.ca/>
 
-Web app for processing camera trap images.  Docs refer to the image processing approach presented in [Zhang et al.](https://ieeexplore.ieee.org/abstract/document/7523423); MegaDetector is also mentioned in the code.
+> <https://github.com/saulgreenberg/Timelapse>
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecosecrets-docs.png" width="500">
+Thick-client, .net-based tool for reviewing camera trap images.  Incorporates ML in the sense that it has integrated the output from <a href="https://github.com/agentmorris/MegaDetector">MegaDetector</a> and associated species classifiers.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image14.jpg" width="500">
+
+#### Trapper
+
+> <https://gitlab.com/oscf/trapper-project>
+
+Open-source system, interaction is via a browser, data is stored in Postgres. Can be hosted either locally or on a Linux VM.  Offers several AI models, including MD (see the [Trapper AI](https://gitlab.com/trapper-project/trapper-ai) module).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image19.png" width="500">
+
+#### TrapTagger
+
+> <https://wildeyeconservation.org/traptagger>
+
+A free, [open-source](https://github.com/WildEyeConservation/TrapTagger) online platform for camera trap data management that includes AI (for blank elimination and species classification), integration with HotSpotter for individual identification, and spatiotemporal analysis.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/TT-screenshot-15.png" width="500">
+
+#### TrapTracker
+
+> <https://traptracker.co.uk/>
+
+Includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.
+
+NB: that information is based on the previous incarnation of this platform, as "Conservation AI".  IIUC the broader program/organization is still called "Conservation AI", but the camera trap platform was renamed to "TrapTracker" in 2026.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/conservation-ai-bobcat.jpg" width="500">
+
+#### Wildlife Insights
+
+> <https://wildlifeinsights.org>
+
+Wildlife Insights (WI) is a platform for camera trap image management that includes AI-accelerated annotation, as well as data management and spatial analysis tools.  WI is a collaboration among several NGOs, HQ'd at [WildMon](https://wildmon.ai/), with an AI component developed at Google.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wi_screen_shot_2020-12-15_at_3.46.14_pm.png" width="500">
+
+#### WildePod
+
+> <https://wildepod.org/>
+
+Web-based image management platform built for the Felidae Conservation Fund.  Uses MD for empty/animal/blank/vehicle categorization.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildepod.jpg" width="500">
+
+#### WildObs
+
+> <https://www.wildobs.org.au/ai-image-platform>
+
+Australia-specific deployment of Agouti, incorporating the [WildObs](https://huggingface.co/Addax-Data-Science/WetTropics_WildObs/tree/main) model.  "Launching soon" as of 2026.02, keeping here for tracking, and so I can include their amazing koala-art.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildobs-logo.png" width="500">
+
+#### WildTrax
+
+> <https://www.wildtrax.ca>
+
+An online platform for camera trap data management that includes automated blank/non-blank elimination (using MegaDetector), species classification (as of the time I'm writing this, two models are available: (a) MegaClassifier, and (b) a platform-specific cattle/non-cattle model).  Also manages acoustic data, with some AI functionality for acoustic data as well.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtrax-thumb.png"  width="500">
+
+#### wpsWatch
+
+> <https://wildlabs.net/inventory/products/wpswatch>
+
+<a href="https://wildlifeprotectionsolutions.org">Wildlife Protection Solutions</a> deploys connected cameras in protected areas to detect and combat poaching; wpsWatch is their monitoring platform, which leverages AI for both human/animal/vehicle detection (using MegaDetector) and species classification.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wps.png" width="500">
+
+#### Zamba Cloud
+
+> <https://www.zambacloud.com>
+
+Cloud-based platform for no-code training of image and video classification models.  Explanatory video [here](https://www.youtube.com/watch?v=cvH9aQgYTv0).
+
+They also maintain a [Python package](https://github.com/drivendataorg/zamba) that includes some of Zamba Cloud's functionality.  
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zamba-thumb.png" width="400">
+
+#### Zooniverse
+
+> <https://www.zooniverse.org>
+
+This is a bit of an outlier on this list... Zooniverse is a platform for engaging <i>human</i> volunteers for data labeling.  It doesn't explicitly use ML, and it isn't explicitly about camera traps, but here's my rationalization for including it here:
+
+1. By some arbitrary way of dividing projects, a weak plurality of the projects on Zooniverse are about camera traps.
+2. By some arbitrary way of dividing data sources, Zooniverse projects <i>contribute</i> more data to the global pool of publicly-available camera trap data than any other data source (e.g. all of the <a href="https://lila.science/category/camera-traps/snapshot-safari/">Snapshot Safari projects on LILA</a> began life on Zooniverse.
+3. Zooniverse is at least... noodling on the idea of incorporating ML for camera trap projects, e.g. see the <a href="https://github.com/zooniverse/subject-assistant">Zooniverse subject assistant</a>.
+4. I know from anecdotal interactions that lots of Zooniverse project owners use AI to (a) remove images of humans and (b) manage the number of blanks prior to uploading images to Zooniverse.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zooniverse00.png" width="500">
+
+#### Wild.ai
+
+> <https://www.wildai.it/>
+
+Still "coming soon" as of 2026.02, keeping here for tracking.
 
 #### WildID
 
@@ -268,22 +281,6 @@ Not to be confused with [Wild.ID](https://github.com/ConservationInternational/W
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
 
-#### PantheraIDS (Integrated Data System)
-
-> <http://www.pantheraids.org>
-
-Image management and analysis software used at Panthera; includes machine learning functionality for blank removal, species classification, and individual ID.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panthera-ids.png" width="500">
-
-#### Dudek AI Image Toolkit
-
-> <https://ait.dudek.com>
-
-Cloud-based platform that leverages MDv5.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dudek.png" width="500">
-
 #### Bounding Box Editor and Exporter (BBoxEE)
 
 > <https://github.com/persts/BBoxEE>
@@ -291,32 +288,6 @@ Cloud-based platform that leverages MDv5.
 Client-side tool for semi-automated labeling of camera trap images.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image2.jpeg" width="500">
-
-#### Cacophony Project (2040) Thermal Predator Camera
-
-* [Home](https://www.2040.co.nz/collections/frontpage/products/thermal-predator-camera)
-* [Demo video](https://www.youtube.com/watch?v=eiopklk5iic)
-
-Thermal camera with a cloud-based AI service.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/2040-thermal.png" width="500">
-
-#### FASTCAT-Cloud
-
-> <https://service.fastcat-cloud.org>
-
-Online platform with several custom detectors for European wildlife, trained on GBIF data, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).  Also has a human/blank model, but details are not available on the Web page.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
-
-#### Caption Pro
-
-* [Camera trap user guide](https://captionpro.com.au:444/AlekaConsulting/index.php/camera-trap-data-analysis/)
-* [Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
-
-Tool for captioning images and videos that includes a workflow for camera trap data, including running MegaDetector via a Web service.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caption-pro.png" width="500">
 
 #### Declas
 
@@ -326,13 +297,38 @@ Cross-platform client-side tool for running MD and species classifiers.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/declas.jpg" width="500">
 
-#### Animal Detect
+#### Dudek AI Image Toolkit
 
-> <https://www.animaldetect.com>
+> <https://ait.dudek.com>
 
-Online platform for processing camera trap images.  Uses MD for cropping and blank elimination, incorporates species classification, and allows similarity-based grouping in an embedding space.
+Cloud-based platform that leverages MDv5.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animaldetect_20250430.jpg" width="600">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/dudek.png" width="500">
+
+#### ecoSecrets
+
+* [Code](https://github.com/naturalsolutions/ecoSecrets)
+* [Docs](https://natural-solutions.gitlab.io/geonature/annotation/)
+
+Web app for processing camera trap images.  Docs refer to the image processing approach presented in [Zhang et al.](https://ieeexplore.ieee.org/abstract/document/7523423); MegaDetector is also mentioned in the code.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecosecrets-docs.png" width="500">
+
+#### EventFinder
+
+> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
+
+Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).  Uses MD in the "EventFinder Suite" version, released in 2024.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
+
+#### FASTCAT-Cloud
+
+> <https://service.fastcat-cloud.org>
+
+Online platform with several custom detectors for European wildlife, trained on GBIF data, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).  Also has a human/blank model, but details are not available on the Web page.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
 #### Grizzly Systems
 
@@ -342,13 +338,22 @@ They describe a device with edge inference capability ("smart trigger") and mesh
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/grizzly-systems-2024.png" width="500">
 
-#### EventFinder
+#### PantheraIDS (Integrated Data System)
 
-> <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
+> <http://www.pantheraids.org>
 
-Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).  Uses MD in the "EventFinder Suite" version, released in 2024.
+Image management and analysis software used at Panthera; includes machine learning functionality for blank removal, species classification, and individual ID.
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/panthera-ids.png" width="500">
+
+#### Cacophony Project (2040) Thermal Predator Camera
+
+* [Home](https://www.2040.co.nz/collections/frontpage/products/thermal-predator-camera)
+* [Demo video](https://www.youtube.com/watch?v=eiopklk5iic)
+
+Thermal camera with a cloud-based AI service.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/2040-thermal.png" width="500">
 
 
 ### Systems that appear to be less active
@@ -3961,6 +3966,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+* Boer‐Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human‐Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
 
 * Gaya HE, Jorge MH, Jorge LA, Ruder MG, D’Angelo GJ, Chandler RB, Chamberlain MJ. White-tailed deer population declines in a high-prevalence chronic wasting disease region of Arkansas, USA. PloS one. 2026 Jan 7;21(1):e0340070.
 
