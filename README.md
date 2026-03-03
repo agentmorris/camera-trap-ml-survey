@@ -85,7 +85,7 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 #### Biowatch
 
-> https://github.com/earthtoolsmaker/biowatch
+> <https://github.com/earthtoolsmaker/biowatch>
 
 OSS, cross-platform client-side tool for running AI models, spatial visualizations, and image review.
 
