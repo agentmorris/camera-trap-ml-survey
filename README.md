@@ -83,6 +83,14 @@ OSS platform developed by TNC for managing data from biosecurity cameras, with r
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/animl.jpg" width="500">
 
+#### Biowatch
+
+> https://github.com/earthtoolsmaker/biowatch
+
+OSS, cross-platform client-side tool for running AI models, spatial visualizations, and image review.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/biowatch.jpg" width="500">
+
 #### BoquilaHUB
 
 > <https://boquila.org/hub>
