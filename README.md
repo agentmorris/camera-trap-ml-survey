@@ -1272,7 +1272,7 @@ Characterize scavenger and deer activities around deer farms, to assess the risk
 Use MDv5 with a confidence threshold of 0.1 to eliminate blanks.
 
 
-<br/>**Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying Attention to Other Animal Detections Improves Camera Trap Classification Models. bioRxiv. 2025 Jan 1.**
+<br/>**Dussert G, Dray S, Chamaillé‐Jammes S, Miele V. Paying attention to other animal detections improves camera trap classification models. Methods in Ecology and Evolution. 2026 Mar 4.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1280,6 +1280,8 @@ Use MDv5 with a confidence threshold of 0.1 to eliminate blanks.
 Train a self-attention mechanism to improve classification of crops in multi-crop images, i.e. they use information from one crop to inform the classification of others in an image.  Train on Snapshot Serengeti, use Snapshot Safari for OOD eval.  Use MD+RDE results from LILA (MDv1000-redwood for Snapshot Serengeti, MDv5a for Snapshot Safari).  During training, all crops with confidence > 0.5 are given the sequence-level label.  They evaluate only on images with >= 2 crops (nothing interesting would happen in the within-image attention stage when only one crop is present).
 
 Their baseline crop classifier is DINOv2, fine-tuned via timm (although the classifier is not the important part, and they are clear that you could swap in other classifiers).  Their proposed "multi-crop attention" classifier uses the same encoder as the baseline classifier, but embeddings are first passed through a set of transformer blocks that receive information from all crops in the image.  They find that their method improves accuracy from 90% to 95% on the training dataset, and from 93% to 95% on the OOD dataset.  They admit that test is a bit artificial, because they're using sequences with a single label, so simpler heuristics to integrate data across crops might achieve similar results, but they create a multi-species synthetic data benchmark and see similar improvements.
+
+NB: this summary is based on a biorxiv preprint of this paper.
 
 Code is [here](https://github.com/gdussert/MCA_Classifier).
 
@@ -4200,7 +4202,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2026
 
-* Boer‐Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human‐Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
+* Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human‐Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
+
+* Schille L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. Urbanization drives dietary specialization in insectivorous bird communities: insights from a multi-prey cafeteria experiment monitored by innovative cameras. bioRxiv. 2026:2026-02.
+
+* Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2026 Feb;12(1):21-37.
 
 #### Papers from 2025
 
