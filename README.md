@@ -578,6 +578,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 * [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
 * [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
+* [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
 * [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
 * [Addax Data Science New Zealand Invasives](https://huggingface.co/Addax-Data-Science/NZI-ADS-v1) (YOLOv8-cls model for 17 New Zealand taxa) (2026)
 * [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
@@ -4202,7 +4203,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2026
 
-* Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human‐Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
+* Meyers, L., Potlapally, A., Chen, Y., Long, M., Berger-Wolf, T., Subramoni, H., Megret, R. and Rubenstein, D., 2026. Tracking Phenological Status and Ecological Interactions in a Hawaiian Cloud Forest Understory using Low-Cost Camera Traps and Visual Foundation Models. arXiv preprint arXiv:2603.07817.
+
+* Aamir M, Muramatsu N, Shin S, Wijers M, Jhong J, Hou X, et al. WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation. arXiv preprint. 2026 Mar 17.
+
+* Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human-Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
 
 * Schille L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. Urbanization drives dietary specialization in insectivorous bird communities: insights from a multi-prey cafeteria experiment monitored by innovative cameras. bioRxiv. 2026:2026-02.
 
