@@ -4389,11 +4389,17 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 LILA BC (Labeled Information Library of Alexandria: Biology and Conservation) is the only large repository of openly available camera trap images that I'm aware of. It currently contains several tens of millions of images spread over ~30 data sets, a bit more than half of which are <a href="https://lila.science/category/camera-traps/">camera trap data</a>.  (Full disclosure: I maintain LILA, so my claim that it's the only repository of its kind is likely quite biased. YMMV.) 
 
+### Wild Album
+
+> <https://album.wildlabs.net>
+
+<a href="https://album.wildlabs.net/">Wild Album</a> is a portal that surfaces CamtrapDP datasets that are available on <a href="https://gbif.org">GBIF</a>.
+
 ### Wildlife Insights
 
 > <https://wildlifeinsights.org>
 
-Noting Wildlife Insights here too in anticipation of future data release; as embargo periods expire, Wildlife Insights will easily eclipse LILA wrt total number of publicly available labeled images.
+Noting Wildlife Insights here too in anticipation of future data release; as embargo periods expire and the infrastructure becomes available to download images, Wildlife Insights will easily eclipse LILA wrt total number of publicly available labeled images.
 
 ### Camera-trap-related competitions (with training data)
 
