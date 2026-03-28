@@ -4203,6 +4203,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2026
 
+* Garthen P, Mudragada HS, Schwarz S, Edelhoff H, Steinbauer MJ, Peters W, Kuecuekaytekin K, Bothmann L. Distance-based population density estimates from camera traps: Strong impact of technical choices in automated pipelines. Ecological Informatics. 2026 Mar 12:103682.
+
 * Meyers, L., Potlapally, A., Chen, Y., Long, M., Berger-Wolf, T., Subramoni, H., Megret, R. and Rubenstein, D., 2026. Tracking Phenological Status and Ecological Interactions in a Hawaiian Cloud Forest Understory using Low-Cost Camera Traps and Visual Foundation Models. arXiv preprint arXiv:2603.07817.
 
 * Aamir M, Muramatsu N, Shin S, Wijers M, Jhong J, Hou X, et al. WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation. arXiv preprint. 2026 Mar 17.
