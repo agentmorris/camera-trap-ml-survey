@@ -878,6 +878,28 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 Deployed cameras at cougar feeding sites in California, and also deployed cameras at 59 locations in the same area on a 3km grid to estimate background density.  Cameras were deployed from May 2021 to April 2023.  Used MD with a 70% confidence to eliminate blanks (version unspecified, but at a 70% confidence threshold, I hope it was MDv4!), reviewed images in Timelapse.
 
 
+<br/>**Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human-Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Study the impact of hunting and wolves on red deer space use in the Italian Alps.  Find that "behavioural constraints imposed by humans on red deer, coupled with the cursorial predatory strategy of wolves, likely limit the possibility of wolf avoidance by red deer. In human-dominated European landscapes, human disturbance can therefore override natural predator–prey dynamics, reshaping behavioural landscapes and potentially increasing predator and prey spatiotemporal co-occurrence.".
+
+Placed camera traps at 42 sites between 2020 and 2024 (6,883 camera-trap-days).  Used Wild.AI, "hosted on a platform maintained by the University of Florence" to separate blank/human/animal/vehicle images, then classified species manually.  I'm not <i>technically</i> sure that Wild.AI uses MegaDetector, but I'm comfortable using the "MegaDetector" tag here based on that description, since I'm like 99.98% sure.
+
+
+<br/>**Schille L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. Urbanization drives dietary specialization in insectivorous bird communities: insights from a multi-prey cafeteria experiment monitored by innovative cameras. bioRxiv. 2026:2026-02.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Study the impact of urbanization on bird biodiversity at urban edges in Montreal, specifically aim to assess the mechanisms driving the decline in avian biodiversity along the urbanization gradient.  Used both natural environments and controlled study areas "cafeterias".  Studied both avian and prey (insect/arthropod) biodiversity at 24 study plots.  "We found a strong decline in avian biodiversity and in the availability of high-quality prey along the urbanization gradient, with a convergence toward generalist dietary traits. Yet, the avian biodiversity loss was buffered by canopy cover and tree diversity. Impervious surfaces, canopy cover, local vegetation cover, and lepidopteran abundance were key drivers of the composition of foraging communities observed at cafeterias."
+
+Studied vocalizing birds with AudioMoths and BirdNET.
+
+In the cafeteria sites, they used custom cameras to monitor predation events.  Cameras were time-triggered.  They used MD through EcoAssist, with a confidence threshold of 2%, to remove empty images.  Species identification was manual.
+
+
 <br>**Raynes T, Brookes O, Haucke T, Bösch L, Crunchant AS, Kühl H, Beery S, Mirmehdi M, Burghardt T. Deep in the Jungle: Towards Automating Chimpanzee Population Estimation. arXiv preprint arXiv:2601.22917. 2026 Jan 30.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -4208,10 +4230,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Meyers, L., Potlapally, A., Chen, Y., Long, M., Berger-Wolf, T., Subramoni, H., Megret, R. and Rubenstein, D., 2026. Tracking Phenological Status and Ecological Interactions in a Hawaiian Cloud Forest Understory using Low-Cost Camera Traps and Visual Foundation Models. arXiv preprint arXiv:2603.07817.
 
 * Aamir M, Muramatsu N, Shin S, Wijers M, Jhong J, Hou X, et al. WildDepth: A Multimodal Dataset for 3D Wildlife Perception and Depth Estimation. arXiv preprint. 2026 Mar 17.
-
-* Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human-Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.
-
-* Schille L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. Urbanization drives dietary specialization in insectivorous bird communities: insights from a multi-prey cafeteria experiment monitored by innovative cameras. bioRxiv. 2026:2026-02.
 
 * Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2026 Feb;12(1):21-37.
 
