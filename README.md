@@ -124,6 +124,14 @@ Client-side tool for running MegaDetector, including various postprocessing step
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepfaune-screenshot.png" width="500">
 
+#### DeepMeerkat
+
+> <https://bw4sz.github.io/deepmeerkat.html>
+
+[Open-source](https://github.com/bw4sz/DeepMeerkat) client-side tool for processing ecological videos (not necessarily from caemra traps).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepmeerkat-main-ui.png" width="500">
+
 #### eVorta
 
 <!--
@@ -525,6 +533,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Alita (species classifier for NZ wildlife) ([github.com/Wologman/Alita](https://github.com/Wologman/Alita))
 * Irvine Ranch Conservancy Animal Detection (classifier for California wildlife) ([github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect](https://github.com/ttgminh/Irvine-Ranch-Conservancy-Animal-Detect/))
 * DeepForestVision (classifier for African tropical forests) ([github.com/MNHN-OFVI/DeepForestVision](https://github.com/MNHN-OFVI/DeepForestVision))
+* DeepMeerkat (tools for video-based ecological surveys) ([github.com/bw4sz/DeepMeerkat](https://github.com/bw4sz/DeepMeerkat))
 <!-- Sync'd with the list of repos on the MD README -->
 * SpeciesNet (global species classifier for ~2k species) ([github.com/google/cameratrapai](https://github.com/google/cameratrapai))
 * Mega-Efficient Wildlife Classifier (MEWC) (tools for training classifiers on MD crops) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
