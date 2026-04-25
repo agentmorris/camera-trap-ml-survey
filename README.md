@@ -949,13 +949,6 @@ Found some challenges in assessing recreational activity, e.g. "...inconsistent 
 <i>...and we're back.</i>
 
 
-<br/>**Zampetti A, Santini L, Baltzinger C, Beirne C, Bowler MT, Cedeño-Panchez BA, Ferreiro-Arias I, Forget P-M, Guilbert E, Kemp YJM, Paltrinieri L, Ortiz I, Peres CA, Scabin AB, Benítez-López A. Introducing TropiCam-AI: An automated classifier of Neotropical arboreal mammals and birds from camera-trap images. Methods in Ecology and Evolution. 2025.**
-
-![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
-
-Train ConvNeXt-Base on 84 taxa of arboreal taxa from South America.  Incorporate taxonomic fallback into their analysis, analogous to SpeciesNet.  Trained on ~85k images and ~26k videos from camera traps, and ~100k  images from iNat (seven categories came only from iNat).  Used MDv5 with a threshold of 0.8 for training (0.2 for inference), classified crops.  Split at the sequence level, rather than the camera level.  Used a rollup classification threshold of 0.75.  Model is available in AddaxAI, code is [here](https://github.com/andrewzamp/TropiCam-AI).
-
-
 <br/>**Shapira O, Izhaki I, Zemah-Shamir S, Malkinson D. How Pastoral Are Pastoral Landscapes? Scavenger Assemblage Structure in Human-Dominated Landscapes: A Case Study From Mediterranean Pastures. Ecology and Evolution. 2026 Jan;16(1):e72839.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -1042,6 +1035,36 @@ Compared:
 * DBSCAN, HDBSCAN, Hierarchical Clustering, and GMMs for clustering
 
 Found that DINOv3 outperformed other embedding spaces, t-SNE outperformed other dimensionality reduction approaches, and HDBSCAN outperforms DBSCAN.
+
+
+<br/>**Bolduc D, Fauteux D, Genest MA, Legagneux P. Speeding up image annotation and AI-model training for wildlife images​. Available at SSRN 6616203.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Propose a pipeline for rapid semi-automated labeling of camera trap images for training custom models.  The pipeline uses MegaDetector to eliminate blanks and localize objects, Timelapse to label images, and - if you want to train a segmenter - generating bounding contours with SAM3.  Evaluate on a small-animal dataset, which (breaking the fourth wall) is IMO a good use case for this, since MD is hit-or-miss on small animal cameras.  They also specifically discuss the speedup they get from connecting a StreamDeck handheld media controller to Timelapse.
+
+Code is [here](https://github.com/DavidBolduc/From_images_to_YOLO_pipeline).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/bolduc-2026.png" width="500">
+
+
+<br/>**Zampetti A, Santini L, Baltzinger C, Beirne C, Bowler MT, Cedeño-Panchez BA, Ferreiro-Arias I, Forget P-M, Guilbert E, Kemp YJM, Paltrinieri L, Ortiz I, Peres CA, Scabin AB, Benítez-López A. Introducing TropiCam-AI: An automated classifier of Neotropical arboreal mammals and birds from camera-trap images. Methods in Ecology and Evolution. 2026.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Train ConvNeXt-Base on 84 taxa of arboreal taxa from South America.  Incorporate taxonomic fallback into their analysis, analogous to SpeciesNet.  Trained on ~85k images and ~26k videos from camera traps, and ~100k  images from iNat (seven categories came only from iNat).  Used MDv5 with a threshold of 0.8 for training (0.2 for inference), classified crops.  Split at the sequence level, rather than the camera level.  Used a rollup classification threshold of 0.75.  Model is available in AddaxAI, code is [here](https://github.com/andrewzamp/TropiCam-AI).
+
+
+<br/>**Granados A, McDonald Z, Le C, Cohen B, Stoner D. Illuminated landscapes: urbanization’s influence on predator and prey behavior. Urban Ecosystems. 2026 Apr;29(2):82.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"Using data from 61 camera trap stations in two contrasting urban landscapes in California, USA, we examined the influence of multiple anthropogenic factors on the diel activity of an apex predator (puma), a mesocarnivore (bobcat), and an ungulate prey species (mule deer). We quantified the effects of artificial light at night (ALAN), proximity to noise pollution, moonlight intensity, and co-occurring wildlife on nighttime habitat use."
+
+"Pumas and bobcats were less active in areas with more ALAN. Pumas also avoided areas of high human use but were more active where mule deer were present. In contrast, mule deer increased nighttime activity in artificially illuminated areas while avoiding noise and bright moonlight, consistent with predictions under the human shield hypothesis."
+
+Processed 35,416 trap days through MD via WildePod, reviewed non-empty images manually on WildePod.
 
 
 #### <i>Papers from 2025</i>
@@ -4233,6 +4256,37 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers I know exist, and I have access to, and plan to read
 
 #### Papers from 2026
+
+##### Ecology papers
+
+* Cardona LM, Brook BW, Buettel JC. Fear on the Landscape: How human activity shapes wildlife habitat use in protected areas in Tasmania.
+
+* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks (Doctoral dissertation, University of British Columbia).
+
+* Larson CL, Bloom TD, Egan A, Farris T, Gersh K, Merigliano L, Owen C, Seidler R, Turner H. Neighbors to nature: A case study of recreation‐wildlife co‐existence in the Greater Yellowstone Ecosystem. Conservation Science and Practice. 2026:e70263.
+
+* Trepel J, Atkinson J, Le Roux E, Abraham AJ, Aucamp M, Greve M, Greyling M, Kalwij JM, Khosa S, Lindenthal L, Makofane C. Large herbivores are linked to higher herbaceous plant diversity and functional redundancy across spatial scales. Journal of Animal Ecology. 2026 Jan;95(1):230-42.
+
+* Holmes HA, Specht HM, Bate LJ, Smucker K, McCormack C, Staab C, Franklin TW, Bachen D, Maxell B, Begley AJ, Millspaugh JJ. Combining non‐invasive survey methods increases cumulative detection probability for breeding harlequin ducks Histrionicus histrionicus. Wildlife biology. 2026 Mar:e01610.
+
+* Ringwaldt EM, Buettel JC, Carver S, Brook BW. Epidemiological Dynamics of a Visually Apparent Disease: Camera Trapping and Machine‐Learning Applied to Rumpwear in the Common Brushtail Possum. Integrative Zoology. 2026 Jan;21(1):116-28.
+
+* Paton AJ, Flett I, Pauza M, Brook BW, Buettel JC. Did curiosity kill the cat? The impacts of aerial baiting and Felixer deployment on feral cat populations on Three Hummock Island, Tasmania. Wildlife Research. 2026 Jan 27;53(2):WR25057.
+
+* Yamashita TJ, Tanner AM, Tanner EP, Scognamillo DG, Tewes ME, Young Jr JH, Lombardi JV. At the intersection of soundscapes and roads: Quantifying anthrophony's influence on wildlife crossing structure use. Ecological Applications. 2026 Jan;36(1):e70192.
+
+* Notario Rincon D, Muñoz A, Barrientos R, Gaytán Á, Cano L, Quiles P, Sánchez L, Redondo A, Cisneros A, Bonal R. Disentangling Multitrophic Interactions: How Vegetation Cover, Wild Boar, Deer, and Predators Shape Rodents Activity and Acorn Dispersal. Integrative Zoology. 2026 Mar 26.
+
+
+##### Technical methods papers
+
+* Brundage D. Generating Synthetic Wildlife Health Data from Camera Trap Imagery: A Pipeline for Alopecia and Body Condition Training Data. arXiv preprint arXiv:2603.26754. 2026 Mar 23.
+
+* Picek L, Straka J, Jirik M, Belotti E, Duľa M, Krausová J, Bojda M, Cermak V, Bufka L, Dvořák R, Hrdý L. Czechlynx: A dataset for individual identification and pose estimation of the eurasian lynx. Scientific Data. 2026 Feb 24.
+
+* Santamaria JD, Isaza C, Giraldo JH. WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift. arXiv preprint arXiv:2601.00993. 2026 Jan 2.
+
+* Jeon S, Tian H, Wang L, Mai Z, Bakshi V, Hou J, Zhang P, Chowdhury A, Gu J, Chao WL. Lessons and Open Questions from a Unified Study of Camera-Trap Species Recognition Over Time. arXiv preprint arXiv:2603.20509. 2026 Mar 20.
 
 * Garthen P, Mudragada HS, Schwarz S, Edelhoff H, Steinbauer MJ, Peters W, Kuecuekaytekin K, Bothmann L. Distance-based population density estimates from camera traps: Strong impact of technical choices in automated pipelines. Ecological Informatics. 2026 Mar 12:103682.
 
