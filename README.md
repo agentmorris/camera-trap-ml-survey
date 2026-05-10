@@ -887,6 +887,117 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 Deployed cameras at cougar feeding sites in California, and also deployed cameras at 59 locations in the same area on a 3km grid to estimate background density.  Cameras were deployed from May 2021 to April 2023.  Used MD with a 70% confidence to eliminate blanks (version unspecified, but at a 70% confidence threshold, I hope it was MDv4!), reviewed images in Timelapse.
 
 
+<br/>**Adams TM. Coexisting with Change: Wildlife Responses to Invaded Forest Communities in Southeastern Michigan, Doctoral Dissertation, University of Michigan, 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"I aimed to clarify how invasive plants influence habitat use and behavior of ... white-tailed deer and eastern coyote."  "Deer site use was positively associated with buckthorn cover and was greatest during the fall, possibly due to late season cover provided by buckthorn. Plant diversity was not correlated with deer site use. Deer browse was positively associated with honeysuckle, but not other invasive plants. Coyote site use was greatest in areas with buckthorn." "My findings suggest that deer and coyotes both appear to utilize invasive resources and indicate wildlife behavior within invaded habitat may be highly specific to the invasive plant species."
+
+One camera was placed at each of 16 sites in Michigan.  Used MD to eliminate blanks.  MD version is unclear; the text says "v1.2.0", which is not an actual MD version number, and they use a 70% confidence threshold with the intention of being more conservative than prior work that uses a 90% confidence threshold with MDv4.  I'm somewhat confident that this work actually used MDv5, in which case a 70% threshold is very very very high.  Reviewed images in DigiKam after removing blanks with MD.
+
+
+<br/>**Cardona LM, Brook BW, Buettel JC. Fear on the Landscape: How human activity shapes wildlife habitat use in protected areas in Tasmania. EcoEvoRxiv, 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"Here, we used time-to-event camera trap data from a large-scale survey in Tasmanian protected areas to investigate the influence of motorised (vehicles) and non-motorised (hikers, joggers, and cyclists) recreation on wildlife return times - the time between consecutive detections of the same species – during the warm and cold season."  "We found that more motorised and non-motorised events delayed Tasmanian devil return times in both seasons. For herbivores, all species showed longer return times under motorised activity irrespective of season, whereas non-motorised activity had no significant effect on wallabies during the cold season."
+
+119 cameras in Tasmania, along gravel/dirt roads.  Removed blanks and separated animals/vehicles with MDv5 at a confidence threshold of 50%.
+
+<br/>**Dimitriou A, Benson-Amram S, Gaynor K, Burton C. The effect of outdoor recreation on mammal habitat use and diversity revealed by COVID-19 closures. bioRxiv. 2026:2026-04.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We leveraged a natural experiment, in which two adjacent PAs were closed to the public for different durations during the COVID-19 pandemic. Using detections from 39 camera traps in Joffre Lakes and Garibaldi Parks, Canada, from 2020-2022, we examined how recreation influenced mammal habitat use and diversity. Bayesian regression showed weak evidence that, when recreation was higher, detections declined for black bear, mule deer, and marten, while detections of bobcat and hoary marmot shifted closer to trails. Accumulation curves revealed that species richness and diversity were higher in the closed vs. open PA in 2020. ... However, diversity did not decline consistently despite increases in recreation in 2021 and 2022. Notably, several rare species were only detected in the lower-recreation PA, suggesting they may be filtered out of the higher-recreation PA."
+
+Used MD to separate humans/vehicles from blanks.
+
+
+<br/>**Larson CL, Bloom TD, Egan A, Farris T, Gersh K, Merigliano L, Owen C, Seidler R, Turner H. Neighbors to nature: A case study of recreation-wildlife co-existence in the Greater Yellowstone Ecosystem. Conservation Science and Practice. 2026:e70263.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We monitored medium to large mammal and human activity to assess impacts of recreation and inform management, deploying 27 trail cameras along multi-use non-motorized recreational trails for 2.5 years
+in a heavily used area within the Greater Yellowstone Ecosystem, USA. A diverse mammal community coexists alongside intense recreational use, and while many species do not appear to respond negatively to current levels of
+recreation, moose showed temporal avoidance and elk showed both temporal and spatial avoidance of recreation. Foot traffic—including hiking, skiing, and snowshoeing—had a stronger negative effect on wildlife than other activities, while some species overlapped with high levels of cyclist and dog activity."
+
+Used MD (version unspecified) to separate humans/blanks/vehicles/animals, with a 75% threshold (which is very high for MDv5, so I'm hoping that was MDv4).  They found that almost all images with a human and a vehicle were cyclists, so they treated human+vehicle classifications as cyclists, and human-only classifications as hikers.  Species classification was done on Zooniverse, with expert review in cases where there was not a clear Zooniverse consensus or where the Zooniverse consensus was "unknown".
+
+
+<br/>**Trepel J, Atkinson J, Le Roux E, Abraham AJ, Aucamp M, Greve M, Greyling M, Kalwij JM, Khosa S, Lindenthal L, Makofane C. Large herbivores are linked to higher herbaceous plant diversity and functional redundancy across spatial scales. Journal of Animal Ecology. 2026 Jan;95(1):230-42.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+
+"...we investigated the effects of large herbivores along a gradient of trophic complexity ... and herbivory intensity ... in 10 reserves in the savanna biome in South Africa. We found higher total plant species richness, driven by higher herbaceous (but not woody) plant species richness, in areas with higher herbivory intensity across multiple scales. While herbivores had no significant relationship with plant functional richness, we observed higher functional redundancy at all scales in areas more frequently visited by herbivores." ... "Our results suggest that restoring large herbivore populations can be expected to promote herbaceous plant diversity and ecosystem resilience."
+
+They surveyed five sites in each of 10 reserves (50 sites total), with a camera at each site for >1 year.  Used MDv5 via EcoAssist with a threshold of 0.2 (huzzah!), then reviewed the remaining images in DigiKam.
+
+
+<br/>**Holmes HA, Specht HM, Bate LJ, Smucker K, McCormack C, Staab C, Franklin TW, Bachen D, Maxell B, Begley AJ, Millspaugh JJ. Combining non-invasive survey methods increases cumulative detection probability for breeding harlequin ducks Histrionicus histrionicus. Wildlife biology. 2026 Mar:e01610.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+
+"Population monitoring of harlequin ducks on their breeding streams ... has historically relied on ground-based footsurveys (GBS) ... . We quantified the detection probability of GBS and compared it to ... eDNA and camera traps for detecting breeding harlequin ducks. ... Both eDNA and camera traps proved effective in detecting harlequin ducks, particularly when replicated across space or time. It is important to note that eDNA and camera traps only provide presence/absence data, while GBS provides relative abundance. Combining methods proved particularly effective; we estimated a cumulative detection probability > 0.95 for a single-day survey effort by collecting eDNA samples spread throughout a stream reach in tandem with a GBS."
+
+Study area was in Idaho/Montana, along 5km-8km stretches on 10 streams.  Two cameras (one timelapse, one motion-triggered) were placed each river mile, so somewhere around 50 total camera sites (100 total cameras).  Used MDv5a with a confidence threshold of 0.5, reviewed images in Timelapse.
+
+Breaking the fourth wall: I know anecdotally that this was a tough case that required augmentation and pretty extensive RDE.
+
+
+<br/>**Ringwaldt EM, Buettel JC, Carver S, Brook BW. Epidemiological Dynamics of a Visually Apparent Disease: Camera Trapping and Machine-Learning Applied to Rumpwear in the Common Brushtail Possum. Integrative Zoology. 2026 Jan;21(1):116-28.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We visually classified images of rumpwear clinical signs in 6908 individual possums collected from a 3-year camera trapping network. Our results revealed that: (1) adults were twice as likely to show signs of rumpwear compared to young possums; (2) rumpwear occurrence increased with the relative activity of possums at a site; and (3) prevalence of rumpwear was seasonal, being lowest in May and highest in December." ... "Additionally, a CNN was trained to identify rumpwear."
+
+For training and running their classifier, they used MD and resampled crops to 384x384; they trained on ~8k total crops.  They used EfficientNet-v2 in Keras for the classifier.
+
+
+</br>**Paton AJ, Flett I, Pauza M, Brook BW, Buettel JC. Did curiosity kill the cat? The impacts of aerial baiting and Felixer deployment on feral cat populations on Three Hummock Island, Tasmania. Wildlife Research. 2026 Jan 27;53(2):WR25057.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"This study aimed to evaluate the effectiveness of lethal aerial baiting and Felixer grooming traps in reducing feral cat activity on Three Hummock Island, Tasmania, to support the establishment of a hooded plover stronghold."  "A network of 20–60 camera traps, operating over 37,175 trap days during 2019–2024, was used to monitor changes in feral cat activity and site usage." "Felixers were effective in reducing feral cat activity with minimal intervention, whereas aerial baiting alone had limited impact."
+
+Used MD to remove blanks, MEWC (presumably the [Tasmanian classifier](https://huggingface.co/Addax-Data-Science/Tasmanian_vertebrates), though this isn't specified) to classify species.
+
+The cats in their study area were too similar to identify individuals, but they manually reviewed images for evidence of a kinked tail as a marker of genetic diversity.
+
+Study code is [here](https://github.com/AlexJPaton/ThreeHummock).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/paton-2026.gif" width="600">
+
+
+<br/>**Yamashita TJ, Tanner AM, Tanner EP, Scognamillo DG, Tewes ME, Young Jr JH, Lombardi JV. At the intersection of soundscapes and roads: Quantifying anthrophony's influence on wildlife crossing structure use. Ecological Applications. 2026 Jan;36(1):e70192.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Examined the relationship between anthropogenic noise and wildlife crossing use by opossums at five crossings in Texas, using camera traps and acoustic recorders.  Found that "opossums spent more time at WCSs when it was quieter on average and were more likely to successfully cross through a WCS when there was less vehicle noise."
+
+Used MD (presumably MDv5a) with thresholds of 55% for animal/person/vehicle, and 60% for empty (I'm not sure exactly what that empty threshold refers to, I think that means in practice they used a threshold of 40% for all categories, after a somewhat faster initial review with 55% thresholds).  Used Timelapse for image review.
+
+
+<br/>**Notario Rincon D, Muñoz A, Barrientos R, Gaytán Á, Cano L, Quiles P, Sánchez L, Redondo A, Cisneros A, Bonal R. Disentangling Multitrophic Interactions: How Vegetation Cover, Wild Boar, Deer, and Predators Shape Rodents Activity and Acorn Dispersal. Integrative Zoology. 2026 Mar 26.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We combined camera trapping and piecewise structural equation modeling to evaluate how vegetation structure, carnivores, deer, and wild boars influence rodent activity and their role as seed dispersers. Rodent activity increased with shrub density, as they find protection under vegetation cover. However, at a finer scale, rodent activity was unrelated to carnivore records. ... While wild boars had a direct negative effect on rodent activity ..., deer had no effect on rodents. Unlike wild boars, deer do not trample and root in the soil, destroying burrows and even predating rodents. Most acorns were dispersed under shrubs by rodents, and the effect of rodent activity on dispersal distances was entirely mediated by vegetation cover. By explicitly separating the effects of different large-sized mammals, our study identifies wild boars as the main disruptor of mice activity and rodent-mediated seed dispersal."
+
+Used MD for blank removal (version/threshold unspecified), reviewed images in XnView MP.
+
+
 <br/>**Boer-Cueva M, Bombieri G, Centomo E, Partel P, Dorigatti E, Ferraro E, Greco I, Rovero F, Salvatori M. Hunting and Outdoor Recreation Affect Large Herbivore Activity Patterns More Than Natural Predators in a Human-Dominated Landscape. Ecology and Evolution. 2026 Feb;16(2):e73033.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -1181,7 +1292,7 @@ Look at copy and paste augmentation for species classifier training.  Work with 
 Without copy and paste augmentation, replicated previous results showing substantial accuracy falloff in new cameras; they report ~30 percentage points lower accuracy and ~40 percentage points lower F1 for trans-tested models.  Found that copy paste augmentation did not significantly improve cis-tested models.  Found that synthetic images (i.e., copy-paste augmentation) improved performance in trans-tested models, and that class-balancing hurt rather than helped performance.
 
 
-<br/>**Villalva P, Jordano P. A Machine Learning Application to Camera‐Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. Ecology and Evolution. 2026 Jan 21;16(1):e72584.**
+<br/>**Villalva P, Jordano P. A Machine Learning Application to Camera-Traps: Robust Species Interactions Datasets for Analysis of Mutualistic Networks. Ecology and Evolution. 2026 Jan 21;16(1):e72584.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Video](https://img.shields.io/badge/-Video-orange)
@@ -1327,7 +1438,7 @@ Characterize scavenger and deer activities around deer farms, to assess the risk
 Use MDv5 with a confidence threshold of 0.1 to eliminate blanks.
 
 
-<br/>**Dussert G, Dray S, Chamaillé‐Jammes S, Miele V. Paying attention to other animal detections improves camera trap classification models. Methods in Ecology and Evolution. 2026 Mar 4.**
+<br/>**Dussert G, Dray S, Chamaillé-Jammes S, Miele V. Paying attention to other animal detections improves camera trap classification models. Methods in Ecology and Evolution. 2026 Mar 4.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1864,7 +1975,7 @@ Used camera traps to study the impact of winter sports on deer, coyote, and foxe
 Used MDv5 for blank elimination.
 
 
-<br/>**Alting BF, Pitcher BJ, Rees MW, Ferrer‐Paris JR, Jordan NR. Population density and ranging behaviour of a generalist carnivore varies with human population. Ecology and Evolution. 2024 May;14(5):e11404.**
+<br/>**Alting BF, Pitcher BJ, Rees MW, Ferrer-Paris JR, Jordan NR. Population density and ranging behaviour of a generalist carnivore varies with human population. Ecology and Evolution. 2024 May;14(5):e11404.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -2262,7 +2373,7 @@ Investigated (1) public tendencies to report benign vs. conflict-prone coyote in
 Reviewed ~4.3k trap-nights of images in WildTrax, using MD to limit review to animal images.
 
 
-<br/>**Granados A, McDonald Z, McPherson K, Stoner D. Unraveling the impact of dog‐friendly spaces on urban–wildland pumas and other wildlife. Wildlife Biology. 2024 Aug:e01290.**
+<br/>**Granados A, McDonald Z, McPherson K, Stoner D. Unraveling the impact of dog-friendly spaces on urban–wildland pumas and other wildlife. Wildlife Biology. 2024 Aug:e01290.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -2370,7 +2481,7 @@ Compared eDNA and camera traps for assessing vertebrates at freshwater sites in 
 Used MD to eliminate blanks, via [MegaDetector-GUI](https://github.com/petargyurov/megadetector-gui).
 
 
-<br/>**Cardona LM, Brook BW, Aandahl Z, Buettel JC. Survival analysis of wildlife cameras exposed to theft. EcoEcoRXiv, 2024.**
+<br/>**Cardona LM, Brook BW, Aandahl Z, Buettel JC. Survival analysis of wildlife cameras exposed to theft. EcoEvoRXiv, 2024.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -2804,7 +2915,7 @@ Assess the difference between domestic and wild animals in Mexican temperate and
 They had a wild number of blanks; only 7604 positives in 370,800 total images.  Used MegaDetector (version unspecified, confidence threshold 0.3, so probably MDv5) to eliminate blanks.
 
 
-<br/>**Penn MJ, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock—A flexible, low‐resource tool for processing camera‐trapping images. Methods in Ecology and Evolution. 2024 Jan;15(1):91-102.**
+<br/>**Penn MJ, Miles V, Astley KL, Ham C, Woodroffe R, Rowcliffe M, Donnelly CA. Sherlock—A flexible, low-resource tool for processing camera-trapping images. Methods in Ecology and Evolution. 2024 Jan;15(1):91-102.**
 
 Present a new tool (Sherlock) for camera trap image processing; test it on \~241k images from 46 cameras in the UK to identify badgers.  Correctly classified 91.9% of badgers and removed 49.3% of blanks.
 
@@ -3047,7 +3158,7 @@ Gestalt of the images:
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/4Myotis_daubentonii.JPG" width="500">
 
 
-<br/>**Xie P, Gao R, Lu W, Shen L. Weakly supervised bounding‐box generation for camera‐trap image based animal detection. IET Computer Vision. 2025 Jan;19(1):e12332.**
+<br/>**Xie P, Gao R, Lu W, Shen L. Weakly supervised bounding-box generation for camera-trap image based animal detection. IET Computer Vision. 2025 Jan;19(1):e12332.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 
@@ -4258,27 +4369,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 #### Papers from 2026
 
 ##### Ecology papers
-
-* Adams TM. Coexisting with Change: Wildlife Responses to Invaded Forest Communities in Southeastern Michigan, Doctoral Dissertation, University of Michigan, 2026.
-
-* Cardona LM, Brook BW, Buettel JC. Fear on the Landscape: How human activity shapes wildlife habitat use in protected areas in Tasmania, 2026.
-
-* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks.  Doctoral dissertation, University of British Columbia, 2026.
-
-* Larson CL, Bloom TD, Egan A, Farris T, Gersh K, Merigliano L, Owen C, Seidler R, Turner H. Neighbors to nature: A case study of recreation‐wildlife co‐existence in the Greater Yellowstone Ecosystem. Conservation Science and Practice. 2026:e70263.
-
-* Trepel J, Atkinson J, Le Roux E, Abraham AJ, Aucamp M, Greve M, Greyling M, Kalwij JM, Khosa S, Lindenthal L, Makofane C. Large herbivores are linked to higher herbaceous plant diversity and functional redundancy across spatial scales. Journal of Animal Ecology. 2026 Jan;95(1):230-42.
-
-* Holmes HA, Specht HM, Bate LJ, Smucker K, McCormack C, Staab C, Franklin TW, Bachen D, Maxell B, Begley AJ, Millspaugh JJ. Combining non‐invasive survey methods increases cumulative detection probability for breeding harlequin ducks Histrionicus histrionicus. Wildlife biology. 2026 Mar:e01610.
-
-* Ringwaldt EM, Buettel JC, Carver S, Brook BW. Epidemiological Dynamics of a Visually Apparent Disease: Camera Trapping and Machine‐Learning Applied to Rumpwear in the Common Brushtail Possum. Integrative Zoology. 2026 Jan;21(1):116-28.
-
-* Paton AJ, Flett I, Pauza M, Brook BW, Buettel JC. Did curiosity kill the cat? The impacts of aerial baiting and Felixer deployment on feral cat populations on Three Hummock Island, Tasmania. Wildlife Research. 2026 Jan 27;53(2):WR25057.
-
-* Yamashita TJ, Tanner AM, Tanner EP, Scognamillo DG, Tewes ME, Young Jr JH, Lombardi JV. At the intersection of soundscapes and roads: Quantifying anthrophony's influence on wildlife crossing structure use. Ecological Applications. 2026 Jan;36(1):e70192.
-
-* Notario Rincon D, Muñoz A, Barrientos R, Gaytán Á, Cano L, Quiles P, Sánchez L, Redondo A, Cisneros A, Bonal R. Disentangling Multitrophic Interactions: How Vegetation Cover, Wild Boar, Deer, and Predators Shape Rodents Activity and Acorn Dispersal. Integrative Zoology. 2026 Mar 26.
-
 
 ##### Technical methods papers
 
