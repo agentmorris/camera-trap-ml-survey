@@ -4259,9 +4259,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Cardona LM, Brook BW, Buettel JC. Fear on the Landscape: How human activity shapes wildlife habitat use in protected areas in Tasmania.
+* Adams TM. Coexisting with Change: Wildlife Responses to Invaded Forest Communities in Southeastern Michigan, Doctoral Dissertation, University of Michigan, 2026.
 
-* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks (Doctoral dissertation, University of British Columbia).
+* Cardona LM, Brook BW, Buettel JC. Fear on the Landscape: How human activity shapes wildlife habitat use in protected areas in Tasmania, 2026.
+
+* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks.  Doctoral dissertation, University of British Columbia, 2026.
 
 * Larson CL, Bloom TD, Egan A, Farris T, Gersh K, Merigliano L, Owen C, Seidler R, Turner H. Neighbors to nature: A case study of recreation‐wildlife co‐existence in the Greater Yellowstone Ecosystem. Conservation Science and Practice. 2026:e70263.
 
