@@ -603,7 +603,7 @@ When possible, the first link for each line item should get you pretty close to 
   * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
-* [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita))
+* [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)) ([report](https://filedn.eu/l1723vRFnsquJMoK85UThX0/Alita_Windows_App/alita_v3_report.pdf))
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 * [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
 * [DeepForestVision](https://github.com/MNHN-OFVI/DeepForestVision) (classifier for African tropical forests) (2025)
@@ -1145,6 +1145,7 @@ Used two cameras at each site, operated 15 days per onth over a year, with 1-min
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
 
 Evaluate five ViT architectures for clustering; conclude that DINOv3 with t-SNE provides near-supervised-level performance in an unsupervised framework.  Use MDv1000-redwood for cropping, then cluster crops.  Used almost every camera trap dataset on LILA (23 projects), ended up with ~139k crops.  Initially classified with SpeciesNet, though it's not clear to me why, since they already had labels from LILA.  An expert reviewed all the labels in any case. 
 
@@ -4408,6 +4409,14 @@ Look at the relationship between behavior and predation fear in primates, primar
 ##### Ecology papers
 
 ##### Technical methods papers
+
+* Locke VL. Ocelot (Leopardus pardalis) Survival and Toxicity-Related Threats to Survival in South Texas, USA (Master's thesis, Texas A&M University-Kingsville).
+
+* Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
+
+* Li W, Mirmehdi M, Burghardt T. Visual-textual Dermatoglyphic Animal Biometrics: A First Case Study on Panthera tigris. arXiv preprint arXiv:2512.14878. 2025 Dec 16.
+
+* Appel CL, Subramanian A, Koning JS, Ngosi M, Sullivan CM, Levi T, Lesmeister DB. Developing custom computer vision models with Njobvu-AI: A collaborative, user‐friendly platform for ecological research. Ecological Applications. 2025 Sep;35(6):e70096.
 
 * Santamaria JD, Isaza C, Giraldo JH. WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift. arXiv preprint arXiv:2601.00993. 2026 Jan 2.
 
