@@ -1194,6 +1194,7 @@ Synthetic data is [here](https://huggingface.co/datasets/BrundageLab/synthetic_w
 <br/>**Picek L, Straka J, Jirik M, Belotti E, Duľa M, Krausová J, Bojda M, Cermak V, Bufka L, Dvořák R, Hrdý L. Czechlynx: A dataset for individual identification and pose estimation of the eurasian lynx. Scientific Data. 2026 Feb 24.**
 
 ![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
 They describe a dataset of ~40k camera trap images of ~319 individual lynx with segmentation masks, identity labels, and skeletal decompositions.
 
