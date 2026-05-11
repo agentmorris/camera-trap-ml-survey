@@ -1178,6 +1178,34 @@ Train ConvNeXt-Base on 84 taxa of arboreal taxa from South America.  Incorporate
 Processed 35,416 trap days through MD via WildePod, reviewed non-empty images manually on WildePod.
 
 
+<br/>**Brundage D. Generating Synthetic Wildlife Health Data from Camera Trap Imagery: A Pipeline for Alopecia and Body Condition Training Data. arXiv preprint arXiv:2603.26754. 2026 Mar 23.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+This paper's goal is to use synthetic data to train an alopecia classification model for eight North American mammals.  They use Gemini 3.1 Flash Image (aka Nano Banana 2) to generate images where body condition and alopecia state are modified from a real image of a healthy animal.  They use MDv4 to detect the region of the image that <i>should</i> be modified, and if there is too much modification outside the mask, that's considered a case that's likely to be an incorrect scene modification.
+
+They train a classifier using a frozen DINOv2 backbone, and they do a sim-to-real transfer experiment using 25 images from camera trap forums where participants identified likely disease states, and got good results (but YMMV, that's a small dataset).
+
+Synthetic data is [here](https://huggingface.co/datasets/BrundageLab/synthetic_wildlife_health).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brundage-synthetic-2026.png" width="500">
+
+
+<br/>**Picek L, Straka J, Jirik M, Belotti E, Duľa M, Krausová J, Bojda M, Cermak V, Bufka L, Dvořák R, Hrdý L. Czechlynx: A dataset for individual identification and pose estimation of the eurasian lynx. Scientific Data. 2026 Feb 24.**
+
+![Individual ID](https://img.shields.io/badge/-Individual_ID-purple)
+
+They describe a dataset of ~40k camera trap images of ~319 individual lynx with segmentation masks, identity labels, and skeletal decompositions.
+
+Some of the original data was stills, some was video; they used MDv5 to choose the first and last frames with detections &gt; 0.7 from each video, plus three frames in between with large boxes.
+
+They also describe a pipeline for generating synthetic images (with Unity, not with LLMs).
+
+Dataset is [here](https://zenodo.org/records/17592004).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/picek-czechlynx-2026.png" width="600">
+
+
 #### <i>Papers from 2025</i>
 
 <br/>**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
@@ -4371,10 +4399,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 ##### Ecology papers
 
 ##### Technical methods papers
-
-* Brundage D. Generating Synthetic Wildlife Health Data from Camera Trap Imagery: A Pipeline for Alopecia and Body Condition Training Data. arXiv preprint arXiv:2603.26754. 2026 Mar 23.
-
-* Picek L, Straka J, Jirik M, Belotti E, Duľa M, Krausová J, Bojda M, Cermak V, Bufka L, Dvořák R, Hrdý L. Czechlynx: A dataset for individual identification and pose estimation of the eurasian lynx. Scientific Data. 2026 Feb 24.
 
 * Santamaria JD, Isaza C, Giraldo JH. WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift. arXiv preprint arXiv:2601.00993. 2026 Jan 2.
 
