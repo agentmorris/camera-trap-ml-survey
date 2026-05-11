@@ -664,14 +664,6 @@ Not related to this [other smart camera trap also called "Sentinel"](https://www
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/sentinel.png" width="500">
 
-#### University of Idaho RCDS camera (no fancy name that I'm aware of)
-
-> <https://www.iids.uidaho.edu/news.php?newsid=126>
-
-AI-enabled camera with detection and classification capabilities.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/uidaho-ai-camera.jpg" width="400">
-
 #### TrailGuard AI
 
 > <https://www.nightjar.tech>
@@ -688,21 +680,13 @@ AI-enabled camera trap for automated invasive predator control in Australia.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thylation-felixer.jpg" width="500">
 
-#### Instant Detect
+#### Flox Intelligence
 
-> <https://instantdetect.co.uk>
+> <https://floxintelligence.com/>
 
-Connected camera that transmits images via LoRa to a base station, which transmits images via Iridium.
+AI-enabled camera trap with acoustic deterrent, used to deter wildlife from transportation corridors or human-wildlife conflict scenarios.  ([Story](https://www.alstom.com/press-releases-news/2026/5/alstom-and-flox-intelligence-revolutionise-rail-safety-launch-ground-breaking-trials-ai-system-protect-wildlife-railways-and-enhance-passenger-safety) about using Flox to deter wildlife from train tracks in Sweden.)
 
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-2.0.jpg" width="500">
-
-#### RobotEye Kapan
-
-> <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
-
-AI-enabled camera trap designed for anti-poaching applications.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/flox-header.webp" width="500">
 
 #### Insect Detect
 
@@ -714,7 +698,31 @@ AI-enabled, RPi-based camera trap for insect monitoring.
 
 ### Smart camera traps that might not be available...
 
-...either because they are no longer being produced, or because they were still conceptual prototypes as of the last time I updated this page.
+...either because they are no longer being produced, or because they were still conceptual prototypes as of the last time I updated this page.  Stuff gets moved into this category if I can't find anything online about it that's more recent than ~2 years old, if I moved your thing and I shouldn't have, <a href="mailto:agentmorris@gmail.com">email me</a>.
+
+#### Instant Detect
+
+> <https://instantdetect.co.uk>
+
+Connected camera that transmits images via LoRa to a base station, which transmits images via Iridium.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-2.0.jpg" width="500">
+
+#### University of Idaho RCDS camera (no fancy name that I'm aware of)
+
+> <https://www.iids.uidaho.edu/news.php?newsid=126>
+
+AI-enabled camera with detection and classification capabilities.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/uidaho-ai-camera.jpg" width="400">
+
+#### RobotEye Kapan
+
+> <https://roboteye.ai> ([video](https://www.youtube.com/watch?v=jZWsryeafHo&t=2s&ab_channel=RobotEye))
+
+AI-enabled camera trap designed for anti-poaching applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/kapan.jpg" width="500">
 
 #### Behold
 
