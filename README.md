@@ -688,6 +688,14 @@ AI-enabled camera trap with acoustic deterrent, used to deter wildlife from tran
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/flox-header.webp" width="500">
 
+#### Instant Detect
+
+> <https://www.hack-the-planet.io/products/instant-detect/>
+
+Connected camera that runs a human/animal detector on device, then transmits images via LoRa to a base station, which transmits images via Iridium.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-htp-700.jpg" width="500">
+
 #### Insect Detect
 
 > <https://github.com/maxsitt/insect-detect>
@@ -699,14 +707,6 @@ AI-enabled, RPi-based camera trap for insect monitoring.
 ### Smart camera traps that might not be available...
 
 ...either because they are no longer being produced, or because they were still conceptual prototypes as of the last time I updated this page.  Stuff gets moved into this category if I can't find anything online about it that's more recent than ~2 years old, if I moved your thing and I shouldn't have, <a href="mailto:agentmorris@gmail.com">email me</a>.
-
-#### Instant Detect
-
-> <https://instantdetect.co.uk>
-
-Connected camera that transmits images via LoRa to a base station, which transmits images via Iridium.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/instant-detect-2.0.jpg" width="500">
 
 #### University of Idaho RCDS camera (no fancy name that I'm aware of)
 
