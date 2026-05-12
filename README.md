@@ -1764,6 +1764,30 @@ Describe the "ML Field Planner", a set of connected tools/infrastructure designe
 Evaluate on "CREA Mont-Blanc" (a private camera trap dataset) and Snapshot Serengeti.  CMD contains 132k images from France containing 20 species.  Used three behavioral labels for each dataset (eating/moving/resting for CMD, eating/moving/standing for SER).  Evaluate zero-shot behavior classification for CLIP, SigLIP, [WildCLIP](https://github.com/amathislab/wildclip), CogVLM, MobileVLM V2, and PaliGemma.  Prior to behavior analysis, cropped animals with MDv5.  Prompts were, e.g., "Is the animal in the image eating, moving or resting? Answer the question using a single word."  CogVLM had the highest F1 (86%) on CMD, WildCLIP had the highest F1 (89%) on SER.
 
 
+<br/>**Locke VL. Ocelot (Leopardus pardalis) Survival and Toxicity-Related Threats to Survival in South Texas, USA.  Master's thesis, Texas A&M University-Kingsville, 2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+"I had three research aims: (1) estimate sex-specific six-month apparent survival of ocelots over one year old in both extant breeding populations in the United States; (2) use population projections to estimate sensitivity of abundance and population growth to variation in ocelot kitten survival; and (3) determine exposure of ocelots, bobcats, and coyotes to toxicity-related threats to survival, namely anticoagulant rodenticides (ARs) and lead." ... "I detected ARs in 8 of 39 (20.5%) of all tested liver samples, and 3 of 5 (60%) of ocelot liver samples contained at least two AR compounds. One liver from an ocelot male had a level of an AR 4x that of a toxicosis-related death in a bobcat reported in another system. These findings represent the first detections of ARs in South Texas and the first detection in the federally endangered ocelot."
+
+Ran 466 cameras across ~58k trap-nights.  Used MDv5 + SpeciesNet, and used Timelapse for image review.  (Full disclosure: the thesis preview ended literally at the end of the sentence about image review, so it's possible that the next sentence was "all of those models were awful".  But... it seems like this work used MDv5 and SpeciesNet.)
+
+
+<br/>**Appel CL, Subramanian A, Koning JS, Ngosi M, Sullivan CM, Levi T, Lesmeister DB. Developing custom computer vision models with Njobvu-AI: A collaborative, user-friendly platform for ecological research. Ecological Applications. 2025 Sep;35(6):e70096.**
+
+Describe a no-code tool for image review and custom model training.  They used it to train a multi-class detector (YOLOv4) on 37 species from Malawi, using ~34k training images.
+
+Re: classification... "our model had overall macro-averaged precision = 0.64 ,macro-averaged recall = 0.76, and macro-averaged F1 = 0.63, calculated for 32 species classes".
+
+Re: detection... "our model had similar sensitivity to the MegaDetector v5 model but lower specificity".
+
+Code is [here](https://github.com/sullichrosu/Njobvu-AI).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/appel-njobvu-2025.png" width="600">
+
+
 #### <i>Papers from 2024</i>
 
 <br/>**Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.**
@@ -4410,13 +4434,9 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
-* Locke VL. Ocelot (Leopardus pardalis) Survival and Toxicity-Related Threats to Survival in South Texas, USA (Master's thesis, Texas A&M University-Kingsville).
-
 * Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
 
 * Li W, Mirmehdi M, Burghardt T. Visual-textual Dermatoglyphic Animal Biometrics: A First Case Study on Panthera tigris. arXiv preprint arXiv:2512.14878. 2025 Dec 16.
-
-* Appel CL, Subramanian A, Koning JS, Ngosi M, Sullivan CM, Levi T, Lesmeister DB. Developing custom computer vision models with Njobvu-AI: A collaborative, user‐friendly platform for ecological research. Ecological Applications. 2025 Sep;35(6):e70096.
 
 * Santamaria JD, Isaza C, Giraldo JH. WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift. arXiv preprint arXiv:2601.00993. 2026 Jan 2.
 
