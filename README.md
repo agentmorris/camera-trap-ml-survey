@@ -242,6 +242,21 @@ Australia-specific deployment of Agouti, incorporating the [WildObs](https://hug
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildobs-logo.png" width="500">
 
+#### WildTracker / StickyBeak AI
+
+> https://wildtracker.com.au/  
+> https://wildtracker.com.au/stickybeak-ai/
+
+"WildTracker is a tool for private landholders to upload, tag, and share camera trap images of Tasmania’s exceptional wildlife."
+
+"Stickybeak is our AI-powered tool that helps landholders and citizen scientists process thousands of wildlife camera images more efficiently."
+
+Uses MDv1000-redwood, along with a Tasmania-specific classifier, via MEWC.
+
+[news story](https://www.canberratimes.com.au/story/8956392/wombat-ai-software-deployed-to-track-native-animals/), [developer's project page](https://ionata.com.au/project/wildtracker-stickybeak/)
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/stickybeak.jpg" width="500">
+
 #### WildTrax
 
 > <https://www.wildtrax.ca>
