@@ -1803,6 +1803,48 @@ Code is [here](https://github.com/sullichrosu/Njobvu-AI).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/appel-njobvu-2025.png" width="600">
 
 
+<br/>**Katayama LS. Wild Ungulate Impacts on Ranchlands and Across Managed Landscapes in the Hawaiian Islands.  Master's thesis, University of Hawai'i at Manoa.  2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"This thesis examined the relationship between wild ungulate abundance, forage availability, and land-use classifications across the Hawaiian Islands. We investigated how wild ungulate presence affects
+forage loss and plant community composition using game cameras, exclusion cages, and vegetation surveys. Results indicate that while elevation is the primary driver of forage availability, wild ungulate detections were associated with reduced vegetation biomass at many sites, consistent with rancher concerns regarding overgrazing by wild ungulates."
+
+Used MDv4.1, reviewed images in Timelapse.
+
+
+<br/>**Burgstahler K. Climatic Adaptability and Resiliency of North American Sagebrush-Steppe Mammals and Birds.  Master's thesis, Washington State University.  2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"...we examined how fire and habitat characteristics of sagebrush patches influence the distribution of sagebrush-associated, grassland-associated, and generalist mammals and birds across the Columbia Basin. Over four spring-summer field seasons (2021-2024), we surveyed 155 burned and unburned sagebrush sites using a combination of camera traps, avian point count surveys, and vegetation surveys. From these data, we assessed how recent (within 20 years of survey) fire and habitat characteristics affect the site use and abundance of wildlife using occupancy models and generalized linear models. We documented 22 avian and mammalian species during camera trap surveys and 77 avian species during point counts. Despite documenting many species within burned sites (86), we found sagebrush-associated passerines and several other species at higher abundances in unburned sites. Within burned patches, fire age, annual grass cover, and forb cover were important drivers of site use and abundance, and responses to fire and habitat characteristics varied among taxa and degree of specialization."
+
+Used MD (likely v4, based on timing) to separate animals/blanks/humans.
+
+
+<br/>**Singh S. Will a Tale of Two Cats Become a Tale of One? Canada Lynx and Bobcat Density and Dynamic Occupancy in a Mountain Ecosystem.  Master's thesis, Washington State University.  2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"Here, we use camera trap data in combination with spatially-explicit capture-recapture and dynamic occupancy models to examine how climate influences density and abundance, and colonization-extinction dynamics of two potentially interacting species – the cold-adapted Canada lynx and the warm-adapted bobcat – at a range periphery in a montane ecosystem within northcentral Washington." ... "Decreasing winter snow depths reduced lynx colonization probabilities and increased bobcat colonization probabilities. In the short-term, our results suggest fairly stable occupancy dynamics for both species. However, in the long-term, we suggest that the interplay of climate change with our documented colonization and extinction dynamics will result in lynx range contractions and bobcat range expansions."
+
+Used MD (likely v4.1 based on timing) for coarse category separation, reviewed images in Windows Explorer.
+
+
+<br/>**Mahmoud M. Montane Carnivore Detection and Occupancy in the High Oregon Cascades.  Master's thesis, Washington State University.  2025.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We completed a state-wide survey of carnivores, including bobcats, mountain lions, coyotes, Sierra Nevada red fox, and martens in the highest-elevation area of Oregon, along the Cascade crest, using passive camera traps during
+the summers of 2023 and 2024." "...we suggest the best way to monitor the Sierra Nevada red fox is using on-trail cameras and scat surveys and we also suggest that the Three Sisters area of the Oregon Cascades may serve as climatic refugia for specialist species and therefore may require further protections (e.g., recreation management) to combat indirect and direct effects associated with climate change."
+
+Used MD (likely v4.1 for some data, v5 for later data, based on the years used in citations) for separating coarse categories.  
+
+
 #### <i>Papers from 2024</i>
 
 <br/>**Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.**
@@ -4467,6 +4509,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2025
 
+##### Ecology papers
+
+##### Technical methods papers
+
 * Liu Z, Burghardt T. Long-tailed Species Recognition in the NACTI Wildlife Dataset. arXiv preprint arXiv:2510.21657. 2025 Oct 24.
 
 * Markoff H, Galaktionovs J. Zero-Shot Wildlife Sorting Using Vision Transformers: Evaluating Clustering and Continuous Similarity Ordering. arXiv preprint arXiv:2510.14596. 2025 Oct 16.
@@ -4475,7 +4521,15 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2024
  
+##### Ecology papers
+
+##### Technical methods papers
+
 #### Papers from 2023
+
+##### Ecology papers
+
+##### Technical methods papers
 
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
 
@@ -4485,6 +4539,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from <= 2022
 
+##### Ecology papers
+
+##### Technical methods papers
+
+* Kays R, Lasky M, Allen ML, Dowler RC, Hawkins MT, Hope AG, Kohli BA, Mathis VL, McLean B, Olson LE, Thompson CW. Which mammals can be identified from camera traps and crowdsourced photographs?. Journal of Mammalogy. 2022 Apr 7.
+
 * Tan M, Chao W, Cheng JK, Zhou M, Ma Y, Jiang X, Ge J, Yu L, Feng L. Animal detection and classification from camera trap images using different mainstream object detection architectures. Animals. 2022 Aug 4;12(15):1976.
 
 * Schindler F, Steinhage V. Instance segmentation and tracking of animals in wildlife videos: SWIFT-segmentation with filtering of tracklets. Ecological Informatics. 2022 Nov 1;71:101794.
@@ -4492,6 +4552,14 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Giraldo-Zuluaga JH, Salazar A, Gomez A, Diaz-Pulido A. Recognition of mammal genera on camera-trap images using multi-layer robust principal component analysis and mixture neural networks. In 2017 IEEE 29th International Conference on Tools with Artificial Intelligence (ICTAI) 2017 Nov 6 (pp. 53-60). IEEE.
 
 #### Papers I don't have access to but would read if I did
+
+##### Ecology papers
+
+* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
+
+* Maierdiyali A, Wang Y, Chen J, Li R, Yang Y, Tao S, Kong Y, Lu Z. The interspecies relationships among the wildlife crossing structures of the Qinghai-Tibet Railway. Journal for Nature Conservation. 2025 May 4:126957.*
+
+##### Technical methods papers
 
 * Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. 2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
 
@@ -4503,25 +4571,9 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Muhammad S, Xiang W, Mann S, Han K, Nair S, Nair J. MoVE: multi-expert vision encoder fusion for zero-shot species classification in camera trap images. InEighth International Conference on Machine Vision and Applications (ICMVA 2025) 2025 Aug 1 (Vol. 13734, pp. 75-84). SPIE.
 
-* Ruto V, Njathi Y, Ligawa T, wa Maina C. Camera Trap Data Analysis for Grevy's Zebra Monitoring. In 2025 IST-Africa Conference (IST-Africa) 2025 May 28.
-
-* Katayama LS. Wild Ungulate Impacts on Ranchlands and Across Managed Landscapes in the Hawaiian Islands.  Master's thesis, University of Hawai'i at Manoa.  2025.
-
-* Burgstahler K. Climatic Adaptability and Resiliency of North American Sagebrush-Steppe Mammals and Birds.  Master's thesis, Washington State University.  2025.
-
-* Singh S. Will a Tale of Two Cats Become a Tale of One? Canada Lynx and Bobcat Density and Dynamic Occupancy in a Mountain Ecosystem.  Master's thesis, Washington State University.  2025.
-
-* Mahmoud M. Montane Carnivore Detection and Occupancy in the High Oregon Cascades.  Master's thesis, Washington State University.  2025.
-
-* Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
-
-* Maierdiyali A, Wang Y, Chen J, Li R, Yang Y, Tao S, Kong Y, Lu Z. The interspecies relationships among the wildlife crossing structures of the Qinghai-Tibet Railway. Journal for Nature Conservation. 2025 May 4:126957.*
-
 * Chen H, Reibman AR. Minimizing Human Labor for In-the-Wild Camera Trap Processing Pipeline. In 2024 IEEE 26th International Workshop on Multimedia Signal Processing (MMSP) 2024 Oct 2 (pp. 1-6). IEEE.
 
 * Singh GK, Saini S, Kaur N, Shukla S. Artificial Intelligence in Wildlife Forensics. In Artificial Intelligence in Forensic Science 2024 (pp. 112-129). CRC Press.
-
-* Curran B, Nekooei SM, Chen G. Accurate New Zealand wildlife image classification-deep learning approach. In Australasian Joint Conference on Artificial Intelligence 2022 Feb 2 (pp. 632-644). Cham: Springer International Publishing.
 
 * de la Rosa D, Álvarez A, Pérez R, Garrote G, Rivera AJ, del Jesus MJ, Charte F. NOSpcimen: A First Approach to Unsupervised Discarding of Empty Photo Trap Images. In International Work-Conference on Artificial Neural Networks 2023 Jun 19 (pp. 39-51). Cham: Springer Nature Switzerland.
 
@@ -4529,9 +4581,9 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Binta Islam S, Valles D, Hibbitts TJ, Ryberg WA, Walkup DK, Forstner MR. Animal Species Recognition with Deep Convolutional Neural Networks from Ecological Camera Trap Images. Animals. 2023 Jan;13(9):1526.
 
-* Schneider S, Taylor GW, Kremer SC. Similarity learning networks for animal individual re-identification: an ecological perspective. Mammalian Biology. 2022 Apr 27:1-6.
+* Curran B, Nekooei SM, Chen G. Accurate New Zealand wildlife image classification-deep learning approach. In Australasian Joint Conference on Artificial Intelligence 2022 Feb 2 (pp. 632-644). Cham: Springer International Publishing.
 
-* Kays R, Lasky M, Allen ML, Dowler RC, Hawkins MT, Hope AG, Kohli BA, Mathis VL, McLean B, Olson LE, Thompson CW. Which mammals can be identified from camera traps and crowdsourced photographs?. Journal of Mammalogy. 2022 Apr 7.
+* Schneider S, Taylor GW, Kremer SC. Similarity learning networks for animal individual re-identification: an ecological perspective. Mammalian Biology. 2022 Apr 27:1-6.
 
 * Barr B, Underwood H, Mountrakis G, Quackenbush L. Automated Mammal Localization and Identification in Camera Trap Images for the Northeastern United States.  Authorea preprints, 04 Jul 2022.
 
