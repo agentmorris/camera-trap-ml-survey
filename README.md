@@ -602,6 +602,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 * [Addax Data Science Northern Territory Vertebrates](https://huggingface.co/Addax-Data-Science/ANT-ADS-v1) (fine-tuned SpeciesNet for 140 categories from NT, Australia) (2026)
 * [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
+* [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
 * [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
 * [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
 * [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
