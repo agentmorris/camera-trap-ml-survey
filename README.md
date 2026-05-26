@@ -4512,6 +4512,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2026 Feb;12(1):21-37.
 
+* Shahabaz A, Toczydłowska J, Gula R, Theuerkauf J, Sarkar S. From Relative to Metric: Calibrating AI-based Monocular Depth Learning Models for Distance Sampling in Wildlife Monitoring Applications. Available at SSRN 5537631.
+
 #### Papers from 2025
 
 ##### Ecology papers
