@@ -507,6 +507,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 
 ### Last updated &gt;= 2021
 
+* SpeciesNet R wrapper ([github.com/boettiger-lab/speciesnet](https://github.com/boettiger-lab/speciesnet))
 * TropiCam-AI (arboreal taxa classifier) ([github.com/andrewzamp/TropiCam-AI](https://github.com/andrewzamp/TropiCam-AI))
 * AWC Wildlife Classifier ([github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier](https://github.com/Australian-Wildlife-Conservancy-AWC/awc-wildlife-classifier))
 * Paying attention to other animal detections improves camera trap classification models ([github.com/gdussert/MCA_Classifier](https://github.com/gdussert/MCA_Classifier))
