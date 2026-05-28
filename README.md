@@ -601,6 +601,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 ### Last updated &ge; 2025
 
+* [Addax Data Science Central Indian Wildlife](https://huggingface.co/Addax-Data-Science/IND-ADS-v1) (fine-tuned SpeciesNet for 40 categories from Central India) (2026)
 * [Addax Data Science Northern Territory Vertebrates](https://huggingface.co/Addax-Data-Science/ANT-ADS-v1) (fine-tuned SpeciesNet for 140 categories from NT, Australia) (2026)
 * [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
 * [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
