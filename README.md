@@ -4497,6 +4497,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Potash AD, Jones M, Kirkland M, Cole J, Hart K, McCleery R. Not So Fatal Attraction: Captive Female Burmese Python Lures Do Not Improve Wild Python Detection. Southeastern Naturalist. 2026 May;25(2):191-200.
 
+* Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy.  2026 May.
+
 ##### Technical methods papers
 
 * Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
