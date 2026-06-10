@@ -4501,6 +4501,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
+* Fergus P, Stephens P, Hill RA, Oliver L, Appleby K, Beatham S, Walsh ND, Nixon S, Matthews N, Sutherland C, Hitchcock K. Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals. arXiv, 2026.
+
 * Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
 
 * Li W, Mirmehdi M, Burghardt T. Visual-textual Dermatoglyphic Animal Biometrics: A First Case Study on Panthera tigris. arXiv preprint arXiv:2512.14878. 2025 Dec 16.
