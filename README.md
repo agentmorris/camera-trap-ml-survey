@@ -4501,6 +4501,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
+* Thornton D, Morris D, King T, Perera‐Romero L, Anderson A, Garcia‐Anleu R, Fitkin S, Vynne C. Identification of camera trap images by artificial intelligence and human experts produces similar multi‐species occupancy models. Journal of Applied Ecology. 2026 May;63(5):e70370.
+
+* Rajmohan PP, Sharma R, Amir Z, Bruce T, Brook BW, Morris D, Luskin MS. AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification. Science of The Total Environment. 2026 Aug 1;1042:181926.
+
+* Penton CE, Macdonald JM, Nabulwad S, Nabulwad T, Nabarlambarl R, Nabarlambarl-Billis S, Guymala A, Guymala A, Guymala A, Nabulwad A, Namarnyilk M, Smith E, Ernst C, Mason E-M, Stevens A, Nabarlambarl D, Robinson CJ. Reimagining artificial intelligence applications for Indigenous-led community-based wildlife monitoring: Insights from biodiversity surveys in the Warddeken Indigenous protected area in northern Australia. Conservation Science and Practice, June 2026.
+
 * Fergus P, Stephens P, Hill RA, Oliver L, Appleby K, Beatham S, Walsh ND, Nixon S, Matthews N, Sutherland C, Hitchcock K. Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals. arXiv, 2026.
 
 * Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
