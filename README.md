@@ -1237,6 +1237,109 @@ Dataset is [here](https://zenodo.org/records/17592004).
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/picek-czechlynx-2026.png" width="600">
 
 
+<br/>**Potash AD, Jones M, Kirkland M, Cole J, Hart K, McCleery R. Not So Fatal Attraction: Captive Female Burmese Python Lures Do Not Improve Wild Python Detection. Southeastern Naturalist. 2026 May;25(2):191-200.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Assess whether female pythons in pens can be used to lure male pythons in the Everglades.  Monitor pens with camera traps.  Collected 3.6M images from six sites (three lure, three control), four cameras at each site, found four pythons.  Results wrt the effectiveness of the lure were inconclusive; females may not have produced the same pheremones in captivity that they would in the wild.
+
+Images were on one-minute timelapse (because pythons don't reliably trigger PIR sensors).  Processed images with MDv5 and Timelapse.  Confidence threshold unspecified. Snakes are not MDv5's favorite; I hope the threshold they used was very low!
+
+
+<br/>**Beltrán Francés V. The role of anthropogenic factors on moor macaque (Macaca maura) occupancy and activity patterns in Sulawesi (Indonesia). Doctoral dissertation, Universidad Veracruzana. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"The primary objective of this thesis was to examine how anthropogenic habitat modification predicts intraspecific variation in occupancy and activity patterns of moor macaques across their entire distribution, and to develop a targeted survey protocol combining camera traps and passive acoustic monitoring (PAM) to improve detection rates and enhance primate population monitoring in the wild."
+
+On camera height: "...macaques were detected significantly better by camera traps located at 30cm and configured with high sensitivity. Moreover, camera traps located at 50cm and 70cm negatively affected moor macaque detectability."
+
+On remote monitoring vs. manual surveys: "camera traps and PAM outperformed point transects, regardless of habitat type. After equalizing survey time between methods, I found that detections were
+greater on point transects in surveys shorter than one day, but camera traps and PAM equalized their performance with two survey days".
+
+On occupancy: "macaque occupancy was higher when the forest cover in the landscape was higher, while Human Footprint Index negatively affected species occupancy".
+
+On human avoidance: "macaques responded to the presence of humans and dogs using temporal activity shifts rather than spatial avoidance".
+
+Processed camera trap images with MDv5a via Agouti.  Used DeepAudioSegmenter with a custom macaque model for the ARU data.  Took a cautious approach, and reviewed all the blanks too, but stated "Despite [the fact that] I reviewed all the sequences, the model helped annotate each sampling location [faster] than with manual annotation as I only visually reviewed the sequences and I did not have to annotate all the blank sequences".
+
+
+<br/>**Lamb CT, Chow E. Wildlife responses to nonmotorized recreation in the Southern Canadian Rockies: a multiscale analysis near Fernie, BC. Journal of Mammalogy. 2026 Jun 1.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We assessed the responses of large mammals to nonmotorized recreation near Ferni [BC], using ... 66 camera traps and GPS telemetry from 21 grizzly bears."
+
+"Elk showed the strongest avoidance, with reduced presence on recreation trails and a marked shift toward low-use periods. In contrast, Moose and Mule Deer were more frequently detected on or near recreation trails. Grizzly bears consistently avoided areas adjacent to recreation trails in GPS movement data and camera detections but were detected on recreation trails more than nearby wildlife trails suggesting that when they do move through the trail network they do so on recreation trails."
+
+Processed camera trap data with MD via WildTrax, reviewed non-blank images manually.
+
+Analysis code is [here](https://github.com/ctlamb/MtFernie_RecreationEcology).
+
+Images are reported as publicly available on WildTrax at links [1](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=998), [2](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=998), [3](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=1971), [4](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=2626), but as of 2026.06 this does not appear to be the case.
+
+
+<br/>**Brown L, Mantyka‐Pringle C, Potié J, Savage P, Hornseth M, Fisher JT. Asymmetric niche partitioning in large omnivores in response to anthropogenic disturbances within subarctic ecosystems. Journal of Animal Ecology, 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"In this study, we used data from wildlife cameras deployed at 194 sites in central Yukon during 2020–2023 to determine whether anthropogenic disturbances facilitated, or disrupted, spatiotemporal niche partitioning in American black bears and grizzly bears."
+
+"Grizzly bears modified their diel activity pattern in the higher-disturbance landscape during the afternoon, presumably to avoid interactions with humans."
+
+"Anthropogenic disturbances constrained grizzly bears to the lower-disturbance landscape. Black bears could take advantage of reduced competition and partially fill the spatiotemporal niche of grizzly bears, but our results did not show that black bears concentrated their activity in areas avoided by grizzly bears. The displacement of grizzly bears may lead to shifts in prey populations or vegetation communities, with unknown consequences for ecosystem structure."
+
+Processed images through MD, reviewed in Timelapse.  Used a confidence threshold of 0.75, which is extremely high for MDv5... I hope it was MDv4!
+
+
+<br/>**Ross I, Mallory ML, Rock JC, Gutowsky SE. Utility of camera traps for evaluating temporal and spatial patterns in predator presence at burrowing seabird colonies. Avian Conservation and Ecology. 2026 May 28;21(1).**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We used motion-triggered camera traps to monitor predator presence and behavior at a Leach’s Storm-Petrel colony on Country Island, Nova Scotia, Canada over two full breeding seasons (2023 and 2024)."
+
+"Cameras deployed across three wooded regions of the colony captured > 120,000 images...".
+
+"...camera traps can effectively quantify predator communities, detect interannual and seasonal patterns in activity, and identify spatial hotspots of predation pressure at remote seabird colonies."
+
+Report a false trigger rate (for the cameras, not AI) of 31%.  Used MDv5 through WildTrax.  They report moderate benefit from AI: "While MegaDetector often misidentified frames containing petrels as empty due to the birds’ small size, it was relatively straightforward to verify all images flagged as empty before continuing to annotate the remaining images."  Confidence threshold unspecified re: "flagged as empty".
+
+
+<br/>**Penno ZP, Bates AE, Dudas SE. Wildlife use of temperate intertidal habitats across tidal and diel gradients. Estuarine, Coastal and Shelf Science. 2026 May 21:109998.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We deployed 39 unbaited camera traps along intertidal shorelines in Barkley Sound, Vancouver Island, British Columbia, from March to December 2024 to characterize taxonomic composition, behavior, and temporal patterns of wildlife use."  "These results demonstrate that temperate intertidal habitats support diverse terrestrial and avian taxa and function as both foraging areas and movement corridors within coastal environments."
+
+Images were processed through MD using the [Migrations](https://migrations-app.com) platform, with a threshold of 0.75 (which seems high!).  Migrations is described as "developed for the WildCo lab and Fisheries and Oceans Canada".
+
+
+<br/>**Ganter J. Mammal communtiy composition and activity across the gradient of marsh to forest: implications for ghost forest formation.  MS thesis, University of North Carolina. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"...coasts have been increasingly subject to saltwater intrusion due to climate change and anthropogenic development, leading to the formation of “ghost forests” composed of dying forest vegetation and migrating marsh vegetation. To understand how and if mammals are responding to the formation of ghost forests, we deployed camera traps along the gradient of marsh, ghost forest, and intact coastal forest in the Albemarle-Pamlico Peninsula in North Carolina" ... "While most effect measurements were inconclusive, results showed that ghost forests support a mixture of upland and coastal species, and that rodent activity decreases from marsh to forest. Thus, ghost forests may facilitate new species interactions and support a unique community of mammals."
+
+Used MD (version unspecified) to remove non-animal images (using a threshold of 0.05), species tagging was done in digiKam.
+
+
+<br/>**Readyhough TS, Cepek JD, Byer NW, Moll RJ. A disrupted human shield: the COVID lockdown alters carnivore dynamics in favour of a dominant competitor. Proceedings of the Royal Society B: Biological Sciences. 2026 Jun 1;293(2072).**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We used the COVID-19 lockdowns as a natural experiment to separate the effects of the (static) human footprint and (dynamic) human recreational activity increases during lockdowns to test hypotheses related to a 'dynamic human shield' in a competitive species dyad (subordinate red foxes Vulpes vulpes and dominant coyotes Canis latrans) across an urban ecosystem. Three years of data (representing pre-lockdown, lockdown and post-lockdown periods) from >200 sites across 18 urban parks revealed dynamic responses to humans, but not in ways predicted by theory; the lockdown favoured the dominant competitor, which increased in relative abundance over time. Conversely, the subordinate species dynamically avoided humans and coyotes. These results suggest lockdown disrupted the human shield effect by favouring the dominant species, underscoring how human activity shapes species interactions."
+
+Collected data from 207 camera traps in the Cleveland area.  Used MD to filter non-animal images, reviewed images in Timelapse.  Version and threshold unspecified, but anecdotal knowledge suggests MDv5a.
+
+
 #### <i>Papers from 2025</i>
 
 <br/>**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
@@ -4495,21 +4598,27 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Potash AD, Jones M, Kirkland M, Cole J, Hart K, McCleery R. Not So Fatal Attraction: Captive Female Burmese Python Lures Do Not Improve Wild Python Detection. Southeastern Naturalist. 2026 May;25(2):191-200.
-
-* Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy.  2026 May.
-
 ##### Technical methods papers
 
 * Thornton D, Morris D, King T, Perera‐Romero L, Anderson A, Garcia‐Anleu R, Fitkin S, Vynne C. Identification of camera trap images by artificial intelligence and human experts produces similar multi‐species occupancy models. Journal of Applied Ecology. 2026 May;63(5):e70370.
 
-* Rajmohan PP, Sharma R, Amir Z, Bruce T, Brook BW, Morris D, Luskin MS. AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification. Science of The Total Environment. 2026 Aug 1;1042:181926.
-
-* Penton CE, Macdonald JM, Nabulwad S, Nabulwad T, Nabarlambarl R, Nabarlambarl-Billis S, Guymala A, Guymala A, Guymala A, Nabulwad A, Namarnyilk M, Smith E, Ernst C, Mason E-M, Stevens A, Nabarlambarl D, Robinson CJ. Reimagining artificial intelligence applications for Indigenous-led community-based wildlife monitoring: Insights from biodiversity surveys in the Warddeken Indigenous protected area in northern Australia. Conservation Science and Practice, June 2026.
-
 * Fergus P, Stephens P, Hill RA, Oliver L, Appleby K, Beatham S, Walsh ND, Nixon S, Matthews N, Sutherland C, Hitchcock K. Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals. arXiv, 2026.
 
 * Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
+
+* Rajmohan PP, Sharma R, Amir Z, Bruce T, Brook BW, Morris D, Luskin MS. AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification. Science of The Total Environment. 2026 Aug 1;1042:181926.
+
+* Wasmuht D, Brookes O, Schall M, Palencia P, Beirne C, Burghardt T, Mirmehdi M, Kühl H, Arandjelovic M, Pottie S, Bermant P. The sa-fari dataset: Segment anything in footage of animals for recognition and identification. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (pp. 21679-21689).
+
+* Cowans A, Lambin X, Hare D, Sutherland C. Improving the integration of artificial intelligence into existing ecological inference workflows. Methods in Ecology and Evolution. 2026 Feb;17(2):228-37.
+
+* Alharbi QM. Benchmarking and Adapting Open-Vocabulary Object Detection on Near-IR Camera-Trap Imagery (Master's thesis, University of Idaho). 2026.
+
+* Chemery C, Edelhoff H, Bothmann L. Beyond Off-the-Shelf Models: A Lightweight and Accessible Machine Learning Pipeline for Ecologists Working with Image Data. arXiv preprint arXiv:2601.15813. 2026 Jan 22.
+
+* Santamaría Pabón JD, Isaza Narváez CV, Giraldo Zuluaga JH. WildIng: A Wildlife Image Invariant Representation Model for Geographical Domain Shift.
+
+* Penton CE, Macdonald JM, Nabulwad S, Nabulwad T, Nabarlambarl R, Nabarlambarl-Billis S, Guymala A, Guymala A, Guymala A, Nabulwad A, Namarnyilk M, Smith E, Ernst C, Mason E-M, Stevens A, Nabarlambarl D, Robinson CJ. Reimagining artificial intelligence applications for Indigenous-led community-based wildlife monitoring: Insights from biodiversity surveys in the Warddeken Indigenous protected area in northern Australia. Conservation Science and Practice, June 2026.
 
 * Li W, Mirmehdi M, Burghardt T. Visual-textual Dermatoglyphic Animal Biometrics: A First Case Study on Panthera tigris. arXiv preprint arXiv:2512.14878. 2025 Dec 16.
 
@@ -4574,6 +4683,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 #### Papers I don't have access to but would read if I did
 
 ##### Ecology papers
+
+* Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy.  2026 May.
 
 * Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
 
