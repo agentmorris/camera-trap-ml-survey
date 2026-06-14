@@ -1282,7 +1282,7 @@ Analysis code is [here](https://github.com/ctlamb/MtFernie_RecreationEcology).
 Images are reported as publicly available on WildTrax at links [1](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=998), [2](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=998), [3](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=1971), [4](https://portal.wildtrax.ca/home/camera-deployments.html?%20sensorId=CAM&projectId=2626), but as of 2026.06 this does not appear to be the case.
 
 
-<br/>**Brown L, Mantyka‐Pringle C, Potié J, Savage P, Hornseth M, Fisher JT. Asymmetric niche partitioning in large omnivores in response to anthropogenic disturbances within subarctic ecosystems. Journal of Animal Ecology, 2026.**
+<br/>**Brown L, Mantyka-Pringle C, Potié J, Savage P, Hornseth M, Fisher JT. Asymmetric niche partitioning in large omnivores in response to anthropogenic disturbances within subarctic ecosystems. Journal of Animal Ecology, 2026.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1338,6 +1338,67 @@ Used MD (version unspecified) to remove non-animal images (using a threshold of 
 "We used the COVID-19 lockdowns as a natural experiment to separate the effects of the (static) human footprint and (dynamic) human recreational activity increases during lockdowns to test hypotheses related to a 'dynamic human shield' in a competitive species dyad (subordinate red foxes Vulpes vulpes and dominant coyotes Canis latrans) across an urban ecosystem. Three years of data (representing pre-lockdown, lockdown and post-lockdown periods) from >200 sites across 18 urban parks revealed dynamic responses to humans, but not in ways predicted by theory; the lockdown favoured the dominant competitor, which increased in relative abundance over time. Conversely, the subordinate species dynamically avoided humans and coyotes. These results suggest lockdown disrupted the human shield effect by favouring the dominant species, underscoring how human activity shapes species interactions."
 
 Collected data from 207 camera traps in the Cleveland area.  Used MD to filter non-animal images, reviewed images in Timelapse.  Version and threshold unspecified, but anecdotal knowledge suggests MDv5a.
+
+
+<br/>**Thornton D, Morris D, King T, Perera-Romero L, Anderson A, Garcia-Anleu R, Fitkin S, Vynne C. Identification of camera trap images by artificial intelligence and human experts produces similar multi-species occupancy models. Journal of Applied Ecology. 2026 May;63(5):e70370.**
+
+![LILA](https://img.shields.io/badge/-LILA-4444aa)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+Full disclosure: I'm a co-author on this paper.
+
+Compared occupancy models built on (a) conventional manual annotations vs. (b) SpeciesNet output, for camera trap studies in Montana and Guatemala.
+
+"We found that for most species of mammal, AI based models were remarkably similar to expert-based models, with some variability based on post-processing decisions. This agreement was robust, holding across multiple metrics of comparison (e.g. parameter estimates, precision, occupancy and detection rates), multiple study sites and at species and community levels. Similarity in model output occurred even in the presence of misclassification errors, suggesting our approach was resilient to some level of false negatives and positives. Substantial divergence in model output and subsequent inference, while rare, was most prevalent for rarely detected species."
+
+The takeaway isn't "reviewing images isn't necessary any more", IMO it's more like "for occupancy modeling (which is less sensitive to errors than other analyses), for species where SpeciesNet works pretty well, we're inching toward automation".
+
+Expert labeling used MDv5a; species classification used Windows Explorer to move images into species folders.
+
+The AI pipeline uses MDv5a (with a threshold of 0.15) and SpeciesNet, with [sequence-level smoothing](https://megadetector.readthedocs.io/en/latest/postprocessing.html#megadetector.postprocessing.classification_postprocessing.smooth_classification_results_sequence_level), and a [taxonomic restriction list](https://megadetector.readthedocs.io/en/latest/postprocessing.html#megadetector.postprocessing.classification_postprocessing.restrict_to_taxa_list) (rather than the default SpeciesNet geofence).  The pipeline built for this paper became the standard process I use for all MD/SpeciesNet jobs; it's now summarized [here](http://lila.science/megadetector-pro-tips).
+
+A subset of the images from this paper were [released on LILA](https://lila.science/datasets/wsu-lynx/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/thornton-2026-graphical-abstract.jpg" width="750">
+
+
+<br/>**Fergus P, Stephens P, Hill RA, Oliver L, Appleby K, Beatham S, Walsh ND, Nixon S, Matthews N, Sutherland C, Hitchcock K. Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals. arXiv, 2026.**
+
+Train a YOLOv26x detector on ~48k labeled images from the UK, on 28 animal categories (18 mammals, 10 birds).  ONNX model weights are available [here](https://traptracker.co.uk/uk-mammals-model-card/).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fergus-2026-uk-mammals.png" width="750">
+
+
+<br/>**Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.**
+
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+
+Propose the development of occupany models using AI-derived covariates (from satellite imagery and camera traps) in addition to traditional hand-selected covariates.  They find that adding imagery-derived covariates improves predictive performance (compared to traditional covariates).
+
+Also propose a method for producing human-interpretable descriptions of factors contributing to occupancy probability.
+
+Train on 83 datasets from Wildlife Insights, evaluate on a held-out Snapshot USA test set, with a 10km buffer between train and test sets.
+
+For camera trap images, they compare a bunch of feature extractors (DINOv2, BioCLIP, CLIP VIT-bigG, SpeciesNet, MegaDetector).  They find that DINOv2 performs best overall, but not by a huge margin.
+
+For satellite images, they also compare a bunch of feature spaces (AlphaEarth, TESSERA, DINOv2, TaxaBind, Prithvi, Galileo, Satbird).  They find that AlphaEarth performs best overall, but not by a huge margin. 
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/haucke-2026-occupancy.png" width="700">
+
+
+<br/>**Rajmohan PP, Sharma R, Amir Z, Bruce T, Brook BW, Morris D, Luskin MS. AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification. Science of The Total Environment. 2026 Aug 1;1042:181926.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+Full disclosure: I'm a co-author on this paper.
+
+Compare (a) SpeciesNet out of the box (with the default Australia geofence), (b) a fine-tuned SpeciesNet, and (c) a local model trained from ImageNet-pretrained weights on an Australian dataset of ~2M images (restricted to 15 categories).  Find that the fine-tuned SpeciesNet outperforms the other options.
+
+Fine-tuning code is [here](https://github.com/WildObs/SpeciesNet-FineTuning).  Fine-tuned model weights are [here](https://huggingface.co/WildObs/WildObs_QLD_WetTropics/tree/main).  Training images are available on the [WildObs](https://www.wildobs.org.au/) platform.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rajmohan-2026-finetuning.jpg" width="700">
 
 
 #### <i>Papers from 2025</i>
@@ -4599,14 +4660,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 ##### Ecology papers
 
 ##### Technical methods papers
-
-* Thornton D, Morris D, King T, Perera‐Romero L, Anderson A, Garcia‐Anleu R, Fitkin S, Vynne C. Identification of camera trap images by artificial intelligence and human experts produces similar multi‐species occupancy models. Journal of Applied Ecology. 2026 May;63(5):e70370.
-
-* Fergus P, Stephens P, Hill RA, Oliver L, Appleby K, Beatham S, Walsh ND, Nixon S, Matthews N, Sutherland C, Hitchcock K. Democratising Camera Trap AI: An Open-Source Model for Detecting UK Mammals. arXiv, 2026.
-
-* Haucke T, Harrell L, Shen Y, Klein L, Rolnick D, Gillespie LE, Beery S. Seeing Above and Below the Canopy: Modeling and Interpreting Species Occupancy with Multimodal Habitat Representations. bioRxiv 2025.09.06.674602.
-
-* Rajmohan PP, Sharma R, Amir Z, Bruce T, Brook BW, Morris D, Luskin MS. AI and computer vision for wildlife identification in camera trap images: Fine-tuning SpeciesNet outperforms local models for species classification. Science of The Total Environment. 2026 Aug 1;1042:181926.
 
 * Wasmuht D, Brookes O, Schall M, Palencia P, Beirne C, Burghardt T, Mirmehdi M, Kühl H, Arandjelovic M, Pottie S, Bermant P. The sa-fari dataset: Segment anything in footage of animals for recognition and identification. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (pp. 21679-21689).
 
