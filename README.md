@@ -619,15 +619,18 @@ When possible, the first link for each line item should get you pretty close to 
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
 * [DeepFaune-New-England](https://code.usgs.gov/vtcfwru/deepfaune-new-england) (species classifier for New England wildlife, fine-tuned from the DeepFaune model, runs on crops) (2025)
 * [SpeciesNet](https://github.com/google/cameratrapai) (global species classifier for ~2k categories) (2025)
-* [MegaDetector](https://github.com/agentmorris/MegaDetector/releases/tag/v5.0) (v5a and v5b, both YOLOv5, human/animal/vehicle) (2022, metadata update in 2025)
-  * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
-  * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
 * [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)) ([report](https://filedn.eu/l1723vRFnsquJMoK85UThX0/Alita_Windows_App/alita_v3_report.pdf))
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 * [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
 * [DeepForestVision](https://github.com/MNHN-OFVI/DeepForestVision) (classifier for African tropical forests) (2025)
+* [MegaDetector](https://github.com/agentmorris/MegaDetector) (human/animal/vehicle detector) (MDv1000 released in 2025)
+
+<!--
+  * [MegaDetectorLite](https://github.com/timmh/MegaDetectorLite/releases/tag/v0.2) (ONNX and TensorRT exports of MegaDetector v5) (2022)
+  * [Animl's TF export of MDv5b](https://sandiegozoo.app.box.com/s/9f3xuqldvg9ysaix9c9ug8tdcrmc2eqx/folder/196934774550) (2022)
+-->
 
 ### Last updated 2024
 
