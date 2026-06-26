@@ -608,7 +608,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [TrapTracker Sub-Saharan Africa Mammals](https://traptracker.co.uk/sub-saharan-africa-mammals-model-card/) (YOLOv26x detector, 35 categories of African wildlife (mostly mammals, some birds)) (2026)
 * [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
 * [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
-* [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest UW and the US/Mexico border region) (2026)
+* [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest US and the US/Mexico border region) (2026)
 * [Addax Data Science New Zealand Invasives](https://huggingface.co/Addax-Data-Science/NZI-ADS-v1) (YOLOv8-cls model for 17 New Zealand taxa) (2026)
 * [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
 * [AHDriFT-ID](https://u.osu.edu/lipps.37/ahdrift-id) (fine-tuned SpeciesNet for 46 categories in downward-facing small animal cameras in Ohio) (2026)
