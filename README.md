@@ -4710,6 +4710,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
+* Koelman N.  Eyes in the wild: camera traps and hunter counts give similar moose reproductive outcome estimates. Second cycle, A2E. Umeå: SLU, Dept. of Wildlife, Fish and Environmental Studies. 2024.
+
 #### Papers from 2023
 
 ##### Ecology papers
