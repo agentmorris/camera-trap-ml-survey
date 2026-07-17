@@ -212,9 +212,9 @@ A free, [open-source](https://github.com/WildEyeConservation/TrapTagger) online 
 
 > <https://traptracker.co.uk/>
 
-Includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.
+[Open-source](https://github.com/traptracker-ai) cloud platform that includes a family (\~10) of region-specific object detection models for camera traps and drones.  Model selection and data upload are done with a desktop client.
 
-NB: that information is based on the previous incarnation of this platform, as "Conservation AI".  IIUC the broader program/organization is still called "Conservation AI", but the camera trap platform was renamed to "TrapTracker" in 2026.
+Formerly know as "Conservation AI".  IIUC the broader program/organization is still called "Conservation AI", but the camera trap platform was renamed to "TrapTracker" in 2026.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/conservation-ai-bobcat.jpg" width="500">
 
