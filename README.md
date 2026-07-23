@@ -994,7 +994,7 @@ Breaking the fourth wall: I know anecdotally that this was a tough case that req
 For training and running their classifier, they used MD and resampled crops to 384x384; they trained on ~8k total crops.  They used EfficientNet-v2 in Keras for the classifier.
 
 
-</br>**Paton AJ, Flett I, Pauza M, Brook BW, Buettel JC. Did curiosity kill the cat? The impacts of aerial baiting and Felixer deployment on feral cat populations on Three Hummock Island, Tasmania. Wildlife Research. 2026 Jan 27;53(2):WR25057.**
+<br/>**Paton AJ, Flett I, Pauza M, Brook BW, Buettel JC. Did curiosity kill the cat? The impacts of aerial baiting and Felixer deployment on feral cat populations on Three Hummock Island, Tasmania. Wildlife Research. 2026 Jan 27;53(2):WR25057.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1745,7 +1745,7 @@ Compare PAM with observer-based monitoring and camera traps for mammalian biodiv
 
 Deployed ARUs at six sites in Australia.  Conducted observer-based surveys at the same sites (specifically, for plots at each site near the ARU); observer-based methods included a variety of physical traps, plus nocturnal spotlighting and incidental manual observation.  Camera traps were placed on each plot at each site.  
 
-PAM data was processed via a custom classified trained on BirdNET feature embeddings.  Images were processed with MegaDetector and Timelapse; version is unspecified, but it indicates that the Timelapse default confidence was 0.8, suggestion MDv4.  They used a MD confidence value of 0.5 (which would be a safe threshold for MDv4).
+PAM data was processed via a custom classified trained on BirdNET feature embeddings.  Images were processed with MegaDetector and Timelapse; version is unspecified, but it indicates that the Timelapse default confidence was 0.8, suggesting MDv4.  They used a MD confidence value of 0.5 (which would be a safe threshold for MDv4).
 
 "We identified a total of 45 species of mammals, of which 17 were classified as ‘vocal mammals’. For all mammals combined, OBM recorded the highest species richness (45/45 species), followed by camera traps (25/45 species), PAM using all available audio (17/45 species) and PAM using audio matching the survey period only (13/45 species). Overall, OBM detected 11 unique species not detected by any other method. The highest number of vocal mammals were detected by PAM using all audio (17/17 species) and OBM (17/17 species), followed by PAM using audio recorded only during the survey period (13/17 species), and camera traps (11/17 species)."
 
@@ -2030,7 +2030,7 @@ Used MD (likely v4.1 for some data, v5 for later data, based on the years used i
 Deployed 72 double-sided camera stations (144 cameras overall) along human-created movement corridors.  Used MD to eliminate non-human images.
 
 
-</br/>**Clarfeld LA, Gieder KD, Fuller A, Miao Z, Sirén AP, Webb SM, Morelli TL, Wilson TL, Kilborn J, Callahan CB, Prout LS. DeepFaune New England: A Species Classification Model for Trail Camera Images in Northeastern North America. Ecology and Evolution. 2025 Nov;15(11):e72174.**
+<br/>**Clarfeld LA, Gieder KD, Fuller A, Miao Z, Sirén AP, Webb SM, Morelli TL, Wilson TL, Kilborn J, Callahan CB, Prout LS. DeepFaune New England: A Species Classification Model for Trail Camera Images in Northeastern North America. Ecology and Evolution. 2025 Nov;15(11):e72174.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -4663,6 +4663,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ##### Ecology papers
 
 ##### Technical methods papers
+
+* Magaldi H, d'Audiffret T, Akomo-Okoue EF, Amarasekaran B, Anderson N, Auger C, Cappelle N, Cornelis D, Cornette R, Deschner T, Dubus G. DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests. arXiv preprint arXiv:2606.20223. 2026 Jun 18.
 
 * Wasmuht D, Brookes O, Schall M, Palencia P, Beirne C, Burghardt T, Mirmehdi M, Kühl H, Arandjelovic M, Pottie S, Bermant P. The sa-fari dataset: Segment anything in footage of animals for recognition and identification. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (pp. 21679-21689).
 
