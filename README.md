@@ -2020,6 +2020,9 @@ Used MD (likely v4.1 for some data, v5 for later data, based on the years used i
 
 <br/>**Novoa FJ, Ayala M, Infante-Varela J, Ibarra JT, Díaz J, Altamirano TA, Gálvez N. Tree-Cavity Denning of Güiña (Leopardus guigna) and Breeding Productivity From Camera Trap Records. Ecology and Evolution. 2025 Sep;15(9):e71723.**
 
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
 They use camera trap to explore the breeding activity and habitat preferences of kodkods (aka güiña) in Chile.
 
 They did two camera trap studies:
