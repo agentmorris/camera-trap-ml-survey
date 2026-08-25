@@ -4662,9 +4662,23 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
+* Novoa FJ, Marín Á, Gálvez N, Almuna R. Records and activity patterns of an undescribed Lagidium in Andean temperate ecosystems of southern Chile. Mammalia. 2026 Jun 29(0).
+
+* Nawaz MA, Ahmad S, AlEssa G, Badrunnahar S, Chatziefthimiou AD, AlHajri S, Saqib Z, Alkhayat F. First empirical record of the sand cat (Felis margarita thinobius) in Qatar: resolving distribution, habitat preferences, and conservation needs. Frontiers in Conservation Science. 2026 May 28;7:1746427.
+
+* Boekschoten R. Context Dependent Effects of Large Carnivores on Mesocarnivores: Pumas and Foxes in Patagonia (Doctoral dissertation).
+
+* Antoniazzi R, Velasquez-C K, Menzel ER, Stage D, Hughes K, Andrade-Ponce G. Climbing the urban canopy: Camera trap insights into mammal activity and habitat use. Wildlife Society Bulletin. 2026 Mar;50(1):e70013.
+
+* Atzeni L, Janchivlamdan C, Choijin B, Khurelbaatar A, Tserendorj U, Ganbold D, Krofel M, Augugliaro C. At the edge of persistence: Climate change threatens habitat and connectivity of the Gobi bear in the Mongolian desert. Preprint, 2026.
+
+* Novoa FJ, Ayala M, Infante‐Varela J, Ibarra JT, Díaz J, Altamirano TA, Gálvez N. Tree‐Cavity Denning of Güiña (Leopardus guigna) and Breeding Productivity From Camera Trap Records. Ecology and Evolution. 2025 Sep;15(9):e71723.
+
+* Schillé L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. From bird communities to trophic interactions: successive ecological filters decouple potential and realized insectivory in urban environments. bioRxiv, 2026 Feb 25.
+
 ##### Technical methods papers
 
-* Meliane MK, Guthrie JM, Ellington EH. Are we there yet? Reliable occupancy modeling from AI‐labeled trail camera data. Conservation Science and Practice. 2026:e70367.
+* Meliane MK, Guthrie JM, Ellington EH. Are we there yet? Reliable occupancy modeling from AI-labeled trail camera data. Conservation Science and Practice. 2026:e70367.
 
 * McMurry S, Goldstein B, Alyetama M, Kays R. Automated Parameter Estimation for Camera Trap Density Models Using Computer Vision-Enhanced Distance Sampling. bioRxiv. 2026 Jun 16:2026-06.
 
@@ -4697,6 +4711,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Veazey L, Latty C, Chapman Z, Hollmen TE. Applying computer vision to accelerate monitoring and analysis of bird incubation behaviors: a case study using common eider nest camera footage. Remote Sensing in Ecology and Conservation. 2026 Feb;12(1):21-37.
 
 * Shahabaz A, Toczydłowska J, Gula R, Theuerkauf J, Sarkar S. From Relative to Metric: Calibrating AI-based Monocular Depth Learning Models for Distance Sampling in Wildlife Monitoring Applications. Available at SSRN 5537631.
+
+* Zhang M, Yao JX, Wu RH, Li XW, Ren GP, Xiao W, Yang DQ. Reannotation-Free Automatic Recognition Methods for Empty Camera Trap Images Based on MegaDetector Optimization. Animals. 2026 Aug 20;16(16):2609.
 
 #### Papers from 2025
 
