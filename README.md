@@ -2651,7 +2651,7 @@ Explores the impact of urbanization in San Diego County on bobcat ranges, using 
 Just like the title says: investigates the impacts of recreation on mountain goats, using camera traps.  Found evidence that recreation activity has a negative effect on goat space use, and that goats in high human use areas are more stressed.  Used MegaDetector and [WildCo-Faceblur](https://github.com/WildCoLab/WildCo_Face_Blur) for image review.  Unspecified whether MD was used to eliminate blanks, or only to blur humans.
 
 
-<br/>**Harbo V. Human Recreation in Protected Areas Impacts Spatial Dynamics and Risk-Resource Trade-Offs Among a Wildlife Community. MS dissertation, University of Victoria, 2024.**.
+<br/>**Harbo V. Human Recreation in Protected Areas Impacts Spatial Dynamics and Risk-Resource Trade-Offs Among a Wildlife Community. MS dissertation, University of Victoria, 2024.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
