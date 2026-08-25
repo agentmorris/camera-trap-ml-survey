@@ -919,6 +919,42 @@ If you have other tags you think I should be tracking here, <a href="mailto:agen
 Deployed cameras at cougar feeding sites in California, and also deployed cameras at 59 locations in the same area on a 3km grid to estimate background density.  Cameras were deployed from May 2021 to April 2023.  Used MD with a 70% confidence to eliminate blanks (version unspecified, but at a 70% confidence threshold, I hope it was MDv4!), reviewed images in Timelapse.
 
 
+<br/>**Novoa FJ, Marín Á, Gálvez N, Almuna R. Records and activity patterns of an undescribed Lagidium in Andean temperate ecosystems of southern Chile. Mammalia. 2026 Jun 29(0).**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+They study the Wolffsohn's viscacha, a rare and relatively under-studied chinchilla.  They find detections that extend the known range northward and into higher altitudes in Chile.
+
+Used MegaDetector (v5a implied by timing) via AddaxAI, with a threshold of 0.01.
+
+"We report the first confirmed record of viscachas from La Araucanía Region, and our records significantly expand the current knowledge of the distribution of L. cf. L. wolffsohni in Chile, extending its known northern distribution by approximately 144km".
+
+
+<br/>**Nawaz MA, Ahmad S, AlEssa G, Badrunnahar S, Chatziefthimiou AD, AlHajri S, Saqib Z, Alkhayat F. First empirical record of the sand cat (Felis margarita thinobius) in Qatar: resolving distribution, habitat preferences, and conservation needs. Frontiers in Conservation Science. 2026 May 28;7:1746427.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"The sand cat (Felis margarita) is one of the least studied desert-adapted small felids. The current extent of the species in its historic range is poorly understood, and the species’ presence has been particularly uncertain in the State of Qatar. In the present study, we deployed a total of 85 motion-triggered cameras across four study sites in Qatar from February 2022 to January 2025 (active period of 713 days) to fill the aforementioned knowledge gap." They found "...the first confirmed record of sand cat presence in Qatar based on systematic sampling, effectively resolving the long-standing uncertainty regarding the species’ occurrence in the country."
+
+Used MegaDetector to remove blanks: "Each camera trap folder was first screened by EcoAssist to exclude false triggers, livestock, humans, and vehicles. The remaining photo data were uploaded to TrapTagger for species tagging."  I'm not sure they actually removed livestock this way; if they did, they didn't say what model they used for this or whether they literally used a hard threshold to remove livestock images.
+
+
+<br/>**Antoniazzi R, Velasquez-C K, Menzel ER, Stage D, Hughes K, Andrade-Ponce G. Climbing the urban canopy: Camera trap insights into mammal activity and habitat use. Wildlife Society Bulletin. 2026 Mar;50(1):e70013.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"Here, we assessed scansorial mammals and their diel activity patterns in the canopy, as well as the effectiveness of different camera trap orientations in tree crowns. We deployed 16 camera traps across ground and canopy strata at 5 sampling points in an urban green space and a residential neighborhood in a well-arbored town in the southeastern United States [Nacogdoches, Texas]."
+
+TIL: "scansorial" refers to animals that are adapted for, or capable of, climbing.
+
+Used MD via AddaxAI to remove blanks, reviewed images in Timelapse.
+
+"Our surveys across urban green spaces and a nearby suburb revealed distinct patterns of vertical habitat use, in which southern flying squirrels were restricted to the canopy, fox squirrels were detected mainly in the canopy, eastern gray squirrels used both canopy and ground evenly, and raccoons were detected primarily on the ground with limited early-night canopy activity."  "Notably, camera traps in the canopy allowed us to document the presence of southern flying squirrels, a species overlooked in previous ground-based surveys in the same urban landscape."
+
+
 <br/>**Adams TM. Coexisting with Change: Wildlife Responses to Invaded Forest Communities in Southeastern Michigan, Doctoral Dissertation, University of Michigan, 2026.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -4681,17 +4717,12 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Novoa FJ, Marín Á, Gálvez N, Almuna R. Records and activity patterns of an undescribed Lagidium in Andean temperate ecosystems of southern Chile. Mammalia. 2026 Jun 29(0).
-
-* Nawaz MA, Ahmad S, AlEssa G, Badrunnahar S, Chatziefthimiou AD, AlHajri S, Saqib Z, Alkhayat F. First empirical record of the sand cat (Felis margarita thinobius) in Qatar: resolving distribution, habitat preferences, and conservation needs. Frontiers in Conservation Science. 2026 May 28;7:1746427.
-
-* Boekschoten R. Context Dependent Effects of Large Carnivores on Mesocarnivores: Pumas and Foxes in Patagonia (Doctoral dissertation).
-
-* Antoniazzi R, Velasquez-C K, Menzel ER, Stage D, Hughes K, Andrade-Ponce G. Climbing the urban canopy: Camera trap insights into mammal activity and habitat use. Wildlife Society Bulletin. 2026 Mar;50(1):e70013.
-
 * Atzeni L, Janchivlamdan C, Choijin B, Khurelbaatar A, Tserendorj U, Ganbold D, Krofel M, Augugliaro C. At the edge of persistence: Climate change threatens habitat and connectivity of the Gobi bear in the Mongolian desert. Preprint, 2026.
 
 * Schillé L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. From bird communities to trophic interactions: successive ecological filters decouple potential and realized insectivory in urban environments. bioRxiv, 2026 Feb 25.
+
+* Boekschoten R. Context Dependent Effects of Large Carnivores on Mesocarnivores: Pumas and Foxes in Patagonia (Doctoral dissertation).
+
 
 ##### Technical methods papers
 
