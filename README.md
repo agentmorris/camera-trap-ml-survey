@@ -2018,6 +2018,22 @@ the summers of 2023 and 2024." "...we suggest the best way to monitor the Sierra
 Used MD (likely v4.1 for some data, v5 for later data, based on the years used in citations) for separating coarse categories.  
 
 
+<br/>**Novoa FJ, Ayala M, Infante-Varela J, Ibarra JT, Díaz J, Altamirano TA, Gálvez N. Tree-Cavity Denning of Güiña (Leopardus guigna) and Breeding Productivity From Camera Trap Records. Ecology and Evolution. 2025 Sep;15(9):e71723.**
+
+They use camera trap to explore the breeding activity and habitat preferences of kodkods (aka güiña) in Chile.
+
+They did two camera trap studies:
+
+* One where they placed a camera trap in front of a single tree cavity where they observed cubs, collecting lots of images and video.
+* One where they placed cameras at 437 unique locations from 2012-2024, to monitor activity on the forest floor.
+
+They used AddaxAI (EcoAssist at the time) to run MD (threshold 0.01, MDv5a implied), and classify species in Timelapse.
+
+"We recorded the first photographic evidence of güiña denning inside a tree cavity, located in a standing dead tree in a second-growth forest stand."
+
+"The presence of large-decaying trees and snags, large cavities, and high canopy cover may influence güiña's habitat selection, providing shelter and food availability for its kitten/cub."
+
+
 #### <i>Papers from 2024</i>
 
 <br/>**Singh S, Thornton D, Welfelt L. Temperature driven density gradients of two congeneric felids reveal contrasting responses to climate change at a range margin. Scientific Reports. 2025 Nov 27.**
@@ -4671,8 +4687,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Antoniazzi R, Velasquez-C K, Menzel ER, Stage D, Hughes K, Andrade-Ponce G. Climbing the urban canopy: Camera trap insights into mammal activity and habitat use. Wildlife Society Bulletin. 2026 Mar;50(1):e70013.
 
 * Atzeni L, Janchivlamdan C, Choijin B, Khurelbaatar A, Tserendorj U, Ganbold D, Krofel M, Augugliaro C. At the edge of persistence: Climate change threatens habitat and connectivity of the Gobi bear in the Mongolian desert. Preprint, 2026.
-
-* Novoa FJ, Ayala M, Infante‐Varela J, Ibarra JT, Díaz J, Altamirano TA, Gálvez N. Tree‐Cavity Denning of Güiña (Leopardus guigna) and Breeding Productivity From Camera Trap Records. Ecology and Evolution. 2025 Sep;15(9):e71723.
 
 * Schillé L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. From bird communities to trophic interactions: successive ecological filters decouple potential and realized insectivory in urban environments. bioRxiv, 2026 Feb 25.
 
