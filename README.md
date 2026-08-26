@@ -599,18 +599,22 @@ I am making a very loose effort to include last-updated dates for each of these.
 
 When possible, the first link for each line item should get you pretty close to the model weights.
 
+
 ### Last updated &ge; 2025
 
+* [Addax Data Science Western USA](https://huggingface.co/Addax-Data-Science/WUSA-SDZWA-v1) (EfficientNet v2M for 50 classes from the Western US) (2026)
 * [Addax Data Science Central Indian Wildlife](https://huggingface.co/Addax-Data-Science/IND-ADS-v1) (fine-tuned SpeciesNet for 40 categories from Central India) (2026)
 * [Addax Data Science Northern Territory Vertebrates](https://huggingface.co/Addax-Data-Science/ANT-ADS-v1) (fine-tuned SpeciesNet for 140 categories from NT, Australia) (2026)
-* [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
-* [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
-* [TrapTracker Sub-Saharan Africa Mammals](https://traptracker.co.uk/sub-saharan-africa-mammals-model-card/) (YOLOv26x detector, 35 categories of African wildlife (mostly mammals, some birds)) (2026)
-* [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
 * [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
 * [Addax Data Science Southwest Borderlands USA](https://huggingface.co/Addax-Data-Science/SBUSA-ADS-v1) (fine-tuned SpeciesNet for 68 species in the Southwest US and the US/Mexico border region) (2026)
 * [Addax Data Science New Zealand Invasives](https://huggingface.co/Addax-Data-Science/NZI-ADS-v1) (YOLOv8-cls model for 17 New Zealand taxa) (2026)
 * [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
+* [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
+* [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
+* [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
+* [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
+* [TrapTracker Sub-Saharan Africa Mammals](https://traptracker.co.uk/sub-saharan-africa-mammals-model-card/) (YOLOv26x detector, 35 categories of African wildlife (mostly mammals, some birds)) (2026)
+* [Australian Wildlife Conservancy Classifier](https://huggingface.co/Addax-Data-Science/AWC135-AWC-v1) (EfficientNetV2S trained in timm for 135 categories of Australian wildlife) (2026)
 * [AHDriFT-ID](https://u.osu.edu/lipps.37/ahdrift-id) (fine-tuned SpeciesNet for 46 categories in downward-facing small animal cameras in Ohio) (2026)
 * [WildObs Wet Tropics](https://huggingface.co/Addax-Data-Science/WetTropics_WildObs/tree/main) (fine-tuned SpeciesNet for 121 Australian taxa) (2026)
 * [WildObs National](https://huggingface.co/WildObs/WildObs_National/tree/main) (fine-tuned SpeciesNet (according to [this notebook](https://huggingface.co/WildObs/WildObs_National/blob/main/evaluate_National_hf.ipynb)) for 46 Australian taxa) (2026)
@@ -619,8 +623,6 @@ When possible, the first link for each line item should get you pretty close to 
 * [DeepFaune](http://pbil.univ-lyon1.fr/software/download/deepfaune/v1.3/) (custom detector and classifier for European wildlife, both in PyTorch) ([code](https://plmlab.math.cnrs.fr/deepfaune/software/-/tree/master)) (also deployed via the [DeepFaune client](https://www.deepfaune.cnrs.fr/en/)) (2025)
 * [DeepFaune-New-England](https://code.usgs.gov/vtcfwru/deepfaune-new-england) (species classifier for New England wildlife, fine-tuned from the DeepFaune model, runs on crops) (2025)
 * [SpeciesNet](https://github.com/google/cameratrapai) (global species classifier for ~2k categories) (2025)
-* [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
-* [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
 * [Weka Research New Zealand Alita](https://huggingface.co/Addax-Data-Science/New_Zealand_Alita_v1/tree/main) (77 New Zealand taxa) ([source](https://github.com/Wologman/Alita)) ([report](https://filedn.eu/l1723vRFnsquJMoK85UThX0/Alita_Windows_App/alita_v3_report.pdf))
 * [Camera Trap Vehicle Classifier](https://github.com/agentmorris/camera-trap-vehicle-classifier) (classifies MegaDetector vehicle crops into car/bike/motorbike/quad) (2025)
 * [Camera Trap Horse Classifier](https://github.com/agentmorris/camera-trap-horse-classifier) (classifies crops that SpeciesNet says are horses into packhorse/saddlehorse/free-ranging horse) (2025)
@@ -656,8 +658,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Mbaza AI](https://github.com/Appsilon/mbaza/releases/tag/v2.1.1) (primarily intended for use in the [Mbaza AI desktop client](https://appsilon.com/data-for-good/mbaza-ai/), but model weights are available as part of the release (gabon.onnx, ol_pejeta.onnx, and serengeti.onnx) ([code](https://github.com/Appsilon/mbaza?tab=readme-ov-file)) (all three models are whole-image classifiers AFAIK) (2023)
 * [Goanna detector](https://github.com/agentmorris/unsw-goannas/releases) (available as a YOLOv5x6 detector (trained from MDv5a) and a YOLOv8x detector, five Australian classes) (dingo, fox, goanna, possum, quoll) (2023)
 * [Tegu detector](https://github.com/agentmorris/usgs-tegus/releases) (YOLOv5x6 detector for tegus and a few other species in Florida, trained from MDv5a) (2023)
-* [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://github.com/microsoft/CameraTraps/blob/e9edc7c05525a7cc5ab39ed62bf9c0770813fc9b/PytorchWildlife/models/classification/resnet/amazon.py)) + human + unknown) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
-* [AI4GOpossum](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, binary opossum classifier) ([code](https://github.com/microsoft/CameraTraps/)) (2023)
+* [AI4GAmazonRainforest](https://zenodo.org/records/10042023) (PyTorch ResNet-50, runs on MD crops, 34 Amazon species ([class info](https://docs.addaxai.com/docs/reference/model-zoo/#CAM-AI4G-v1) + human + unknown) (2023)
 
 ### Last updated 2022
 
