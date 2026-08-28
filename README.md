@@ -1089,6 +1089,20 @@ Studied vocalizing birds with AudioMoths and BirdNET.
 In the cafeteria sites, they used custom cameras to monitor predation events.  Cameras were time-triggered.  They used MD through EcoAssist, with a confidence threshold of 2%, to remove empty images.  Species identification was manual.
 
 
+<br/>**Schillé L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. From bird communities to trophic interactions: successive ecological filters decouple potential and realized insectivory in urban environments. bioRxiv, 2026 Feb 25.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We used 25 plots distributed along a controlled urbanization gradient in Montreal, Canada. We combined acoustic monitoring of insectivorous bird communities, arthropod surveys, and camera-monitored cafeteria-like experiments deployed on trees to quantify trait-based potential insectivory, realized insectivory through direct foraging interactions, natural prey availability and prey selection among three arthropod guilds (lepidopteran larvae, spiders and ants)."
+
+"Our results show that realized trophic interactions emerge through successive ecological filters rather than directly from community composition: environmental conditions restructure bird communities and prey availability, subsequent foraging filters determine which species actively participate, and prey selection governs which guilds are consumed. Predicting ecosystem functioning in cities therefore requires considering not only biodiversity patterns but also the ecological processes linking community composition to realized trophic interactions."
+
+Because they were monitoring behavior, rather than presence, they didn't use traditional cameras, rather they deployed "custom-built near-continuous" cameras at 73 trees across 25 plots in Montreal.
+
+Used MD through AddaxAI (then EcoAssist) to remove blanks (2% confidence threshold).  MDv5 implied by timing.
+
+
 <br>**Raynes T, Brookes O, Haucke T, Bösch L, Crunchant AS, Kühl H, Beery S, Mirmehdi M, Burghardt T. Deep in the Jungle: Towards Automating Chimpanzee Population Estimation. arXiv preprint arXiv:2601.22917. 2026 Jan 30.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -1439,6 +1453,28 @@ Compare (a) SpeciesNet out of the box (with the default Australia geofence), (b)
 Fine-tuning code is [here](https://github.com/WildObs/SpeciesNet-FineTuning).  Fine-tuned model weights are [here](https://huggingface.co/WildObs/WildObs_QLD_WetTropics/tree/main).  Training images are available on the [WildObs](https://www.wildobs.org.au/) platform.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/rajmohan-2026-finetuning.jpg" width="700">
+
+
+<br/>**Atzeni L, Janchivlamdan C, Choijin B, Khurelbaatar A, Tserendorj U, Ganbold D, Krofel M, Augugliaro C. At the edge of persistence: Climate change threatens habitat and connectivity of the Gobi bear in the Mongolian desert. Preprint, 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Deployed cameras at 216 sites between 2008 and 2025 to monitor Gobi bears in Mongolia, then assessed current habitat suitability and projected suitability under multiple climate scenarios for 2050 and 2070.  "Our findings indicate that the Gobi bear's narrow ecological niche and reliance on stable precipitation regimes may limit its resilience to climate change, highlighting the need for proactive, transboundary conservation planning across Asian drylands."
+
+Used MDv5 via AddaxAI to remove blanks; reviewed animal/human/vehicle images manually.
+
+
+<br/>**Boekschoten R. Context Dependent Effects of Large Carnivores on Mesocarnivores: Pumas and Foxes in Patagonia. Doctoral dissertation, University of Wisconsin. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"...we quantified the spatial and temporal response of South American foxes to puma presence and provisioning of guanaco carrion in Monte León National Park and Parque Patagonia, Argentina." ... "In Monte León, where pumas were concentrated, predictable, and risk and reward were correlated, foxes showed strong spatial avoidance of pumas and their hunting areas. In Parque Patagonia, where pumas were dispersed, unpredictable, and risk and reward were largely uncorrelated, foxes showed only weak temporal avoidance and of pumas and hunting areas. "
+
+Used GPS collar data for pumas, and camera for detection covariates in occupancy models for foxes.
+
+Deployed two grids of sixty cameras for ~1 year.  Used AddaxAI to eliminate blanks (MDv5 implied by timing), used Timelapse to review images.
 
 
 #### <i>Papers from 2025</i>
@@ -3047,13 +3083,6 @@ Describe the [MEWC](https://github.com/zaandahl/mewc) framework for training and
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/brook-mewc.png" width="500">
 
 
-<br/>**Zhao W. Beyond Humanity: Leveraging Pre-trained Human Video Classification Models for Data-Efficient Multi-species Wildlife Animal Action Recognition. CamTrapAI workshop, 2024.**
-
-[Video](https://www.youtube.com/watch?v=zAygEAGwnJs&ab_channel=SimonKravis2)
-
-Use human video behavior datasets as pretraining for models intended to recognize animal behaviors.  Evaluate on the [Animal Kingdom dataset](https://sutdcv.github.io/Animal-Kingdom/), and start training from the [SlowFast](https://github.com/facebookresearch/SlowFast) network using the [Kinetics K400](https://github.com/cvdfoundation/kinetics-dataset) human behavior dataset.
-
-
 <br/>**Goward SL. Using remote camera traps to monitor population demographics and community ecology of divii (Dall’s sheep): Part of a community-based monitoring program in the Northern Richardson Mountains, NT.  Doctoral dissertation, University of Victoria, 2024.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
@@ -3063,6 +3092,22 @@ Use human video behavior datasets as pretraining for models intended to recogniz
 * "found clear temporal segregation of nursery groups and grizzly bears, and showed that grizzly bears were more closely tracking nursery groups than ram bands, especially early in the spring when lambs are most vulnerable to predation".
 
 Used MD (v4 for earlier images, later v5) for blank elimination, reviewed images in Timelapse.
+
+
+<br/>**Koelman N.  Eyes in the wild: camera traps and hunter counts give similar moose reproductive outcome estimates. Masters thesis, Swedish University of Agricultural Science, SLU, Dept. of Wildlife, Fish and Environmental Studies. 2024.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"This study investigates the effectiveness of camera trap deployments, both systematic and targeted, in estimating moose reproductive outcome estimates, specifically the proportions of females without calves, females with one calf, and females with two calves."  Compare camera traps to the "Älgobs" method, a system "where during the first seven hunting days of the first month of the hunting season hunters report the amount of moose seen and this number is divided by the number of hours spent looking by hunters".
+
+"My results indicate that systematically deployed cameras provide reproductive outcome ratio estimates comparable to those of the proportions calculated with the Älgobs counts. The naïve occupancy estimates, despite not accounting for detection probabilities, yielded ratios similar to those from the multi-state occupancy models".
+
+"This study underscores the potential of camera traps in providing reliable data on moose population ratios, particularly when combined with occupancy modelling. It shows the possible solution for the limitation of traditional method Älgobs, the time lag between moose counts and the production of management plans."
+
+"The inclusion of AI tools like MegaDetector can further streamline the classification process and could improve the efficiency and accuracy of wildlife monitoring."
+
+Primarily used TRAPPER for camera trap data management; also used a regional platform (viltbild.se).  Used MD thresholds of 0.1 and 0.7 for different datasets.  Likely MDv5, based on timing.
 
 
 #### <i>Papers from 2023</i>
@@ -4718,13 +4763,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Atzeni L, Janchivlamdan C, Choijin B, Khurelbaatar A, Tserendorj U, Ganbold D, Krofel M, Augugliaro C. At the edge of persistence: Climate change threatens habitat and connectivity of the Gobi bear in the Mongolian desert. Preprint, 2026.
-
-* Schillé L, Poirier V, Raspail F, Chaumeil P, Bordenave P, Herrault PA, Paquette A. From bird communities to trophic interactions: successive ecological filters decouple potential and realized insectivory in urban environments. bioRxiv, 2026 Feb 25.
-
-* Boekschoten R. Context Dependent Effects of Large Carnivores on Mesocarnivores: Pumas and Foxes in Patagonia (Doctoral dissertation).
-
-
 ##### Technical methods papers
 
 * Meliane MK, Guthrie JM, Ellington EH. Are we there yet? Reliable occupancy modeling from AI-labeled trail camera data. Conservation Science and Practice. 2026:e70367.
@@ -4763,7 +4801,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Zhang M, Yao JX, Wu RH, Li XW, Ren GP, Xiao W, Yang DQ. Reannotation-Free Automatic Recognition Methods for Empty Camera Trap Images Based on MegaDetector Optimization. Animals. 2026 Aug 20;16(16):2609.
 
-#### Papers from 2025
+#### Papers from <= 2025
 
 ##### Ecology papers
 
@@ -4775,31 +4813,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Markoff H, Galaktionovs J. Hierarchical Re-Classification: Combining Animal Classification Models with Vision Transformers. arXiv preprint arXiv:2510.14594. 2025 Oct 16.
 
-#### Papers from 2024
- 
-##### Ecology papers
-
-##### Technical methods papers
-
-* Koelman N.  Eyes in the wild: camera traps and hunter counts give similar moose reproductive outcome estimates. Second cycle, A2E. Umeå: SLU, Dept. of Wildlife, Fish and Environmental Studies. 2024.
-
-#### Papers from 2023
-
-##### Ecology papers
-
-##### Technical methods papers
-
 * Mounir R, Shahabaz A, Gula R, Theuerkauf J, Sarkar S. Towards automated ethogramming: Cognitively-inspired event segmentation for streaming wildlife video monitoring. International journal of computer vision. 2023 Sep;131(9):2267-97.
 
 * Pochelu P, Erard C, Cordier P, Petiton SG, Conche B. Weakly Supervised Faster-RCNN+ FPN to classify small animals in camera trap images. Authorea Preprints. 2023 Oct 30. (This <i>may</i> be the same as a paper I've already summarized, double-check.)
 
 * Sakthivanitha M, Lakshmi RB, Chitra A, Priscila SS. Detection of Animal Hunters in Forest Using Regional Convolutional Neural Network Algorithm. In 2023 International Conference on New Frontiers in Communication, Automation, Management and Security (ICCAMS) 2023 Oct 27 (Vol. 1, pp. 1-8). IEEE.
-
-#### Papers from <= 2022
-
-##### Ecology papers
-
-##### Technical methods papers
 
 * Kays R, Lasky M, Allen ML, Dowler RC, Hawkins MT, Hope AG, Kohli BA, Mathis VL, McLean B, Olson LE, Thompson CW. Which mammals can be identified from camera traps and crowdsourced photographs?. Journal of Mammalogy. 2022 Apr 7.
 
