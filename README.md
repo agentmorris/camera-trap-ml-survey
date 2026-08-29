@@ -1374,7 +1374,7 @@ Report a false trigger rate (for the cameras, not AI) of 31%.  Used MDv5 through
 Images were processed through MD using the [Migrations](https://migrations-app.com) platform, with a threshold of 0.75 (which seems high!).  Migrations is described as "developed for the WildCo lab and Fisheries and Oceans Canada".
 
 
-<br/>**Ganter J. Mammal communtiy composition and activity across the gradient of marsh to forest: implications for ghost forest formation.  MS thesis, University of North Carolina. 2026.**
+<br/>**Ganter J. Mammal community composition and activity across the gradient of marsh to forest: implications for ghost forest formation.  MS thesis, University of North Carolina. 2026.**
 
 ![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -4761,9 +4761,31 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2026
 
+* Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success (Master's thesis, Utah State University).
+
+* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks (Doctoral dissertation, University of British Columbia).
+
+* Greco I, Salvatori M, Bruzzone C, Serra G, Galipò G, Travaglini D, Rovero F. Weekend overload: Day-to-day fluctuations of outdoor recreation affect wild mammals' space-use in a popular forest reserve near Florence, Italy. Anim Conserv. 2026 May 11. doi:10.1111/acv.70071
+
+* Heppell J. Openings and Obstacles: LiDAR-Derived Visibility and Seasonal Conditions Shape Multispecies Use and Movement on Decommissioned Roads (Doctoral dissertation, University of Guelph).
+
+* Marpegan L, Haedo KC, Pozzi C. Improving manual tagging of camera trap videos for wildlife studies: a visual assistance tool applied to the endangered huillin Lontra provocax. Wildlife Biology. 2026 Mar:e01539.
+
+* Kukofka P, Fruth B, Broska AM, Cleva R, Mussa A, Balduccio N, Bessone M. Spoilt for choice: An evaluation of machine learning for wildlife classification in tropical forest settings.
+
+* Wohlfahrt S, Leitner H. From wildlife management to biodiversity assessment: Using camera trap by-catch data to infer species richness. Carinthia II-Part 3. 2026 Jun 30;3(1):24-40.
+
+* Sirén APK, Moheb Z, Carlson E, Beiner A, Pfeister M, Doherty I, et al. Life-history stages and behavior influence demographic classification of moose captured on remote cameras. Wildlife Biology. 2026 Jul 9;2026(4):e01676. Available from: https://doi.org/10.1002/wlb3.01676.
+
+* Castillo-Sandoval GA, Infante-Varela J, Soto-Gamboa MR, Silva-Rodríguez EA. High occupancy of non-native carnivores in riparian ecosystems along an urban gradient in Chile. Urban Ecosystems. 2026 Aug;29(4):178.
+
+* McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System (Master's thesis, Texas A&M University-Kingsville).
+
 ##### Ecology papers
 
 ##### Technical methods papers
+
+* Alencar L, Cunha F, dos Santos EM. Advancing Biodiversity Monitoring by Integrating Multimodal AI Models into Camera Trap Workflow. Journal of the Brazilian Computer Society. 2026 Apr 15;32(1):677-89.
 
 * Meliane MK, Guthrie JM, Ellington EH. Are we there yet? Reliable occupancy modeling from AI-labeled trail camera data. Conservation Science and Practice. 2026:e70367.
 
