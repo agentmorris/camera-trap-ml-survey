@@ -4763,13 +4763,13 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success (Master's thesis, Utah State University).
+* Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success. Master's thesis, Utah State University. 2026.
 
-* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks (Doctoral dissertation, University of British Columbia).
+* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks. Doctoral dissertation, University of British Columbia. 2026.
 
 * Greco I, Salvatori M, Bruzzone C, Serra G, Galipò G, Travaglini D, Rovero F. Weekend overload: Day-to-day fluctuations of outdoor recreation affect wild mammals' space-use in a popular forest reserve near Florence, Italy. Anim Conserv. 2026 May 11. doi:10.1111/acv.70071
 
-* Heppell J. Openings and Obstacles: LiDAR-Derived Visibility and Seasonal Conditions Shape Multispecies Use and Movement on Decommissioned Roads (Doctoral dissertation, University of Guelph).
+* Heppell J. Openings and Obstacles: LiDAR-Derived Visibility and Seasonal Conditions Shape Multispecies Use and Movement on Decommissioned Roads. Doctoral dissertation, University of Guelph. 2026.
 
 * Marpegan L, Haedo KC, Pozzi C. Improving manual tagging of camera trap videos for wildlife studies: a visual assistance tool applied to the endangered huillin Lontra provocax. Wildlife Biology. 2026 Mar:e01539.
 
@@ -4777,11 +4777,11 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * Wohlfahrt S, Leitner H. From wildlife management to biodiversity assessment: Using camera trap by-catch data to infer species richness. Carinthia II-Part 3. 2026 Jun 30;3(1):24-40.
 
-* Sirén APK, Moheb Z, Carlson E, Beiner A, Pfeister M, Doherty I, et al. Life-history stages and behavior influence demographic classification of moose captured on remote cameras. Wildlife Biology. 2026 Jul 9;2026(4):e01676. Available from: https://doi.org/10.1002/wlb3.01676.
+* Sirén APK, Moheb Z, Carlson E, Beiner A, Pfeister M, Doherty I, et al. Life-history stages and behavior influence demographic classification of moose captured on remote cameras. Wildlife Biology. 2026 Jul 9;2026(4):e01676.
 
 * Castillo-Sandoval GA, Infante-Varela J, Soto-Gamboa MR, Silva-Rodríguez EA. High occupancy of non-native carnivores in riparian ecosystems along an urban gradient in Chile. Urban Ecosystems. 2026 Aug;29(4):178.
 
-* McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System (Master's thesis, Texas A&M University-Kingsville).
+* McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System. Master's thesis, Texas A&M University-Kingsville. 2026.
 
 ##### Technical methods papers
 
