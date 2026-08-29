@@ -4761,6 +4761,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 #### Papers from 2026
 
+##### Ecology papers
+
 * Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success (Master's thesis, Utah State University).
 
 * Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks (Doctoral dissertation, University of British Columbia).
@@ -4780,8 +4782,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Castillo-Sandoval GA, Infante-Varela J, Soto-Gamboa MR, Silva-Rodríguez EA. High occupancy of non-native carnivores in riparian ecosystems along an urban gradient in Chile. Urban Ecosystems. 2026 Aug;29(4):178.
 
 * McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System (Master's thesis, Texas A&M University-Kingsville).
-
-##### Ecology papers
 
 ##### Technical methods papers
 
