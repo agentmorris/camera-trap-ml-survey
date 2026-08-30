@@ -1477,6 +1477,120 @@ Used GPS collar data for pumas, and camera for detection covariates in occupancy
 Deployed two grids of sixty cameras for ~1 year.  Used AddaxAI to eliminate blanks (MDv5 implied by timing), used Timelapse to review images.
 
 
+<br/>**Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success. Master's thesis, Utah State University. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"I monitored 161 radio-collared Utah prairie dogs across five translocation areas and one resident control colony. Survival was highest in the resident control colony (50.0%), intermediate at coterie translocation sites (18.2%), and lowest at non-coterie sites (6.9%). Survival was significantly lower for translocated individuals; however, translocating intact coteries increased survival relative to fragmented translocations. Consistent site-level effects across top-performing models indicate that local habitat conditions play a critical role in translocation success. These results suggest that maintaining social structure during translocation may improve survival outcomes and should be considered in future Utah prairie dog recovery and management efforts."
+
+Used collars for monitoring prairie dogs, but used camera traps to monitor predator activity (three cameras per site, times five areas, times two sites per area == 30 cameras, if I'm reading everything correctly).  Used MegaDetector to remove blanks, reviewed images in Timelapse.  "Predator visitation varied substantially among sites and years; however, it was not identified as statistically significant in the best-supported survival model."
+
+
+<br/>**Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks. Doctoral dissertation, University of British Columbia. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"I used camera traps in three BC Parks to investigate how recreation affects wildlife behaviour and diversity, leveraging trail closures as quasi-experimental controls."
+
+* "I found weak evidence that, when recreation was higher, detections declined for black bear, mule deer, and marten, while detections of bobcat and hoary marmot shifted closer to trails."
+* "Rather than avoiding hikers at the weekly scale or directly, both [bear species] used daily temporal partitioning to minimize encounters with hikers."
+
+Deployed 39 cameras across two sites, for two years (Aug 2020 - Sep 2022).  Used MD to remove blanks, and to blur humans.
+
+
+<br/>**Greco I, Salvatori M, Bruzzone C, Serra G, Galipò G, Travaglini D, Rovero F. Weekend overload: Day-to-day fluctuations of outdoor recreation affect wild mammals' space-use in a popular forest reserve near Florence, Italy. Anim Conserv. 2026 May 11.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+" We deployed 52 camera-traps systematically within an EU Natura 2000 area located within the metropolitan area of Florence, central Italy, September–November 2022. We estimated that human visitation significantly peaked during weekends and holidays, while mammals' site-use was generally lower. Eight out of 10 mammal species seemed to spatially modulate their use of space to the fluctuations of human presence, both in relation to the rate of human passage and the proximity to roads. Conversely, we found no evidence of significant differences in temporal activity between mammals and humans during working days and weekends, as the temporal overlaps were generally low during both day types. Thus, spatial modulation of site use seems the most used short-term strategy to cope with bouts of high human visitation, with the temporal avoidance that may enable the longer-term tolerance of humans without preventing the use of preferred habitats."
+
+Used MD through wild.ai (i.e., [wildai.it](https://wildai.it), not [wild.ai](https://wild.ai/), which appears to be an online fitness platform), to remove non-animal images.
+
+
+<br/>**Heppell J. Openings and Obstacles: LiDAR-Derived Visibility and Seasonal Conditions Shape Multispecies Use and Movement on Decommissioned Roads. Doctoral dissertation, University of Guelph. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"Using 129 camera traps and airborne LiDAR [in Northeastern Ontario], I modelled weekly presence, detection intensity, and movement speed of wolves, moose, lynx, and bears along decommissioned roads. Reduced near-ground visibility within the road corridor corresponded with lower wolf and lynx use and slower movement, while edge structure and vegetation composition better explained moose and bear responses. Increasing snow also reduced
+presence for wolves, lynx, and moose, lowered lynx and moose detection intensity, and slowed wolf and moose movement. Decommissioned roads vary widely in natural recovery, and LiDAR-derived visibility metrics provide a measurable basis to prioritize restoration and evaluate whether treatments shift segments from functionally open to closed."
+
+Used MD to eliminate blanks with a 75% confidence threshold, reviewed images in Timelapse.  Referred to this threshold as "a conservative 75% threshold to minimize false negatives".  That would be a slightly conservative threshold for MDv4, so possibly this was MDv4, although the timing makes this unlikely, since the cameras were deployed through 2024.  So it's more likely that this threshold was a quite high for this application.
+
+
+<br/>**Marpegan L, Haedo KC, Pozzi C. Improving manual tagging of camera trap videos for wildlife studies: a visual assistance tool applied to the endangered huillin Lontra provocax. Wildlife Biology. 2026 Mar:e01539.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"In this work an easy to use, customizable semi-automated video processing and tagging software is presented alongside camera trap data analysis from sites used by an endangered otter species Lontra provocax."
+
+The tool they present is caleld "CAICaT" (Código de Análisis de Imágenes de Cámaras Trampa), I can't find a link.  Supports frame-to-frame movement masking "to reduce visual search time", and species/count/behavior tagging.  
+
+"We observed a significant difference in the time required for file processing, with the semi-automatic method being approximately four times faster than manual processing (Fig. 4, 3111 ± 269 versus 768 ± 83 s) while no significant differences in the number of errors were found."
+
+
+<br/>**Kukofka P, Fruth B, Broska AM, Cleva R, Mussa A, Balduccio N, Bessone M. Spoilt for choice: An evaluation of machine learning for wildlife classification in tropical forest settings. Authorea preprint, 2026.**
+
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+![Wildlife Insights](https://img.shields.io/badge/-Wildlife_Insights-darkgreen)
+![SpeciesNet](https://img.shields.io/badge/-SpeciesNet-yellow)
+
+"We evaluated machine learning algorithms for species classification, using 5,886 videos and 1,369 images from 55 camera traps deployed in the rainforest near Salonga National Park, Democratic Republic of the Congo, between September 2023 and March 2024."
+
+Evaluated on 5,886 videos (extracted to 1fps) and 1,369 images.  They compared four models:
+
+* The African species (time_distributed) model from Zamba (via Zamba Cloud)
+* The African forest (slowfast) model from Zamba (via Zamba Cloud)
+* The Central African forests (Gabon) model from MbazaAI 
+* SpeciesNet model via Wildlife Insights
+ 
+"Overall classification accuracy was 66% for Zamba African species, 60% for Zamba African forest, 59% for MbazaAI and 38% for Wildlife Insights. After aggregating species into broader groups, Zamba African species reached an accuracy of 69%, Zamba African forest 64%, MbazaAI Central African forests 66%, and Wildlife Insights 58%."
+
+"On the contrary, blank image detection was lowest for MbazaAI (50%) and highest for Wildlife Insights (93%) and Zamba African species (91%), with Zamba African forest at (70%)."
+
+Note to self: most of the SpeciesNet errors are "animal" labels, so not exactly errors.  No species mapping was applied to any of the outputs, so out-of-range predictions of visually similar species were treated as errors.
+
+ 
+<br/>**Wohlfahrt S, Leitner H. From wildlife management to biodiversity assessment: Using camera trap by-catch data to infer species richness. Carinthia II-Part 3. 2026 Jun 30;3(1):24-40.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"In this study, we examine whether management-oriented camera trap surveys [with a small set of focal species] can be used to infer broader biodiversity pattern. ... Overall, our results suggest that camera trap surveys targeting specific species can provide valuable additional information on biodiversity, and that by-catch data should be systematically integrated into wildlife monitoring programs."
+
+Placed 120 cameras in Austria.  Used MD and Timelapse to remove blanks, then used Camelot for one site and Agouti for the others for species classification.
+
+
+<br/>**Sirén APK, Moheb Z, Carlson E, Beiner A, Pfeister M, Doherty I, et al. Life-history stages and behavior influence demographic classification of moose captured on remote cameras. Wildlife Biology. 2026 Jul 9;2026(4):e01676.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We used data from 84 cameras from a 3-year period (2021–2024) in northern Maine, USA, to evaluate how temporal, environmental, site-level, and endogenous factors influence observers' ability to classify age and sex classes of moose. Using Bayesian categorical regression models, we found that temporal variability, position and proximity of moose from cameras, and the behavior of moose influenced our ability to identify age and sex classes."
+
+Specific findings:
+
+* "More uncertainty of the sex of adult moose occurred later in the year. This finding is logical as males lose their antlers in the winter and early spring and certain scenarios (e.g. when moose are far away from cameras) make it challenging to see antler pedicles and rump patches to differentiate between males and females, respectively."
+* "We also found that it was difficult to classify juvenile female and male moose earlier in the birth-pulse calendar, but this became easier later in the fall and in the winter. Indeed, the absence or presence of antlers on juvenile females and males, respectively, becomes more obvious later in the fall and winter, which coincides with the development of small velvety antler knobs on male."
+* "Moose age and sex classes were easier to classify when animals were at intermediate distances from cameras. Although we do not know the exact distance, this typically occurred when moose were 3–7 m from the cameras. .. To the contrary, it was more difficult to classify age and sex classes when moose were either far away or very close to the cameras."
+* "Our use of MD bounding boxes (Beery et al. 2019) for quantifying site-level and endogenous metrics provided new insight on how animal behavior influenced the ability of observers to classify moose age and sex categories."
+
+Used MD within WildTrax to compute approximate distance from the camera and centrality (i.e., how close the animal was to the center of the image).  Also used MD boxes to compute approximate frame-to-frame movement speed.
+
+
+<br/>**Castillo-Sandoval GA, Infante-Varela J, Soto-Gamboa MR, Silva-Rodríguez EA. High occupancy of non-native carnivores in riparian ecosystems along an urban gradient in Chile. Urban Ecosystems. 2026 Aug;29(4):178.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+"We deployed camera traps at 52 sites located along the rivers of Valdivia, Chile, and adjacent rural zones. We then used single-species, single-season occupancy models to evaluate the responses of native, invasive, and domestic carnivores to urbanization." ... "Occupancy models revealed contrasting responses among species: the kodkod ... showed lower occupancy in urban areas than in rural areas, but these patterns were mostly explained by decreasing riparian forest cover, whereas the dogs and cats were positively associated with different urbanization metrics. The occupancy of the invasive American mink was unrelated to urbanization and was instead influenced by riverbank position."
+
+Used MDv4 to separate images into animal/person/vehicle/empty (removing blanks is implied), reviewed images in Timelapse.
+
+
 #### <i>Papers from 2025</i>
 
 <br/>**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
@@ -4763,26 +4877,6 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
-* Stokes B. Influence of Coterie on Utah Prairie Dog Translocation Success. Master's thesis, Utah State University. 2026.
-
-* Dimitriou A. Investigating the effect of outdoor recreation on wildlife diversity and behaviour in British Columbia Parks. Doctoral dissertation, University of British Columbia. 2026.
-
-* Greco I, Salvatori M, Bruzzone C, Serra G, Galipò G, Travaglini D, Rovero F. Weekend overload: Day-to-day fluctuations of outdoor recreation affect wild mammals' space-use in a popular forest reserve near Florence, Italy. Anim Conserv. 2026 May 11. doi:10.1111/acv.70071
-
-* Heppell J. Openings and Obstacles: LiDAR-Derived Visibility and Seasonal Conditions Shape Multispecies Use and Movement on Decommissioned Roads. Doctoral dissertation, University of Guelph. 2026.
-
-* Marpegan L, Haedo KC, Pozzi C. Improving manual tagging of camera trap videos for wildlife studies: a visual assistance tool applied to the endangered huillin Lontra provocax. Wildlife Biology. 2026 Mar:e01539.
-
-* Kukofka P, Fruth B, Broska AM, Cleva R, Mussa A, Balduccio N, Bessone M. Spoilt for choice: An evaluation of machine learning for wildlife classification in tropical forest settings.
-
-* Wohlfahrt S, Leitner H. From wildlife management to biodiversity assessment: Using camera trap by-catch data to infer species richness. Carinthia II-Part 3. 2026 Jun 30;3(1):24-40.
-
-* Sirén APK, Moheb Z, Carlson E, Beiner A, Pfeister M, Doherty I, et al. Life-history stages and behavior influence demographic classification of moose captured on remote cameras. Wildlife Biology. 2026 Jul 9;2026(4):e01676.
-
-* Castillo-Sandoval GA, Infante-Varela J, Soto-Gamboa MR, Silva-Rodríguez EA. High occupancy of non-native carnivores in riparian ecosystems along an urban gradient in Chile. Urban Ecosystems. 2026 Aug;29(4):178.
-
-* McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System. Master's thesis, Texas A&M University-Kingsville. 2026.
-
 ##### Technical methods papers
 
 * Alencar L, Cunha F, dos Santos EM. Advancing Biodiversity Monitoring by Integrating Multimodal AI Models into Camera Trap Workflow. Journal of the Brazilian Computer Society. 2026 Apr 15;32(1):677-89.
@@ -4853,6 +4947,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
+* McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System. Master's thesis, Texas A&M University-Kingsville. 2026.
+
 * Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy.  2026 May.
 
 * Bassing SB, Ausband DE, Mumma MA, Thompson S, Hurley MA, Falcy MR. Mammalian predator co-occurrence affected by prey and habitat more than competitor presence at multiple time scales. Ecological Monographs. 2025 Feb;95(1):e1648
@@ -4894,6 +4990,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 ### Papers that are more or less pre-publication / alternative versions of another paper that is already included
 
 ...or were otherwise redundant or out of scope in a way that made summarization unnecessary.  This section is basically here to remind me that I've already come across something.
+
+* Marpegan L, Haedo KC, Pozzi C. Improving manual tagging of camera trap videos for wildlife studies: a visual assistance tool applied to the endangered huillin Lontra provocax. Wildlife Biology. 2026 Mar:e01539.  Note to self: this one was on the line, it's a video labeling interface that shows frame-to-frame differencing, but doesn't use AI, so I left it out.
 
 * Raza A, Hanif F, Mohammed HA. Analyzing the enhancement of CNN-YOLO and transformer based architectures for real-time animal detection in complex ecological environments. Scientific Reports. 2025 Nov 7;15(1):1-33.
 
