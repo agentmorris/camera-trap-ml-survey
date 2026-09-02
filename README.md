@@ -242,6 +242,15 @@ Australia-specific deployment of Agouti, supporting SpeciesNet, MD, and several 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildobs-example.png" width="500">
 
+#### wildtag
+
+> https://huggingface.co/spaces/chrissuthy/wildtag-manual  
+> https://sutherlandecology.com/software.html
+
+Client-side app for processing images through AI models.  Supports DeepFaune, SpeciesNet, and MDv5a.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildtag-screenshot.png" width="500">
+
 #### WildTracker / StickyBeak AI
 
 > https://wildtracker.com.au/  
