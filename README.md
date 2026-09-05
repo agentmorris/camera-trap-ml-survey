@@ -620,6 +620,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
+* [Irvine Ranch Conservancy Classifier](https://huggingface.co/Addax-Data-Science/SOCAL-IRC-v3-6) (EfficientNet v2S trained in MEWC for 18 classes in Southern California) ([code](https://github.com/Monitoring-Research-IRC/irc-species-classification-model))
 * [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
 * [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
 * [TrapTracker Sub-Saharan Africa Mammals](https://traptracker.co.uk/sub-saharan-africa-mammals-model-card/) (YOLOv26x detector, 35 categories of African wildlife (mostly mammals, some birds)) (2026)
