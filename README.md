@@ -611,7 +611,6 @@ When possible, the first link for each line item should get you pretty close to 
 
 ### Last updated &ge; 2025
 
-* [Addax Data Science Western USA](https://huggingface.co/Addax-Data-Science/WUSA-SDZWA-v1) (EfficientNet v2M for 50 classes from the Western US) (2026)
 * [Addax Data Science Central Indian Wildlife](https://huggingface.co/Addax-Data-Science/IND-ADS-v1) (fine-tuned SpeciesNet for 40 categories from Central India) (2026)
 * [Addax Data Science Northern Territory Vertebrates](https://huggingface.co/Addax-Data-Science/ANT-ADS-v1) (fine-tuned SpeciesNet for 140 categories from NT, Australia) (2026)
 * [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
@@ -621,6 +620,7 @@ When possible, the first link for each line item should get you pretty close to 
 * [Addax Data Science Victoria](https://huggingface.co/Addax-Data-Science/VIC-ADS-v1/tree/main) (fine-tuned SpeciesNet for 212 categories in Victoria, Australia) (2026)
 * [Addax Data Science Sub-Sarahan Drylands Classifier](https://huggingface.co/Addax-Data-Science/sub_saharan_drylands_v1.pt/tree/main) (EfficientNet-V2M trained on 2.8M MD crops from LILA images, covering 328 categories) (2025)
 * [Addax Data Science Japan Gifu](https://huggingface.co/Addax-Data-Science/Japan_Gifu_v0.2) (ResNet-50 trained on 13 taxa from  Kuraiyama Experimental Forest in Japan)
+* [San Diego Zoo Western USA v1](https://huggingface.co/Addax-Data-Science/WUSA-SDZWA-v1) (EfficientNet v2M for 50 classes from the Western US) (2026)
 * [Irvine Ranch Conservancy Classifier](https://huggingface.co/Addax-Data-Science/SOCAL-IRC-v3-6) (EfficientNet v2S trained in MEWC for 18 classes in Southern California) ([code](https://github.com/Monitoring-Research-IRC/irc-species-classification-model))
 * [TropiCam-AI](https://huggingface.co/Addax-Data-Science/NEO-MNCN-v1-0/tree/main) (ConvNeXt in TF, for 84 neotropical arboreal mammal and bird taxa) ([code](https://github.com/andrewzamp/TropiCam-AI)) (2026)
 * [TrapTracker UK Mammals](https://traptracker.co.uk/uk-mammals-model-card/) (YOLOv26x detector, 31 categories of UK wildlife (mostly mammals, some birds)) (2026)
