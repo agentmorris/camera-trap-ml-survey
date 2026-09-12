@@ -1602,6 +1602,16 @@ Used MD within WildTrax to compute approximate distance from the camera and cent
 Used MDv4 to separate images into animal/person/vehicle/empty (removing blanks is implied), reviewed images in Timelapse.
 
 
+<br/>**Lindström T, Perez RA, Barabás G, Frauendorf M, Widemo F, Hofmeester T. Method for estimating the wild boar population in Sweden: partial report on a government assignment to develop an action plan for effective wild boar management. 2026.**
+
+![Ecology Paper](https://img.shields.io/badge/-Ecology_Paper-lightgrey)
+![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
+
+Compare two independent methods for estimating the wild boar population in Sweden: (1) a Bayesian state-space model based on hunting statistics, vehicle collision reports, and board observations from the Swedish Bird Survey, and (2) density estimates for specific areas using camera traps and hunting reports.
+
+The camera trap study deployed cameras for two months in 2025, in five study areas.  Each study area included a 30-camera grid plus cameras placed by hunters at areas known to have high boar density (around the same number of cameras per area as the grid).  Processed images with TARPPER or [Viltbild](viltbild.se), depending on the data owner, using MegaDetector to remove blanks, and DeepFaune for species classification (all non-blank images were manually reviewed).
+
+
 #### <i>Papers from 2025</i>
 
 <br/>**Mason RT, Rendall AR, Sinclair RD, Pestell AJ, Ritchie EG. What's on the menu? Examining native apex- and invasive meso-predator diets to understand impacts on ecosystems. Ecological Solutions and Evidence. 2025 Apr;6(2):e70032.**
