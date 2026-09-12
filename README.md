@@ -1609,7 +1609,7 @@ Used MDv4 to separate images into animal/person/vehicle/empty (removing blanks i
 
 Compare two independent methods for estimating the wild boar population in Sweden: (1) a Bayesian state-space model based on hunting statistics, vehicle collision reports, and board observations from the Swedish Bird Survey, and (2) density estimates for specific areas using camera traps and hunting reports.
 
-The camera trap study deployed cameras for two months in 2025, in five study areas.  Each study area included a 30-camera grid plus cameras placed by hunters at areas known to have high boar density (around the same number of cameras per area as the grid).  Processed images with TARPPER or [Viltbild](viltbild.se), depending on the data owner, using MegaDetector to remove blanks, and DeepFaune for species classification (all non-blank images were manually reviewed).
+The camera trap study deployed cameras for two months in 2025, in five study areas.  Each study area included a 30-camera grid plus cameras placed by hunters at areas known to have high boar density (around the same number of cameras per area as the grid).  Processed images with TRAPPER or [Viltbild](viltbild.se), depending on the data owner, using MegaDetector to remove blanks, and DeepFaune for species classification (all non-blank images were manually reviewed).
 
 
 #### <i>Papers from 2025</i>
