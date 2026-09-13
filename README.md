@@ -132,6 +132,14 @@ Client-side tool for running MegaDetector, including various postprocessing step
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepmeerkat-main-ui.png" width="500">
 
+#### Ecotools
+
+> <https://ecotools.nz/models?model=megadetector>
+
+Web-based platform for running AI multiple modalities, including MegaDetector and SpeciesNet (but also non-camera-trap models, e.g., BirdNET).  Targeted toward users in New Zealand (e.g., applies the NZ geofence for SpeciesNet results).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecotools.png" width="500">
+
 #### eVorta
 
 <!--
@@ -4903,6 +4911,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Magaldi H, Dubus G, Katumba R, Rugonge H, Kasekendi I, Allassonnière-Tang M, Krief S. Bridging Local Ecological Knowledge and Remote Sensing for Wildlife Assessment and Conservation: Insights from Sebitoli, Kibale National Park, Uganda. Environments. 2026; 13(9): 496.
 
 * Alencar L, Cunha F, dos Santos EM. Advancing Biodiversity Monitoring by Integrating Multimodal AI Models into Camera Trap Workflow. Journal of the Brazilian Computer Society. 2026 Apr 15;32(1):677-89.
+
+* Salako J, Gordon K, Jeantet L. Annotation-Efficient Object Detection of Endangered Western Leopard Toads in Camera Trap Imagery for Assessing Wildlife Tunnel Use. In Third Workshop on Computer Vision for Ecology, 2026.
 
 * Meliane MK, Guthrie JM, Ellington EH. Are we there yet? Reliable occupancy modeling from AI-labeled trail camera data. Conservation Science and Practice. 2026:e70367.
 
