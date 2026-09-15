@@ -619,6 +619,7 @@ When possible, the first link for each line item should get you pretty close to 
 
 ### Last updated &ge; 2025
 
+* [Addax Data Science Canadian Subarctic](https://huggingface.co/Addax-Data-Science/ARC-ADS-v1) (fine-tuned SpeciesNet for 39 categories from Northern Manitoba) (2026)
 * [Addax Data Science Central Indian Wildlife](https://huggingface.co/Addax-Data-Science/IND-ADS-v1) (fine-tuned SpeciesNet for 40 categories from Central India) (2026)
 * [Addax Data Science Northern Territory Vertebrates](https://huggingface.co/Addax-Data-Science/ANT-ADS-v1) (fine-tuned SpeciesNet for 140 categories from NT, Australia) (2026)
 * [Addax Data Science Hawaii](https://huggingface.co/Addax-Data-Science/HWI-ADS-v1) (fine-tuned SpeciesNet for 13 taxa in Hawaii) (2026)
