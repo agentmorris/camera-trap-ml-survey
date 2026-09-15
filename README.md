@@ -149,11 +149,19 @@ Web-based platform for running AI multiple modalities, including MegaDetector an
 * [Kangaroo Island case study](https://www.naturefoundation.org.au/how-to-help/donate/feral-cat-eradication-program/sponsor-a-4g-camera)
 -->
 
-> <https://web.evorta.com/>
+> <https://web.evorta.com>
 
 Connected camera network with cloud-based AI capabilities (for detecting and classifying Australian wildlife).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/evorta.webp" width="500">
+
+#### HabiDATA
+
+> <https://www.habidata.in>
+
+Thick-client tool that supports running AI models, image review, and some spatiotemporal analysis.  Supports MegaDetector, SpeciesNet, and the AddaxAI Central India species classifier.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/habidata.png" width="500">
 
 #### Mbaza
 
