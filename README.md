@@ -49,7 +49,7 @@ I've broken this category out into "systems that look like they're being activel
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/addaxai.png" width="500">
 
-##### AddaxAI-connect
+#### AddaxAI-connect
 
 > <https://addaxdatascience.com/early-warning-systems/>
 
@@ -63,7 +63,7 @@ Cloud-based platform that receives images from connected cameras, runs AI models
 
 Web-based tool for camera trap data management, annotation, and spatial analysis.
 
-The [documentation](https://docs.agouti.eu/general/automatic_annotation.html#ai-models-available-in-agouti) lists the available AI models, including MDv5a, DeepFaune's classifier for European Species, and Agouti-specific models for Western Europe, Europe, French Guiana, India, Nepal, Panama, and Southern Africa.  Early adopter of Camtrap DP export, especially to facilitate data release on GBIF.
+The [documentation](https://docs.agouti.eu/using/deployments.html#automatic-annotation) lists the available AI models, including MD, DeepFaune, SpeciesNet, an Agouti-specific model with the same classes as MD, and Agouti-specific classifiers for Western Europe, Europe, French Guiana, India, Nepal, Panama, Eastern Africa, Southern Africa, New Zealand, and Belgium.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image12.png" width="500">
 
@@ -99,14 +99,6 @@ Client-side tool that runs a variety of models (MD, SpeciesNet, custom animal de
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/boquila-hub.jpg" width="400">
 
-#### Camelot
-
-> <https://gitlab.com/camelot-project/camelot>
-
-Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with MegaDetector allows selective review of human/animal/empty/vehicle images.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
-
 #### CamTrap Detector
 
 * [Home](https://camtrap.net/detector)
@@ -128,7 +120,7 @@ Client-side tool for running MegaDetector, including various postprocessing step
 
 > <https://bw4sz.github.io/deepmeerkat.html>
 
-[Open-source](https://github.com/bw4sz/DeepMeerkat) client-side tool for processing ecological videos (not necessarily from caemra traps).
+[Open-source](https://github.com/bw4sz/DeepMeerkat) client-side tool for processing ecological videos (not necessarily from camera traps).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/deepmeerkat-main-ui.png" width="500">
 
@@ -136,7 +128,7 @@ Client-side tool for running MegaDetector, including various postprocessing step
 
 > <https://ecotools.nz/models?model=megadetector>
 
-Web-based platform for running AI multiple modalities, including MegaDetector and SpeciesNet (but also non-camera-trap models, e.g., BirdNET).  Targeted toward users in New Zealand (e.g., applies the NZ geofence for SpeciesNet results).
+Web-based platform for running AI on data from multiple modalities, including MegaDetector and SpeciesNet (and also non-camera-trap models, e.g., BirdNET).  Targeted toward users in New Zealand (e.g., applies the NZ geofence for SpeciesNet results).
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/ecotools.png" width="500">
 
@@ -162,14 +154,6 @@ Connected camera network with cloud-based AI capabilities (for detecting and cla
 Thick-client tool that supports running AI models, image review, and some spatiotemporal analysis.  Supports MegaDetector, SpeciesNet, and the AddaxAI Central India species classifier.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/habidata.png" width="500">
-
-#### Mbaza
-
-> <https://appsilon.com/data-for-good/mbaza-ai>
-
-Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaza1.png" width="500">
 
 #### MegaDetector
 
@@ -198,7 +182,7 @@ Reconyx mostly makes cameras, but their mobile app includes what appears to be c
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/reconyx-ai.png" width="500">
 
-#### Timelapse2
+#### Timelapse
 
 > <https://timelapse.ucalgary.ca/>
 
@@ -321,22 +305,6 @@ This is a bit of an outlier on this list... Zooniverse is a platform for engagin
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/zooniverse00.png" width="500">
 
-#### Wild.ai
-
-> <https://www.wildai.it/>
-
-Still "coming soon" as of 2026.02, keeping here for tracking.
-
-#### WildID
-
-> <https://www.wildid.app>
-
-Web-based platform for processing camera trap images, targeted for Southern Africa, that uses a custom multiclass detector.  Free trial available; paid version allows larger bulk uploads.
-
-Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
-
 #### Bounding Box Editor and Exporter (BBoxEE)
 
 > <https://github.com/persts/BBoxEE>
@@ -374,17 +342,9 @@ Web app for processing camera trap images.  Docs refer to the image processing a
 
 > <http://cs.kingsu.ca/~mjanzen/CameraTrapSoftware.html>
 
-Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).  Uses MD in the "EventFinder Suite" version, released in 2024.
+Java-based tool to separate empty from non-empty images using background subtraction and color histogram comparisons.  Also see the associated [paper](https://link.springer.com/article/10.1007/s10661-019-7518-9).  Uses MD and a custom moose/elk/deer classifier in the "EventFinder Suite" version, released in 2025.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/eventfinder.png" width="500">
-
-#### FASTCAT-Cloud
-
-> <https://service.fastcat-cloud.org>
-
-Online platform with several custom detectors for European wildlife, trained on GBIF data, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).  Also has a human/blank model, but details are not available on the Web page.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
 
 #### Grizzly Systems
 
@@ -414,6 +374,22 @@ Thermal camera with a cloud-based AI service.
 
 ### Systems that appear to be less active
 
+#### BuckTracker
+
+> <https://www.spypoint.com/us/en/blog?id=298&topic=les-avantages-du-filtre-d-espces-buck-tracker-a.i>
+
+App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
+
+#### Camelot
+
+> <https://gitlab.com/camelot-project/camelot>
+
+Open-source, runs in Java in a browser.  Developed in consultation with Fauna & Flora International.  Preliminary integration with MegaDetector allows selective review of human/animal/empty/vehicle images.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/image17.png" width="500">
+
 #### CAMinos
 
 > <https://www.ischool.berkeley.edu/projects/2021/caminos-intelligent-trail-camera-annotation>
@@ -428,6 +404,28 @@ Online annotation tool that combines MDv5 with a species classifier.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/caminos.png" width="500">
 
+#### FASTCAT-Cloud
+
+> <https://service.fastcat-cloud.org>
+
+Online platform with several custom detectors for European wildlife, trained on GBIF data, which can be accessed via a Web demo or an API.  Integrated with <a href="https://www.ispotnature.org/">iSpot</a> (an iNat-like platform for biodiversity observation logging).  Also has a human/blank model, but details are not available on the Web page.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/fastcat-cloud-detection.png" width="500">
+
+#### Mbaza
+
+> <https://appsilon.com/data-for-good/mbaza-ai>
+
+Open-source, client-side Shiny app that includes image review and client-side classifiers for two African ecosystems.  Code is <a href="https://github.com/Appsilon/mbaza">here</a>.  More information <a href="https://appsilon.com/mbaza-shiny-app-case-study/">here</a>, <a href="https://appsilon.com/applying-ai-to-nature-conservation/">here</a>, and <a href="https://appsilon.com/gabon-wildlife-ai-for-biodiversity-conservation/">here</a>.
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/mbaza1.png" width="500">
+
+#### MooseDar
+
+> <https://www.moosedar.com>
+
+Thermal-camera-based system that uses CNNs to detect moose, for accident prevention.
+
 #### Where's the Bear?
 
 > <https://www.cs.ucsb.edu/~ckrintz/projects/wtb.html>
@@ -436,6 +434,22 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 
 "...is deployed at the UCSB Sedgwick Reserve, a 6000 acre site for environmental research and used to aggregate, manage, and analyze over 1.12M images."
 
+#### Wild.ai
+
+> <https://www.wildai.it/>
+
+Still "coming soon" as of 2026.02, keeping here for tracking.
+
+#### WildID
+
+> <https://www.wildid.app>
+
+Web-based platform for processing camera trap images, targeted for Southern Africa, that uses a custom multiclass detector.  Free trial available; paid version allows larger bulk uploads.
+
+Not to be confused with [Wild.ID](https://github.com/ConservationInternational/Wild.ID) (a desktop tool for camera trap image processing that was used by the TEAM Network prior to Wildlife Insights) or [Wild-ID](https://faculty-directory.dartmouth.edu/douglas-thomas-bolger) (a desktop tool to accelerate the identification of individual animals).
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildid-thumb.jpg" width="500">
+
 #### Wildlife Institute of India CaTRAT
 
 > <https://wii.gov.in/publications/software/tiger-monitoring-software>
@@ -443,20 +457,6 @@ IoT system with computer vision pieces for managing camera traps, currently in S
 CaTRAT (Camera Trap Data Repository and Analysis Tool) is an internal tool used by the Wildlife Institute of India, the National Tiger Conservation Authority, and regional wildlife authorities to accelerate the processing of camera trap images, with a focus on population surveys for tigers and snow leopards.  Not a lot of information is publicly available, but [this paper](https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0322136) suggests that CaTRAT uses [ExtractCompare](http://conservationresearch.org.uk/Home/ExtractCompare/index.html) for individual tiger identification. [This article](https://www.outdoorjournal.com/indias-tiger-census-sets-a-world-record-ahead-of-international-tigers-day-2020/) suggests that HotSpotter is used as well, but I can't verify that anywhere else.  ([June 2025 story](https://timesofindia.indiatimes.com/india/scientists-use-clever-trick-to-count-ghosts-of-the-mountains/articleshow/122014350.cms), [July 2025 story](https://india.mongabay.com/2025/07/snow-leopard-survey-finds-the-elusive-cat-thriving/))
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/CaTRAT.jpg" width="500">
-
-#### MooseDar
-
-> <https://www.moosedar.com>
-
-Thermal-camera-based system that uses CNNs to detect moose, for accident prevention.
-
-#### BuckTracker
-
-> <https://www.spypoint.com/us/en/blog?id=298&topic=les-avantages-du-filtre-d-espces-buck-tracker-a.i>
-
-App associated with [SpyPoint](https://www.spypoint.com) trail cameras, allowing users to filter photos by species for consumer hunting applications.
-
-&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/APP_Link_EN.png" width="200">
 
 ### Systems that appear not to exist any more
 
@@ -586,7 +586,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * MEWC (Mega Efficient Wildlife Classifier) ([github.com/zaandahl/mewc](https://github.com/zaandahl/mewc))
 * CamTrapML (Python library for camera trap ML) ([github.com/bencevans/camtrapml](https://github.com/bencevans/camtrapml))
 * WildCo-Faceblur (MD-based human blurring tool for camera traps) ([github.com/WildCoLab/WildCo_Face_Blur](https://github.com/WildCoLab/WildCo_Face_Blur))
-* CamTrap Detector (MDv5 GUI) ([github.com/bencevans/camtrap-detector](https://github.com/bencevans/camtrap-detector))
+* CamTrap Detector (MD GUI) ([github.com/bencevans/camtrap-detector](https://github.com/bencevans/camtrap-detector))
 * SDZG Animl (package for running MD and other models via R) ([github.com/conservationtechlab/animl](https://github.com/conservationtechlab/animl))
 * SpSeg (WII Species Segregator) ([github.com/bhlab/SpSeg](https://github.com/bhlab/SpSeg))
 * Wildlife ML (detector/classifier training with active learning) ([github.com/slds-lmu/wildlife-ml](https://github.com/slds-lmu/wildlife-ml))
