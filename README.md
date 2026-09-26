@@ -4917,6 +4917,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
+* Cohen A, Schliep EM, Kays R, Alyetama M, Snider M. Improving ecological inference and uncertainty quantification from camera trap data through the fusion of AI confidences and manual annotations. arXiv preprint arXiv:2605.13660. 2026 May 13.
+
 * Magaldi H, Dubus G, Katumba R, Rugonge H, Kasekendi I, Allassonnière-Tang M, Krief S. Bridging Local Ecological Knowledge and Remote Sensing for Wildlife Assessment and Conservation: Insights from Sebitoli, Kibale National Park, Uganda. Environments. 2026; 13(9): 496.
 
 * Alencar L, Cunha F, dos Santos EM. Advancing Biodiversity Monitoring by Integrating Multimodal AI Models into Camera Trap Workflow. Journal of the Brazilian Computer Society. 2026 Apr 15;32(1):677-89.
