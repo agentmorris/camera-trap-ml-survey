@@ -555,6 +555,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Oregon Critters (species classification) ([github.com/appelc/oregon_critters](https://github.com/appelc/oregon_critters))
 * Mbaza AI (desktop app for CT data management) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
 * BatNet (classification of bats in CT images) ([github.com/GabiK-bat/BatNet](https://github.com/GabiK-bat/BatNet))
+* SpeciesNet Studio (UI for reviewing SpeciesNet classifications) ([github.com/arunrajiah/speciesnet-studio](https://github.com/arunrajiah/speciesnet-studio))
 <!-- Related to MD, but not literally 1:1 with the list of repos on the MD README -->
 * BoquilaHUB (client-side tool for running models) ([github.com/boquila/boquilahub](https://github.com/boquila/boquilahub))
 * MegaDetector (finds animals/people/vehicles in camera trap images) ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
