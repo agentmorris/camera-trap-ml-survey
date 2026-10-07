@@ -4927,7 +4927,7 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 * McMurry S, Goldstein B, Alyetama M, Kays R. Automated Parameter Estimation for Camera Trap Density Models Using Computer Vision-Enhanced Distance Sampling. bioRxiv. 2026 Jun 16:2026-06.
 
-* Magaldi H, d'Audiffret T, Akomo-Okoue EF, Amarasekaran B, Anderson N, Auger C, Cappelle N, Cornelis D, Cornette R, Deschner T, Dubus G. DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests. arXiv preprint arXiv:2606.20223. 2026 Jun 18.
+* Magaldi, H., d’Audiffret, T., Akomo-Okoue, E.F., Amarasekaran, B., Anderson, N., Auger, C., Cappelle, N., Cornélis, D., Cornette, R., Deschner, T. and Dubus, G., 2026, August. DeepForestVisionV2: Ecology-Driven Taxonomy Expansion for Camera-Trap Monitoring in African Tropical Forests. In International Conference on Pattern Recognition (pp. 252-265). Cham: Springer Nature Switzerland.
 
 * Wasmuht D, Brookes O, Schall M, Palencia P, Beirne C, Burghardt T, Mirmehdi M, Kühl H, Arandjelovic M, Pottie S, Bermant P. The sa-fari dataset: Segment anything in footage of animals for recognition and identification. InProceedings of the IEEE/CVF Conference on Computer Vision and Pattern Recognition 2026 (pp. 21679-21689).
 
