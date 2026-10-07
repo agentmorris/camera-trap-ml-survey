@@ -555,6 +555,7 @@ Stratifying these based on whether they appear to be active, but this isn't upda
 * Oregon Critters (species classification) ([github.com/appelc/oregon_critters](https://github.com/appelc/oregon_critters))
 * Mbaza AI (desktop app for CT data management) ([github.com/Appsilon/mbaza](https://github.com/Appsilon/mbaza))
 * BatNet (classification of bats in CT images) ([github.com/GabiK-bat/BatNet](https://github.com/GabiK-bat/BatNet))
+* SpeciesNet Studio (UI for reviewing SpeciesNet classifications) ([github.com/arunrajiah/speciesnet-studio](https://github.com/arunrajiah/speciesnet-studio))
 <!-- Related to MD, but not literally 1:1 with the list of repos on the MD README -->
 * BoquilaHUB (client-side tool for running models) ([github.com/boquila/boquilahub](https://github.com/boquila/boquilahub))
 * MegaDetector (finds animals/people/vehicles in camera trap images) ([github.com/agentmorris/MegaDetector](https://github.com/agentmorris/MegaDetector))
@@ -4916,6 +4917,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 ##### Ecology papers
 
 ##### Technical methods papers
+
+* Cunha F, Colonna JG, Santos EM. Counting Animals in Camera-Traps Image Sequences without Count Labels: Winning Solution to the iWildCam 2021 Challenge. arXiv preprint arXiv:2609.03233. 2026 Sep 3.
+
+* Cohen A, Schliep EM, Kays R, Alyetama M, Snider M. Improving ecological inference and uncertainty quantification from camera trap data through the fusion of AI confidences and manual annotations. arXiv preprint arXiv:2605.13660. 2026 May 13.
 
 * Magaldi H, Dubus G, Katumba R, Rugonge H, Kasekendi I, Allassonnière-Tang M, Krief S. Bridging Local Ecological Knowledge and Remote Sensing for Wildlife Assessment and Conservation: Insights from Sebitoli, Kibale National Park, Uganda. Environments. 2026; 13(9): 496.
 
