@@ -242,6 +242,16 @@ Australia-specific deployment of Agouti, supporting SpeciesNet, MD, and several 
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildobs-example.png" width="500">
 
+#### WildObserve
+
+> https://www.qsc.earth/WildObserve/index.html
+
+Client-side app for AI-assisted image review.  Supports MD and SpeciesNet.
+
+> https://www.qsc.earth/WildObserve/index.html
+
+&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/wildobserve-screenshot.png" width="500">
+
 #### wildtag
 
 > https://huggingface.co/spaces/chrissuthy/wildtag-manual  
