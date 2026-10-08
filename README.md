@@ -255,6 +255,7 @@ Client-side app for AI-assisted image review.  Supports MD and SpeciesNet.
 #### wildtag
 
 > https://huggingface.co/spaces/chrissuthy/wildtag-manual  
+
 > https://sutherlandecology.com/software.html
 
 Client-side app for processing images through AI models.  Supports DeepFaune, SpeciesNet, and MDv5a.
@@ -264,13 +265,14 @@ Client-side app for processing images through AI models.  Supports DeepFaune, Sp
 #### WildTracker / StickyBeak AI
 
 > https://wildtracker.com.au/  
+
 > https://wildtracker.com.au/stickybeak-ai/
 
 "WildTracker is a tool for private landholders to upload, tag, and share camera trap images of Tasmania’s exceptional wildlife."
 
 "Stickybeak is our AI-powered tool that helps landholders and citizen scientists process thousands of wildlife camera images more efficiently."
 
-Uses MDv1000-redwood, along with a Tasmania-specific classifier, via MEWC.
+Cloud-based platform, though I think the Stickybeak piece is a set of best practices for processing images locally.  Uses MDv1000-redwood, along with a Tasmania-specific classifier, via MEWC.
 
 [news story](https://www.canberratimes.com.au/story/8956392/wombat-ai-software-deployed-to-track-native-animals/), [developer's project page](https://ionata.com.au/project/wildtracker-stickybeak/)
 
