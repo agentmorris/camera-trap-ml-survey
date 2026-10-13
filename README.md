@@ -4930,6 +4930,10 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Technical methods papers
 
+* Tabak M. WildObserve: Camera-trap image review software that learns species labels during annotation. biorxiv, 2026.
+
+* Vallabhajosyula MS, Molakalmuru GG, Khuvis S, Karthikeyan N, Freeman N, Garcia C, Stubbs J, Plale B, Ramnath R. From HPC to Edge: A Web-Based Workflow for AI Model Testing and Deployment. InProceedings of the Practice and Experience in Advanced Research Computing 2026: Resilient Roots+ Empowered Communities 2026 Jul 26 (pp. 1-5).
+
 * Cunha F, Colonna JG, Santos EM. Counting Animals in Camera-Traps Image Sequences without Count Labels: Winning Solution to the iWildCam 2021 Challenge. arXiv preprint arXiv:2609.03233. 2026 Sep 3.
 
 * Cohen A, Schliep EM, Kays R, Alyetama M, Snider M. Improving ecological inference and uncertainty quantification from camera trap data through the fusion of AI confidences and manual annotations. arXiv preprint arXiv:2605.13660. 2026 May 13.
