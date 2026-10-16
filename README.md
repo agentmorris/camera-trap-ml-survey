@@ -1275,7 +1275,7 @@ Compared:
 Found that DINOv3 outperformed other embedding spaces, t-SNE outperformed other dimensionality reduction approaches, and HDBSCAN outperforms DBSCAN.
 
 
-<br/>**Bolduc D, Fauteux D, Genest MA, Legagneux P. Speeding up image annotation and AI-model training for wildlife images​. Available at SSRN 6616203.**
+<br/>**Bolduc D, Fauteux D, Genest MA, Legagneux P. Speeding up image annotation and AI-model training for wildlife images. Ecological Informatics. 2026 Jul 9:103926.
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 
