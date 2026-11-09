@@ -1147,7 +1147,7 @@ Because they were monitoring behavior, rather than presence, they didn't use tra
 Used MD through AddaxAI (then EcoAssist) to remove blanks (2% confidence threshold).  MDv5 implied by timing.
 
 
-<br>**Raynes T, Brookes O, Haucke T, Bösch L, Crunchant AS, Kühl H, Beery S, Mirmehdi M, Burghardt T. Deep in the Jungle: Towards Automating Chimpanzee Population Estimation. arXiv preprint arXiv:2601.22917. 2026 Jan 30.**
+<br>**Raynes T, Brookes O, Haucke T, Bösch L, Crunchant AS, Kühl H, Beery S, Mirmehdi M, Burghardt T. Deep in the Jungle: Towards Automating Chimpanzee Population Estimation. International Conference on Pattern Recognition 2026 Aug 3 (pp. 140-155). Cham: Springer Nature Switzerland.**
 
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
 ![Video](https://img.shields.io/badge/-Video-orange)
@@ -1260,7 +1260,7 @@ Survey 14 water holes in Zimbabwe with camera traps, also collect fecal samples 
 Used two cameras at each site, operated 15 days per onth over a year, with 1-minute timelapse recordings during the day and motion triggering at night.  Used MegaDetector in TrapTagger to eliminate blanks, reviewed images in TrapTagger.
 
 
-<br/>**Markoff M, Bengtson SH, Ørsted M. Vision Transformers for Zero-Shot Clustering of Animal Images: A Comparative Benchmarking Study. arXiv, February 2026.**
+<br/>**Markoff M, Bengtson SH, Ørsted M. Vision Transformers for Zero-Shot Clustering of Animal Images: A Comparative Benchmarking Study. IET Computer Vision, November 2026.**
 
 ![LILA](https://img.shields.io/badge/-LILA-4444aa)
 ![MegaDetector](https://img.shields.io/badge/-MegaDetector-aa4444)
@@ -2148,6 +2148,10 @@ Interesting tidbits from their findings:
 Describe "The Doñana Frugivory Camtrap Dataset", which captures video interactions between animals and vegetation.  Used a combination of MDv4, MDv5, and DeepkMeerkat for analysis, then reviewed images in Timelapse.  Data release includes interaction records, but not (AFAICT) the videos themselves.  Provide analysis of the interaction network, but the main contribution is framed as the dataset, not the ecological analysis.
 
 Analysis code is available [here](https://github.com/PJordano-Lab/frugivory-camtrap).
+
+An alternative version appeared as:
+
+Homet P, Isla J, Jácome-Flores M, Mendoza I, Quintero E, Rodríguez-Sánchez F, Villalva P, Jordano P. a comprehensive, multi-method dataset of plant-frugivore interactions in a Mediterranean hotspot. Scientific Data, 2026.
 
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="media/villalva-plants-2025.jpg" width="700">
 
@@ -4931,7 +4935,53 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
+* Beltrán Francés V. The role of anthropogenic factors on moor macaque (Macaca maura) occupancy and activity patterns in Sulawesi (Indonesia) (Doctoral dissertation, Universidad Veracruzana. Instituto de Neuroetología. Región Xalapa).
+
+* Burgstahler K, Shipley L, Stift A, Woodley S, Thornton D. Effects of wildfire on the distribution of mammals and birds in a working shrub‐steppe landscape. Ecosphere. 2026 Sep;17(9):e70759.
+
+* Alting BF, Pitcher BJ, Campbell-Ward ML, Jordan NR. Observations of Inter‐Pack Conflict and Pack Instability in Contiguous Dingo Packs. Ecology and Evolution. 2026 Sep;16(9):e74376.
+
+* Haas CA, Luymes NW, Hohnen R, Stewart FE. Forest and fire drive moose (deníe) detections near their northern range limit. Wildlife Biology. 2026 Oct:e01751.
+
+* Mason DS, Sullivan S, Meyer RT, Richardson K. To salvage or save: Monitoring Seed Rain at Snags and Canopy Gaps. Available at SSRN 7477857.
+
+* Ross I, Mallory ML, Rock JC, Gutowsky SE. Utility of camera traps for evaluating temporal and spatial patterns in predator presence at burrowing seabird colonies. Avian Conservation and Ecology. 2026 May 28;21(1).
+
+* Eacker DR, Merizon R. Abundance and Sex Composition of Moose on the lower Kenai Peninsula, Alaska. 2026.
+
+* Magro J, Cremona T, Banks S, Murphy B, Nicholl E, Dixon K. Status of a threatened rodent population in monsoonal northern Australia.  Wildlife Research, 2026.
+
+* Sedlmayr I, Baxter J, Garbett R, Letlojane I, Mwale M, Weckworth B, Schenekar T. Species ecology, behavior, and substrate type shape eDNA detection of mammals at savanna waterholes. bioRxiv. 2026:2026-10.
+
+* Daecher F, Venkatesh S, Ayan A, Weerathunga US, Pushpakumara TV, Abeywardana VP, Thaufeek UL, de Silva S. A training protocol for human classification of Asian elephant images from trail cameras. bioRxiv. 2026:2026-09.
+
+* DePasquale AN, Batchelor T, Cejalvo Insausti B, Strickland J, Sanchez NV, Mennill DJ, Nevo O, Melin AD. Metrics matter: Modelling plant-frugivore networks in a tropical dry forest ecosystem. bioRxiv. 2026:2026-09.
+
+* Iberl K, Kirschner P, Koc A, Hasakova T, Wellstein C, Stenc J. Piloting floral-visitor assemblages: Camera-based monitoring in the cliff-dwelling Eastern Alpine endemic Physoplexis comosa (Campanulaceae). bioRxiv. 2026 Oct 2:2026-10.
+
+* Lieurance W, Hoopes K, Stringham TK, Stoner D, Scasta JD, Beck JL, Schoenecker KA, Thacker E, Hernandez A. Quantifying Free-Roaming Horse Body Condition: A Methodological Investigation Using Game Cameras and Observer Bias Corrections. Rangeland Ecology & Management. 2026 Nov 1;109:180-93.
+
+* Piper C, Eby L, Hossack B, Webster M, Ritter T, Hussy N, Kluge N. Annual Report Investigating how dynamic water availability impacts habitat use and dam persistence of prairie beavers. Project report, 2026.
+
+* Freeman AC, Warner JW, Smith JL, Tomeček JM. Quantifying American Alligator (Alligator mississippiensis) Nest Depredation by Wild Pigs (Sus scrofa). Animals. 2026 Oct 29;16(21):3408.
+
+* Cherchia L, Rice WL, Zeller K, Griffin K.  Finding Pixels in a Haystack: Monitoring Tourists and Brown Bears in a Trailless Wilderness Area Using Time-Lapse Photography.  13th International Conference on Monitoring and Management of Visitors in Recreational and Protected Areas (MMV).  2026.
+
+* Creany N.  Bringing Computer Vision into Focus for Visitor Use Monitoring in Protected Areas. 13th International Conference on Monitoring and Management of Visitors in Recreational and Protected Areas (MMV).  2026.
+
 ##### Technical methods papers
+
+* Wittekind M, Dierkes PW, Schneider S. Deep Learning‐Based Monitoring of European Hamster Activity. Ecology and Evolution. 2026 Sep;16(9):e74267.
+
+* Rosenberg B, Zhou M, Wolf N, Mathis MW, Harris BP, Mathis A. Individual identification of brown bears using pose-aware metric learning. Current Biology. 2026 Feb 2;36(3):645-59.
+
+* Cunha F, Colonna JG, Santos EM. PuTR-CouT: Counting-by-Tracking in Camera-Trap Image Sequences. arXiv preprint arXiv:2609.05038. 2026 Sep 4.
+
+* Anschau M, Denman S, Hocking G, Hamilton G. Confidence Thresholds: Towards an Automated Workflow for Unmarked Wildlife Population Modelling With Camera Trap Data. Ecology and Evolution. 2026 Sep;16(9):e74227.
+
+* Aamir M, Shin S, Muramatsu N, Wijers M, Patel A, Loveridge A, Markham A. WildDepth-v2: A Synchronized RGB--LiDAR--Radar Dataset and Benchmark for Metric Depth, Motion, and Tracking of Wildlife. arXiv preprint arXiv:2610.31123. 2026 Oct 22.
+
+* Fergus P. Standing on Open Shoulders: Regional Fine-Tuning of Open-Weight Camera-Trap Models for UK Wildlife with Modest Data and Compute. arXiv preprint arXiv:2610.32573. 2026 Oct 23.
 
 * Tabak M. WildObserve: Camera-trap image review software that learns species labels during annotation. biorxiv, 2026.
 
@@ -5013,6 +5063,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 
 ##### Ecology papers
 
+* Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy. 2026 May 28:gyag046.
+
 * McDaniel KG. Mountain Lion (Puma concolor) Presence and Genetics in the Context of the Texas-Mexico Border Barrier System. Master's thesis, Texas A&M University-Kingsville. 2026.
 
 * Stift AM, Shipley LA, Thornton DH. Evaluating survey methods to determine presence and species identification of jackrabbits in Washington. Journal of Mammalogy.  2026 May.
@@ -5022,6 +5074,8 @@ Look at the relationship between behavior and predation fear in primates, primar
 * Maierdiyali A, Wang Y, Chen J, Li R, Yang Y, Tao S, Kong Y, Lu Z. The interspecies relationships among the wildlife crossing structures of the Qinghai-Tibet Railway. Journal for Nature Conservation. 2025 May 4:126957.*
 
 ##### Technical methods papers
+
+* Santoro S, Gutiérrez‐Zapata S, Bautista C, Beery S, Calzada J, Dussert G, Fernández‐Berni J, Frauendorf M, Henrich M, Iannarilli F, Liefting Y. More Tools Than Users: A Scoping Review of Image‐Processing Automation in Mammal Camera Trapping. Mammal Review. 2026 Dec;56(4):e70052.
 
 * Muhammad S, Xiang W, Mann S, Han K, Nair S. TemporalSwin-FPN Net: A Novel Pipeline for Metadata-Driven Sequence Classification in Camera Trap Imagery. 2024 International Conference on Digital Image Computing: Techniques and Applications (DICTA) 2024 Nov 27 (pp. 616-623). IEEE.
 
